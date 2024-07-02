@@ -1,0 +1,29 @@
+Software AG Products 10.5 | Administering Integration Server | An Overview of the Server | Integration Server Logging | Logging, Data Protection, and Privacy
+ 
+Logging, Data Protection, and Privacy
+Integration Server includes personally identifiable information (PII) such as user names, email addresses, and client IP addresses in the logs. Integration Server includes PII in logs for purposes of auditing, monitoring activity with the server, and diagnosing and correcting problems. The length of time that Integration Server stores log data depends on the log:
+Log
+Data duration
+Server log
+Data remains in the server log for the duration of the existence of the log file which depends on the watt.server.serverlogFilesToKeep server configuration parameter. This parameter limits the number of server log files that Integration Server maintains on the file system.file. When Integration Server reaches the limit for the number of server log files, Integration Server deletes the oldest archived server log file each time Integration Server rotates the server log.
+For more information about watt.server.serverlogFilesToKeep, see Limiting the Number of Server Log Files Kept by Integration Server .
+For information about removing data from the Integration Server server log, see Removing Personal Data from Log Files.
+File-based audit log
+Data remains in the log for the duration of the log file existence which depends on the value of watt.server.audit.logFilesToKeep server configuration parameter. This parameter limits the number of audit log files that Integration Server maintains on the file system for each logger. When the number of log files for an audit logger reaches the established limit, Integration Server deletes the oldest audit log file.
+For more information about watt.server.audit.logFilesToKeep, see Server Configuration Parameters.
+For information about removing data from an Integration Server audit log, see Removing Personal Data from Log Files.
+Audit log that writes to a database
+Data remains in the database table for the log in the ISCoreAudit database until it is removed.
+For information about removing data from an Integration Server audit log, see Removing Personal Data from Log Files.
+Configuration variables log
+The length of time that data remains in the configuration variables log depends on whether the log is for an on-premises Microservices Runtime or a Microservices Runtime running in a Docker container. The configuration variables log is overwritten at startup of an on-premises Microservices Runtime. The configuration variable log for a Microservices Runtime running in a Docker container is destroyed when the container is destroyed.
+For information about removing data from a configuration variables log, see Removing Personally Identifiable Information from the Configuration Variables Log.
+Wrapper log
+Data remains in the wrapper log for the duration of the log file existence which depends on the value of the wrapper.logfile.maxfiles property for the Java Service Wrapper. For the wrapper.conf file delivered with Integration Server, this property is set to 5. For more information about this property, see Logging Properties.
+For information about removing data from the wrapper log, see Removing Personally Identifiable Information Logged by Axis2, Kerberos, SAML, and other Third Party Libraries
+SSL session log
+Data remains in the inboundSSLSessions.log until it is removed. The watt.net.ssl.server.sessionlog.maxFileSize server configuration parameter limits the size of the inboundSSLSessions.log file. When the file reaches the maximum size limit, Integration Server renames the file to sslsession_<DATE(YYYYMMDD)>_TIME(HHMMSS).log and creates a new inboundSSLSessions.log file.
+For more information about watt.net.ssl.server.sessionlog.maxFileSize, see Server Configuration Parameters.
+For information about removing data from the inbound SSL session log, see Removing Personally Identifiable Information from the SSL Session Log.
+Python
+Copyright © 2021 Software AG, Darmstadt, Germany and/or Software AG USA, Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors
