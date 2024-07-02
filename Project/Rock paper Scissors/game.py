@@ -1,5 +1,5 @@
 import random
-comp=random.randint(0,2)
+
 rock = '''
     _______
 ---'   ____)
@@ -26,37 +26,21 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-user=int(input("What do you choose? type 0 for Rock 1 for Paper 2 for Scissors."))
-if user==0:
-    print(f"{rock}")
-elif user==1:
-    print(f"{paper}")
-elif user==2:
-    print(f"{scissors}")
 
-if comp==0:
-    print(f"Computer choose\n{rock}")
-elif comp==1:
-    print(f"Computer choose\n{paper}")
-elif comp==2:
-    print(f"Computer choose\n{scissors}")
+game_images = [rock, paper, scissors]
 
-
-if user==comp:
-    print("Die !! ")
+user = int(input("What do you choose? Type 0 for Rock, 1 for Paper, 2 for Scissors.\n"))
+if user >= 3 or user < 0:
+    print("Invalid number, you lose!")
 else:
-    if user==0 or comp==1:
-        print("You loose")
-    elif user==0 or comp==2:
-        print("You win")
-    
-    elif user==1 or comp==2:
-        print("You win")
-    elif user==1 or comp==2:
-        print("You loose")
+    print(f"You chose:\n{game_images[user]}")
 
-    
-    elif user==2 or comp==0:
-        print("You loose")
-    elif user==2 or comp==1:
-        print("You win")
+    comp = random.randint(0, 2)
+    print(f"Computer chose:\n{game_images[comp]}")
+
+    if user == comp:
+        print("It's a draw!")
+    elif (user == 0 and comp == 2) or (user == 1 and comp == 0) or (user == 2 and comp == 1):
+        print("You win!")
+    else:
+        print("You lose!")
