@@ -142,7 +142,8 @@ learn-python/
 │ ├── Snake Water Gun Game
 │ ├── Task Manager
 │ └── Trip Calculator
-│
+│ |__password generator
+|
 └── README.md
 
 
@@ -177,7 +178,7 @@ learn-python/
 - **Snake Water Gun Game**: A variation of rock, paper, scissors.
 - **Task Manager**: Manage and track tasks.
 - **Trip Calculator**: Calculate trip costs and logistics.
-
+- **Password Generator** : Generator strong password including letters , numbers and symbols
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new topics you'd like to add, please submit a pull request. Make sure to follow the existing coding style and include comments and documentation where necessary.
