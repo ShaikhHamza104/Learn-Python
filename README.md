@@ -143,6 +143,7 @@ learn-python/
 │ ├── Task Manager
 │ └── Trip Calculator
 │ |__password generator
+| |__Randomized Message Encoder and Decoder
 |
 └── README.md
 
