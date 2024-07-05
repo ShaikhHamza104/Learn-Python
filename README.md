@@ -180,6 +180,7 @@ learn-python/
 - **Task Manager**: Manage and track tasks.
 - **Trip Calculator**: Calculate trip costs and logistics.
 - **Password Generator** : Generator strong password including letters , numbers and symbols
+- **Randomized Message Encoder and Decoder** :This Python-based tool encodes and decodes messages by adding random characters and digits, providing a simple yet effective way to obscure the original message for basic privacy needs.
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new topics you'd like to add, please submit a pull request. Make sure to follow the existing coding style and include comments and documentation where necessary.
