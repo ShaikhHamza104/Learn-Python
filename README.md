@@ -144,6 +144,7 @@ learn-python/<br>
 │ └── Trip Calculator<br>
 │ |__password generator<br>
 | |__Randomized Message Encoder and Decoder<br>
+| |__Silent Auction<br>
 |<br>
 └── README.md<br>
 ## Topics Covered
@@ -179,6 +180,7 @@ learn-python/<br>
 - **Trip Calculator**: Calculate trip costs and logistics.
 - **Password Generator** : Generator strong password including letters , numbers and symbols
 - **Randomized Message Encoder and Decoder** :This Python-based tool encodes and decodes messages by adding random characters and digits, providing a simple yet effective way to obscure the original message for basic privacy needs.
+-**Silent Auction**-Silent Auction is a simple, that allows users to place bids on items without revealing their bid amounts to other participants. The application is designed to handle multiple items and bidders simultaneously, ensuring a fair and transparent bidding process.
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new topics you'd like to add, please submit a pull request. Make sure to follow the existing coding style and include comments and documentation where necessary.
