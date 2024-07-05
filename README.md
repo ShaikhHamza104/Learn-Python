@@ -27,127 +27,125 @@ You may also want to install a code editor such as [VSCode](https://code.visuals
 
 The repository is organized as follows:
 
-learn-python/
-│
-├── chapter 1
-│ ├── 01_hello_world.py
-│ ├── 02_module.py
-│ └── 03_comment.py
-│
-├── chapter 1 pr
-│
-├── chapter 2
-│ ├── 01_variable.py
-│ ├── 02_datatype.py
-│ ├── 03_ruleofvariable.py
-│ ├── 04_operator.py
-│ ├── 05_type_function.py
-│ ├── 07_input.py
-│
-├── chapter 2 pr
-│
-├── chapter 3
-│ ├── 01_intro_string.py
-│ ├── 02_slicing.py
-│ ├── 03_negative_slicing.py
-│ ├── 04_string_methoud.py
-│ ├── 05_Formatting_strings.py
-│ ├── 06_escape.py
-│
-├── chapter 3 pr
-│
-├── chapter 4
-│ ├── 01_list.py
-│ ├── 02_opration_list.py
-│ ├── 03_list_method.py
-│ ├── 04_tuple.py
-│ ├── 05_opration_tuple.py
-│ ├── 06_tuple_method.py
-│
-├── chapter 4 pr
-│
-├── chapter 5
-│ ├── 01_dict.py
-│ ├── 02_opration_dict.py
-│ ├── 03_dict_method.py
-│ ├── 04_set.py
-│ ├── 05_set_method.py
-│ ├── 06_opration_set.py
-│
-├── chapter 5 pr
-│
-├── chapter 6
-│ ├── 01_if.py
-│ ├── 02_if_else.py
-│ ├── 03_if_elif_else.py
-│ ├── 04_short_hand_if_else.py
-│ ├── 05_calculator.py
-│ ├── 06_leap_year.py
-│ ├── 07_multiple_if.py
-│
-├── chapter 6 pr
-│
-├── chapter 7
-│ ├── 01_loop.py
-│ ├── 02_while_loop.py
-│ ├── 03_list_using_while.py
-│ ├── 04_for_loop.py
-│ ├── 05_range.py
-│ ├── 06_for_with_else.py
-│ ├── 07_break_and_continue.py
-│ ├── 08_pass.py
-│
-├── chapter 7 pr
-│
-├── chapter 8
-│ ├── 01_intro_function.py
-│ ├── 02_quik.py
-│ ├── 03_function_with_arg.py
-│ ├── 04_return.py
-│ ├── 05_keyword_arg.py
-│ ├── 06_positional_arg.py
-│ ├── 07_variable-len_arg.py
-│ ├── 08_recursion.py
-│ ├── 09_lambda.py
-│
-├── chapter 8 pr
-│
-├── chapter 9
-│ ├── 01_file.py
-│ ├── 02_file_read_mode.py
-│ ├── 03_file_write_mode.py
-│ ├── 04_file_append_mode.py
-│ ├── 05_file_x_mode.py
-│ ├── 06_with_statement.py
-│
-├── chapter 9 pr
-│
-├── chapter 10
-│ ├── 01_class.py
-│ ├── 02_instance_vs_class_attribute.py
-│ ├── 03_self.py
-│ ├── 04_constructo.py
-│ ├── 05_pass_para_in_cons.py
-│
-├── chapter 10 pr
-│
-├── Projects
-│ ├── Band Name Generator
-│ ├── Head and Tail
-│ ├── India's Railway Enquiry
-│ ├── Library Management System
-│ ├── Number Guessing Game
-│ ├── Pizza Delivery System
-│ ├── Rock Paper Scissors
-│ ├── Snake Water Gun Game
-│ ├── Task Manager
-│ └── Trip Calculator
-│ |__password generator
-| |__Randomized Message Encoder and Decoder
-|
-└── README.md
-
-
+learn-python/<br>
+│<br>
+├── chapter 1<br>
+│ ├── 01_hello_world.py<br>
+│ ├── 02_module.py<br>
+│ └── 03_comment.py<br>
+│<br>
+├── chapter 1 pr<br>
+│<br>
+├── chapter 2<br>
+│ ├── 01_variable.py<br>
+│ ├── 02_datatype.py<br>
+│ ├── 03_ruleofvariable.py<br>
+│ ├── 04_operator.py<br>
+│ ├── 05_type_function.py<br>
+│ ├── 07_input.py<br>
+│<br>
+├── chapter 2 pr<br>
+│<br>
+├── chapter 3<br>
+│ ├── 01_intro_string.py<br>
+│ ├── 02_slicing.py<br>
+│ ├── 03_negative_slicing.py<br>
+│ ├── 04_string_methoud.py<br>
+│ ├── 05_Formatting_strings.py<br>
+│ ├── 06_escape.py<br>
+│<br>
+├── chapter 3 pr<br>
+│<br>
+├── chapter 4<br>
+│ ├── 01_list.py<br>
+│ ├── 02_opration_list.py<br>
+│ ├── 03_list_method.py<br>
+│ ├── 04_tuple.py<br>
+│ ├── 05_opration_tuple.py<br>
+│ ├── 06_tuple_method.py<br>
+│<br>
+├── chapter 4 pr<br>
+│<br>
+├── chapter 5<br>
+│ ├── 01_dict.py<br>
+│ ├── 02_opration_dict.py<br>
+│ ├── 03_dict_method.py<br>
+│ ├── 04_set.py<br><br>
+│ ├── 05_set_method.py<br>
+│ ├── 06_opration_set.py<br>
+│<br>
+├── chapter 5 pr<br>
+│<br>
+├── chapter 6<br>
+│ ├── 01_if.py<br>
+│ ├── 02_if_else.py<br>
+│ ├── 03_if_elif_else.py<br>
+│ ├── 04_short_hand_if_else.py<br>
+│ ├── 05_calculator.py<br>
+│ ├── 06_leap_year.py<br>
+│ ├── 07_multiple_if.py<br>
+│<br>
+├── chapter 6 pr<br>
+│<br>
+├── chapter 7<br>
+│ ├── 01_loop.py<br>
+│ ├── 02_while_loop.py<br>
+│ ├── 03_list_using_while.py<br>
+│ ├── 04_for_loop.py<br>
+│ ├── 05_range.py<br>
+│ ├── 06_for_with_else.py<br>
+│ ├── 07_break_and_continue.py<br>
+│ ├── 08_pass.py<br>
+│<br>
+├── chapter 7 pr<br>
+│<br>
+├── chapter 8<br>
+│ ├── 01_intro_function.py<br>
+│ ├── 02_quik.py<br>
+│ ├── 03_function_with_arg.py<br>
+│ ├── 04_return.py<br>
+│ ├── 05_keyword_arg.py<br>
+│ ├── 06_positional_arg.py<br>
+│ ├── 07_variable-len_arg.py<br>
+│ ├── 08_recursion.py<br>
+│ ├── 09_lambda.py<br>
+│<br>
+├── chapter 8 pr<br>
+│<br>
+├── chapter 9<br>
+│ ├── 01_file.py<br>
+│ ├── 02_file_read_mode.py<br>
+│ ├── 03_file_write_mode.py<br>
+│ ├── 04_file_append_mode.py<br>
+│ ├── 05_file_x_mode.py<br>
+│ ├── 06_with_statement.py<br>
+│<br>
+├── chapter 9 pr<br>
+│<br>
+├── chapter 10<br>
+│ ├── 01_class.py<br>
+│ ├── 02_instance_vs_class_attribute.py<br>
+│ ├── 03_self.py<br>
+│ ├── 04_constructo.py<br>
+│ ├── 05_pass_para_in_cons.py<br>
+│<br>
+├── chapter 10 pr<br>
+│<br>
+├── Projects<br>
+│ ├── Band Name Generator<br>
+│ ├── Head and Tail<br>
+│ ├── India's Railway Enquiry<br>
+│ ├── Library Management System<br>
+│ ├── Number Guessing Game<br>
+│ ├── Pizza Delivery System<br>
+│ ├── Rock Paper Scissors<br>
+│ ├── Snake Water Gun Game<br>
+│ ├── Task Manager<br>
+│ └── Trip Calculator<br>
+│ |__password generator<br>
+| |__Randomized Message Encoder and Decoder<br>
+|<br>
+└── README.md<br>
 ## Topics Covered
 
 ### Basics
