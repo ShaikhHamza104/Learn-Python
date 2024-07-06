@@ -142,9 +142,9 @@ learn-python/<br>
 │ ├── Snake Water Gun Game<br>
 │ ├── Task Manager<br>
 │ └── Trip Calculator<br>
-│ |__password generator<br>
-| |__Randomized Message Encoder and Decoder<br>
-| |__Silent Auction<br>
+│ |__ password generator<br>
+| |__ Randomized Message Encoder and Decoder<br>
+| |__ Silent Auction<br>
 |<br>
 └── README.md<br>
 ## Topics Covered
