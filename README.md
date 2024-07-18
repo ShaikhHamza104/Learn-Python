@@ -63,6 +63,7 @@ learn-python/<br>
 │ ├── 04_tuple.py<br>
 │ ├── 05_opration_tuple.py<br>
 │ ├── 06_tuple_method.py<br>
+| |__ 07_enumerate.py<br>
 │<br>
 ├── chapter 4 pr<br>
 │<br>
@@ -145,6 +146,9 @@ learn-python/<br>
 │ |__ password generator<br>
 | |__ Randomized Message Encoder and Decoder<br>
 | |__ Silent Auction<br>
+| |__Snake Water Gun Game<br>
+| |__Task Manager App<br>
+| |__Trip calculator<br>
 |<br>
 └── README.md<br>
 ## Topics Covered
@@ -181,6 +185,9 @@ learn-python/<br>
 - **Password Generator** : Generator strong password including letters , numbers and symbols
 - **Randomized Message Encoder and Decoder** :This Python-based tool encodes and decodes messages by adding random characters and digits, providing a simple yet effective way to obscure the original message for basic privacy needs.
 -**Silent Auction**-Silent Auction is a simple, that allows users to place bids on items without revealing their bid amounts to other participants. The application is designed to handle multiple items and bidders simultaneously, ensuring a fair and transparent bidding process.
+-**Snake Water Gun Game**-Snake Water Gun is simple game ,that allow user to play choose three option.user choose base on win other wise loose.
+-**Task Manager App**-This app is so use full,and simple to manage task.Features of this app is very simple.User can add task ,update task ,delete task and display all task.
+-**Trip calculator**-this project demostrate of trip calculator user can give input and base on input it will gernate finall bill which will pay each people 
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new topics you'd like to add, please submit a pull request. Make sure to follow the existing coding style and include comments and documentation where necessary.
