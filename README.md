@@ -149,6 +149,7 @@ learn-python/<br>
 | |__Snake Water Gun Game<br>
 | |__Task Manager App<br>
 | |__Trip calculator<br>
+| |__KBC Game
 |<br>
 └── README.md<br>
 ## Topics Covered
@@ -188,6 +189,7 @@ learn-python/<br>
 -**Snake Water Gun Game**-Snake Water Gun is simple game ,that allow user to play choose three option.user choose base on win other wise loose.
 -**Task Manager App**-This app is so use full,and simple to manage task.Features of this app is very simple.User can add task ,update task ,delete task and display all task.
 -**Trip calculator**-this project demostrate of trip calculator user can give input and base on input it will gernate finall bill which will pay each people 
+-**KBC Game**-This game is base on multiple choice question user can choose one opton from multiple options.I like a Kbc game 
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new topics you'd like to add, please submit a pull request. Make sure to follow the existing coding style and include comments and documentation where necessary.
