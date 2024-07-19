@@ -185,11 +185,11 @@ learn-python/<br>
 - **Trip Calculator**: Calculate trip costs and logistics.
 - **Password Generator** : Generator strong password including letters , numbers and symbols
 - **Randomized Message Encoder and Decoder** :This Python-based tool encodes and decodes messages by adding random characters and digits, providing a simple yet effective way to obscure the original message for basic privacy needs.
--**Silent Auction** :Silent Auction is a simple, that allows users to place bids on items without revealing their bid amounts to other participants. The application is designed to handle multiple items and bidders simultaneously, ensuring a fair and transparent bidding process.
--**Snake Water Gun Game** :Snake Water Gun is simple game ,that allow user to play choose three option.user choose base on win other wise loose.
--**Task Manager App** :This app is so use full,and simple to manage task.Features of this app is very simple.User can add task ,update task ,delete task and display all task.
--**Trip calculator** :This project demostrate of trip calculator user can give input and base on input it will gernate finall bill which will pay each people 
--**KBC Game** :This game is base on multiple choice question user can choose one opton from multiple options.I like a Kbc game 
+- **Silent Auction** :Silent Auction is a simple, that allows users to place bids on items without revealing their bid amounts to other participants. The application is designed to handle multiple items and bidders simultaneously, ensuring a fair and transparent bidding process.
+- **Snake Water Gun Game** :Snake Water Gun is simple game ,that allow user to play choose three option.user choose base on win other wise loose.
+- **Task Manager App** :This app is so use full,and simple to manage task.Features of this app is very simple.User can add task ,update task ,delete task and display all task.
+- **Trip calculator** :This project demostrate of trip calculator user can give input and base on input it will gernate finall bill which will pay each people 
+- **KBC Game** :This game is base on multiple choice question user can choose one opton from multiple options.I like a Kbc game 
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new topics you'd like to add, please submit a pull request. Make sure to follow the existing coding style and include comments and documentation where necessary.
