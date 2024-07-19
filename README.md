@@ -149,7 +149,7 @@ learn-python/<br>
 | |__Snake Water Gun Game<br>
 | |__Task Manager App<br>
 | |__Trip calculator<br>
-| |__KBC Game
+| |__KBC Game<br>
 |<br>
 └── README.md<br>
 ## Topics Covered
@@ -171,7 +171,10 @@ learn-python/<br>
 
 ### Object-Oriented Programming (OOP)
 - **classes.py**: Defining classes and objects
-
+- **02_instance_vs_class_attribute.py**: Defining instance attribute and class attribute
+- **03_self.py**: Definig self parameters
+- **04_constructor.py**: Defining constructor
+- **05_pass_para_in_cons.py**: Passing Parameters in constructor 
 ### Projects
 - **Band Name Generator**: A fun project to generate band names.
 - **Head and Tail**: A simple coin toss simulation.
