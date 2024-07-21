@@ -64,6 +64,7 @@ learn-python/<br>
 │ ├── 05_opration_tuple.py<br>
 │ ├── 06_tuple_method.py<br>
 | |__ 07_enumerate.py<br>
+| |__ 08_dir_method.py<br>
 │<br>
 ├── chapter 4 pr<br>
 │<br>
@@ -133,6 +134,10 @@ learn-python/<br>
 | |__ 07_class_method.py<br>
 | |__ 08_property.py<br>
 | |__ 09_setter_and_getter.py<br>
+| |__ 10_protected_member.py<br>
+| |__ 11_private_method.py<br>
+| |__ 12_magic_method.py<br>
+| |__ 13_dic_help_method.py<br>
 │<br>
 ├── chapter 10 pr<br>
 ├── chapter 11<br>
@@ -140,7 +145,12 @@ learn-python/<br>
 │ ├── 02_single_inheritance.py<br>
 │ ├── 03_multiple_inheritance.py<br>
 │ ├── 04_multiple_level_inheritance.py<br>
-| |__ 05_super_methoud.py.py
+| |__ 05_super_methoud.py<br>
+| |__ 06_method_overloading.py<br>
+| |__ 07_method_overriding.py<br>
+| |__ 08_abstract_class.py<br>
+| |__ 09_polymorphism.py<br>
+| |__ 10_operator_overloading.py<br>
 │<br>
 ├── Projects<br>
 │ ├── Band Name Generator<br>
