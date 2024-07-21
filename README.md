@@ -126,11 +126,20 @@ learn-python/<br>
 ├── chapter 10<br>
 │ ├── 01_class.py<br>
 │ ├── 02_instance_vs_class_attribute.py<br>
-│ ├── 03_self.py<br>
+│ ├── 03_method.py<br>
 │ ├── 04_constructo.py<br>
 │ ├── 05_pass_para_in_cons.py<br>
+| |__ 06_static_method.py<br>
+| |__ 07_class_method.py<br>
+| |__
 │<br>
 ├── chapter 10 pr<br>
+├── chapter 11<br>
+│ ├── 01_intro_to_inheritance.py<br>
+│ ├── 02_single_inheritance.py<br>
+│ ├── 03_multiple_inheritance.py<br>
+│ ├── 04_multiple_level_inheritance.py<br>
+| |__ 05_super_methoud.py.py
 │<br>
 ├── Projects<br>
 │ ├── Band Name Generator<br>
