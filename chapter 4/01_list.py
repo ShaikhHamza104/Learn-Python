@@ -1,4 +1,4 @@
-# list are immutable
+# list are mutable
 
 # creating a list 
 # first way to create a list in python
