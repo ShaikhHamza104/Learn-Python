@@ -131,7 +131,8 @@ learn-python/<br>
 │ ├── 05_pass_para_in_cons.py<br>
 | |__ 06_static_method.py<br>
 | |__ 07_class_method.py<br>
-| |__
+| |__ 08_property.py<br>
+| |__ 09_setter_and_getter.py<br>
 │<br>
 ├── chapter 10 pr<br>
 ├── chapter 11<br>
