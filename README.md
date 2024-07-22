@@ -153,7 +153,7 @@ learn-python/<br>
 | |__ 10_operator_overloading.py<br>
 | |__ chapter 11 pr<br>
 │<br>
-| |__ chapter 12<br>
+|__ chapter 12<br>
 | |__ 01_intro_exception.py<br>
 | |__ 02_multiple_except_block.py<br>
 | |__ 03_try_except_else.py<br>
@@ -178,10 +178,10 @@ learn-python/<br>
 │ |__ password generator<br>
 | |__ Randomized Message Encoder and Decoder<br>
 | |__ Silent Auction<br>
-| |__Snake Water Gun Game<br>
-| |__Task Manager App<br>
-| |__Trip calculator<br>
-| |__KBC Game<br>
+| |__ Snake Water Gun Game<br>
+| |__ Task Manager App<br>
+| |__ Trip calculator<br>
+| |__ KBC Game<br>
 |<br>
 └── README.md<br>
 ## Topics Covered
