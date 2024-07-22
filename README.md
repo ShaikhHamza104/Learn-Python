@@ -153,6 +153,17 @@ learn-python/<br>
 | |__ 10_operator_overloading.py<br>
 | |__ chapter 11 pr<br>
 │<br>
+| |__ chapter 12<br>
+| |__ 01_intro_exception.py<br>
+| |__ 02_multiple_except_block.py<br>
+| |__ 03_try_except_else.py<br>
+| |__ 04_finally_block.py<br>
+| |__ 05_file_handing.py<br>
+| |__ 06_class_error.py<br>
+| |__ 07_raise_error.py<br>
+| |__ 08_custom_error_without_using_constructor.py<br>
+| |__ 09_custom_error_with_using_constructor.py<br>
+| |__ 10_zero_division_error.py<br>
 ├── Projects<br>
 │ ├── Band Name Generator<br>
 │ ├── Head and Tail<br>
