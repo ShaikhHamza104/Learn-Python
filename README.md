@@ -164,6 +164,7 @@ learn-python/<br>
 | |__ 08_custom_error_without_using_constructor.py<br>
 | |__ 09_custom_error_with_using_constructor.py<br>
 | |__ 10_zero_division_error.py<br>
+|__ chapter 12 pr<br>
 ├── Projects<br>
 │ ├── Band Name Generator<br>
 │ ├── Head and Tail<br>
