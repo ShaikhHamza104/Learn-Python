@@ -43,6 +43,9 @@ s="         Python                       "
 # Remove leading and trailing whitespaces from the string
 print(s.strip())
 
-s="Python Programming Language"
+s="Python programming language"
 #  splits the string "s" into a list of words 
 print(s.split())
+
+# Make the first letter in each word upper case:
+print(s.title())#Python Programming Language

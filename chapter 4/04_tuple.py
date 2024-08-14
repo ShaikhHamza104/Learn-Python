@@ -1,3 +1,5 @@
+# list are immutable
+
 # creating empty tuple
 t=()
 print(t)

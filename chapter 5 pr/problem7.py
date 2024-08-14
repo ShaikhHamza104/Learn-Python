@@ -2,7 +2,7 @@
 laguage={
     "Rahul":"Php",
     "Harry":"Python",
-    "Harry":"Django",
+    "Harry":"Django",#update a value of harry 'Django'
     "Hamza":"Flask"
 }
 print(laguage)

@@ -6,6 +6,6 @@ print("First number is : ",a)
 
 print("second number is : ",b)
 
-print(type(a))
+print(type(a),type(b))
 
 print(int(a)+int(b))

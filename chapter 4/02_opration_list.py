@@ -4,10 +4,10 @@ l=[1,2,3,4,True,3.14,None,"Hamza"]
 # Accesing a list 
 print(l)
 
-# Accesing a value list 
+# Accesing a value in a list 
 print(l[4])
-# updating a list 
 
+# updating a list 
 l[0]=0
 print(l)
 l[-1]="Rohan"

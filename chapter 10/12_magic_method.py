@@ -1,6 +1,3 @@
-from typing import Any
-
-
 class Employee:
     name="Hamza"
     def __init__(self):
