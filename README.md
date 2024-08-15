@@ -174,7 +174,26 @@ learn-python/
 │   ├── m02_module_use.py
 │   ├── n03_if_name_main.py
 │   └── n04_use.py
-│
+|
+│__ chapter 14
+|   ├── 01_getcwd.py
+|   ├── 02_chdir.py
+|   ├── 03_listdir.py
+|   ├── 04_mkdir.py
+|   ├── 05_makedirs.py
+|   ├── 06_rmdir.py
+|   ├── 07_removedirs.py
+|   ├── 08_rename.py
+|   ├── 09_remove.py
+|   ├── 10_path_exists.py
+|   ├── 11_isfile.py
+|   ├── 12_isdir.py
+|   ├── 13_dirname.py
+|   ├── 14_getsize.py
+|   ├── 15_getmtime.py
+|   ├── 16_environ.py
+|   ├── 17_system.py
+|
 ├── Projects
 │   ├── Band Name Generator
 │   ├── Head and Tail
@@ -316,6 +335,26 @@ learn-python/
 - **m02_module_use.py**: Using modules.
 - **n03_if_name_main.py**: The if __name__ == '__main__' construct.
 - **n04_use.py**: Using modules in scripts.
+
+### Chapter 14: Os Modules
+
+- **01_getcwd.py**: Returns the current working directory
+- **02_chdir.py**: Changes the current working directory
+- **03_listdir.py**: Returns a list of files and subdirectories in the specified path
+- **04_mkdir.py**: Creates a new directory
+- **05_makedirs.py**: Creates a directory and its parent directories if they don't exist
+- **06_rmdir.py**: Removes an empty directory
+- **07_removedirs.py**: Removes an empty directory and its parent directories
+- **08_rename.py**: Renames a file or directory
+- **09_remove.py**: Deletes a file
+- **10_path_exists.py**: Checks if a path exists	
+- **11_isfile.py**: Checks if a path is a file	
+- **12_isdir.py**: Checks if a path is a directory	
+- **13_dirname.py**: Returns the directory name of a path
+- **14_getsize.py**: Returns the size of a file
+- **15_getmtime.py**: Returns the last modification time of a file
+- **16_environ.py**: Assuming you have a PATH environment variable
+- **17_system.py**: Executes a command in a subshell and returns the exit status.
 
 ## Projects
 

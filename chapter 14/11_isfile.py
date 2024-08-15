@@ -4,7 +4,7 @@ import os
 try:
     os.chdir('example/c')
     file_name = 'main.c'
-
+    #Checks if a path is a file	 
     if os.path.isfile(file_name):
         print(f"File is detected: {file_name}")
     else:

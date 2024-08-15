@@ -4,7 +4,7 @@ import os
 try:
     os.chdir('example')
     dir_name = 'c'
-
+    # Checks if a path is a directory	
     if os.path.isdir(dir_name):
         print(f"directory is detected: {dir_name}")
     else:
