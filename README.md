@@ -246,21 +246,21 @@ learn-python/
 - **08_dir_method.py**: Using the dir function.
 
 ### Chapter 5: Dictionaries and Sets
-**01_dict.py**: Introduction to dictionaries.
-**02_operation_dict.py**: Operations on dictionaries.
-**03_dict_method.py**: Dictionary methods.
-**04_set.py**: Introduction to sets.
-**05_set_method.py**: Set methods.
-**06_operation_set.py**: Operations on sets.
+- **01_dict.py**: Introduction to dictionaries.
+- **02_operation_dict.py**: Operations on dictionaries.
+- **03_dict_method.py**: Dictionary methods.
+- **04_set.py**: Introduction to sets.
+- **05_set_method.py**: Set methods.
+- **06_operation_set.py**: Operations on sets.
 
 ### Chapter 6: Control Flow
-**01_if.py**: Using if statements.
-**02_if_else.py**: Using if-else statements.
-**03_if_elif_else.py**: Using if-elif-else statements.
-**04_short_hand_if_else.py**: Short-hand if-else statements.
-**05_calculator.py**: Calculator program.
-**06_leap_year.py**: Leap year checker.
-**07_multiple_if.py**: Using multiple if statements.
+- **01_if.py**: Using if statements.
+- **02_if_else.py**: Using if-else statements.
+- **03_if_elif_else.py**: Using if-elif-else statements.
+- **04_short_hand_if_else.py**: Short-hand if-else statements.
+- **05_calculator.py**: Calculator program.
+- **06_leap_year.py**: Leap year checker.
+- **07_multiple_if.py**: Using multiple if statements.
 
 ### Chapter 7: Loops
 - **01_loop.py**: Introduction to loops.
