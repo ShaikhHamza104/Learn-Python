@@ -372,7 +372,7 @@ learn-python/
 - **Randomized Message Encoder and Decoder**: Encode and decode messages by adding random characters and digits for basic privacy.
 - **Silent Auction**: Allows users to place bids on items without revealing their bid amounts to other participants.
 - **KBC Game**: A multiple-choice question game similar to "Kaun Banega Crorepati".
-
+- **Robo speker**: Base on input it will speak in English.  
 ## Contributing
 
 Contributions are welcome! If you have any improvements, bug fixes, or new topics you'd like to add, please submit a pull request. Make sure to follow the existing coding style and include comments and documentation where necessary.
