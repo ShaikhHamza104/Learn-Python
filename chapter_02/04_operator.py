@@ -1,95 +1,111 @@
-# 1. Arithmetic operators: +, -, *, / etc.
-a=10
-b=5
-print("a + b = ",a+b)
-print("a - b = ",a-b)
-print("a * b = ",a*b)
-print("a / b = ",a/b)
+#!/usr/bin/env python
+"""
+This script demonstrates the various operators in Python.
+"""
 
-# 2. Assignment operators: =, +=, -= etc.
-b+=5
-print("b+=5",b)
-b-=5
-print("b-=5",b)
-b*=5
-print("b*=5",b)
-b/=5
-print("b/=5",b)
-b**=2
-print("b**=5",b)
-b//=5
-print("b//=5",b)
+def arithmetic_operators():
+    """Demonstrates arithmetic operators."""
+    print("--- Arithmetic Operators ---")
+    a = 10
+    b = 5
+    print(f"a = {a}, b = {b}")
+    print(f"a + b = {a + b}")
+    print(f"a - b = {a - b}")
+    print(f"a * b = {a * b}")
+    print(f"a / b = {a / b}")
+    print(f"a % b = {a % b}")
+    print(f"a ** b = {a ** b}")
+    print(f"a // b = {a // b}")
+    print("-" * 20)
 
-# 3. Comparison operators: ==, >, >=, <, != etc.
-print("a==b",a==b)
-print("a>b",a>b)
-print("a>=b",a>=b)
-print("a<b",a<b)
-print("a<=b",a<=b)
-print("a!=b",a!=b)
+def assignment_operators():
+    """Demonstrates assignment operators."""
+    print("--- Assignment Operators ---")
+    a = 10
+    print(f"a = {a}")
+    a += 5
+    print(f"a += 5 -> a = {a}")
+    a -= 5
+    print(f"a -= 5 -> a = {a}")
+    a *= 5
+    print(f"a *= 5 -> a = {a}")
+    a /= 5
+    print(f"a /= 5 -> a = {a}")
+    print("-" * 20)
 
-# 4. Logical operators: and, or, not.
-a=True
-b=False
-print("a and b",a and b)
-print("a or b" ,a or b)
-print("not a", not a)
+def comparison_operators():
+    """Demonstrates comparison operators."""
+    print("--- Comparison Operators ---")
+    a = 10
+    b = 5
+    print(f"a = {a}, b = {b}")
+    print(f"a == b -> {a == b}")
+    print(f"a != b -> {a != b}")
+    print(f"a > b -> {a > b}")
+    print(f"a < b -> {a < b}")
+    print(f"a >= b -> {a >= b}")
+    print(f"a <= b -> {a <= b}")
+    print("-" * 20)
 
-# Truth table of 'and'
-print("Ture and False",True and False)
-print("Ture and True",True and True)
-print("False and True",False and True)
-print("False and False",False and False)
+def logical_operators():
+    """Demonstrates logical operators."""
+    print("--- Logical Operators ---")
+    a = True
+    b = False
+    print(f"a = {a}, b = {b}")
+    print(f"a and b -> {a and b}")
+    print(f"a or b -> {a or b}")
+    print(f"not a -> {not a}")
+    print("-" * 20)
 
-# Truth table of 'or'
+def membership_operators():
+    """Demonstrates membership operators."""
+    print("--- Membership Operators ---")
+    my_list = [1, 2, 3, 4, 5]
+    print(f"my_list = {my_list}")
+    print(f"3 in my_list -> {3 in my_list}")
+    print(f"6 in my_list -> {6 in my_list}")
+    print(f"3 not in my_list -> {3 not in my_list}")
+    print(f"6 not in my_list -> {6 not in my_list}")
+    print("-" * 20)
 
-print("Ture or False",True or False)
-print("Ture or True",True or True)
-print("False or True",False or True)
-print("False or False",False or False)
+def identity_operators():
+    """Demonstrates identity operators."""
+    print("--- Identity Operators ---")
+    a = [1, 2, 3]
+    b = [1, 2, 3]
+    c = a
+    print(f"a = {a}, b = {b}, c = a")
+    print(f"a is b -> {a is b}")
+    print(f"a is not b -> {a is not b}")
+    print(f"a is c -> {a is c}")
+    print("-" * 20)
 
-# Logical not 
-print(not(False))
-print(not(True))
+def bitwise_operators():
+    """Demonstrates bitwise operators."""
+    print("--- Bitwise Operators ---")
+    a = 12  # binary: 1100
+    b = 10  # binary: 1010
+    print(f"a = {a} (binary: {bin(a)}), b = {b} (binary: {bin(b)})")
+    print(f"a & b -> {a & b} (binary: {bin(a & b)})")
+    print(f"a | b -> {a | b} (binary: {bin(a | b)})")
+    print(f"a ^ b -> {a ^ b} (binary: {bin(a ^ b)})")
+    print(f"~a -> {~a} (binary: {bin(~a)})")
+    print(f"a << 2 -> {a << 2} (binary: {bin(a << 2)})")
+    print(f"a >> 2 -> {a >> 2} (binary: {bin(a >> 2)})")
+    print("-" * 20)
 
-# 5. membership Operators
-l=[1,2,3]
-# membership "in"  Operator
-print(1 in l)
-# membership "not in"  Operator
-print(0 not in l)
+def main():
+    """
+    This function calls all the operator demonstration functions.
+    """
+    arithmetic_operators()
+    assignment_operators()
+    comparison_operators()
+    logical_operators()
+    membership_operators()
+    identity_operators()
+    bitwise_operators()
 
-# 6. Identity Operators
-a=10
-b=10
-# Identity "is" Operator
-print("a is b",a is b)
-# Identity "is not" Operator
-print("a is not b",a is not b)
-
-# 7. Bitwise Operators
-# Bitwise AND
-a = 12  # binary: 1100
-b = 10  # binary: 1010
-result = a & b  # binary: 1000, decimal: 8
-print("AND operation:", result)
-
-# Bitwise OR
-result = a | b  # binary: 1110, decimal: 14
-print("OR operation:", result)
-
-# Bitwise XOR
-result = a ^ b  # binary: 0110, decimal: 6
-print("XOR operation:", result)
-
-# Bitwise NOT
-result = ~a  # binary: ...11110011 (in a 32-bit system), decimal: -13
-print("NOT operation:", result)
-
-# Left Shift
-result = a << 2  # binary: 110000, decimal: 48
-print("Left Shift operation:", result)
-
-# Right Shift
-result = a >> 2  # binary: 0011, decimal: 3
-print("Right Shift operation:", result)
+if __name__ == "__main__":
+    main()

@@ -14,26 +14,38 @@ Think of this chapter as learning the alphabet before you write your first sente
 
 ## Files in This Chapter 📁
 
-### 1. `01_hello_world.py` - Your First Python Program!
-### 2. `02_module.py` - Using Pre-built Tools
-### 3. `03_comment.py` - Making Your Code Readable
+### 1. `hello_world.py` - Your First Python Program!
+### 2. `module_example.py` - Using Pre-built Tools
+### 3. `comment_example.py` - Making Your Code Readable
 
 ---
 
-## 🌟 File 1: `01_hello_world.py` - Your First Hello to the World!
+## 🌟 File 1: `hello_world.py` - Your First Hello to the World!
 
 ### What's Inside:
 ```python
-print("Hello world")
+#!/usr/bin/env python
+"""
+This script prints "Hello, world!" to the console.
+"""
+
+def main():
+    """Prints "Hello, world!" to the console."""
+    print("Hello, world!")
+
+if __name__ == "__main__":
+    main()
 ```
 
 ### What Does This Mean?
 
 Congratulations! You're looking at your very first Python program. It might look simple (and it is!), but this tiny line of code is actually quite special. Let's break it down:
 
-**`print()`** - This is what we call a "function" in Python. Think of it like a magic command that tells Python "Hey, show this message on the screen!" 
+**`def main():`** - This defines a function named `main`. Functions are blocks of reusable code. The `main` function is a common starting point for programs.
 
-**`"Hello world"`** - This is what we call a "string" - basically, it's text that we want to display. The quotation marks tell Python "This is text, not code."
+**`print("Hello, world!")`** - This is what we call a "function" in Python. Think of it like a magic command that tells Python "Hey, show this message on the screen!"
+
+**`if __name__ == "__main__":`** - This is a standard Python construct that ensures the `main()` function is called only when the script is executed directly.
 
 ### Why "Hello World"?
 
@@ -43,7 +55,7 @@ There's a beautiful tradition in programming - almost every programmer's first p
 
 1. Open this file in your code editor
 2. Run it (usually by pressing F5 or clicking a "Run" button)
-3. You should see "Hello world" appear on your screen
+3. You should see "Hello, world!" appear on your screen
 4. Celebrate! You've just run your first Python program! 🎉
 
 ### Experiment Time! 🧪
@@ -57,13 +69,26 @@ Each time you change it, run the program again and see what happens!
 
 ---
 
-## 🔧 File 2: `02_module.py` - Using Python's Superpowers!
+## 🔧 File 2: `module_example.py` - Using Python's Superpowers!
 
 ### What's Inside:
 ```python
+#!/usr/bin/env python
+"""
+This script uses the pyjokes library to print a random joke.
+"""
+
 import pyjokes
-joke=pyjokes.get_joke()
-print(joke)
+
+def print_joke():
+    """
+    Gets a random joke from the pyjokes library and prints it.
+    """
+    joke_text = pyjokes.get_joke()
+    print(joke_text)
+
+if __name__ == "__main__":
+    print_joke()
 ```
 
 ### What's Happening Here?
@@ -75,12 +100,15 @@ This program is more exciting! It's using something called a "module" to tell yo
 - `pyjokes` is a special toolbox (module) that contains programming jokes
 - `import` is the magic word that lets us use this toolbox in our program
 
-**Line 2: `joke=pyjokes.get_joke()`**
+**Line 2: `def print_joke():`**
+- We're defining a function called `print_joke` that will contain the logic for getting and printing a joke.
+
+**Line 3: `joke_text = pyjokes.get_joke()`**
 - We're asking the `pyjokes` toolbox to give us a random joke
 - `get_joke()` is like pressing a button that says "Give me a joke!"
-- We store this joke in a variable called `joke` (like putting it in a box with a label)
+- We store this joke in a variable called `joke_text` (like putting it in a box with a label)
 
-**Line 3: `print(joke)`**
+**Line 4: `print(joke_text)`**
 - We take the joke from our box and display it on the screen
 
 ### What's a Module? 🤔
@@ -100,7 +128,7 @@ Instead of writing all that code yourself, you can just `import` their module an
 
 1. First, you might need to install the pyjokes module. In your terminal, type:
    ```
-   pip install pyjokes
+   pip install -r requirements.txt
    ```
 2. Then run the program
 3. Run it multiple times - you'll get different jokes each time!
@@ -112,24 +140,32 @@ This is exactly how professional programmers work! They don't reinvent the wheel
 
 ---
 
-## 📝 File 3: `03_comment.py` - Making Your Code Speak Human!
+## 📝 File 3: `comment_example.py` - Making Your Code Speak Human!
 
 ### What's Inside:
 ```python
-# single line comment
-'''
-This is 
-multi 
-line  
-comment 
-'''
-# eg
+#!/usr/bin/env python
+"""
+This script demonstrates the use of comments in Python.
+"""
 
-# importing pyjokes module 
-import pyjokes
+def main():
+    """
+    This function provides examples of single-line and multi-line comments.
+    """
+    # This is a single-line comment.
+    # It is used to explain a single line of code or a short section.
+    print("This line is not a comment.")
 
-joke=pyjokes.get_joke()
-print(joke)
+    '''
+    This is a multi-line comment.
+    It is often used for docstrings, but can also be used for multi-line comments.
+    However, it is more common to use multiple single-line comments.
+    '''
+    print("This line is also not a comment.")
+
+if __name__ == "__main__":
+    main()
 ```
 
 ### What Are Comments?
@@ -217,13 +253,13 @@ In Chapter 2, you'll learn about:
 Before moving to Chapter 2, try these fun challenges:
 
 ### Challenge 1: Personal Greeting
-Modify `01_hello_world.py` to print a personal message about yourself.
+Modify `hello_world.py` to print a personal message about yourself.
 
 ### Challenge 2: Comment Detective
-Add detailed comments to `02_module.py` explaining each line in your own words.
+Add detailed comments to `module_example.py` explaining each line in your own words.
 
 ### Challenge 3: Joke Collector
-Try to run `02_module.py` five times and collect five different jokes. Which one made you laugh the most?
+Try to run `module_example.py` five times and collect five different jokes. Which one made you laugh the most?
 
 ### Challenge 4: Module Explorer
 Research and try one other simple module (like `random` for generating random numbers).

@@ -1,9 +1,31 @@
-a=10   # a is an integer
+#!/usr/bin/env python
+"""
+This script demonstrates the basic data types in Python.
+"""
 
-b=7.5  # b is an Float 
+def main():
+    """
+    This function provides examples of basic data types.
+    """
+    # Integer
+    integer_variable = 10
+    print(f"'{integer_variable}' is of type {type(integer_variable)}")
 
-c="Hamza"  # c is string variable
+    # Float
+    float_variable = 7.5
+    print(f"'{float_variable}' is of type {type(float_variable)}")
 
-d=True    #d is boolean variable
+    # String
+    string_variable = "Hamza"
+    print(f"'{string_variable}' is of type {type(string_variable)}")
 
-e=None    #e is None type variable
+    # Boolean
+    boolean_variable = True
+    print(f"'{boolean_variable}' is of type {type(boolean_variable)}")
+
+    # NoneType
+    none_variable = None
+    print(f"'{none_variable}' is of type {type(none_variable)}")
+
+if __name__ == "__main__":
+    main()

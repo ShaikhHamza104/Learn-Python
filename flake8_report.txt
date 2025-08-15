@@ -1,0 +1,2014 @@
+./chapter_01/01_hello_world.py:1:21: W292 no newline at end of file
+./chapter_01/02_module.py:2:5: E225 missing whitespace around operator
+./chapter_01/02_module.py:3:12: W292 no newline at end of file
+./chapter_01/03_comment.py:3:8: W291 trailing whitespace
+./chapter_01/03_comment.py:4:6: W291 trailing whitespace
+./chapter_01/03_comment.py:5:5: W291 trailing whitespace
+./chapter_01/03_comment.py:6:8: W291 trailing whitespace
+./chapter_01/03_comment.py:10:27: W291 trailing whitespace
+./chapter_01/03_comment.py:13:5: E225 missing whitespace around operator
+./chapter_01/03_comment.py:14:12: W292 no newline at end of file
+./chapter_01_exercises/problem1.py:34:31: W292 no newline at end of file
+./chapter_01_exercises/problem3.py:1:80: E501 line too long (84 > 79 characters)
+./chapter_01_exercises/problem3.py:1:85: W291 trailing whitespace
+./chapter_01_exercises/problem3.py:3:7: E225 missing whitespace around operator
+./chapter_01_exercises/problem3.py:5:20: W292 no newline at end of file
+./chapter_01_exercises/problem4.py:1:80: E501 line too long (82 > 79 characters)
+./chapter_01_exercises/problem5.py:1:80: E501 line too long (82 > 79 characters)
+./chapter_02/01_variable.py:1:16: W291 trailing whitespace
+./chapter_02/01_variable.py:2:2: E225 missing whitespace around operator
+./chapter_02/01_variable.py:4:2: E225 missing whitespace around operator
+./chapter_02/01_variable.py:6:2: E225 missing whitespace around operator
+./chapter_02/01_variable.py:8:5: E225 missing whitespace around operator
+./chapter_02/01_variable.py:10:18: W291 trailing whitespace
+./chapter_02/01_variable.py:11:2: E225 missing whitespace around operator
+./chapter_02/01_variable.py:13:2: E225 missing whitespace around operator
+./chapter_02/01_variable.py:15:12: E225 missing whitespace around operator
+./chapter_02/02_datatype.py:1:2: E225 missing whitespace around operator
+./chapter_02/02_datatype.py:3:2: E225 missing whitespace around operator
+./chapter_02/02_datatype.py:3:23: W291 trailing whitespace
+./chapter_02/02_datatype.py:5:2: E225 missing whitespace around operator
+./chapter_02/02_datatype.py:7:2: E225 missing whitespace around operator
+./chapter_02/02_datatype.py:7:11: E262 inline comment should start with '# '
+./chapter_02/02_datatype.py:9:2: E225 missing whitespace around operator
+./chapter_02/02_datatype.py:9:11: E262 inline comment should start with '# '
+./chapter_02/02_datatype.py:9:35: W292 no newline at end of file
+./chapter_02/03_ruleofvariable.py:2:6: E225 missing whitespace around operator
+./chapter_02/03_ruleofvariable.py:3:12: E225 missing whitespace around operator
+./chapter_02/03_ruleofvariable.py:4:6: E225 missing whitespace around operator
+./chapter_02/03_ruleofvariable.py:6:7: E225 missing whitespace around operator
+./chapter_02/03_ruleofvariable.py:7:6: E225 missing whitespace around operator
+./chapter_02/03_ruleofvariable.py:12:29: W292 no newline at end of file
+./chapter_02/04_operator.py:2:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:3:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:4:17: E231 missing whitespace after ','
+./chapter_02/04_operator.py:5:17: E231 missing whitespace after ','
+./chapter_02/04_operator.py:6:17: E231 missing whitespace after ','
+./chapter_02/04_operator.py:7:17: E231 missing whitespace after ','
+./chapter_02/04_operator.py:10:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:11:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:12:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:13:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:14:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:15:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:16:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:17:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:18:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:19:14: E231 missing whitespace after ','
+./chapter_02/04_operator.py:20:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:21:14: E231 missing whitespace after ','
+./chapter_02/04_operator.py:24:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:24:15: E225 missing whitespace around operator
+./chapter_02/04_operator.py:25:12: E231 missing whitespace after ','
+./chapter_02/04_operator.py:25:14: E225 missing whitespace around operator
+./chapter_02/04_operator.py:26:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:26:15: E225 missing whitespace around operator
+./chapter_02/04_operator.py:27:12: E231 missing whitespace after ','
+./chapter_02/04_operator.py:27:14: E225 missing whitespace around operator
+./chapter_02/04_operator.py:28:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:28:15: E225 missing whitespace around operator
+./chapter_02/04_operator.py:29:13: E231 missing whitespace after ','
+./chapter_02/04_operator.py:29:15: E225 missing whitespace around operator
+./chapter_02/04_operator.py:32:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:33:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:34:16: E231 missing whitespace after ','
+./chapter_02/04_operator.py:35:15: E203 whitespace before ','
+./chapter_02/04_operator.py:35:16: E231 missing whitespace after ','
+./chapter_02/04_operator.py:39:23: E231 missing whitespace after ','
+./chapter_02/04_operator.py:40:22: E231 missing whitespace after ','
+./chapter_02/04_operator.py:41:23: E231 missing whitespace after ','
+./chapter_02/04_operator.py:42:24: E231 missing whitespace after ','
+./chapter_02/04_operator.py:46:22: E231 missing whitespace after ','
+./chapter_02/04_operator.py:47:21: E231 missing whitespace after ','
+./chapter_02/04_operator.py:48:22: E231 missing whitespace after ','
+./chapter_02/04_operator.py:49:23: E231 missing whitespace after ','
+./chapter_02/04_operator.py:51:14: W291 trailing whitespace
+./chapter_02/04_operator.py:52:10: E275 missing whitespace after keyword
+./chapter_02/04_operator.py:53:10: E275 missing whitespace after keyword
+./chapter_02/04_operator.py:56:1: E741 ambiguous variable name 'l'
+./chapter_02/04_operator.py:56:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:56:5: E231 missing whitespace after ','
+./chapter_02/04_operator.py:56:7: E231 missing whitespace after ','
+./chapter_02/04_operator.py:63:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:64:2: E225 missing whitespace around operator
+./chapter_02/04_operator.py:66:15: E231 missing whitespace after ','
+./chapter_02/04_operator.py:68:19: E231 missing whitespace after ','
+./chapter_02/04_operator.py:95:40: W292 no newline at end of file
+./chapter_02/05_type_function.py:1:2: E225 missing whitespace around operator
+./chapter_02/05_type_function.py:2:15: E261 at least two spaces before inline comment
+./chapter_02/05_type_function.py:2:16: E262 inline comment should start with '# '
+./chapter_02/05_type_function.py:4:2: E225 missing whitespace around operator
+./chapter_02/05_type_function.py:5:15: E261 at least two spaces before inline comment
+./chapter_02/05_type_function.py:5:16: E262 inline comment should start with '# '
+./chapter_02/05_type_function.py:7:2: E225 missing whitespace around operator
+./chapter_02/05_type_function.py:8:15: E261 at least two spaces before inline comment
+./chapter_02/05_type_function.py:8:16: E262 inline comment should start with '# '
+./chapter_02/05_type_function.py:10:2: E225 missing whitespace around operator
+./chapter_02/05_type_function.py:11:15: E261 at least two spaces before inline comment
+./chapter_02/05_type_function.py:11:16: E262 inline comment should start with '# '
+./chapter_02/05_type_function.py:13:2: E225 missing whitespace around operator
+./chapter_02/05_type_function.py:14:15: E261 at least two spaces before inline comment
+./chapter_02/05_type_function.py:14:16: E262 inline comment should start with '# '
+./chapter_02/05_type_function.py:14:31: W292 no newline at end of file
+./chapter_02/06_type_casting.py:1:2: E225 missing whitespace around operator
+./chapter_02/06_type_casting.py:3:2: E225 missing whitespace around operator
+./chapter_02/06_type_casting.py:5:15: E261 at least two spaces before inline comment
+./chapter_02/06_type_casting.py:5:15: E262 inline comment should start with '# '
+./chapter_02/06_type_casting.py:7:2: E225 missing whitespace around operator
+./chapter_02/06_type_casting.py:9:14: E261 at least two spaces before inline comment
+./chapter_02/06_type_casting.py:9:14: E262 inline comment should start with '# '
+./chapter_02/06_type_casting.py:11:2: E225 missing whitespace around operator
+./chapter_02/06_type_casting.py:12:15: E261 at least two spaces before inline comment
+./chapter_02/06_type_casting.py:12:15: E262 inline comment should start with '# '
+./chapter_02/06_type_casting.py:14:14: E261 at least two spaces before inline comment
+./chapter_02/06_type_casting.py:14:14: E262 inline comment should start with '# '
+./chapter_02/06_type_casting.py:14:16: W292 no newline at end of file
+./chapter_02/07_input.py:1:2: E225 missing whitespace around operator
+./chapter_02/07_input.py:3:2: E225 missing whitespace around operator
+./chapter_02/07_input.py:5:27: E231 missing whitespace after ','
+./chapter_02/07_input.py:7:28: E231 missing whitespace after ','
+./chapter_02/07_input.py:9:14: E231 missing whitespace after ','
+./chapter_02/07_input.py:11:21: W292 no newline at end of file
+./chapter_02_exercises/problem1.py:2:2: E225 missing whitespace around operator
+./chapter_02_exercises/problem1.py:3:2: E225 missing whitespace around operator
+./chapter_02_exercises/problem1.py:4:11: W292 no newline at end of file
+./chapter_02_exercises/problem2.py:2:2: E225 missing whitespace around operator
+./chapter_02_exercises/problem2.py:3:2: E225 missing whitespace around operator
+./chapter_02_exercises/problem2.py:4:4: E225 missing whitespace around operator
+./chapter_02_exercises/problem2.py:5:11: W292 no newline at end of file
+./chapter_02_exercises/problem3.py:2:5: E225 missing whitespace around operator
+./chapter_02_exercises/problem3.py:4:18: E261 at least two spaces before inline comment
+./chapter_02_exercises/problem3.py:4:18: E262 inline comment should start with '# '
+./chapter_02_exercises/problem3.py:4:32: W292 no newline at end of file
+./chapter_02_exercises/problem4.py:1:80: E501 line too long (82 > 79 characters)
+./chapter_02_exercises/problem4.py:3:7: W291 trailing whitespace
+./chapter_02_exercises/problem4.py:5:32: E231 missing whitespace after ','
+./chapter_02_exercises/problem4.py:5:34: E225 missing whitespace around operator
+./chapter_02_exercises/problem4.py:6:32: E231 missing whitespace after ','
+./chapter_02_exercises/problem4.py:6:34: E225 missing whitespace around operator
+./chapter_02_exercises/problem4.py:6:37: W292 no newline at end of file
+./chapter_02_exercises/problem5.py:1:80: E501 line too long (82 > 79 characters)
+./chapter_02_exercises/problem5.py:2:5: E225 missing whitespace around operator
+./chapter_02_exercises/problem5.py:3:5: E225 missing whitespace around operator
+./chapter_02_exercises/problem5.py:4:4: E225 missing whitespace around operator
+./chapter_02_exercises/problem5.py:5:38: E231 missing whitespace after ','
+./chapter_02_exercises/problem5.py:5:43: W291 trailing whitespace
+./chapter_02_exercises/problem5.py:5:45: W292 no newline at end of file
+./chapter_02_exercises/problem6.py:1:80: E501 line too long (84 > 79 characters)
+./chapter_02_exercises/problem6.py:2:4: E225 missing whitespace around operator
+./chapter_02_exercises/problem6.py:5:36: E231 missing whitespace after ','
+./chapter_02_exercises/problem6.py:8:36: E231 missing whitespace after ','
+./chapter_02_exercises/problem6.py:10:53: W291 trailing whitespace
+./chapter_02_exercises/problem6.py:10:54: W292 no newline at end of file
+./chapter_03/01_intro_string.py:2:7: E225 missing whitespace around operator
+./chapter_03/01_intro_string.py:5:7: E225 missing whitespace around operator
+./chapter_03/01_intro_string.py:8:7: E225 missing whitespace around operator
+./chapter_03/01_intro_string.py:9:3: W291 trailing whitespace
+./chapter_03/01_intro_string.py:12:5: E225 missing whitespace around operator
+./chapter_03/01_intro_string.py:14:15: E261 at least two spaces before inline comment
+./chapter_03/01_intro_string.py:14:15: E262 inline comment should start with '# '
+./chapter_03/01_intro_string.py:20:16: E261 at least two spaces before inline comment
+./chapter_03/01_intro_string.py:20:16: E262 inline comment should start with '# '
+./chapter_03/01_intro_string.py:22:16: W292 no newline at end of file
+./chapter_03/02_slicing.py:1:5: E225 missing whitespace around operator
+./chapter_03/02_slicing.py:3:17: E261 at least two spaces before inline comment
+./chapter_03/02_slicing.py:3:17: E262 inline comment should start with '# '
+./chapter_03/02_slicing.py:4:17: E261 at least two spaces before inline comment
+./chapter_03/02_slicing.py:4:17: E262 inline comment should start with '# '
+./chapter_03/02_slicing.py:5:16: E261 at least two spaces before inline comment
+./chapter_03/02_slicing.py:5:16: E262 inline comment should start with '# '
+./chapter_03/02_slicing.py:6:15: E261 at least two spaces before inline comment
+./chapter_03/02_slicing.py:6:15: E262 inline comment should start with '# '
+./chapter_03/02_slicing.py:8:5: E225 missing whitespace around operator
+./chapter_03/02_slicing.py:12:19: E261 at least two spaces before inline comment
+./chapter_03/02_slicing.py:12:19: E262 inline comment should start with '# '
+./chapter_03/02_slicing.py:13:19: E261 at least two spaces before inline comment
+./chapter_03/02_slicing.py:13:19: E262 inline comment should start with '# '
+./chapter_03/02_slicing.py:13:22: W292 no newline at end of file
+./chapter_03/03_negative_slicing.py:1:5: E225 missing whitespace around operator
+./chapter_03/03_negative_slicing.py:3:19: E261 at least two spaces before inline comment
+./chapter_03/03_negative_slicing.py:4:19: E261 at least two spaces before inline comment
+./chapter_03/03_negative_slicing.py:4:22: W292 no newline at end of file
+./chapter_03/04_string_methoud.py:1:5: E225 missing whitespace around operator
+./chapter_03/04_string_methoud.py:3:31: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:6:34: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:9:32: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:12:51: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:15:51: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:18:50: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:21:37: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:22:20: E231 missing whitespace after ','
+./chapter_03/04_string_methoud.py:27:34: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:30:51: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:33:46: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:34:22: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:36:43: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:39:23: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:40:23: E231 missing whitespace after ','
+./chapter_03/04_string_methoud.py:42:2: E225 missing whitespace around operator
+./chapter_03/04_string_methoud.py:46:2: E225 missing whitespace around operator
+./chapter_03/04_string_methoud.py:47:46: W291 trailing whitespace
+./chapter_03/04_string_methoud.py:51:17: E261 at least two spaces before inline comment
+./chapter_03/04_string_methoud.py:51:17: E262 inline comment should start with '# '
+./chapter_03/04_string_methoud.py:51:45: W292 no newline at end of file
+./chapter_03/05_Formatting_strings.py:8:80: E501 line too long (84 > 79 characters)
+./chapter_03/05_Formatting_strings.py:12:80: E501 line too long (98 > 79 characters)
+./chapter_03/05_Formatting_strings.py:14:80: E501 line too long (104 > 79 characters)
+./chapter_03/05_Formatting_strings.py:18:80: E501 line too long (91 > 79 characters)
+./chapter_03/06_escape.py:1:7: E225 missing whitespace around operator
+./chapter_03/06_escape.py:2:14: E261 at least two spaces before inline comment
+./chapter_03/06_escape.py:2:14: E262 inline comment should start with '# '
+./chapter_03/06_escape.py:4:7: E225 missing whitespace around operator
+./chapter_03/06_escape.py:5:14: E261 at least two spaces before inline comment
+./chapter_03/06_escape.py:5:14: E262 inline comment should start with '# '
+./chapter_03/06_escape.py:6:7: E225 missing whitespace around operator
+./chapter_03/06_escape.py:9:14: W292 no newline at end of file
+./chapter_03_exercises/problem1.py:1:80: E501 line too long (110 > 79 characters)
+./chapter_03_exercises/problem1.py:2:5: E225 missing whitespace around operator
+./chapter_03_exercises/problem1.py:3:30: W292 no newline at end of file
+./chapter_03_exercises/problem2.py:1:80: E501 line too long (81 > 79 characters)
+./chapter_03_exercises/problem2.py:6:7: E225 missing whitespace around operator
+./chapter_03_exercises/problem2.py:11:5: E225 missing whitespace around operator
+./chapter_03_exercises/problem2.py:12:5: E225 missing whitespace around operator
+./chapter_03_exercises/problem2.py:13:32: E231 missing whitespace after ','
+./chapter_03_exercises/problem2.py:13:57: E231 missing whitespace after ','
+./chapter_03_exercises/problem2.py:13:64: W292 no newline at end of file
+./chapter_03_exercises/problem3.py:2:7: E225 missing whitespace around operator
+./chapter_03_exercises/problem3.py:4:36: W292 no newline at end of file
+./chapter_03_exercises/problem4.py:2:7: E225 missing whitespace around operator
+./chapter_03_exercises/problem4.py:3:26: E231 missing whitespace after ','
+./chapter_03_exercises/problem4.py:3:32: W292 no newline at end of file
+./chapter_03_exercises/problem5.py:7:14: W292 no newline at end of file
+./chapter_04/01_list.py:3:18: W291 trailing whitespace
+./chapter_04/01_list.py:5:1: E741 ambiguous variable name 'l'
+./chapter_04/01_list.py:5:2: E225 missing whitespace around operator
+./chapter_04/01_list.py:5:5: E231 missing whitespace after ','
+./chapter_04/01_list.py:5:7: E231 missing whitespace after ','
+./chapter_04/01_list.py:5:9: E231 missing whitespace after ','
+./chapter_04/01_list.py:5:11: E231 missing whitespace after ','
+./chapter_04/01_list.py:5:16: E231 missing whitespace after ','
+./chapter_04/01_list.py:5:21: E231 missing whitespace after ','
+./chapter_04/01_list.py:5:26: E231 missing whitespace after ','
+./chapter_04/01_list.py:8:1: E741 ambiguous variable name 'l'
+./chapter_04/01_list.py:8:2: E225 missing whitespace around operator
+./chapter_04/01_list.py:8:10: E231 missing whitespace after ','
+./chapter_04/01_list.py:8:12: E231 missing whitespace after ','
+./chapter_04/01_list.py:8:14: E231 missing whitespace after ','
+./chapter_04/01_list.py:8:16: E231 missing whitespace after ','
+./chapter_04/01_list.py:8:21: E231 missing whitespace after ','
+./chapter_04/01_list.py:8:26: E231 missing whitespace after ','
+./chapter_04/01_list.py:8:31: E231 missing whitespace after ','
+./chapter_04/01_list.py:10:9: W292 no newline at end of file
+./chapter_04/02_opration_list.py:1:18: W291 trailing whitespace
+./chapter_04/02_opration_list.py:2:1: E741 ambiguous variable name 'l'
+./chapter_04/02_opration_list.py:2:2: E225 missing whitespace around operator
+./chapter_04/02_opration_list.py:2:5: E231 missing whitespace after ','
+./chapter_04/02_opration_list.py:2:7: E231 missing whitespace after ','
+./chapter_04/02_opration_list.py:2:9: E231 missing whitespace after ','
+./chapter_04/02_opration_list.py:2:11: E231 missing whitespace after ','
+./chapter_04/02_opration_list.py:2:16: E231 missing whitespace after ','
+./chapter_04/02_opration_list.py:2:21: E231 missing whitespace after ','
+./chapter_04/02_opration_list.py:2:26: E231 missing whitespace after ','
+./chapter_04/02_opration_list.py:4:18: W291 trailing whitespace
+./chapter_04/02_opration_list.py:7:29: W291 trailing whitespace
+./chapter_04/02_opration_list.py:10:18: W291 trailing whitespace
+./chapter_04/02_opration_list.py:11:5: E225 missing whitespace around operator
+./chapter_04/02_opration_list.py:13:6: E225 missing whitespace around operator
+./chapter_04/02_opration_list.py:16:25: W291 trailing whitespace
+./chapter_04/02_opration_list.py:18:9: W292 no newline at end of file
+./chapter_04/03_list_method.py:2:1: E741 ambiguous variable name 'l'
+./chapter_04/04_tuple.py:4:2: E225 missing whitespace around operator
+./chapter_04/04_tuple.py:9:2: E225 missing whitespace around operator
+./chapter_04/04_tuple.py:14:2: E225 missing whitespace around operator
+./chapter_04/04_tuple.py:14:5: E231 missing whitespace after ','
+./chapter_04/04_tuple.py:14:7: E231 missing whitespace after ','
+./chapter_04/04_tuple.py:14:9: E231 missing whitespace after ','
+./chapter_04/04_tuple.py:14:11: E231 missing whitespace after ','
+./chapter_04/04_tuple.py:14:13: E231 missing whitespace after ','
+./chapter_04/04_tuple.py:14:15: E231 missing whitespace after ','
+./chapter_04/04_tuple.py:18:1: W391 blank line at end of file
+./chapter_04/06_tuple_method.py:1:2: E225 missing whitespace around operator
+./chapter_04/06_tuple_method.py:1:5: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:7: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:9: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:11: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:13: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:15: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:17: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:19: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:1:21: E231 missing whitespace after ','
+./chapter_04/06_tuple_method.py:4:14: E261 at least two spaces before inline comment
+./chapter_04/06_tuple_method.py:4:14: E262 inline comment should start with '# '
+./chapter_04/06_tuple_method.py:7:18: E261 at least two spaces before inline comment
+./chapter_04/06_tuple_method.py:7:18: E262 inline comment should start with '# '
+./chapter_04/06_tuple_method.py:10:18: E261 at least two spaces before inline comment
+./chapter_04/06_tuple_method.py:10:18: E262 inline comment should start with '# '
+./chapter_04/06_tuple_method.py:10:20: W292 no newline at end of file
+./chapter_04/07_enumerate.py:1:1: E741 ambiguous variable name 'l'
+./chapter_04/07_enumerate.py:1:2: E225 missing whitespace around operator
+./chapter_04/07_enumerate.py:1:5: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:1:7: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:1:9: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:1:11: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:1:13: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:2:10: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:3:16: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:5:3: E225 missing whitespace around operator
+./chapter_04/07_enumerate.py:5:12: E203 whitespace before ','
+./chapter_04/07_enumerate.py:5:13: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:5:21: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:5:28: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:5:37: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:6:10: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:7:13: E225 missing whitespace around operator
+./chapter_04/07_enumerate.py:8:19: E231 missing whitespace after ','
+./chapter_04/07_enumerate.py:10:19: W292 no newline at end of file
+./chapter_04/08_dir_method.py:1:1: E741 ambiguous variable name 'l'
+./chapter_04/08_dir_method.py:1:2: E225 missing whitespace around operator
+./chapter_04/08_dir_method.py:1:5: E231 missing whitespace after ','
+./chapter_04/08_dir_method.py:1:7: E231 missing whitespace after ','
+./chapter_04/08_dir_method.py:1:9: E231 missing whitespace after ','
+./chapter_04/08_dir_method.py:1:11: E231 missing whitespace after ','
+./chapter_04/08_dir_method.py:1:13: E231 missing whitespace after ','
+./chapter_04/08_dir_method.py:2:14: W292 no newline at end of file
+./chapter_04/09_list_comprehension.py:2:1: E741 ambiguous variable name 'l'
+./chapter_04/09_list_comprehension.py:2:2: E225 missing whitespace around operator
+./chapter_04/09_list_comprehension.py:2:22: E231 missing whitespace after ','
+./chapter_04/09_list_comprehension.py:6:1: E741 ambiguous variable name 'l'
+./chapter_04/09_list_comprehension.py:6:2: E225 missing whitespace around operator
+./chapter_04/09_list_comprehension.py:6:23: E231 missing whitespace after ','
+./chapter_04/09_list_comprehension.py:6:32: E228 missing whitespace around modulo operator
+./chapter_04/09_list_comprehension.py:6:34: E225 missing whitespace around operator
+./chapter_04/09_list_comprehension.py:10:1: E741 ambiguous variable name 'l'
+./chapter_04/09_list_comprehension.py:10:2: E225 missing whitespace around operator
+./chapter_04/09_list_comprehension.py:10:23: E231 missing whitespace after ','
+./chapter_04/09_list_comprehension.py:10:32: E228 missing whitespace around modulo operator
+./chapter_04/09_list_comprehension.py:10:34: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:2:7: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:3:3: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:5:3: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:7:3: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:9:3: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:11:3: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:13:3: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:15:3: E225 missing whitespace around operator
+./chapter_04_exercises/problem1.py:17:14: W292 no newline at end of file
+./chapter_04_exercises/problem2.py:1:80: E501 line too long (86 > 79 characters)
+./chapter_04_exercises/problem2.py:2:9: E225 missing whitespace around operator
+./chapter_04_exercises/problem2.py:3:9: E225 missing whitespace around operator
+./chapter_04_exercises/problem2.py:4:9: E225 missing whitespace around operator
+./chapter_04_exercises/problem2.py:5:9: E225 missing whitespace around operator
+./chapter_04_exercises/problem2.py:6:9: E225 missing whitespace around operator
+./chapter_04_exercises/problem2.py:7:9: E225 missing whitespace around operator
+./chapter_04_exercises/problem2.py:8:16: E225 missing whitespace around operator
+./chapter_04_exercises/problem2.py:8:26: E231 missing whitespace after ','
+./chapter_04_exercises/problem2.py:8:35: E231 missing whitespace after ','
+./chapter_04_exercises/problem2.py:8:44: E231 missing whitespace after ','
+./chapter_04_exercises/problem2.py:8:53: E231 missing whitespace after ','
+./chapter_04_exercises/problem2.py:8:62: E231 missing whitespace after ','
+./chapter_04_exercises/problem2.py:10:23: W292 no newline at end of file
+./chapter_04_exercises/problem3.py:2:2: E225 missing whitespace around operator
+./chapter_04_exercises/problem3.py:2:5: E231 missing whitespace after ','
+./chapter_04_exercises/problem3.py:2:7: E231 missing whitespace after ','
+./chapter_04_exercises/problem3.py:2:9: E231 missing whitespace after ','
+./chapter_04_exercises/problem3.py:2:14: E231 missing whitespace after ','
+./chapter_04_exercises/problem3.py:4:80: E501 line too long (85 > 79 characters)
+./chapter_04_exercises/problem3.py:5:10: W292 no newline at end of file
+./chapter_04_exercises/problem4.py:2:1: E741 ambiguous variable name 'l'
+./chapter_04_exercises/problem4.py:2:2: E225 missing whitespace around operator
+./chapter_04_exercises/problem4.py:2:6: E231 missing whitespace after ','
+./chapter_04_exercises/problem4.py:2:9: E231 missing whitespace after ','
+./chapter_04_exercises/problem4.py:2:12: E231 missing whitespace after ','
+./chapter_04_exercises/problem4.py:3:14: W292 no newline at end of file
+./chapter_04_exercises/problem5.py:3:6: E225 missing whitespace around operator
+./chapter_04_exercises/problem5.py:4:13: W292 no newline at end of file
+./chapter_05/01_dict.py:1:24: W291 trailing whitespace
+./chapter_05/01_dict.py:2:5: E225 missing whitespace around operator
+./chapter_05/01_dict.py:3:12: E231 missing whitespace after ':'
+./chapter_05/01_dict.py:4:12: E231 missing whitespace after ':'
+./chapter_05/01_dict.py:5:12: E231 missing whitespace after ':'
+./chapter_05/01_dict.py:7:11: E231 missing whitespace after ','
+./chapter_05/01_dict.py:9:21: W292 no newline at end of file
+./chapter_05/02_opration_dict.py:2:5: E225 missing whitespace around operator
+./chapter_05/02_opration_dict.py:3:12: E231 missing whitespace after ':'
+./chapter_05/02_opration_dict.py:4:12: E231 missing whitespace after ':'
+./chapter_05/02_opration_dict.py:5:13: E231 missing whitespace after ':'
+./chapter_05/02_opration_dict.py:6:11: E231 missing whitespace after ':'
+./chapter_05/02_opration_dict.py:7:12: E231 missing whitespace after ':'
+./chapter_05/02_opration_dict.py:14:14: E225 missing whitespace around operator
+./chapter_05/02_opration_dict.py:19:12: W292 no newline at end of file
+./chapter_05/03_dict_method.py:11:80: E501 line too long (86 > 79 characters)
+./chapter_05/03_dict_method.py:17:80: E501 line too long (119 > 79 characters)
+./chapter_05/03_dict_method.py:24:80: E501 line too long (103 > 79 characters)
+./chapter_05/03_dict_method.py:34:80: E501 line too long (92 > 79 characters)
+./chapter_05/03_dict_method.py:45:80: E501 line too long (103 > 79 characters)
+./chapter_05/03_dict_method.py:45:104: W292 no newline at end of file
+./chapter_05/04_set.py:2:2: E225 missing whitespace around operator
+./chapter_05/04_set.py:5:2: E225 missing whitespace around operator
+./chapter_05/04_set.py:5:5: E231 missing whitespace after ','
+./chapter_05/04_set.py:5:7: E231 missing whitespace after ','
+./chapter_05/04_set.py:5:9: E231 missing whitespace after ','
+./chapter_05/04_set.py:5:11: E231 missing whitespace after ','
+./chapter_05/04_set.py:5:13: E231 missing whitespace after ','
+./chapter_05/04_set.py:5:16: E231 missing whitespace after ','
+./chapter_05/04_set.py:6:8: E231 missing whitespace after ','
+./chapter_05/04_set.py:6:17: W292 no newline at end of file
+./chapter_05/05_set_method.py:1:2: E225 missing whitespace around operator
+./chapter_05/05_set_method.py:1:5: E231 missing whitespace after ','
+./chapter_05/05_set_method.py:1:7: E231 missing whitespace after ','
+./chapter_05/05_set_method.py:1:10: E231 missing whitespace after ','
+./chapter_05/05_set_method.py:1:13: E231 missing whitespace after ','
+./chapter_05/05_set_method.py:1:16: E231 missing whitespace after ','
+./chapter_05/05_set_method.py:7:30: W291 trailing whitespace
+./chapter_05/05_set_method.py:8:12: E231 missing whitespace after ','
+./chapter_05/05_set_method.py:8:14: E231 missing whitespace after ','
+./chapter_05/05_set_method.py:19:31: W291 trailing whitespace
+./chapter_05/05_set_method.py:24:3: E225 missing whitespace around operator
+./chapter_05/05_set_method.py:27:11: W291 trailing whitespace
+./chapter_05/05_set_method.py:29:10: W292 no newline at end of file
+./chapter_05/06_opration_set.py:1:3: E225 missing whitespace around operator
+./chapter_05/06_opration_set.py:1:6: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:1:8: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:1:10: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:1:12: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:1:14: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:2:3: E225 missing whitespace around operator
+./chapter_05/06_opration_set.py:2:7: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:2:9: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:2:11: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:2:13: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:2:16: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:2:18: E231 missing whitespace after ','
+./chapter_05/06_opration_set.py:9:25: W292 no newline at end of file
+./chapter_05/07_set_comprehension.py:2:2: E225 missing whitespace around operator
+./chapter_05/07_set_comprehension.py:2:25: E231 missing whitespace after ','
+./chapter_05/07_set_comprehension.py:6:2: E225 missing whitespace around operator
+./chapter_05/07_set_comprehension.py:6:23: E231 missing whitespace after ','
+./chapter_05/07_set_comprehension.py:6:32: E228 missing whitespace around modulo operator
+./chapter_05/07_set_comprehension.py:6:34: E225 missing whitespace around operator
+./chapter_05/07_set_comprehension.py:10:2: E225 missing whitespace around operator
+./chapter_05/07_set_comprehension.py:10:23: E231 missing whitespace after ','
+./chapter_05/07_set_comprehension.py:10:32: E228 missing whitespace around modulo operator
+./chapter_05/07_set_comprehension.py:10:34: E225 missing whitespace around operator
+./chapter_05/07_set_comprehension.py:11:9: W292 no newline at end of file
+./chapter_05_exercises/problem1.py:1:80: E501 line too long (143 > 79 characters)
+./chapter_05_exercises/problem1.py:3:6: E225 missing whitespace around operator
+./chapter_05_exercises/problem1.py:4:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem1.py:5:13: E231 missing whitespace after ':'
+./chapter_05_exercises/problem1.py:6:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem1.py:7:13: E231 missing whitespace after ':'
+./chapter_05_exercises/problem1.py:8:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem1.py:9:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem1.py:11:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem1.py:12:23: W292 no newline at end of file
+./chapter_05_exercises/problem2.py:1:80: E501 line too long (97 > 79 characters)
+./chapter_05_exercises/problem2.py:2:2: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:3:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:4:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:5:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:6:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:7:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:8:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:9:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:10:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem2.py:11:15: E231 missing whitespace after ','
+./chapter_05_exercises/problem2.py:11:20: E231 missing whitespace after ','
+./chapter_05_exercises/problem2.py:11:25: E231 missing whitespace after ','
+./chapter_05_exercises/problem2.py:11:30: E231 missing whitespace after ','
+./chapter_05_exercises/problem2.py:11:35: E231 missing whitespace after ','
+./chapter_05_exercises/problem2.py:11:40: E231 missing whitespace after ','
+./chapter_05_exercises/problem2.py:11:45: E231 missing whitespace after ','
+./chapter_05_exercises/problem2.py:12:9: W292 no newline at end of file
+./chapter_05_exercises/problem3.py:2:2: E225 missing whitespace around operator
+./chapter_05_exercises/problem3.py:2:10: E231 missing whitespace after ','
+./chapter_05_exercises/problem3.py:3:8: E231 missing whitespace after ','
+./chapter_05_exercises/problem3.py:3:17: W292 no newline at end of file
+./chapter_05_exercises/problem4.py:2:2: E225 missing whitespace around operator
+./chapter_05_exercises/problem4.py:6:14: E261 at least two spaces before inline comment
+./chapter_05_exercises/problem4.py:6:14: E262 inline comment should start with '# '
+./chapter_05_exercises/problem4.py:6:16: W292 no newline at end of file
+./chapter_05_exercises/problem5.py:1:2: E225 missing whitespace around operator
+./chapter_05_exercises/problem5.py:3:15: E261 at least two spaces before inline comment
+./chapter_05_exercises/problem5.py:3:22: W292 no newline at end of file
+./chapter_05_exercises/problem6.py:1:80: E501 line too long (81 > 79 characters)
+./chapter_05_exercises/problem6.py:3:9: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:5:7: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:6:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:7:24: E231 missing whitespace after ':'
+./chapter_05_exercises/problem6.py:9:7: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:10:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:11:24: E231 missing whitespace after ':'
+./chapter_05_exercises/problem6.py:13:7: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:14:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:15:24: E231 missing whitespace after ':'
+./chapter_05_exercises/problem6.py:17:7: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:18:5: E225 missing whitespace around operator
+./chapter_05_exercises/problem6.py:19:24: E231 missing whitespace after ':'
+./chapter_05_exercises/problem6.py:21:16: W292 no newline at end of file
+./chapter_05_exercises/problem7.py:1:80: E501 line too long (84 > 79 characters)
+./chapter_05_exercises/problem7.py:2:8: E225 missing whitespace around operator
+./chapter_05_exercises/problem7.py:3:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem7.py:4:5: F601 dictionary key 'Harry' repeated with different values
+./chapter_05_exercises/problem7.py:4:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem7.py:5:5: F601 dictionary key 'Harry' repeated with different values
+./chapter_05_exercises/problem7.py:5:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem7.py:5:21: E231 missing whitespace after ','
+./chapter_05_exercises/problem7.py:5:22: E261 at least two spaces before inline comment
+./chapter_05_exercises/problem7.py:5:22: E262 inline comment should start with '# '
+./chapter_05_exercises/problem7.py:6:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem7.py:8:15: W292 no newline at end of file
+./chapter_05_exercises/problem8.py:1:80: E501 line too long (84 > 79 characters)
+./chapter_05_exercises/problem8.py:2:8: E225 missing whitespace around operator
+./chapter_05_exercises/problem8.py:3:5: F601 dictionary key 'Rahul' repeated with different values
+./chapter_05_exercises/problem8.py:3:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem8.py:4:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem8.py:5:5: F601 dictionary key 'Rahul' repeated with different values
+./chapter_05_exercises/problem8.py:5:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem8.py:6:12: E231 missing whitespace after ':'
+./chapter_05_exercises/problem8.py:8:15: W292 no newline at end of file
+./chapter_05_exercises/problem9.py:2:27: E231 missing whitespace after ','
+./chapter_05_exercises/problem9.py:4:10: W291 trailing whitespace
+./chapter_05_exercises/problem9.py:4:11: W292 no newline at end of file
+./chapter_06/01_if.py:4:4: E225 missing whitespace around operator
+./chapter_06/01_if.py:5:7: E225 missing whitespace around operator
+./chapter_06/01_if.py:6:35: W292 no newline at end of file
+./chapter_06/02_if_else.py:6:4: E225 missing whitespace around operator
+./chapter_06/02_if_else.py:7:7: E225 missing whitespace around operator
+./chapter_06/02_if_else.py:10:31: W292 no newline at end of file
+./chapter_06/03_if_elif_else.py:8:4: E225 missing whitespace around operator
+./chapter_06/03_if_elif_else.py:9:7: E225 missing whitespace around operator
+./chapter_06/03_if_elif_else.py:11:9: E225 missing whitespace around operator
+./chapter_06/03_if_elif_else.py:14:31: W292 no newline at end of file
+./chapter_06/04_short_hand_if_else.py:1:2: E225 missing whitespace around operator
+./chapter_06/04_short_hand_if_else.py:2:2: E225 missing whitespace around operator
+./chapter_06/04_short_hand_if_else.py:3:14: E225 missing whitespace around operator
+./chapter_06/04_short_hand_if_else.py:3:30: W292 no newline at end of file
+./chapter_06/05_calculator.py:3:5: E225 missing whitespace around operator
+./chapter_06/05_calculator.py:4:8: E225 missing whitespace around operator
+./chapter_06/05_calculator.py:5:5: E225 missing whitespace around operator
+./chapter_06/05_calculator.py:7:12: E225 missing whitespace around operator
+./chapter_06/05_calculator.py:8:37: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:8:42: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:10:14: E225 missing whitespace around operator
+./chapter_06/05_calculator.py:11:37: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:11:42: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:12:1: W293 blank line contains whitespace
+./chapter_06/05_calculator.py:13:5: E275 missing whitespace after keyword
+./chapter_06/05_calculator.py:13:13: E225 missing whitespace around operator
+./chapter_06/05_calculator.py:14:37: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:14:42: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:16:5: E275 missing whitespace after keyword
+./chapter_06/05_calculator.py:16:13: E225 missing whitespace around operator
+./chapter_06/05_calculator.py:17:37: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:17:42: E231 missing whitespace after ','
+./chapter_06/05_calculator.py:18:40: W292 no newline at end of file
+./chapter_06/06_leap_year.py:1:5: E225 missing whitespace around operator
+./chapter_06/06_leap_year.py:2:9: E228 missing whitespace around modulo operator
+./chapter_06/06_leap_year.py:2:11: E225 missing whitespace around operator
+./chapter_06/06_leap_year.py:3:12: E228 missing whitespace around modulo operator
+./chapter_06/06_leap_year.py:3:16: E225 missing whitespace around operator
+./chapter_06/06_leap_year.py:4:16: E228 missing whitespace around modulo operator
+./chapter_06/06_leap_year.py:4:20: E225 missing whitespace around operator
+./chapter_06/06_leap_year.py:11:35: W292 no newline at end of file
+./chapter_06/07_multiple_if.py:1:7: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:2:5: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:3:10: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:5:8: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:6:11: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:8:13: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:8:15: W291 trailing whitespace
+./chapter_06/07_multiple_if.py:9:9: E271 multiple spaces after keyword
+./chapter_06/07_multiple_if.py:9:14: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:11:13: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:11:15: W291 trailing whitespace
+./chapter_06/07_multiple_if.py:12:13: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:14:13: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:14:16: W291 trailing whitespace
+./chapter_06/07_multiple_if.py:15:10: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:16:13: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:16:29: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:18:13: E225 missing whitespace around operator
+./chapter_06/07_multiple_if.py:19:1: W293 blank line contains whitespace
+./chapter_06/07_multiple_if.py:20:40: W291 trailing whitespace
+./chapter_06/07_multiple_if.py:22:30: W292 no newline at end of file
+./chapter_06_exercises/problem1.py:3:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:4:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:5:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:6:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:8:9: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:8:23: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:8:37: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:9:32: E231 missing whitespace after ','
+./chapter_06_exercises/problem1.py:11:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:11:25: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:11:39: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:12:32: E231 missing whitespace after ','
+./chapter_06_exercises/problem1.py:14:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:14:25: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:14:39: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:15:32: E231 missing whitespace after ','
+./chapter_06_exercises/problem1.py:17:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:17:25: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:17:39: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:18:32: E231 missing whitespace after ','
+./chapter_06_exercises/problem1.py:21:7: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:22:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:23:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:24:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:25:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem1.py:26:20: E231 missing whitespace after ','
+./chapter_06_exercises/problem1.py:26:25: E231 missing whitespace after ','
+./chapter_06_exercises/problem1.py:26:30: E231 missing whitespace after ','
+./chapter_06_exercises/problem2.py:1:80: E501 line too long (85 > 79 characters)
+./chapter_06_exercises/problem2.py:4:6: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:5:6: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:6:6: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:7:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:8:15: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:8:28: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:8:42: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:8:56: E225 missing whitespace around operator
+./chapter_06_exercises/problem2.py:9:26: E231 missing whitespace after ','
+./chapter_06_exercises/problem2.py:11:45: E231 missing whitespace after ','
+./chapter_06_exercises/problem3.py:2:80: E501 line too long (83 > 79 characters)
+./chapter_06_exercises/problem3.py:4:3: E225 missing whitespace around operator
+./chapter_06_exercises/problem3.py:5:3: E225 missing whitespace around operator
+./chapter_06_exercises/problem3.py:6:3: E225 missing whitespace around operator
+./chapter_06_exercises/problem3.py:7:3: E225 missing whitespace around operator
+./chapter_06_exercises/problem3.py:9:8: E225 missing whitespace around operator
+./chapter_06_exercises/problem3.py:10:3: E275 missing whitespace after keyword
+./chapter_06_exercises/problem4.py:1:80: E501 line too long (91 > 79 characters)
+./chapter_06_exercises/problem4.py:2:9: E225 missing whitespace around operator
+./chapter_06_exercises/problem4.py:3:17: E225 missing whitespace around operator
+./chapter_06_exercises/problem4.py:4:55: W292 no newline at end of file
+./chapter_06_exercises/problem5.py:1:80: E501 line too long (83 > 79 characters)
+./chapter_06_exercises/problem5.py:2:13: E225 missing whitespace around operator
+./chapter_06_exercises/problem5.py:2:22: E231 missing whitespace after ','
+./chapter_06_exercises/problem5.py:2:29: E231 missing whitespace after ','
+./chapter_06_exercises/problem5.py:2:37: E231 missing whitespace after ','
+./chapter_06_exercises/problem5.py:3:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:11:6: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:13:9: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:13:23: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:16:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:16:25: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:19:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:19:25: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:22:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:22:25: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:25:11: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:25:25: E225 missing whitespace around operator
+./chapter_06_exercises/problem6.py:28:20: W292 no newline at end of file
+./chapter_06_exercises/problem7.py:1:80: E501 line too long (86 > 79 characters)
+./chapter_06_exercises/problem7.py:2:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem7.py:3:5: E225 missing whitespace around operator
+./chapter_06_exercises/problem7.py:5:48: W292 no newline at end of file
+./chapter_07/01_loop.py:7:15: W291 trailing whitespace
+./chapter_07/01_loop.py:8:17: E231 missing whitespace after ','
+./chapter_07/01_loop.py:9:13: W292 no newline at end of file
+./chapter_07/02_while_loop.py:1:2: E225 missing whitespace around operator
+./chapter_07/02_while_loop.py:2:8: E225 missing whitespace around operator
+./chapter_07/02_while_loop.py:4:6: E225 missing whitespace around operator
+./chapter_07/02_while_loop.py:4:9: W292 no newline at end of file
+./chapter_07/03_list_using_while.py:2:1: E741 ambiguous variable name 'l'
+./chapter_07/03_list_using_while.py:2:2: E225 missing whitespace around operator
+./chapter_07/03_list_using_while.py:2:11: E231 missing whitespace after ','
+./chapter_07/03_list_using_while.py:2:19: E231 missing whitespace after ','
+./chapter_07/03_list_using_while.py:2:28: E231 missing whitespace after ','
+./chapter_07/03_list_using_while.py:2:36: E231 missing whitespace after ','
+./chapter_07/03_list_using_while.py:3:2: E225 missing whitespace around operator
+./chapter_07/03_list_using_while.py:4:8: E225 missing whitespace around operator
+./chapter_07/03_list_using_while.py:6:6: E225 missing whitespace around operator
+./chapter_07/04_for_loop.py:1:1: E265 block comment should start with '# '
+./chapter_07/04_for_loop.py:2:2: E225 missing whitespace around operator
+./chapter_07/04_for_loop.py:8:1: E265 block comment should start with '# '
+./chapter_07/04_for_loop.py:9:1: E741 ambiguous variable name 'l'
+./chapter_07/04_for_loop.py:9:2: E225 missing whitespace around operator
+./chapter_07/04_for_loop.py:9:5: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:9:7: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:9:9: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:9:17: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:9:25: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:13:1: E265 block comment should start with '# '
+./chapter_07/04_for_loop.py:14:2: E225 missing whitespace around operator
+./chapter_07/04_for_loop.py:14:5: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:14:7: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:14:9: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:14:11: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:14:14: E231 missing whitespace after ','
+./chapter_07/04_for_loop.py:14:17: E231 missing whitespace after ','
+./chapter_07/05_range.py:2:2: E225 missing whitespace around operator
+./chapter_07/05_range.py:2:10: E231 missing whitespace after ','
+./chapter_07/05_range.py:6:1: E265 block comment should start with '# '
+./chapter_07/05_range.py:6:22: W291 trailing whitespace
+./chapter_07/05_range.py:7:17: E231 missing whitespace after ','
+./chapter_07/05_range.py:7:20: E231 missing whitespace after ','
+./chapter_07/05_range.py:9:1: W293 blank line contains whitespace
+./chapter_07/05_range.py:9:5: W292 no newline at end of file
+./chapter_07/06_for_with_else.py:1:1: E741 ambiguous variable name 'l'
+./chapter_07/06_for_with_else.py:1:2: E225 missing whitespace around operator
+./chapter_07/06_for_with_else.py:1:5: E231 missing whitespace after ','
+./chapter_07/06_for_with_else.py:1:7: E231 missing whitespace after ','
+./chapter_07/06_for_with_else.py:1:9: E231 missing whitespace after ','
+./chapter_07/06_for_with_else.py:1:11: E231 missing whitespace after ','
+./chapter_07/06_for_with_else.py:1:13: E231 missing whitespace after ','
+./chapter_07/06_for_with_else.py:2:6: E272 multiple spaces before keyword
+./chapter_07/06_for_with_else.py:5:18: W292 no newline at end of file
+./chapter_07/07_break_and_continue.py:2:9: E225 missing whitespace around operator
+./chapter_07/07_break_and_continue.py:3:14: E261 at least two spaces before inline comment
+./chapter_07/07_break_and_continue.py:3:15: E262 inline comment should start with '# '
+./chapter_07/07_break_and_continue.py:7:9: E225 missing whitespace around operator
+./chapter_07/07_break_and_continue.py:8:17: E261 at least two spaces before inline comment
+./chapter_07/07_break_and_continue.py:8:18: E262 inline comment should start with '# '
+./chapter_07/07_break_and_continue.py:8:38: W291 trailing whitespace
+./chapter_07/07_break_and_continue.py:11:14: W291 trailing whitespace
+./chapter_07/07_break_and_continue.py:12:17: E231 missing whitespace after ','
+./chapter_07/07_break_and_continue.py:13:9: E228 missing whitespace around modulo operator
+./chapter_07/07_break_and_continue.py:13:11: E225 missing whitespace around operator
+./chapter_07/07_break_and_continue.py:15:13: W292 no newline at end of file
+./chapter_07/08_pass.py:1:17: E231 missing whitespace after ','
+./chapter_07/08_pass.py:4:2: E225 missing whitespace around operator
+./chapter_07/08_pass.py:5:6: E275 missing whitespace after keyword
+./chapter_07/08_pass.py:5:8: E225 missing whitespace around operator
+./chapter_07/08_pass.py:7:6: E225 missing whitespace around operator
+./chapter_07_exercises/problem1.py:1:80: E501 line too long (84 > 79 characters)
+./chapter_07_exercises/problem1.py:2:4: E225 missing whitespace around operator
+./chapter_07_exercises/problem1.py:3:17: E231 missing whitespace after ','
+./chapter_07_exercises/problem1.py:4:36: W292 no newline at end of file
+./chapter_07_exercises/problem10.py:1:80: E501 line too long (91 > 79 characters)
+./chapter_07_exercises/problem10.py:2:4: E225 missing whitespace around operator
+./chapter_07_exercises/problem10.py:3:18: E231 missing whitespace after ','
+./chapter_07_exercises/problem10.py:3:20: E231 missing whitespace after ','
+./chapter_07_exercises/problem10.py:4:36: W292 no newline at end of file
+./chapter_07_exercises/problem2.py:1:80: E501 line too long (96 > 79 characters)
+./chapter_07_exercises/problem2.py:2:1: E741 ambiguous variable name 'l'
+./chapter_07_exercises/problem3.py:2:4: E225 missing whitespace around operator
+./chapter_07_exercises/problem3.py:3:2: E225 missing whitespace around operator
+./chapter_07_exercises/problem3.py:4:6: E275 missing whitespace after keyword
+./chapter_07_exercises/problem3.py:4:8: E225 missing whitespace around operator
+./chapter_07_exercises/problem3.py:6:6: E225 missing whitespace around operator
+./chapter_07_exercises/problem3.py:6:9: W292 no newline at end of file
+./chapter_07_exercises/problem4.py:2:2: E225 missing whitespace around operator
+./chapter_07_exercises/problem4.py:3:17: E231 missing whitespace after ','
+./chapter_07_exercises/problem4.py:4:9: E228 missing whitespace around modulo operator
+./chapter_07_exercises/problem4.py:4:11: E225 missing whitespace around operator
+./chapter_07_exercises/problem4.py:8:9: E117 over-indented
+./chapter_07_exercises/problem4.py:9:1: W293 blank line contains whitespace
+./chapter_07_exercises/problem4.py:9:9: W292 no newline at end of file
+./chapter_07_exercises/problem5.py:1:80: E501 line too long (81 > 79 characters)
+./chapter_07_exercises/problem5.py:3:4: E225 missing whitespace around operator
+./chapter_07_exercises/problem5.py:4:2: E225 missing whitespace around operator
+./chapter_07_exercises/problem5.py:5:4: E225 missing whitespace around operator
+./chapter_07_exercises/problem5.py:6:6: E275 missing whitespace after keyword
+./chapter_07_exercises/problem5.py:6:8: E225 missing whitespace around operator
+./chapter_07_exercises/problem5.py:7:8: E225 missing whitespace around operator
+./chapter_07_exercises/problem5.py:8:6: E225 missing whitespace around operator
+./chapter_07_exercises/problem5.py:10:57: E231 missing whitespace after ','
+./chapter_07_exercises/problem5.py:10:63: W292 no newline at end of file
+./chapter_07_exercises/problem6.py:1:80: E501 line too long (81 > 79 characters)
+./chapter_07_exercises/problem6.py:2:4: E225 missing whitespace around operator
+./chapter_07_exercises/problem6.py:3:5: E225 missing whitespace around operator
+./chapter_07_exercises/problem6.py:4:17: E231 missing whitespace after ','
+./chapter_07_exercises/problem6.py:5:9: E225 missing whitespace around operator
+./chapter_07_exercises/problem6.py:7:43: W292 no newline at end of file
+./chapter_07_exercises/problem7.py:8:2: E225 missing whitespace around operator
+./chapter_07_exercises/problem7.py:9:9: E271 multiple spaces after keyword
+./chapter_07_exercises/problem7.py:9:18: E231 missing whitespace after ','
+./chapter_07_exercises/problem7.py:10:20: E231 missing whitespace after ','
+./chapter_07_exercises/problem7.py:11:22: E231 missing whitespace after ','
+./chapter_07_exercises/problem7.py:12:14: W292 no newline at end of file
+./chapter_07_exercises/problem9.py:5:6: W291 trailing whitespace
+./chapter_07_exercises/problem9.py:7:2: E225 missing whitespace around operator
+./chapter_07_exercises/problem9.py:8:9: E271 multiple spaces after keyword
+./chapter_07_exercises/problem9.py:8:18: E231 missing whitespace after ','
+./chapter_07_exercises/problem9.py:9:9: E225 missing whitespace around operator
+./chapter_07_exercises/problem9.py:9:17: E225 missing whitespace around operator
+./chapter_07_exercises/problem9.py:10:20: E231 missing whitespace after ','
+./chapter_07_exercises/problem9.py:12:18: E231 missing whitespace after ','
+./chapter_07_exercises/problem9.py:13:24: E231 missing whitespace after ','
+./chapter_07_exercises/problem9.py:14:18: E231 missing whitespace after ','
+./chapter_08/01_intro_function.py:1:22: W291 trailing whitespace
+./chapter_08/01_intro_function.py:3:6: E225 missing whitespace around operator
+./chapter_08/01_intro_function.py:4:6: E225 missing whitespace around operator
+./chapter_08/01_intro_function.py:5:6: E225 missing whitespace around operator
+./chapter_08/01_intro_function.py:7:12: E225 missing whitespace around operator
+./chapter_08/01_intro_function.py:10:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08/01_intro_function.py:18:6: W292 no newline at end of file
+./chapter_08/02_quik.py:2:9: E225 missing whitespace around operator
+./chapter_08/02_quik.py:4:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08/02_quik.py:4:10: W292 no newline at end of file
+./chapter_08/03_function_with_arg.py:3:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08/04_return.py:2:6: E225 missing whitespace around operator
+./chapter_08/04_return.py:3:6: E225 missing whitespace around operator
+./chapter_08/04_return.py:4:6: E225 missing whitespace around operator
+./chapter_08/04_return.py:6:12: E225 missing whitespace around operator
+./chapter_08/04_return.py:8:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08/04_return.py:8:2: E225 missing whitespace around operator
+./chapter_08/04_return.py:9:9: W292 no newline at end of file
+./chapter_08/05_keyword_arg.py:1:10: E231 missing whitespace after ','
+./chapter_08/05_keyword_arg.py:1:12: E231 missing whitespace after ','
+./chapter_08/05_keyword_arg.py:1:14: E231 missing whitespace after ','
+./chapter_08/05_keyword_arg.py:3:1: W293 blank line contains whitespace
+./chapter_08/05_keyword_arg.py:4:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_08/05_keyword_arg.py:4:9: E231 missing whitespace after ','
+./chapter_08/05_keyword_arg.py:4:14: E231 missing whitespace after ','
+./chapter_08/05_keyword_arg.py:4:19: E231 missing whitespace after ','
+./chapter_08/05_keyword_arg.py:5:1: W391 blank line at end of file
+./chapter_08/06_positional_arg.py:4:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_08/06_positional_arg.py:4:80: E501 line too long (82 > 79 characters)
+./chapter_08/07_variable-len_arg.py:4:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_08/07_variable-len_arg.py:4:80: E501 line too long (80 > 79 characters)
+./chapter_08/07_variable-len_arg.py:12:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_08/07_variable-len_arg.py:12:80: E501 line too long (113 > 79 characters)
+./chapter_08/08_recursion.py:2:9: E225 missing whitespace around operator
+./chapter_08/08_recursion.py:2:17: E225 missing whitespace around operator
+./chapter_08/08_recursion.py:5:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08/08_recursion.py:5:2: E225 missing whitespace around operator
+./chapter_08/08_recursion.py:6:49: W292 no newline at end of file
+./chapter_08/09_lambda_fun.py:2:1: E731 do not assign a lambda expression, use a def
+./chapter_08/09_lambda_fun.py:2:2: E225 missing whitespace around operator
+./chapter_08/09_lambda_fun.py:2:11: E231 missing whitespace after ':'
+./chapter_08/09_lambda_fun.py:3:2: E225 missing whitespace around operator
+./chapter_08/09_lambda_fun.py:7:1: E731 do not assign a lambda expression, use a def
+./chapter_08/09_lambda_fun.py:7:2: E225 missing whitespace around operator
+./chapter_08/09_lambda_fun.py:7:11: E231 missing whitespace after ':'
+./chapter_08/09_lambda_fun.py:8:2: E225 missing whitespace around operator
+./chapter_08/09_lambda_fun.py:9:12: W292 no newline at end of file
+./chapter_08_exercises/problem1.py:2:15: E231 missing whitespace after ','
+./chapter_08_exercises/problem1.py:2:17: E231 missing whitespace after ','
+./chapter_08_exercises/problem1.py:3:9: E225 missing whitespace around operator
+./chapter_08_exercises/problem1.py:3:17: E225 missing whitespace around operator
+./chapter_08_exercises/problem1.py:6:11: E225 missing whitespace around operator
+./chapter_08_exercises/problem1.py:6:19: E225 missing whitespace around operator
+./chapter_08_exercises/problem1.py:10:17: W291 trailing whitespace
+./chapter_08_exercises/problem1.py:12:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_08_exercises/problem1.py:12:2: E225 missing whitespace around operator
+./chapter_08_exercises/problem1.py:12:14: E231 missing whitespace after ','
+./chapter_08_exercises/problem1.py:12:17: E231 missing whitespace after ','
+./chapter_08_exercises/problem1.py:13:9: W292 no newline at end of file
+./chapter_08_exercises/problem2.py:6:1: W293 blank line contains whitespace
+./chapter_08_exercises/problem2.py:8:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08_exercises/problem2.py:8:2: E225 missing whitespace around operator
+./chapter_08_exercises/problem2.py:9:68: E231 missing whitespace after ','
+./chapter_08_exercises/problem2.py:9:74: W292 no newline at end of file
+./chapter_08_exercises/problem3.py:1:80: E501 line too long (81 > 79 characters)
+./chapter_08_exercises/problem3.py:2:15: E231 missing whitespace after ','
+./chapter_08_exercises/problem3.py:3:15: W292 no newline at end of file
+./chapter_08_exercises/problem4.py:1:80: E501 line too long (80 > 79 characters)
+./chapter_08_exercises/problem4.py:3:9: E225 missing whitespace around operator
+./chapter_08_exercises/problem4.py:6:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08_exercises/problem4.py:6:2: E225 missing whitespace around operator
+./chapter_08_exercises/problem4.py:7:14: W292 no newline at end of file
+./chapter_08_exercises/problem5.py:8:1: E302 expected 2 blank lines, found 1
+./chapter_08_exercises/problem5.py:9:9: E225 missing whitespace around operator
+./chapter_08_exercises/problem5.py:13:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08_exercises/problem5.py:13:11: W292 no newline at end of file
+./chapter_08_exercises/problem6.py:5:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_08_exercises/problem6.py:5:2: E225 missing whitespace around operator
+./chapter_08_exercises/problem7.py:1:80: E501 line too long (92 > 79 characters)
+./chapter_08_exercises/problem7.py:3:4: E271 multiple spaces after keyword
+./chapter_08_exercises/problem7.py:3:10: E741 ambiguous variable name 'l'
+./chapter_08_exercises/problem7.py:3:11: E231 missing whitespace after ','
+./chapter_08_exercises/problem7.py:4:6: E225 missing whitespace around operator
+./chapter_08_exercises/problem7.py:6:15: E275 missing whitespace after keyword
+./chapter_08_exercises/problem7.py:6:20: E225 missing whitespace around operator
+./chapter_08_exercises/problem7.py:9:1: E741 ambiguous variable name 'l'
+./chapter_08_exercises/problem7.py:9:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08_exercises/problem7.py:9:2: E225 missing whitespace around operator
+./chapter_08_exercises/problem7.py:9:11: E231 missing whitespace after ','
+./chapter_08_exercises/problem7.py:9:19: E231 missing whitespace after ','
+./chapter_08_exercises/problem7.py:9:27: E231 missing whitespace after ','
+./chapter_08_exercises/problem7.py:10:12: E231 missing whitespace after ','
+./chapter_08_exercises/problem7.py:10:19: W292 no newline at end of file
+./chapter_08_exercises/problem8.py:3:21: E231 missing whitespace after ','
+./chapter_08_exercises/problem8.py:5:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_08_exercises/problem8.py:5:4: E225 missing whitespace around operator
+./chapter_08_exercises/problem8.py:6:20: W292 no newline at end of file
+./chapter_09/01_file.py:1:1: E265 block comment should start with '# '
+./chapter_09/01_file.py:1:16: W291 trailing whitespace
+./chapter_09/01_file.py:2:2: E225 missing whitespace around operator
+./chapter_09/01_file.py:2:21: E261 at least two spaces before inline comment
+./chapter_09/01_file.py:2:21: E262 inline comment should start with '# '
+./chapter_09/01_file.py:2:39: W291 trailing whitespace
+./chapter_09/01_file.py:4:20: W291 trailing whitespace
+./chapter_09/01_file.py:5:5: E225 missing whitespace around operator
+./chapter_09/01_file.py:8:10: W292 no newline at end of file
+./chapter_09/02_file_read_mode.py:1:1: E265 block comment should start with '# '
+./chapter_09/02_file_read_mode.py:1:16: W291 trailing whitespace
+./chapter_09/02_file_read_mode.py:2:2: E225 missing whitespace around operator
+./chapter_09/02_file_read_mode.py:2:20: E203 whitespace before ','
+./chapter_09/02_file_read_mode.py:2:21: E231 missing whitespace after ','
+./chapter_09/02_file_read_mode.py:4:20: W291 trailing whitespace
+./chapter_09/02_file_read_mode.py:5:5: E225 missing whitespace around operator
+./chapter_09/02_file_read_mode.py:14:1: E265 block comment should start with '# '
+./chapter_09/02_file_read_mode.py:14:16: W291 trailing whitespace
+./chapter_09/02_file_read_mode.py:15:2: E225 missing whitespace around operator
+./chapter_09/02_file_read_mode.py:15:20: E203 whitespace before ','
+./chapter_09/02_file_read_mode.py:15:21: E231 missing whitespace after ','
+./chapter_09/02_file_read_mode.py:18:5: E225 missing whitespace around operator
+./chapter_09/02_file_read_mode.py:27:1: E265 block comment should start with '# '
+./chapter_09/02_file_read_mode.py:27:16: W291 trailing whitespace
+./chapter_09/02_file_read_mode.py:28:2: E225 missing whitespace around operator
+./chapter_09/02_file_read_mode.py:28:20: E203 whitespace before ','
+./chapter_09/02_file_read_mode.py:28:21: E231 missing whitespace after ','
+./chapter_09/02_file_read_mode.py:31:5: E225 missing whitespace around operator
+./chapter_09/03_file_write_mode.py:1:1: E265 block comment should start with '# '
+./chapter_09/03_file_write_mode.py:1:16: W291 trailing whitespace
+./chapter_09/03_file_write_mode.py:2:2: E225 missing whitespace around operator
+./chapter_09/03_file_write_mode.py:2:20: E203 whitespace before ','
+./chapter_09/03_file_write_mode.py:2:21: E231 missing whitespace after ','
+./chapter_09/03_file_write_mode.py:4:20: W291 trailing whitespace
+./chapter_09/03_file_write_mode.py:5:5: E225 missing whitespace around operator
+./chapter_09/03_file_write_mode.py:15:1: E265 block comment should start with '# '
+./chapter_09/03_file_write_mode.py:15:16: W291 trailing whitespace
+./chapter_09/03_file_write_mode.py:16:2: E225 missing whitespace around operator
+./chapter_09/03_file_write_mode.py:16:20: E203 whitespace before ','
+./chapter_09/03_file_write_mode.py:16:21: E231 missing whitespace after ','
+./chapter_09/03_file_write_mode.py:18:37: W291 trailing whitespace
+./chapter_09/03_file_write_mode.py:19:5: E225 missing whitespace around operator
+./chapter_09/03_file_write_mode.py:26:10: W292 no newline at end of file
+./chapter_09/04_file_append_mode.py:1:2: E225 missing whitespace around operator
+./chapter_09/04_file_append_mode.py:1:20: E203 whitespace before ','
+./chapter_09/04_file_append_mode.py:1:21: E231 missing whitespace after ','
+./chapter_09/04_file_append_mode.py:3:20: W291 trailing whitespace
+./chapter_09/04_file_append_mode.py:4:5: E225 missing whitespace around operator
+./chapter_09/05_file_x_mode.py:1:48: W291 trailing whitespace
+./chapter_09/05_file_x_mode.py:3:2: E225 missing whitespace around operator
+./chapter_09/05_file_x_mode.py:3:21: E231 missing whitespace after ','
+./chapter_09/05_file_x_mode.py:6:5: E225 missing whitespace around operator
+./chapter_09/05_file_x_mode.py:8:20: W291 trailing whitespace
+./chapter_09/05_file_x_mode.py:15:10: W292 no newline at end of file
+./chapter_09/06_with_statement.py:2:20: W292 no newline at end of file
+./chapter_09_exercises/problem1.py:1:80: E501 line too long (117 > 79 characters)
+./chapter_09_exercises/problem1.py:3:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem1.py:6:1: W293 blank line contains whitespace
+./chapter_09_exercises/problem1.py:6:9: W292 no newline at end of file
+./chapter_09_exercises/problem10.py:2:22: E231 missing whitespace after ','
+./chapter_09_exercises/problem10.py:3:16: W292 no newline at end of file
+./chapter_09_exercises/problem11.py:2:10: E211 whitespace before '('
+./chapter_09_exercises/problem11.py:3:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem11.py:4:1: W391 blank line at end of file
+./chapter_09_exercises/problem2.py:1:80: E501 line too long (80 > 79 characters)
+./chapter_09_exercises/problem2.py:2:56: W291 trailing whitespace
+./chapter_09_exercises/problem2.py:9:1: E302 expected 2 blank lines, found 0
+./chapter_09_exercises/problem2.py:11:10: E225 missing whitespace around operator
+./chapter_09_exercises/problem2.py:11:27: E231 missing whitespace after ','
+./chapter_09_exercises/problem2.py:15:18: E225 missing whitespace around operator
+./chapter_09_exercises/problem2.py:15:27: W291 trailing whitespace
+./chapter_09_exercises/problem2.py:16:11: E271 multiple spaces after keyword
+./chapter_09_exercises/problem2.py:16:22: E225 missing whitespace around operator
+./chapter_09_exercises/problem2.py:17:22: E225 missing whitespace around operator
+./chapter_09_exercises/problem2.py:19:22: E225 missing whitespace around operator
+./chapter_09_exercises/problem2.py:20:13: E225 missing whitespace around operator
+./chapter_09_exercises/problem2.py:21:34: E231 missing whitespace after ','
+./chapter_09_exercises/problem2.py:21:41: E271 multiple spaces after keyword
+./chapter_09_exercises/problem2.py:23:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_09_exercises/problem2.py:23:7: W292 no newline at end of file
+./chapter_09_exercises/problem3.py:2:80: E501 line too long (82 > 79 characters)
+./chapter_09_exercises/problem3.py:6:3: E225 missing whitespace around operator
+./chapter_09_exercises/problem3.py:8:1: E302 expected 2 blank lines, found 1
+./chapter_09_exercises/problem3.py:9:6: E225 missing whitespace around operator
+./chapter_09_exercises/problem3.py:10:21: E231 missing whitespace after ','
+./chapter_09_exercises/problem3.py:11:34: E203 whitespace before ','
+./chapter_09_exercises/problem3.py:11:35: E231 missing whitespace after ','
+./chapter_09_exercises/problem3.py:12:29: E231 missing whitespace after ','
+./chapter_09_exercises/problem3.py:14:1: W293 blank line contains whitespace
+./chapter_09_exercises/problem3.py:15:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_09_exercises/problem4.py:1:80: E501 line too long (140 > 79 characters)
+./chapter_09_exercises/problem4.py:1:141: W291 trailing whitespace
+./chapter_09_exercises/problem4.py:2:10: E211 whitespace before '('
+./chapter_09_exercises/problem4.py:2:26: E231 missing whitespace after ','
+./chapter_09_exercises/problem4.py:3:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem4.py:4:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem4.py:4:31: E231 missing whitespace after ','
+./chapter_09_exercises/problem4.py:8:10: E211 whitespace before '('
+./chapter_09_exercises/problem4.py:8:26: E231 missing whitespace after ','
+./chapter_09_exercises/problem4.py:9:9: E117 over-indented
+./chapter_09_exercises/problem4.py:9:27: W292 no newline at end of file
+./chapter_09_exercises/problem5.py:2:6: E225 missing whitespace around operator
+./chapter_09_exercises/problem5.py:2:16: E231 missing whitespace after ','
+./chapter_09_exercises/problem5.py:2:25: E231 missing whitespace after ','
+./chapter_09_exercises/problem5.py:2:33: E231 missing whitespace after ','
+./chapter_09_exercises/problem5.py:4:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem5.py:6:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem5.py:6:27: E231 missing whitespace after ','
+./chapter_09_exercises/problem5.py:8:18: W292 no newline at end of file
+./chapter_09_exercises/problem6.py:3:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem6.py:7:44: W292 no newline at end of file
+./chapter_09_exercises/problem7.py:1:80: E501 line too long (82 > 79 characters)
+./chapter_09_exercises/problem7.py:3:10: E225 missing whitespace around operator
+./chapter_09_exercises/problem7.py:4:7: E225 missing whitespace around operator
+./chapter_09_exercises/problem7.py:9:11: E225 missing whitespace around operator
+./chapter_09_exercises/problem8.py:2:21: E231 missing whitespace after ','
+./chapter_09_exercises/problem8.py:3:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem8.py:5:26: E231 missing whitespace after ','
+./chapter_09_exercises/problem8.py:6:18: W292 no newline at end of file
+./chapter_09_exercises/problem9.py:1:80: E501 line too long (82 > 79 characters)
+./chapter_09_exercises/problem9.py:4:10: E211 whitespace before '('
+./chapter_09_exercises/problem9.py:5:10: E225 missing whitespace around operator
+./chapter_09_exercises/problem9.py:7:10: E211 whitespace before '('
+./chapter_09_exercises/problem9.py:8:10: E225 missing whitespace around operator
+./chapter_09_exercises/problem9.py:10:9: E225 missing whitespace around operator
+./chapter_09_exercises/problem9.py:13:40: W292 no newline at end of file
+./chapter_10/01_class.py:2:11: E225 missing whitespace around operator
+./chapter_10/01_class.py:2:17: E261 at least two spaces before inline comment
+./chapter_10/01_class.py:2:18: E262 inline comment should start with '# '
+./chapter_10/01_class.py:2:41: W291 trailing whitespace
+./chapter_10/01_class.py:3:12: E225 missing whitespace around operator
+./chapter_10/01_class.py:4:13: E225 missing whitespace around operator
+./chapter_10/01_class.py:6:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_10/01_class.py:6:5: E225 missing whitespace around operator
+./chapter_10/01_class.py:7:5: E225 missing whitespace around operator
+./chapter_10/01_class.py:9:10: E225 missing whitespace around operator
+./chapter_10/01_class.py:9:18: E261 at least two spaces before inline comment
+./chapter_10/01_class.py:9:19: E262 inline comment should start with '# '
+./chapter_10/01_class.py:9:56: W291 trailing whitespace
+./chapter_10/01_class.py:10:16: E231 missing whitespace after ','
+./chapter_10/01_class.py:10:29: E231 missing whitespace after ','
+./chapter_10/01_class.py:12:10: E225 missing whitespace around operator
+./chapter_10/01_class.py:12:18: E261 at least two spaces before inline comment
+./chapter_10/01_class.py:12:19: E262 inline comment should start with '# '
+./chapter_10/01_class.py:12:56: W291 trailing whitespace
+./chapter_10/01_class.py:13:16: E231 missing whitespace after ','
+./chapter_10/01_class.py:13:29: E231 missing whitespace after ','
+./chapter_10/01_class.py:13:44: W292 no newline at end of file
+./chapter_10/02_instance_vs_class_attribute.py:2:11: E225 missing whitespace around operator
+./chapter_10/02_instance_vs_class_attribute.py:2:17: E261 at least two spaces before inline comment
+./chapter_10/02_instance_vs_class_attribute.py:2:18: E262 inline comment should start with '# '
+./chapter_10/02_instance_vs_class_attribute.py:2:41: W291 trailing whitespace
+./chapter_10/02_instance_vs_class_attribute.py:3:12: E225 missing whitespace around operator
+./chapter_10/02_instance_vs_class_attribute.py:4:13: E225 missing whitespace around operator
+./chapter_10/02_instance_vs_class_attribute.py:6:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_10/02_instance_vs_class_attribute.py:6:5: E225 missing whitespace around operator
+./chapter_10/02_instance_vs_class_attribute.py:7:5: E225 missing whitespace around operator
+./chapter_10/02_instance_vs_class_attribute.py:9:10: E225 missing whitespace around operator
+./chapter_10/02_instance_vs_class_attribute.py:9:18: E261 at least two spaces before inline comment
+./chapter_10/02_instance_vs_class_attribute.py:9:19: E262 inline comment should start with '# '
+./chapter_10/02_instance_vs_class_attribute.py:9:56: W291 trailing whitespace
+./chapter_10/02_instance_vs_class_attribute.py:10:16: E231 missing whitespace after ','
+./chapter_10/02_instance_vs_class_attribute.py:10:29: E231 missing whitespace after ','
+./chapter_10/02_instance_vs_class_attribute.py:12:14: E225 missing whitespace around operator
+./chapter_10/02_instance_vs_class_attribute.py:13:20: E231 missing whitespace after ','
+./chapter_10/02_instance_vs_class_attribute.py:13:34: W292 no newline at end of file
+./chapter_10/03_method.py:2:11: E225 missing whitespace around operator
+./chapter_10/03_method.py:2:17: E261 at least two spaces before inline comment
+./chapter_10/03_method.py:2:18: E262 inline comment should start with '# '
+./chapter_10/03_method.py:2:41: W291 trailing whitespace
+./chapter_10/03_method.py:3:12: E225 missing whitespace around operator
+./chapter_10/03_method.py:4:13: E225 missing whitespace around operator
+./chapter_10/03_method.py:5:5: E301 expected 1 blank line, found 0
+./chapter_10/03_method.py:6:80: E501 line too long (103 > 79 characters)
+./chapter_10/03_method.py:6:104: W291 trailing whitespace
+./chapter_10/03_method.py:7:5: E301 expected 1 blank line, found 0
+./chapter_10/03_method.py:10:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10/03_method.py:10:5: E225 missing whitespace around operator
+./chapter_10/03_method.py:10:18: E262 inline comment should start with '# '
+./chapter_10/03_method.py:10:43: W291 trailing whitespace
+./chapter_10/04_constructor.py:5:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_10/04_constructor.py:5:4: E225 missing whitespace around operator
+./chapter_10/04_constructor.py:5:18: W292 no newline at end of file
+./chapter_10/05_pass_para_in_cons.py:2:22: E231 missing whitespace after ','
+./chapter_10/05_pass_para_in_cons.py:2:27: E231 missing whitespace after ','
+./chapter_10/05_pass_para_in_cons.py:2:31: E231 missing whitespace after ','
+./chapter_10/05_pass_para_in_cons.py:3:18: E225 missing whitespace around operator
+./chapter_10/05_pass_para_in_cons.py:4:22: E225 missing whitespace around operator
+./chapter_10/05_pass_para_in_cons.py:5:21: E225 missing whitespace around operator
+./chapter_10/05_pass_para_in_cons.py:6:24: E231 missing whitespace after ','
+./chapter_10/05_pass_para_in_cons.py:6:38: E231 missing whitespace after ','
+./chapter_10/05_pass_para_in_cons.py:7:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10/05_pass_para_in_cons.py:7:4: E225 missing whitespace around operator
+./chapter_10/05_pass_para_in_cons.py:7:21: E231 missing whitespace after ','
+./chapter_10/05_pass_para_in_cons.py:7:30: E231 missing whitespace after ','
+./chapter_10/05_pass_para_in_cons.py:7:43: W292 no newline at end of file
+./chapter_10/06_static_method.py:5:5: E301 expected 1 blank line, found 0
+./chapter_10/06_static_method.py:5:21: E231 missing whitespace after ','
+./chapter_10/06_static_method.py:6:18: E225 missing whitespace around operator
+./chapter_10/06_static_method.py:8:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10/06_static_method.py:8:3: E225 missing whitespace around operator
+./chapter_10/06_static_method.py:10:5: E225 missing whitespace around operator
+./chapter_10/06_static_method.py:11:17: W292 no newline at end of file
+./chapter_10/07_class_method.py:2:12: E225 missing whitespace around operator
+./chapter_10/07_class_method.py:3:1: W293 blank line contains whitespace
+./chapter_10/07_class_method.py:5:26: E231 missing whitespace after ','
+./chapter_10/07_class_method.py:6:20: E225 missing whitespace around operator
+./chapter_10/07_class_method.py:9:2: E225 missing whitespace around operator
+./chapter_10/07_class_method.py:12:17: W292 no newline at end of file
+./chapter_10/08_property.py:2:22: E231 missing whitespace after ','
+./chapter_10/08_property.py:3:19: E225 missing whitespace around operator
+./chapter_10/08_property.py:4:1: W293 blank line contains whitespace
+./chapter_10/08_property.py:5:37: W291 trailing whitespace
+./chapter_10/08_property.py:9:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10/08_property.py:9:2: E225 missing whitespace around operator
+./chapter_10/08_property.py:10:18: W292 no newline at end of file
+./chapter_10/09_setter_and_getter.py:2:22: E231 missing whitespace after ','
+./chapter_10/09_setter_and_getter.py:2:32: E231 missing whitespace after ','
+./chapter_10/09_setter_and_getter.py:3:23: E225 missing whitespace around operator
+./chapter_10/09_setter_and_getter.py:4:22: E225 missing whitespace around operator
+./chapter_10/09_setter_and_getter.py:5:1: W293 blank line contains whitespace
+./chapter_10/09_setter_and_getter.py:9:5: E301 expected 1 blank line, found 0
+./chapter_10/09_setter_and_getter.py:10:18: E231 missing whitespace after ','
+./chapter_10/09_setter_and_getter.py:11:14: E231 missing whitespace after ','
+./chapter_10/09_setter_and_getter.py:11:19: E225 missing whitespace around operator
+./chapter_10/09_setter_and_getter.py:12:23: E225 missing whitespace around operator
+./chapter_10/09_setter_and_getter.py:13:22: E225 missing whitespace around operator
+./chapter_10/09_setter_and_getter.py:15:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_10/09_setter_and_getter.py:15:2: E225 missing whitespace around operator
+./chapter_10/09_setter_and_getter.py:15:20: E231 missing whitespace after ','
+./chapter_10/09_setter_and_getter.py:17:7: E225 missing whitespace around operator
+./chapter_10/09_setter_and_getter.py:18:18: W292 no newline at end of file
+./chapter_10/10_protected_member.py:1:22: W291 trailing whitespace
+./chapter_10/10_protected_member.py:3:23: E203 whitespace before ':'
+./chapter_10/10_protected_member.py:4:19: E225 missing whitespace around operator
+./chapter_10/10_protected_member.py:6:24: W291 trailing whitespace
+./chapter_10/10_protected_member.py:7:1: E302 expected 2 blank lines, found 1
+./chapter_10/10_protected_member.py:10:56: E231 missing whitespace after ','
+./chapter_10/10_protected_member.py:10:68: W291 trailing whitespace
+./chapter_10/10_protected_member.py:12:41: W291 trailing whitespace
+./chapter_10/10_protected_member.py:13:19: E225 missing whitespace around operator
+./chapter_10/10_protected_member.py:14:65: E231 missing whitespace after ','
+./chapter_10/10_protected_member.py:17:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_10/10_protected_member.py:17:2: E225 missing whitespace around operator
+./chapter_10/10_protected_member.py:17:11: W292 no newline at end of file
+./chapter_10/11_private_method.py:1:22: W291 trailing whitespace
+./chapter_10/11_private_method.py:3:23: E203 whitespace before ':'
+./chapter_10/11_private_method.py:4:20: E225 missing whitespace around operator
+./chapter_10/11_private_method.py:6:24: W291 trailing whitespace
+./chapter_10/11_private_method.py:7:1: E302 expected 2 blank lines, found 1
+./chapter_10/11_private_method.py:10:56: E231 missing whitespace after ','
+./chapter_10/11_private_method.py:10:68: W291 trailing whitespace
+./chapter_10/11_private_method.py:12:41: W291 trailing whitespace
+./chapter_10/11_private_method.py:13:20: E225 missing whitespace around operator
+./chapter_10/11_private_method.py:14:65: E231 missing whitespace after ','
+./chapter_10/11_private_method.py:17:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_10/11_private_method.py:17:2: E225 missing whitespace around operator
+./chapter_10/12_magic_method.py:2:9: E225 missing whitespace around operator
+./chapter_10/12_magic_method.py:3:5: E301 expected 1 blank line, found 0
+./chapter_10/12_magic_method.py:8:1: W293 blank line contains whitespace
+./chapter_10/12_magic_method.py:10:16: F541 f-string is missing placeholders
+./chapter_10/12_magic_method.py:11:1: W293 blank line contains whitespace
+./chapter_10/12_magic_method.py:13:16: F541 f-string is missing placeholders
+./chapter_10/12_magic_method.py:14:1: W293 blank line contains whitespace
+./chapter_10/12_magic_method.py:15:23: E203 whitespace before ':'
+./chapter_10/12_magic_method.py:17:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10/12_magic_method.py:17:2: E225 missing whitespace around operator
+./chapter_10/12_magic_method.py:21:4: W292 no newline at end of file
+./chapter_10/13_dic_help_method.py:2:22: E231 missing whitespace after ','
+./chapter_10/13_dic_help_method.py:2:27: E231 missing whitespace after ','
+./chapter_10/13_dic_help_method.py:2:31: E231 missing whitespace after ','
+./chapter_10/13_dic_help_method.py:3:18: E225 missing whitespace around operator
+./chapter_10/13_dic_help_method.py:4:17: E225 missing whitespace around operator
+./chapter_10/13_dic_help_method.py:5:27: E225 missing whitespace around operator
+./chapter_10/13_dic_help_method.py:6:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10/13_dic_help_method.py:6:2: E225 missing whitespace around operator
+./chapter_10/13_dic_help_method.py:6:17: E231 missing whitespace after ','
+./chapter_10/13_dic_help_method.py:6:20: E231 missing whitespace after ','
+./chapter_10/13_dic_help_method.py:8:15: W292 no newline at end of file
+./chapter_10_exercises/problem1.py:1:80: E501 line too long (96 > 79 characters)
+./chapter_10_exercises/problem1.py:3:11: E225 missing whitespace around operator
+./chapter_10_exercises/problem1.py:3:23: E261 at least two spaces before inline comment
+./chapter_10_exercises/problem1.py:3:24: E262 inline comment should start with '# '
+./chapter_10_exercises/problem1.py:4:5: E741 ambiguous variable name 'l'
+./chapter_10_exercises/problem1.py:4:6: E225 missing whitespace around operator
+./chapter_10_exercises/problem1.py:4:15: E231 missing whitespace after ','
+./chapter_10_exercises/problem1.py:4:23: E231 missing whitespace after ','
+./chapter_10_exercises/problem1.py:5:5: E301 expected 1 blank line, found 0
+./chapter_10_exercises/problem1.py:7:80: E501 line too long (93 > 79 characters)
+./chapter_10_exercises/problem1.py:8:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10_exercises/problem1.py:8:4: E225 missing whitespace around operator
+./chapter_10_exercises/problem1.py:9:17: W292 no newline at end of file
+./chapter_10_exercises/problem2.py:1:80: E501 line too long (89 > 79 characters)
+./chapter_10_exercises/problem2.py:2:12: W291 trailing whitespace
+./chapter_10_exercises/problem2.py:3:1: E302 expected 2 blank lines, found 0
+./chapter_10_exercises/problem2.py:4:24: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:5:38: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:5:40: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:6:1: W293 blank line contains whitespace
+./chapter_10_exercises/problem2.py:7:22: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:8:43: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:8:45: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:8:47: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:10:22: E231 missing whitespace after ','
+./chapter_10_exercises/problem2.py:13:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_10_exercises/problem2.py:13:5: E225 missing whitespace around operator
+./chapter_10_exercises/problem2.py:16:20: W292 no newline at end of file
+./chapter_10_exercises/problem3.py:1:80: E501 line too long (151 > 79 characters)
+./chapter_10_exercises/problem3.py:4:6: E225 missing whitespace around operator
+./chapter_10_exercises/problem3.py:5:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10_exercises/problem3.py:5:2: E225 missing whitespace around operator
+./chapter_10_exercises/problem3.py:7:11: W292 no newline at end of file
+./chapter_10_exercises/problem4.py:2:12: W291 trailing whitespace
+./chapter_10_exercises/problem4.py:3:1: E302 expected 2 blank lines, found 0
+./chapter_10_exercises/problem4.py:4:24: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:5:38: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:5:40: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:6:1: W293 blank line contains whitespace
+./chapter_10_exercises/problem4.py:7:22: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:8:43: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:8:45: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:8:47: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:10:22: E231 missing whitespace after ','
+./chapter_10_exercises/problem4.py:12:1: W293 blank line contains whitespace
+./chapter_10_exercises/problem4.py:16:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_10_exercises/problem4.py:16:5: E225 missing whitespace around operator
+./chapter_10_exercises/problem4.py:20:20: W292 no newline at end of file
+./chapter_11/01_intro_to_inheritance.py:1:19: W291 trailing whitespace
+./chapter_11/01_intro_to_inheritance.py:7:1: E302 expected 2 blank lines, found 1
+./chapter_11/01_intro_to_inheritance.py:11:26: W291 trailing whitespace
+./chapter_11/01_intro_to_inheritance.py:12:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11/01_intro_to_inheritance.py:12:4: E225 missing whitespace around operator
+./chapter_11/01_intro_to_inheritance.py:14:29: W291 trailing whitespace
+./chapter_11/01_intro_to_inheritance.py:17:29: W291 trailing whitespace
+./chapter_11/01_intro_to_inheritance.py:18:14: W292 no newline at end of file
+./chapter_11/02_single_inheritance.py:1:19: W291 trailing whitespace
+./chapter_11/02_single_inheritance.py:3:9: E225 missing whitespace around operator
+./chapter_11/02_single_inheritance.py:4:5: E301 expected 1 blank line, found 0
+./chapter_11/02_single_inheritance.py:9:1: E302 expected 2 blank lines, found 1
+./chapter_11/02_single_inheritance.py:10:9: E225 missing whitespace around operator
+./chapter_11/02_single_inheritance.py:10:19: E261 at least two spaces before inline comment
+./chapter_11/02_single_inheritance.py:10:20: E262 inline comment should start with '# '
+./chapter_11/02_single_inheritance.py:10:56: W291 trailing whitespace
+./chapter_11/02_single_inheritance.py:11:5: E301 expected 1 blank line, found 0
+./chapter_11/02_single_inheritance.py:15:26: W291 trailing whitespace
+./chapter_11/02_single_inheritance.py:16:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11/02_single_inheritance.py:16:4: E225 missing whitespace around operator
+./chapter_11/02_single_inheritance.py:18:29: W291 trailing whitespace
+./chapter_11/02_single_inheritance.py:21:29: W291 trailing whitespace
+./chapter_11/02_single_inheritance.py:22:14: W292 no newline at end of file
+./chapter_11/03_multiple_inheritance.py:1:42: W291 trailing whitespace
+./chapter_11/03_multiple_inheritance.py:4:5: E301 expected 1 blank line, found 0
+./chapter_11/03_multiple_inheritance.py:8:1: E302 expected 2 blank lines, found 1
+./chapter_11/03_multiple_inheritance.py:10:5: E301 expected 1 blank line, found 0
+./chapter_11/03_multiple_inheritance.py:17:5: E301 expected 1 blank line, found 0
+./chapter_11/03_multiple_inheritance.py:21:1: E302 expected 2 blank lines, found 1
+./chapter_11/03_multiple_inheritance.py:26:1: W293 blank line contains whitespace
+./chapter_11/03_multiple_inheritance.py:45:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11/03_multiple_inheritance.py:50:20: W292 no newline at end of file
+./chapter_11/04_multiple_level_inheritance.py:2:10: E225 missing whitespace around operator
+./chapter_11/04_multiple_level_inheritance.py:3:5: E301 expected 1 blank line, found 0
+./chapter_11/04_multiple_level_inheritance.py:4:9: F824 `global first` is unused: name is never assigned in scope
+./chapter_11/04_multiple_level_inheritance.py:5:19: E225 missing whitespace around operator
+./chapter_11/04_multiple_level_inheritance.py:8:1: E302 expected 2 blank lines, found 1
+./chapter_11/04_multiple_level_inheritance.py:9:11: E225 missing whitespace around operator
+./chapter_11/04_multiple_level_inheritance.py:10:5: E301 expected 1 blank line, found 0
+./chapter_11/04_multiple_level_inheritance.py:11:9: F824 `global second` is unused: name is never assigned in scope
+./chapter_11/04_multiple_level_inheritance.py:12:20: E225 missing whitespace around operator
+./chapter_11/04_multiple_level_inheritance.py:13:1: W293 blank line contains whitespace
+./chapter_11/04_multiple_level_inheritance.py:15:1: E302 expected 2 blank lines, found 1
+./chapter_11/04_multiple_level_inheritance.py:15:12: W291 trailing whitespace
+./chapter_11/04_multiple_level_inheritance.py:18:1: W293 blank line contains whitespace
+./chapter_11/04_multiple_level_inheritance.py:21:1: W293 blank line contains whitespace
+./chapter_11/04_multiple_level_inheritance.py:24:1: W293 blank line contains whitespace
+./chapter_11/04_multiple_level_inheritance.py:27:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_11/04_multiple_level_inheritance.py:27:2: E225 missing whitespace around operator
+./chapter_11/04_multiple_level_inheritance.py:30:16: E231 missing whitespace after ','
+./chapter_11/04_multiple_level_inheritance.py:31:18: E231 missing whitespace after ','
+./chapter_11/04_multiple_level_inheritance.py:32:21: E231 missing whitespace after ','
+./chapter_11/04_multiple_level_inheritance.py:33:21: E231 missing whitespace after ','
+./chapter_11/05_super_methoud.py:2:22: E231 missing whitespace after ','
+./chapter_11/05_super_methoud.py:2:24: E231 missing whitespace after ','
+./chapter_11/05_super_methoud.py:3:15: E225 missing whitespace around operator
+./chapter_11/05_super_methoud.py:4:15: E225 missing whitespace around operator
+./chapter_11/05_super_methoud.py:5:1: E302 expected 2 blank lines, found 0
+./chapter_11/05_super_methoud.py:9:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_11/05_super_methoud.py:9:2: E225 missing whitespace around operator
+./chapter_11/05_super_methoud.py:9:7: E231 missing whitespace after ','
+./chapter_11/05_super_methoud.py:9:11: W292 no newline at end of file
+./chapter_11/06_method_overloading.py:2:17: E231 missing whitespace after ','
+./chapter_11/06_method_overloading.py:2:24: E231 missing whitespace after ','
+./chapter_11/06_method_overloading.py:2:31: E231 missing whitespace after ','
+./chapter_11/06_method_overloading.py:3:61: E203 whitespace before ':'
+./chapter_11/06_method_overloading.py:8:1: W293 blank line contains whitespace
+./chapter_11/06_method_overloading.py:11:1: W293 blank line contains whitespace
+./chapter_11/06_method_overloading.py:14:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_11/06_method_overloading.py:14:2: E225 missing whitespace around operator
+./chapter_11/06_method_overloading.py:15:15: E231 missing whitespace after ','
+./chapter_11/06_method_overloading.py:16:15: E231 missing whitespace after ','
+./chapter_11/06_method_overloading.py:17:17: W292 no newline at end of file
+./chapter_11/07_method_overriding.py:2:28: W291 trailing whitespace
+./chapter_11/07_method_overriding.py:6:1: E302 expected 2 blank lines, found 1
+./chapter_11/07_method_overriding.py:11:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11/07_method_overriding.py:11:4: E225 missing whitespace around operator
+./chapter_11/07_method_overriding.py:12:10: W292 no newline at end of file
+./chapter_11/08_abstract_class.py:1:20: E231 missing whitespace after ','
+./chapter_11/08_abstract_class.py:3:1: E302 expected 2 blank lines, found 1
+./chapter_11/08_abstract_class.py:9:1: E302 expected 2 blank lines, found 1
+./chapter_11/08_abstract_class.py:14:1: E302 expected 2 blank lines, found 1
+./chapter_11/08_abstract_class.py:19:1: E302 expected 2 blank lines, found 1
+./chapter_11/08_abstract_class.py:23:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_11/08_abstract_class.py:23:3: E225 missing whitespace around operator
+./chapter_11/08_abstract_class.py:26:3: E225 missing whitespace around operator
+./chapter_11/08_abstract_class.py:29:3: E225 missing whitespace around operator
+./chapter_11/08_abstract_class.py:30:10: W292 no newline at end of file
+./chapter_11/09_polymorphism.py:11:1: E302 expected 2 blank lines, found 1
+./chapter_11/09_polymorphism.py:21:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11/10_operator_overloading.py:22:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11/10_operator_overloading.py:34:39: E261 at least two spaces before inline comment
+./chapter_11/10_operator_overloading.py:35:60: W292 no newline at end of file
+./chapter_11/11_composition.py:3:18: E225 missing whitespace around operator
+./chapter_11/11_composition.py:4:27: E225 missing whitespace around operator
+./chapter_11/11_composition.py:5:17: E225 missing whitespace around operator
+./chapter_11/11_composition.py:6:18: E225 missing whitespace around operator
+./chapter_11/11_composition.py:7:20: E225 missing whitespace around operator
+./chapter_11/11_composition.py:8:5: E301 expected 1 blank line, found 0
+./chapter_11/11_composition.py:11:1: E302 expected 2 blank lines, found 1
+./chapter_11/11_composition.py:13:22: E225 missing whitespace around operator
+./chapter_11/11_composition.py:14:1: W293 blank line contains whitespace
+./chapter_11/11_composition.py:16:28: E225 missing whitespace around operator
+./chapter_11/11_composition.py:17:80: E501 line too long (136 > 79 characters)
+./chapter_11/11_composition.py:18:1: W293 blank line contains whitespace
+./chapter_11/11_composition.py:19:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11/11_composition.py:19:3: E225 missing whitespace around operator
+./chapter_11/11_composition.py:20:13: W292 no newline at end of file
+./chapter_11_exercises/problem1.py:1:80: E501 line too long (94 > 79 characters)
+./chapter_11_exercises/problem1.py:3:22: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:3:24: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:4:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem1.py:5:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem1.py:10:1: E302 expected 2 blank lines, found 1
+./chapter_11_exercises/problem1.py:11:22: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:11:24: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:11:26: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:12:27: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:13:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem1.py:17:1: W293 blank line contains whitespace
+./chapter_11_exercises/problem1.py:18:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11_exercises/problem1.py:18:2: E225 missing whitespace around operator
+./chapter_11_exercises/problem1.py:18:16: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:20:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem1.py:20:18: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:20:20: E231 missing whitespace after ','
+./chapter_11_exercises/problem1.py:21:10: W292 no newline at end of file
+./chapter_11_exercises/problem2.py:1:80: E501 line too long (87 > 79 characters)
+./chapter_11_exercises/problem2.py:1:88: W291 trailing whitespace
+./chapter_11_exercises/problem2.py:5:1: E302 expected 2 blank lines, found 0
+./chapter_11_exercises/problem2.py:8:1: E302 expected 2 blank lines, found 1
+./chapter_11_exercises/problem2.py:13:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11_exercises/problem2.py:13:2: E225 missing whitespace around operator
+./chapter_11_exercises/problem2.py:14:9: W292 no newline at end of file
+./chapter_11_exercises/problem3.py:3:11: E225 missing whitespace around operator
+./chapter_11_exercises/problem3.py:4:14: E225 missing whitespace around operator
+./chapter_11_exercises/problem3.py:11:34: E231 missing whitespace after ','
+./chapter_11_exercises/problem3.py:12:23: E225 missing whitespace around operator
+./chapter_11_exercises/problem3.py:14:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11_exercises/problem3.py:14:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem3.py:15:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem3.py:16:13: E225 missing whitespace around operator
+./chapter_11_exercises/problem3.py:17:20: W292 no newline at end of file
+./chapter_11_exercises/problem4.py:18:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11_exercises/problem5.py:1:80: E501 line too long (85 > 79 characters)
+./chapter_11_exercises/problem5.py:1:86: W291 trailing whitespace
+./chapter_11_exercises/problem5.py:4:22: E231 missing whitespace after ','
+./chapter_11_exercises/problem5.py:4:24: E231 missing whitespace after ','
+./chapter_11_exercises/problem5.py:5:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem5.py:6:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem5.py:7:5: E301 expected 1 blank line, found 0
+./chapter_11_exercises/problem5.py:7:21: E231 missing whitespace after ','
+./chapter_11_exercises/problem5.py:9:5: E301 expected 1 blank line, found 0
+./chapter_11_exercises/problem5.py:9:21: E231 missing whitespace after ','
+./chapter_11_exercises/problem5.py:11:1: W293 blank line contains whitespace
+./chapter_11_exercises/problem5.py:13:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem5.py:13:12: E231 missing whitespace after ','
+./chapter_11_exercises/problem5.py:14:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem5.py:14:12: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:3:22: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:3:24: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:3:26: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:4:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem6.py:5:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem6.py:6:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem6.py:7:5: E301 expected 1 blank line, found 0
+./chapter_11_exercises/problem6.py:9:5: E301 expected 1 blank line, found 0
+./chapter_11_exercises/problem6.py:9:21: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:11:5: E301 expected 1 blank line, found 0
+./chapter_11_exercises/problem6.py:11:21: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:13:1: W293 blank line contains whitespace
+./chapter_11_exercises/problem6.py:14:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_11_exercises/problem6.py:14:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem6.py:14:12: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:14:14: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:15:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem6.py:15:12: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:15:14: E231 missing whitespace after ','
+./chapter_11_exercises/problem6.py:16:13: W292 no newline at end of file
+./chapter_11_exercises/problem7.py:1:80: E501 line too long (97 > 79 characters)
+./chapter_11_exercises/problem7.py:3:22: E231 missing whitespace after ','
+./chapter_11_exercises/problem7.py:3:23: E741 ambiguous variable name 'l'
+./chapter_11_exercises/problem7.py:4:14: E741 ambiguous variable name 'l'
+./chapter_11_exercises/problem7.py:4:15: E225 missing whitespace around operator
+./chapter_11_exercises/problem7.py:5:5: E301 expected 1 blank line, found 0
+./chapter_11_exercises/problem7.py:6:27: W291 trailing whitespace
+./chapter_11_exercises/problem7.py:7:1: W293 blank line contains whitespace
+./chapter_11_exercises/problem7.py:9:3: E225 missing whitespace around operator
+./chapter_11_exercises/problem7.py:9:13: E231 missing whitespace after ','
+./chapter_11_exercises/problem7.py:9:15: E231 missing whitespace after ','
+./chapter_11_exercises/problem7.py:9:17: E231 missing whitespace after ','
+./chapter_11_exercises/problem7.py:10:15: W292 no newline at end of file
+./chapter_12/01_intro_exception.py:1:80: E501 line too long (102 > 79 characters)
+./chapter_12/01_intro_exception.py:5:6: E225 missing whitespace around operator
+./chapter_12/01_intro_exception.py:6:1: E722 do not use bare 'except'
+./chapter_12/01_intro_exception.py:7:51: W292 no newline at end of file
+./chapter_12/02_multiple_except_block.py:1:1: E741 ambiguous variable name 'l'
+./chapter_12/02_multiple_except_block.py:1:2: E225 missing whitespace around operator
+./chapter_12/02_multiple_except_block.py:1:5: E231 missing whitespace after ','
+./chapter_12/02_multiple_except_block.py:1:7: E231 missing whitespace after ','
+./chapter_12/02_multiple_except_block.py:1:9: E231 missing whitespace after ','
+./chapter_12/02_multiple_except_block.py:3:15: E225 missing whitespace around operator
+./chapter_12/02_multiple_except_block.py:4:6: E225 missing whitespace around operator
+./chapter_12/02_multiple_except_block.py:5:12: E225 missing whitespace around operator
+./chapter_12/02_multiple_except_block.py:6:29: W291 trailing whitespace
+./chapter_12/02_multiple_except_block.py:7:10: E225 missing whitespace around operator
+./chapter_12/02_multiple_except_block.py:8:18: E203 whitespace before ':'
+./chapter_12/02_multiple_except_block.py:11:44: E231 missing whitespace after ','
+./chapter_12/02_multiple_except_block.py:11:54: W292 no newline at end of file
+./chapter_12/03_try_except_else.py:2:6: E225 missing whitespace around operator
+./chapter_12/03_try_except_else.py:11:21: E231 missing whitespace after ','
+./chapter_12/03_try_except_else.py:11:24: E231 missing whitespace after ','
+./chapter_12/03_try_except_else.py:12:36: W292 no newline at end of file
+./chapter_12/04_finally_block.py:1:1: E731 do not assign a lambda expression, use a def
+./chapter_12/04_finally_block.py:1:15: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:1:17: E203 whitespace before ':'
+./chapter_12/04_finally_block.py:2:1: E731 do not assign a lambda expression, use a def
+./chapter_12/04_finally_block.py:2:15: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:2:17: E203 whitespace before ':'
+./chapter_12/04_finally_block.py:3:1: E731 do not assign a lambda expression, use a def
+./chapter_12/04_finally_block.py:3:15: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:3:17: E203 whitespace before ':'
+./chapter_12/04_finally_block.py:4:1: E731 do not assign a lambda expression, use a def
+./chapter_12/04_finally_block.py:4:15: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:4:17: E203 whitespace before ':'
+./chapter_12/04_finally_block.py:6:9: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:7:8: E231 missing whitespace after ':'
+./chapter_12/04_finally_block.py:8:8: E231 missing whitespace after ':'
+./chapter_12/04_finally_block.py:9:8: E231 missing whitespace after ':'
+./chapter_12/04_finally_block.py:10:8: E231 missing whitespace after ':'
+./chapter_12/04_finally_block.py:14:6: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:18:6: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:19:6: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:21:1: W293 blank line contains whitespace
+./chapter_12/04_finally_block.py:29:9: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:30:41: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:30:47: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:32:11: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:33:44: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:33:50: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:35:11: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:36:47: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:36:53: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:38:11: E225 missing whitespace around operator
+./chapter_12/04_finally_block.py:39:41: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:39:47: E231 missing whitespace after ','
+./chapter_12/04_finally_block.py:42:41: W292 no newline at end of file
+./chapter_12/05_file_handing.py:2:9: E225 missing whitespace around operator
+./chapter_12/05_file_handing.py:3:6: E225 missing whitespace around operator
+./chapter_12/05_file_handing.py:7:9: E225 missing whitespace around operator
+./chapter_12/05_file_handing.py:10:14: W292 no newline at end of file
+./chapter_12/06_class_error.py:2:22: E231 missing whitespace after ','
+./chapter_12/06_class_error.py:2:27: E231 missing whitespace after ','
+./chapter_12/06_class_error.py:2:31: E231 missing whitespace after ','
+./chapter_12/06_class_error.py:3:18: E225 missing whitespace around operator
+./chapter_12/06_class_error.py:4:17: E225 missing whitespace around operator
+./chapter_12/06_class_error.py:5:21: E225 missing whitespace around operator
+./chapter_12/06_class_error.py:8:80: E501 line too long (121 > 79 characters)
+./chapter_12/06_class_error.py:8:83: E202 whitespace before '}'
+./chapter_12/06_class_error.py:9:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_12/06_class_error.py:9:3: E225 missing whitespace around operator
+./chapter_12/06_class_error.py:9:25: E231 missing whitespace after ','
+./chapter_12/06_class_error.py:9:32: E231 missing whitespace after ','
+./chapter_12/06_class_error.py:13:11: F541 f-string is missing placeholders
+./chapter_12/06_class_error.py:14:10: W292 no newline at end of file
+./chapter_12/07_raise_error.py:2:8: E225 missing whitespace around operator
+./chapter_12/07_raise_error.py:3:11: E225 missing whitespace around operator
+./chapter_12/07_raise_error.py:6:39: W292 no newline at end of file
+./chapter_12/08_custom_error_without_using_constructor.py:3:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_12/08_custom_error_without_using_constructor.py:4:8: E225 missing whitespace around operator
+./chapter_12/08_custom_error_without_using_constructor.py:5:11: E225 missing whitespace around operator
+./chapter_12/08_custom_error_without_using_constructor.py:8:45: W292 no newline at end of file
+./chapter_12/09_custom_error_with_using_constructor.py:2:22: E231 missing whitespace after ','
+./chapter_12/09_custom_error_with_using_constructor.py:3:27: E225 missing whitespace around operator
+./chapter_12/09_custom_error_with_using_constructor.py:7:13: E225 missing whitespace around operator
+./chapter_12/09_custom_error_with_using_constructor.py:8:47: E225 missing whitespace around operator
+./chapter_12/09_custom_error_with_using_constructor.py:9:80: E501 line too long (145 > 79 characters)
+./chapter_12/09_custom_error_with_using_constructor.py:11:13: W292 no newline at end of file
+./chapter_12/10_zero_division_error.py:2:6: E225 missing whitespace around operator
+./chapter_12/10_zero_division_error.py:3:6: E225 missing whitespace around operator
+./chapter_12/10_zero_division_error.py:4:6: E225 missing whitespace around operator
+./chapter_12/10_zero_division_error.py:12:13: W292 no newline at end of file
+./chapter_12_exercises/problem1.py:1:80: E501 line too long (124 > 79 characters)
+./chapter_12_exercises/problem1.py:4:9: F841 local variable 'n' is assigned to but never used
+./chapter_12_exercises/problem1.py:4:10: E225 missing whitespace around operator
+./chapter_12_exercises/problem1.py:7:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_12_exercises/problem10.py:1:80: E501 line too long (255 > 79 characters)
+./chapter_12_exercises/problem10.py:4:10: E225 missing whitespace around operator
+./chapter_12_exercises/problem10.py:5:10: E225 missing whitespace around operator
+./chapter_12_exercises/problem10.py:6:10: E225 missing whitespace around operator
+./chapter_12_exercises/problem10.py:11:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_12_exercises/problem10.py:11:15: W292 no newline at end of file
+./chapter_12_exercises/problem2.py:1:80: E501 line too long (150 > 79 characters)
+./chapter_12_exercises/problem2.py:3:26: E231 missing whitespace after ':'
+./chapter_12_exercises/problem2.py:3:30: E231 missing whitespace after ','
+./chapter_12_exercises/problem2.py:5:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_12_exercises/problem2.py:6:6: E225 missing whitespace around operator
+./chapter_12_exercises/problem2.py:7:6: E225 missing whitespace around operator
+./chapter_12_exercises/problem2.py:8:26: E231 missing whitespace after ','
+./chapter_12_exercises/problem2.py:12:50: W292 no newline at end of file
+./chapter_12_exercises/problem3.py:1:80: E501 line too long (210 > 79 characters)
+./chapter_12_exercises/problem3.py:3:2: E225 missing whitespace around operator
+./chapter_12_exercises/problem3.py:7:14: E225 missing whitespace around operator
+./chapter_12_exercises/problem3.py:8:6: E225 missing whitespace around operator
+./chapter_12_exercises/problem3.py:10:62: W292 no newline at end of file
+./chapter_12_exercises/problem4.py:1:80: E501 line too long (189 > 79 characters)
+./chapter_12_exercises/problem4.py:11:1: E302 expected 2 blank lines, found 0
+./chapter_12_exercises/problem4.py:15:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_12_exercises/problem4.py:17:25: W291 trailing whitespace
+./chapter_12_exercises/problem4.py:18:19: W291 trailing whitespace
+./chapter_12_exercises/problem4.py:20:1: W293 blank line contains whitespace
+./chapter_12_exercises/problem5.py:1:80: E501 line too long (180 > 79 characters)
+./chapter_12_exercises/problem5.py:3:9: E225 missing whitespace around operator
+./chapter_12_exercises/problem5.py:6:14: E225 missing whitespace around operator
+./chapter_12_exercises/problem5.py:7:24: E231 missing whitespace after ','
+./chapter_12_exercises/problem6.py:1:80: E501 line too long (168 > 79 characters)
+./chapter_12_exercises/problem6.py:3:22: E231 missing whitespace after ','
+./chapter_12_exercises/problem6.py:3:23: E741 ambiguous variable name 'l'
+./chapter_12_exercises/problem6.py:3:24: E231 missing whitespace after ','
+./chapter_12_exercises/problem6.py:4:20: E225 missing whitespace around operator
+./chapter_12_exercises/problem6.py:5:19: E225 missing whitespace around operator
+./chapter_12_exercises/problem6.py:6:23: E225 missing whitespace around operator
+./chapter_12_exercises/problem6.py:6:40: E225 missing whitespace around operator
+./chapter_12_exercises/problem6.py:10:18: E225 missing whitespace around operator
+./chapter_12_exercises/problem6.py:12:5: E301 expected 1 blank line, found 0
+./chapter_12_exercises/problem6.py:13:23: E225 missing whitespace around operator
+./chapter_12_exercises/problem6.py:15:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_12_exercises/problem6.py:15:5: W291 trailing whitespace
+./chapter_12_exercises/problem6.py:16:6: E225 missing whitespace around operator
+./chapter_12_exercises/problem6.py:16:19: E231 missing whitespace after ','
+./chapter_12_exercises/problem6.py:20:60: W292 no newline at end of file
+./chapter_12_exercises/problem7.py:1:80: E501 line too long (130 > 79 characters)
+./chapter_12_exercises/problem7.py:5:1: E302 expected 2 blank lines, found 1
+./chapter_12_exercises/problem7.py:6:9: E225 missing whitespace around operator
+./chapter_12_exercises/problem7.py:8:1: W293 blank line contains whitespace
+./chapter_12_exercises/problem7.py:11:6: E225 missing whitespace around operator
+./chapter_12_exercises/problem7.py:14:42: W292 no newline at end of file
+./chapter_12_exercises/problem8.py:1:1: E265 block comment should start with '# '
+./chapter_12_exercises/problem8.py:1:80: E501 line too long (166 > 79 characters)
+./chapter_12_exercises/problem8.py:4:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_12_exercises/problem8.py:5:13: E225 missing whitespace around operator
+./chapter_12_exercises/problem8.py:6:16: E225 missing whitespace around operator
+./chapter_12_exercises/problem8.py:6:31: E225 missing whitespace around operator
+./chapter_12_exercises/problem8.py:10:1: W391 blank line at end of file
+./chapter_12_exercises/problem9.py:1:80: E501 line too long (215 > 79 characters)
+./chapter_12_exercises/problem9.py:4:22: E231 missing whitespace after ','
+./chapter_12_exercises/problem9.py:4:24: E231 missing whitespace after ','
+./chapter_12_exercises/problem9.py:5:21: E225 missing whitespace around operator
+./chapter_12_exercises/problem9.py:6:25: E225 missing whitespace around operator
+./chapter_12_exercises/problem9.py:7:1: W293 blank line contains whitespace
+./chapter_12_exercises/problem9.py:8:1: E302 expected 2 blank lines, found 1
+./chapter_12_exercises/problem9.py:9:12: E225 missing whitespace around operator
+./chapter_12_exercises/problem9.py:10:72: E231 missing whitespace after ','
+./chapter_12_exercises/problem9.py:11:1: W293 blank line contains whitespace
+./chapter_12_exercises/problem9.py:12:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_12_exercises/problem9.py:13:9: E225 missing whitespace around operator
+./chapter_12_exercises/problem9.py:19:1: F841 local variable 'e' is assigned to but never used
+./chapter_12_exercises/problem9.py:20:49: W292 no newline at end of file
+./chapter_13/E05_use_exam.py:4:51: W292 no newline at end of file
+./chapter_13/Exam/avg.py:2:1: E302 expected 2 blank lines, found 0
+./chapter_13/Exam/avg.py:5:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_13/Exam/avg.py:5:12: E225 missing whitespace around operator
+./chapter_13/Exam/avg.py:6:9: W292 no newline at end of file
+./chapter_13/Exam/ptt1.py:1:5: E225 missing whitespace around operator
+./chapter_13/Exam/ptt1.py:2:1: E302 expected 2 blank lines, found 0
+./chapter_13/Exam/ptt1.py:4:9: E225 missing whitespace around operator
+./chapter_13/Exam/ptt1.py:6:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_13/Exam/ptt1.py:6:12: E225 missing whitespace around operator
+./chapter_13/Exam/ptt2.py:1:5: E225 missing whitespace around operator
+./chapter_13/Exam/ptt2.py:2:1: E302 expected 2 blank lines, found 0
+./chapter_13/Exam/ptt2.py:4:9: E225 missing whitespace around operator
+./chapter_13/Exam/ptt2.py:6:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_13/Exam/ptt2.py:6:12: E225 missing whitespace around operator
+./chapter_13/Exam/ptt2.py:7:9: W292 no newline at end of file
+./chapter_13/Exam/theroy.py:1:9: E225 missing whitespace around operator
+./chapter_13/Exam/theroy.py:2:1: E302 expected 2 blank lines, found 0
+./chapter_13/Exam/theroy.py:4:11: E225 missing whitespace around operator
+./chapter_13/Exam/theroy.py:6:1: E305 expected 2 blank lines after class or function definition, found 0
+./chapter_13/Exam/theroy.py:6:12: E225 missing whitespace around operator
+./chapter_13/Exam/theroy.py:7:9: W292 no newline at end of file
+./chapter_13/m01_intro_module.py:2:22: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:2:24: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:3:15: E225 missing whitespace around operator
+./chapter_13/m01_intro_module.py:4:15: E225 missing whitespace around operator
+./chapter_13/m01_intro_module.py:5:1: W293 blank line contains whitespace
+./chapter_13/m01_intro_module.py:6:17: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:6:19: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:9:17: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:9:19: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:10:54: W291 trailing whitespace
+./chapter_13/m01_intro_module.py:12:17: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:12:19: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:15:17: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:15:19: E231 missing whitespace after ','
+./chapter_13/m01_intro_module.py:17:1: W293 blank line contains whitespace
+./chapter_13/m01_intro_module.py:17:5: W292 no newline at end of file
+./chapter_13/m02_module_use.py:1:24: W291 trailing whitespace
+./chapter_13/m02_module_use.py:2:2: E225 missing whitespace around operator
+./chapter_13/m02_module_use.py:3:2: E225 missing whitespace around operator
+./chapter_13/m02_module_use.py:4:2: E225 missing whitespace around operator
+./chapter_13/m02_module_use.py:4:32: E231 missing whitespace after ','
+./chapter_13/m02_module_use.py:5:14: E231 missing whitespace after ','
+./chapter_13/m02_module_use.py:6:14: E231 missing whitespace after ','
+./chapter_13/m02_module_use.py:7:14: E231 missing whitespace after ','
+./chapter_13/m02_module_use.py:8:14: E231 missing whitespace after ','
+./chapter_13/m02_module_use.py:8:18: W292 no newline at end of file
+./chapter_13/n03_if_name_main.py:2:22: E231 missing whitespace after ','
+./chapter_13/n03_if_name_main.py:2:27: E231 missing whitespace after ','
+./chapter_13/n03_if_name_main.py:3:18: E225 missing whitespace around operator
+./chapter_13/n03_if_name_main.py:4:21: E225 missing whitespace around operator
+./chapter_13/n03_if_name_main.py:8:15: F541 f-string is missing placeholders
+./chapter_13/n03_if_name_main.py:13:1: W293 blank line contains whitespace
+./chapter_13/n03_if_name_main.py:14:1: E305 expected 2 blank lines after class or function definition, found 1
+./chapter_13/n03_if_name_main.py:14:15: E225 missing whitespace around operator
+./chapter_13/n03_if_name_main.py:15:7: E225 missing whitespace around operator
+./chapter_13/n03_if_name_main.py:15:24: E231 missing whitespace after ','
+./chapter_13/n04_use.py:3:1: F401 'n03_if_name_main' imported but unused
+./chapter_13/n04_use.py:7:38: W291 trailing whitespace
+./chapter_13/n04_use.py:8:3: E225 missing whitespace around operator
+./chapter_13/n04_use.py:8:20: E231 missing whitespace after ','
+./chapter_13/n04_use.py:13:1: E402 module level import not at top of file
+./chapter_13/n04_use.py:14:2: E225 missing whitespace around operator
+./chapter_13/n04_use.py:14:13: E231 missing whitespace after ','
+./chapter_13/n04_use.py:19:1: F403 'from n03_if_name_main import *' used; unable to detect undefined names
+./chapter_13/n04_use.py:19:1: F401 'n03_if_name_main.*' imported but unused
+./chapter_13/n04_use.py:19:1: E402 module level import not at top of file
+./chapter_13/n04_use.py:20:5: E225 missing whitespace around operator
+./chapter_13/n04_use.py:20:21: E231 missing whitespace after ','
+./chapter_13/n04_use.py:22:20: W292 no newline at end of file
+./chapter_14/01_getcwd.py:1:55: W291 trailing whitespace
+./chapter_14/01_getcwd.py:2:7: E271 multiple spaces after keyword
+./chapter_14/01_getcwd.py:5:19: W292 no newline at end of file
+./chapter_14/02_chdir.py:1:55: W291 trailing whitespace
+./chapter_14/02_chdir.py:5:14: W292 no newline at end of file
+./chapter_14/03_listdir.py:1:55: W291 trailing whitespace
+./chapter_14/03_listdir.py:5:20: W292 no newline at end of file
+./chapter_14/04_mkdir.py:1:55: W291 trailing whitespace
+./chapter_14/04_mkdir.py:9:1: F841 local variable 'e' is assigned to but never used
+./chapter_14/05_makedirs.py:1:55: W291 trailing whitespace
+./chapter_14/05_makedirs.py:9:1: F841 local variable 'e' is assigned to but never used
+./chapter_14/05_makedirs.py:10:38: W292 no newline at end of file
+./chapter_14/06_rmdir.py:1:55: W291 trailing whitespace
+./chapter_14/07_removedirs.py:1:55: W291 trailing whitespace
+./chapter_14/07_removedirs.py:10:56: W292 no newline at end of file
+./chapter_14/08_rename.py:1:55: W291 trailing whitespace
+./chapter_14/08_rename.py:7:22: E231 missing whitespace after ','
+./chapter_14/08_rename.py:8:22: W291 trailing whitespace
+./chapter_14/08_rename.py:12:1: W293 blank line contains whitespace
+./chapter_14/08_rename.py:17:1: W293 blank line contains whitespace
+./chapter_14/08_rename.py:21:1: W293 blank line contains whitespace
+./chapter_14/08_rename.py:26:1: F841 local variable 'e' is assigned to but never used
+./chapter_14/08_rename.py:27:71: W292 no newline at end of file
+./chapter_14/09_remove.py:1:55: W291 trailing whitespace
+./chapter_14/09_remove.py:4:10: E225 missing whitespace around operator
+./chapter_14/09_remove.py:5:6: E225 missing whitespace around operator
+./chapter_14/09_remove.py:7:21: W291 trailing whitespace
+./chapter_14/09_remove.py:11:53: W292 no newline at end of file
+./chapter_14/10_path_exists.py:1:55: W291 trailing whitespace
+./chapter_14/10_path_exists.py:5:10: E225 missing whitespace around operator
+./chapter_14/10_path_exists.py:7:26: W291 trailing whitespace
+./chapter_14/11_isfile.py:1:55: W291 trailing whitespace
+./chapter_14/11_isfile.py:7:5: E265 block comment should start with '# '
+./chapter_14/11_isfile.py:7:32: W291 trailing whitespace
+./chapter_14/12_isdir.py:1:55: W291 trailing whitespace
+./chapter_14/12_isdir.py:7:38: W291 trailing whitespace
+./chapter_14/13_dirname.py:1:55: W291 trailing whitespace
+./chapter_14/13_dirname.py:3:10: E225 missing whitespace around operator
+./chapter_14/13_dirname.py:4:39: W291 trailing whitespace
+./chapter_14/13_dirname.py:5:2: E225 missing whitespace around operator
+./chapter_14/13_dirname.py:7:2: E225 missing whitespace around operator
+./chapter_14/14_getsize.py:1:55: W291 trailing whitespace
+./chapter_14/14_getsize.py:3:10: E225 missing whitespace around operator
+./chapter_14/14_getsize.py:4:29: W291 trailing whitespace
+./chapter_14/14_getsize.py:5:2: E225 missing whitespace around operator
+./chapter_14/14_getsize.py:5:29: E261 at least two spaces before inline comment
+./chapter_14/14_getsize.py:5:29: E262 inline comment should start with '# '
+./chapter_14/14_getsize.py:6:9: W292 no newline at end of file
+./chapter_14/15_getmtime.py:1:55: W291 trailing whitespace
+./chapter_14/15_getmtime.py:4:47: W291 trailing whitespace
+./chapter_14/15_getmtime.py:5:2: E225 missing whitespace around operator
+./chapter_14/15_getmtime.py:6:9: E261 at least two spaces before inline comment
+./chapter_14/15_getmtime.py:6:9: E262 inline comment should start with '# '
+./chapter_14/15_getmtime.py:6:28: W292 no newline at end of file
+./chapter_14/16_environ.py:1:55: W291 trailing whitespace
+./chapter_14/16_environ.py:6:12: W292 no newline at end of file
+./chapter_14/17_system.py:1:55: W291 trailing whitespace
+./chapter_14/17_system.py:2:10: W291 trailing whitespace
+./projects/Band Name Generator/main.py:2:11: E225 missing whitespace around operator
+./projects/Band Name Generator/main.py:3:9: E225 missing whitespace around operator
+./projects/Band Name Generator/main.py:4:58: W292 no newline at end of file
+./projects/Coffee Machine/customer.py:35:1: E302 expected 2 blank lines, found 1
+./projects/Coffee Machine/customer.py:36:80: E501 line too long (85 > 79 characters)
+./projects/Coffee Machine/customer.py:55:80: E501 line too long (86 > 79 characters)
+./projects/Coffee Machine/main.py:4:53: E203 whitespace before ','
+./projects/Coffee Machine/main.py:19:16: W291 trailing whitespace
+./projects/Coffee Machine/main.py:70:15: F541 f-string is missing placeholders
+./projects/Coffee Machine/main.py:76:33: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:83:5: E303 too many blank lines (2)
+./projects/Coffee Machine/main.py:100:12: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:110:19: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:112:20: E231 missing whitespace after ':'
+./projects/Coffee Machine/main.py:113:20: E231 missing whitespace after ':'
+./projects/Coffee Machine/main.py:114:19: E231 missing whitespace after ':'
+./projects/Coffee Machine/main.py:115:25: E231 missing whitespace after ':'
+./projects/Coffee Machine/main.py:116:10: W291 trailing whitespace
+./projects/Coffee Machine/main.py:119:9: F841 local variable 'tea_type' is assigned to but never used
+./projects/Coffee Machine/main.py:119:17: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:120:29: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:121:14: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:121:80: E501 line too long (92 > 79 characters)
+./projects/Coffee Machine/main.py:122:29: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:123:13: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:123:80: E501 line too long (90 > 79 characters)
+./projects/Coffee Machine/main.py:124:29: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:125:9: F841 local variable 'suger' is assigned to but never used
+./projects/Coffee Machine/main.py:125:14: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:125:80: E501 line too long (95 > 79 characters)
+./projects/Coffee Machine/main.py:126:29: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:127:21: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:127:80: E501 line too long (111 > 79 characters)
+./projects/Coffee Machine/main.py:128:29: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:129:5: E301 expected 1 blank line, found 0
+./projects/Coffee Machine/main.py:131:1: E305 expected 2 blank lines after class or function definition, found 0
+./projects/Coffee Machine/main.py:131:2: E225 missing whitespace around operator
+./projects/Coffee Machine/main.py:131:13: W291 trailing whitespace
+./projects/Drink Water Notification Reminder App/main.py:6:2: W191 indentation contains tabs
+./projects/Drink Water Notification Reminder App/main.py:6:2: E101 indentation contains mixed spaces and tabs
+./projects/Drink Water Notification Reminder App/main.py:6:10: E251 unexpected spaces around keyword / parameter equals
+./projects/Drink Water Notification Reminder App/main.py:6:12: E251 unexpected spaces around keyword / parameter equals
+./projects/Drink Water Notification Reminder App/main.py:7:2: W191 indentation contains tabs
+./projects/Drink Water Notification Reminder App/main.py:7:2: E101 indentation contains mixed spaces and tabs
+./projects/Drink Water Notification Reminder App/main.py:7:12: E251 unexpected spaces around keyword / parameter equals
+./projects/Drink Water Notification Reminder App/main.py:7:80: E501 line too long (232 > 79 characters)
+./projects/Drink Water Notification Reminder App/main.py:8:2: W191 indentation contains tabs
+./projects/Drink Water Notification Reminder App/main.py:8:2: E101 indentation contains mixed spaces and tabs
+./projects/Drink Water Notification Reminder App/main.py:9:2: W191 indentation contains tabs
+./projects/Drink Water Notification Reminder App/main.py:9:2: E101 indentation contains mixed spaces and tabs
+./projects/Drink Water Notification Reminder App/main.py:9:13: E251 unexpected spaces around keyword / parameter equals
+./projects/Drink Water Notification Reminder App/main.py:10:2: W191 indentation contains tabs
+./projects/Drink Water Notification Reminder App/main.py:10:2: E101 indentation contains mixed spaces and tabs
+./projects/Drink Water Notification Reminder App/main.py:11:26: W292 no newline at end of file
+./projects/Email sender/main.py:2:7: E271 multiple spaces after keyword
+./projects/Email sender/main.py:3:1: E302 expected 2 blank lines, found 0
+./projects/Email sender/main.py:9:20: E231 missing whitespace after ','
+./projects/Email sender/main.py:9:29: E231 missing whitespace after ','
+./projects/Email sender/main.py:10:1: E305 expected 2 blank lines after class or function definition, found 0
+./projects/Email sender/main.py:11:10: E203 whitespace before ','
+./projects/Email sender/main.py:11:11: E231 missing whitespace after ','
+./projects/Email sender/main.py:11:20: E231 missing whitespace after ','
+./projects/Email sender/main.py:11:33: E225 missing whitespace around operator
+./projects/Email sender/main.py:12:54: E203 whitespace before ':'
+./projects/Email sender/main.py:15:80: E501 line too long (120 > 79 characters)
+./projects/India's Railway app/main.py:2:17: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:3:10: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:5:18: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:6:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:7:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:8:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:9:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:10:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:11:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:12:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:13:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:14:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:15:15: E231 missing whitespace after ':'
+./projects/India's Railway app/main.py:16:5: E301 expected 1 blank line, found 0
+./projects/India's Railway app/main.py:18:28: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:22:13: W291 trailing whitespace
+./projects/India's Railway app/main.py:27:31: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:29:33: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:31:33: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:33:33: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:34:32: W291 trailing whitespace
+./projects/India's Railway app/main.py:35:33: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:37:33: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:43:20: E231 missing whitespace after ','
+./projects/India's Railway app/main.py:44:48: W291 trailing whitespace
+./projects/India's Railway app/main.py:47:5: E303 too many blank lines (2)
+./projects/India's Railway app/main.py:48:22: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:52:29: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:53:19: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:54:22: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:56:32: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:57:39: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:58:22: W291 trailing whitespace
+./projects/India's Railway app/main.py:59:80: E501 line too long (113 > 79 characters)
+./projects/India's Railway app/main.py:64:5: E303 too many blank lines (2)
+./projects/India's Railway app/main.py:65:22: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:72:16: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:73:18: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:77:41: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:80:16: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:88:5: E225 missing whitespace around operator
+./projects/India's Railway app/main.py:88:13: W292 no newline at end of file
+./projects/KBC Game/game.py:9:80: E501 line too long (148 > 79 characters)
+./projects/KBC Game/game.py:10:80: E501 line too long (182 > 79 characters)
+./projects/KBC Game/game.py:11:80: E501 line too long (142 > 79 characters)
+./projects/KBC Game/game.py:12:80: E501 line too long (159 > 79 characters)
+./projects/KBC Game/game.py:13:80: E501 line too long (204 > 79 characters)
+./projects/KBC Game/game.py:14:80: E501 line too long (148 > 79 characters)
+./projects/KBC Game/game.py:15:80: E501 line too long (171 > 79 characters)
+./projects/KBC Game/game.py:16:80: E501 line too long (165 > 79 characters)
+./projects/KBC Game/game.py:17:80: E501 line too long (195 > 79 characters)
+./projects/KBC Game/game.py:18:80: E501 line too long (215 > 79 characters)
+./projects/KBC Game/game.py:19:80: E501 line too long (170 > 79 characters)
+./projects/KBC Game/game.py:20:80: E501 line too long (175 > 79 characters)
+./projects/KBC Game/game.py:33:80: E501 line too long (101 > 79 characters)
+./projects/KBC Game/game.py:53:15: E225 missing whitespace around operator
+./projects/KBC Game/game.py:54:7: E271 multiple spaces after keyword
+./projects/KBC Game/game.py:54:23: E225 missing whitespace around operator
+./projects/KBC Game/game.py:54:31: E271 multiple spaces after keyword
+./projects/KBC Game/game.py:54:43: E225 missing whitespace around operator
+./projects/KBC Game/game.py:55:14: W292 no newline at end of file
+./projects/Library Management System/main.py:3:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:4:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:5:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:6:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:7:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:8:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:9:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:10:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:11:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:12:5: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:13:1: E122 continuation line missing indentation or outdented
+./projects/Library Management System/main.py:16:5: E303 too many blank lines (2)
+./projects/Library Management System/main.py:18:17: E225 missing whitespace around operator
+./projects/Library Management System/main.py:20:25: W291 trailing whitespace
+./projects/Library Management System/main.py:21:11: W291 trailing whitespace
+./projects/Library Management System/main.py:26:20: E225 missing whitespace around operator
+./projects/Library Management System/main.py:29:22: E225 missing whitespace around operator
+./projects/Library Management System/main.py:32:22: E225 missing whitespace around operator
+./projects/Library Management System/main.py:35:22: E225 missing whitespace around operator
+./projects/Library Management System/main.py:38:22: E225 missing whitespace around operator
+./projects/Library Management System/main.py:39:80: E501 line too long (80 > 79 characters)
+./projects/Library Management System/main.py:44:1: W293 blank line contains whitespace
+./projects/Library Management System/main.py:47:21: E225 missing whitespace around operator
+./projects/Library Management System/main.py:48:18: E225 missing whitespace around operator
+./projects/Library Management System/main.py:50:80: E501 line too long (94 > 79 characters)
+./projects/Library Management System/main.py:53:66: E203 whitespace before ':'
+./projects/Library Management System/main.py:58:5: E303 too many blank lines (2)
+./projects/Library Management System/main.py:60:21: E225 missing whitespace around operator
+./projects/Library Management System/main.py:71:21: E225 missing whitespace around operator
+./projects/Library Management System/main.py:82:17: E203 whitespace before ','
+./projects/Library Management System/main.py:82:18: E231 missing whitespace after ','
+./projects/Library Management System/main.py:83:41: E231 missing whitespace after ','
+./projects/Library Management System/main.py:84:1: E305 expected 2 blank lines after class or function definition, found 0
+./projects/Library Management System/main.py:84:4: E225 missing whitespace around operator
+./projects/Library Management System/main.py:84:30: W292 no newline at end of file
+./projects/Miles to Kilometers Converter GUI/app.py:3:1: E302 expected 2 blank lines, found 1
+./projects/Miles to Kilometers Converter GUI/app.py:8:80: E501 line too long (86 > 79 characters)
+./projects/Miles to Kilometers Converter GUI/app.py:13:1: E305 expected 2 blank lines after class or function definition, found 1
+./projects/Miles to Kilometers Converter GUI/app.py:51:18: W292 no newline at end of file
+./projects/Number Guessing Game/main.py:1:14: W291 trailing whitespace
+./projects/Number Guessing Game/main.py:3:5: E203 whitespace before ':'
+./projects/Number Guessing Game/main.py:3:30: E231 missing whitespace after ','
+./projects/Number Guessing Game/main.py:4:6: E203 whitespace before ':'
+./projects/Number Guessing Game/main.py:6:17: E225 missing whitespace around operator
+./projects/Number Guessing Game/main.py:8:18: E225 missing whitespace around operator
+./projects/Number Guessing Game/main.py:10:15: E203 whitespace before ':'
+./projects/Number Guessing Game/main.py:10:69: W291 trailing whitespace
+./projects/Number Guessing Game/main.py:11:10: E225 missing whitespace around operator
+./projects/Number Guessing Game/main.py:12:16: E225 missing whitespace around operator
+./projects/Number Guessing Game/main.py:18:1: W293 blank line contains whitespace
+./projects/Number Guessing Game/main.py:20:41: W292 no newline at end of file
+./projects/Randomized Message Encoder and Decoder/main.py:4:1: E302 expected 2 blank lines, found 1
+./projects/Randomized Message Encoder and Decoder/main.py:15:80: E501 line too long (87 > 79 characters)
+./projects/Randomized Message Encoder and Decoder/main.py:19:1: E302 expected 2 blank lines, found 1
+./projects/Randomized Message Encoder and Decoder/main.py:24:80: E501 line too long (81 > 79 characters)
+./projects/Randomized Message Encoder and Decoder/main.py:31:80: E501 line too long (96 > 79 characters)
+./projects/Randomized Message Encoder and Decoder/main.py:41:1: E305 expected 2 blank lines after class or function definition, found 1
+./projects/Randomized Message Encoder and Decoder/main.py:41:12: E225 missing whitespace around operator
+./projects/Randomized Message Encoder and Decoder/main.py:42:11: W292 no newline at end of file
+./projects/Robo speaker/main.py:11:28: W291 trailing whitespace
+./projects/Robo speaker/main.py:13:14: W292 no newline at end of file
+./projects/Rock paper Scissors/game.py:32:80: E501 line too long (88 > 79 characters)
+./projects/Rock paper Scissors/game.py:43:80: E501 line too long (93 > 79 characters)
+./projects/Silent Auction/img.py:3:26: W605 invalid escape sequence '\ '
+./projects/Silent Auction/img.py:13:4: W292 no newline at end of file
+./projects/Silent Auction/main.py:4:1: E302 expected 2 blank lines, found 0
+./projects/Silent Auction/main.py:8:1: E305 expected 2 blank lines after class or function definition, found 1
+./projects/Silent Auction/main.py:11:1: E302 expected 2 blank lines, found 1
+./projects/Silent Auction/main.py:21:1: E305 expected 2 blank lines after class or function definition, found 1
+./projects/Silent Auction/main.py:29:80: E501 line too long (83 > 79 characters)
+./projects/Silent Auction/main.py:30:1: W293 blank line contains whitespace
+./projects/Silent Auction/main.py:33:1: W293 blank line contains whitespace
+./projects/Snake Water Gun Game/main.py:2:80: E501 line too long (85 > 79 characters)
+./projects/Snake Water Gun Game/main.py:3:80: E501 line too long (83 > 79 characters)
+./projects/Snake Water Gun Game/main.py:19:5: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:19:22: E231 missing whitespace after ','
+./projects/Snake Water Gun Game/main.py:21:5: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:22:8: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:25:7: E275 missing whitespace after keyword
+./projects/Snake Water Gun Game/main.py:25:12: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:25:24: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:27:1: W293 blank line contains whitespace
+./projects/Snake Water Gun Game/main.py:28:9: E275 missing whitespace after keyword
+./projects/Snake Water Gun Game/main.py:28:14: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:28:26: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:30:1: W293 blank line contains whitespace
+./projects/Snake Water Gun Game/main.py:31:9: E275 missing whitespace after keyword
+./projects/Snake Water Gun Game/main.py:31:14: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:31:26: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:33:1: W293 blank line contains whitespace
+./projects/Snake Water Gun Game/main.py:34:9: E275 missing whitespace after keyword
+./projects/Snake Water Gun Game/main.py:34:14: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:34:26: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:36:1: W293 blank line contains whitespace
+./projects/Snake Water Gun Game/main.py:37:9: E275 missing whitespace after keyword
+./projects/Snake Water Gun Game/main.py:37:14: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:37:26: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:39:1: W293 blank line contains whitespace
+./projects/Snake Water Gun Game/main.py:40:9: E275 missing whitespace after keyword
+./projects/Snake Water Gun Game/main.py:40:14: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:40:26: E225 missing whitespace around operator
+./projects/Snake Water Gun Game/main.py:42:1: W293 blank line contains whitespace
+./projects/Snake Water Gun Game/main.py:46:63: W292 no newline at end of file
+./projects/Spell checker app/main.py:3:1: E302 expected 2 blank lines, found 1
+./projects/Spell checker app/main.py:4:1: W293 blank line contains whitespace
+./projects/Spell checker app/main.py:7:1: W293 blank line contains whitespace
+./projects/Spell checker app/main.py:17:1: W293 blank line contains whitespace
+./projects/Spell checker app/main.py:27:1: W293 blank line contains whitespace
+./projects/Task Manager App/app.py:2:6: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:3:21: E231 missing whitespace after ','
+./projects/Task Manager App/app.py:4:13: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:7:1: E302 expected 2 blank lines, found 1
+./projects/Task Manager App/app.py:12:18: E231 missing whitespace after ','
+./projects/Task Manager App/app.py:15:1: E302 expected 2 blank lines, found 1
+./projects/Task Manager App/app.py:16:13: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:23:1: E302 expected 2 blank lines, found 1
+./projects/Task Manager App/app.py:24:13: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:25:13: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:30:18: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:32:21: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:34:1: E305 expected 2 blank lines after class or function definition, found 0
+./projects/Task Manager App/app.py:34:12: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:35:5: E265 block comment should start with '# '
+./projects/Task Manager App/app.py:36:10: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:38:13: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:40:19: W291 trailing whitespace
+./projects/Task Manager App/app.py:41:11: W291 trailing whitespace
+./projects/Task Manager App/app.py:46:16: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:48:18: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:50:18: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:52:18: E225 missing whitespace around operator
+./projects/Task Manager App/app.py:54:18: E225 missing whitespace around operator
+./projects/Word Guessing Game/main.py:12:1: W293 blank line contains whitespace
+./projects/Word Guessing Game/main.py:19:1: W293 blank line contains whitespace
+./projects/Word Guessing Game/main.py:21:80: E501 line too long (107 > 79 characters)
+./projects/Word Guessing Game/main.py:24:80: E501 line too long (94 > 79 characters)
+./projects/Word Guessing Game/main.py:25:31: W292 no newline at end of file
+./projects/head and tail/main.py:2:7: E225 missing whitespace around operator
+./projects/head and tail/main.py:2:24: E231 missing whitespace after ','
+./projects/head and tail/main.py:3:10: E225 missing whitespace around operator
+./projects/head and tail/main.py:6:19: W292 no newline at end of file
+./projects/password generator/main.py:1:1: E265 block comment should start with '# '
+./projects/password generator/main.py:3:80: E501 line too long (270 > 79 characters)
+./projects/password generator/main.py:7:1: E302 expected 2 blank lines, found 1
+./projects/password generator/main.py:9:15: E225 missing whitespace around operator
+./projects/password generator/main.py:9:80: E501 line too long (81 > 79 characters)
+./projects/password generator/main.py:9:82: W291 trailing whitespace
+./projects/password generator/main.py:13:18: E225 missing whitespace around operator
+./projects/password generator/main.py:14:9: E741 ambiguous variable name 'l'
+./projects/password generator/main.py:14:21: E231 missing whitespace after ','
+./projects/password generator/main.py:16:21: E231 missing whitespace after ','
+./projects/password generator/main.py:18:21: E231 missing whitespace after ','
+./projects/password generator/main.py:21:13: E225 missing whitespace around operator
+./projects/password generator/main.py:23:17: E225 missing whitespace around operator
+./projects/password generator/main.py:25:1: E305 expected 2 blank lines after class or function definition, found 0
+./projects/password generator/main.py:25:51: W292 no newline at end of file
+./projects/pizza delvery/app.py:2:5: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:3:14: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:4:13: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:5:6: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:6:3: E275 missing whitespace after keyword
+./projects/pizza delvery/app.py:6:8: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:7:10: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:8:5: E275 missing whitespace after keyword
+./projects/pizza delvery/app.py:8:10: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:9:10: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:10:5: E275 missing whitespace after keyword
+./projects/pizza delvery/app.py:10:10: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:11:10: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:12:17: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:13:10: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:14:16: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:15:10: E225 missing whitespace around operator
+./projects/pizza delvery/app.py:16:44: W292 no newline at end of file
+./projects/qr/main.py:1:7: E271 multiple spaces after keyword
+./projects/qr/main.py:2:1: F401 'PIL.Image' imported but unused
+./projects/qr/main.py:2:5: E271 multiple spaces after keyword
+./projects/qr/main.py:15:23: W292 no newline at end of file
+./projects/trip calculator/main.py:2:5: E225 missing whitespace around operator
+./projects/trip calculator/main.py:2:42: E261 at least two spaces before inline comment
+./projects/trip calculator/main.py:2:42: E262 inline comment should start with '# '
+./projects/trip calculator/main.py:3:4: E225 missing whitespace around operator
+./projects/trip calculator/main.py:3:68: E261 at least two spaces before inline comment
+./projects/trip calculator/main.py:3:68: E262 inline comment should start with '# '
+./projects/trip calculator/main.py:4:7: E225 missing whitespace around operator
+./projects/trip calculator/main.py:5:11: E225 missing whitespace around operator
+./projects/trip calculator/main.py:6:12: E225 missing whitespace around operator
+./projects/trip calculator/main.py:7:48: W292 no newline at end of file

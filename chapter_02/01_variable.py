@@ -1,15 +1,29 @@
-# First methoud 
-a=10
+#!/usr/bin/env python
+"""
+This script demonstrates variable assignment in Python.
+"""
 
-b=56
+def main():
+    """
+    This function provides examples of variable assignment.
+    """
+    # Direct assignment
+    integer_variable = 10
+    float_variable = 10.10
+    string_variable = "Hello, Python!"
 
-c=10.10
+    print(f"Integer variable: {integer_variable}")
+    print(f"Float variable: {float_variable}")
+    print(f"String variable: {string_variable}")
 
-name="Strings"
+    # Assignment using constructors
+    integer_variable_2 = int(20)
+    float_variable_2 = float(56.90)
+    string_variable_2 = str("Python")
 
-# Second  methoud 
-a=int(20)
+    print(f"Integer variable 2: {integer_variable_2}")
+    print(f"Float variable 2: {float_variable_2}")
+    print(f"String variable 2: {string_variable_2}")
 
-b=float(56.90)
-
-programming=str("Python")
+if __name__ == "__main__":
+    main()
