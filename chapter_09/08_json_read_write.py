@@ -1,0 +1,87 @@
+"""
+📚 Topic: JSON Data Handling
+
+This script demonstrates json data handling using imports and file or path
+operations.
+
+💡 Key points:
+    1️⃣ the basic syntax for json data handling
+    2️⃣ how imports fit into the example
+    3️⃣ what to look for when you run the file
+
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    json data handling affects the result.
+"""
+
+
+# 🧩 Working with JSON files
+# JSON = JavaScript Object Notation -> looks exactly like a Python dictionary
+# It's the most common format for APIs, config files, and web data
+
+import json
+
+# ---------------------------------------------------
+# ✍️ 1. Writing a JSON file (Python dict -> JSON file)
+# ---------------------------------------------------
+student = {
+    "name": "Hamza",
+    "age": 21,
+    "course": "Data Science",
+    "skills": ["Python", "SQL", "Pandas"],   # JSON supports lists too!
+    "is_placed": False
+}
+
+with open("student.json", "w") as file:
+    json.dump(student, file, indent=4)      # indent=4 makes it human-readable
+
+print("✅ student.json created!")
+
+
+# ---------------------------------------------------
+# 📖 2. Reading a JSON file (JSON file -> Python dict)
+# ---------------------------------------------------
+with open("student.json", "r") as file:
+    data = json.load(file)
+
+print(data)
+print(data["name"])          # access it just like a normal dict
+print(data["skills"][0])     # -> "Python"
+
+
+# ---------------------------------------------------
+# 🔄 3. Converting between JSON <-> string (this is what APIs actually send)
+# ---------------------------------------------------
+# dumps() = dict -> string (with an 's' for 'string')
+json_string = json.dumps(student, indent=4)
+print(json_string)
+print(type(json_string))     # <class 'str'>
+
+# loads() = string -> dict
+back_to_dict = json.loads(json_string)
+print(type(back_to_dict))    # <class 'dict'>
+
+
+# ---------------------------------------------------
+# 🆚 dump vs dumps (this trips up EVERYONE at first)
+# ---------------------------------------------------
+# json.dump()   -> writes directly to a FILE
+# json.dumps()  -> converts to a STRING (the 's' stands for string)
+# json.load()   -> reads directly from a FILE
+# json.loads()  -> converts a STRING back to a dict
+
+
+# ---------------------------------------------------
+# 💡 Why does this matter for Data Science?
+# ---------------------------------------------------
+# When you call an API with the `requests` module, the response comes back
+# as JSON. You'll use json.loads() (or response.json()) constantly to turn
+# that raw data into something Python can actually work with.
+
+
+# ---------------------------------------------------
+# ⚠️ Common mistake
+# ---------------------------------------------------
+# Trying to json.dump() a dict that has non-JSON-friendly types inside it
+# (like a datetime object) -> this throws "TypeError: Object of type
+# datetime is not JSON serializable". Convert those to strings first.

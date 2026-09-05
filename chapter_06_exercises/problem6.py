@@ -1,28 +1,47 @@
-'''
-Write a program to calculate the grade of a student from his marks from the
-following scheme:
-90 - 100 => Ex
-80 - 90 => A
-70 - 80 => B
-60 - 70 =>C
-50 - 60 => D
-<50 => F
-'''
-marks=int(input("Enter your marks : "))
+"""
+📚 Topic: Chapter 06 Exercise - Problem 6
 
-if marks>=90 and marks<=100:
+This script demonstrates chapter 06 exercise - problem 6 using user input,
+conditions and imports.
+
+💡 Key points:
+    1️⃣ the basic syntax for chapter 06 exercise - problem 6
+    2️⃣ how user input fit into the example
+    3️⃣ what to look for when you run the file
+
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    chapter 06 exercise - problem 6 affects the result.
+"""
+
+
+# 📝 Take marks from the user
+marks = int(input("Enter your marks: "))
+
+# 🚨 Check whether the marks are valid
+if marks < 0 or marks > 100:
+    print("Invalid marks! Please enter marks between 0 and 100.")
+
+# 🏆 90 - 100 → Ex
+elif marks >= 90:
     print("Ex")
 
-elif marks>=80 and marks<90:
+# 🅰️ 80 - 89 → A
+elif marks >= 80:
     print("A")
 
-elif marks>=70 and marks<80:
+# 🅱️ 70 - 79 → B
+elif marks >= 70:
     print("B")
 
-elif marks>=60 and marks<70:
+# 🅲️ 60 - 69 → C
+elif marks >= 60:
     print("C")
 
-elif marks>=50 and marks<60:
+# 🅳️ 50 - 59 → D
+elif marks >= 50:
     print("D")
+
+# ❌ Below 50 → F
 else:
-    print("Fail!!")
+    print("F")

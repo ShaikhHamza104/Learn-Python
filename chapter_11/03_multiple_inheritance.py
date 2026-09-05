@@ -1,12 +1,33 @@
-# creating ptt1 class for out of 20 marks 
+"""
+📚 Topic: Multiple Inheritance
+
+This script demonstrates multiple inheritance using user input, for loops,
+functions and classes.
+
+💡 Key points:
+    1️⃣ the basic syntax for multiple inheritance
+    2️⃣ how user input fit into the example
+    3️⃣ what to look for when you run the file
+
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    multiple inheritance affects the result.
+"""
+
+
+# creating ptt1 class for out of 20 marks
 class Ptt1:
     ptt1 = 0
+
     def get_marks_ptt1(self):
         self.ptt1 = int(input("Enter your ptt1 mark (Out of 20): "))
 
 # creating ptt2 class for out of 20 marks
+
+
 class Ptt2:
     ptt2 = 0
+
     def get_marks_ptt2(self):
         self.ptt2 = int(input("Enter your ptt2 mark (Out of 20): "))
 
@@ -14,16 +35,19 @@ class Ptt2:
 # creating Microproject class for out of 10 marks
 class Microproject:
     micro = 0
+
     def get_micro(self):
         self.micro = int(input("Enter your Microproject mark (Out of 10): "))
 
 # creating Theory class for out of 10 marks
+
+
 class Theory(Ptt1, Ptt2, Microproject):
     theory = 0
 
     def get_mark_theory(self):
         self.theory = int(input("Enter your Theory mark (Out of 70): "))
-    
+
     def Calculate(self):
         ptt1 = self.ptt1
         ptt2 = self.ptt2
@@ -40,6 +64,7 @@ class Theory(Ptt1, Ptt2, Microproject):
         final_mark = avg_of_ptt_micro + avg_of_theory
 
         print(f"Your score is {final_mark:.2f}%")
+
 
 # Create an instance of the Theory class and gather input
 student = Theory()

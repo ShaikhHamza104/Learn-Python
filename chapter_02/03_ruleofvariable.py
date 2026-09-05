@@ -1,7 +1,18 @@
-#!/usr/bin/env python
 """
-This script demonstrates the rules for naming variables in Python.
+📚 Topic: Ruleofvariable
+
+This script demonstrates ruleofvariable using functions and conditions.
+
+💡 Key points:
+    1️⃣ the basic syntax for ruleofvariable
+    2️⃣ how functions fit into the example
+    3️⃣ what to look for when you run the file
+
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    ruleofvariable affects the result.
 """
+
 
 def main():
     """
@@ -30,6 +41,7 @@ def main():
     print(f"_name = {_name}")
 
     print("\nInvalid variable names are commented out to prevent errors.")
+
 
 if __name__ == "__main__":
     main()

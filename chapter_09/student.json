@@ -1,0 +1,11 @@
+{
+    "name": "Hamza",
+    "age": 21,
+    "course": "Data Science",
+    "skills": [
+        "Python",
+        "SQL",
+        "Pandas"
+    ],
+    "is_placed": false
+}

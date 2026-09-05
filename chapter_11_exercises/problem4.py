@@ -1,3 +1,20 @@
+"""
+📚 Topic: Chapter 11 Exercise - Problem 4
+
+This script demonstrates chapter 11 exercise - problem 4 using functions,
+classes and imports.
+
+💡 Key points:
+    1️⃣ the basic syntax for chapter 11 exercise - problem 4
+    2️⃣ how functions fit into the example
+    3️⃣ what to look for when you run the file
+
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    chapter 11 exercise - problem 4 affects the result.
+"""
+
+
 class Complex:
     def __init__(self, r, i):
         self.real = r
@@ -13,6 +30,7 @@ class Complex:
 
     def __str__(self) -> str:
         return f"{self.real}+{self.imag}i"
+
 
 # Create instances of Complex
 a = Complex(1, 2)

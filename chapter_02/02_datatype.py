@@ -1,7 +1,18 @@
-#!/usr/bin/env python
 """
-This script demonstrates the basic data types in Python.
+📚 Topic: Datatype
+
+This script demonstrates datatype using functions and conditions.
+
+💡 Key points:
+    1️⃣ the basic syntax for datatype
+    2️⃣ how functions fit into the example
+    3️⃣ what to look for when you run the file
+
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    datatype affects the result.
 """
+
 
 def main():
     """
@@ -26,6 +37,7 @@ def main():
     # NoneType
     none_variable = None
     print(f"'{none_variable}' is of type {type(none_variable)}")
+
 
 if __name__ == "__main__":
     main()

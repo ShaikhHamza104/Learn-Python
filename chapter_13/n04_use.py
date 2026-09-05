@@ -13,25 +13,22 @@ This script demonstrates n04 use using imports.
     n04 use affects the result.
 """
 
-
-# Basic import:
-
-from n03_if_name_main import *
-
 # Importing specific functions:
 from n03_if_name_main import Employee
 from n03_if_name_main import Employee as emp
 
 e2 = Employee("Rahul", "Microsoft")
 e2.hello()
-e2.printCompany()
-
+company_info = e2.printCompany
+print(company_info)
 # Renaming modules or functions:
 s = emp("Sonu", "Google")
 s.hello()
-s.printCompany()
+company_info = s.printCompany
+print(company_info)
 
 # from module_name import * (generally discouraged)
 emp1 = Employee("Rohi", "Google")
 emp1.hello()
-emp1.printCompany()
+company_info = emp1.printCompany
+print(company_info)

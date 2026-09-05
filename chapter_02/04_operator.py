@@ -1,7 +1,18 @@
-#!/usr/bin/env python
 """
-This script demonstrates the various operators in Python.
+📚 Topic: Operator
+
+This script demonstrates operator using functions and conditions.
+
+💡 Key points:
+    1️⃣ the basic syntax for operator
+    2️⃣ how functions fit into the example
+    3️⃣ what to look for when you run the file
+
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    operator affects the result.
 """
+
 
 def arithmetic_operators():
     """Demonstrates arithmetic operators."""
@@ -14,9 +25,10 @@ def arithmetic_operators():
     print(f"a * b = {a * b}")
     print(f"a / b = {a / b}")
     print(f"a % b = {a % b}")
-    print(f"a ** b = {a ** b}")
+    print(f"a ** b = {a**b}")
     print(f"a // b = {a // b}")
     print("-" * 20)
+
 
 def assignment_operators():
     """Demonstrates assignment operators."""
@@ -33,6 +45,7 @@ def assignment_operators():
     print(f"a /= 5 -> a = {a}")
     print("-" * 20)
 
+
 def comparison_operators():
     """Demonstrates comparison operators."""
     print("--- Comparison Operators ---")
@@ -47,6 +60,7 @@ def comparison_operators():
     print(f"a <= b -> {a <= b}")
     print("-" * 20)
 
+
 def logical_operators():
     """Demonstrates logical operators."""
     print("--- Logical Operators ---")
@@ -57,6 +71,7 @@ def logical_operators():
     print(f"a or b -> {a or b}")
     print(f"not a -> {not a}")
     print("-" * 20)
+
 
 def membership_operators():
     """Demonstrates membership operators."""
@@ -69,6 +84,7 @@ def membership_operators():
     print(f"6 not in my_list -> {6 not in my_list}")
     print("-" * 20)
 
+
 def identity_operators():
     """Demonstrates identity operators."""
     print("--- Identity Operators ---")
@@ -80,6 +96,7 @@ def identity_operators():
     print(f"a is not b -> {a is not b}")
     print(f"a is c -> {a is c}")
     print("-" * 20)
+
 
 def bitwise_operators():
     """Demonstrates bitwise operators."""
@@ -95,6 +112,7 @@ def bitwise_operators():
     print(f"a >> 2 -> {a >> 2} (binary: {bin(a >> 2)})")
     print("-" * 20)
 
+
 def main():
     """
     This function calls all the operator demonstration functions.
@@ -106,6 +124,7 @@ def main():
     membership_operators()
     identity_operators()
     bitwise_operators()
+
 
 if __name__ == "__main__":
     main()

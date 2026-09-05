@@ -1,14 +1,30 @@
-n="10"
+"""
+📚 Topic: Type Casting
 
-f=int(n)
+This script demonstrates type casting using basic Python syntax.
 
-print(type(f))#<class 'int'>
+💡 Key points:
+    1️⃣ the basic syntax for type casting
+    2️⃣ how basic Python syntax fit into the example
+    3️⃣ what to look for when you run the file
 
-n=28.99
+🧠 Beginner tip:
+    Run this file, change one small value, and run it again to see how
+    type casting affects the result.
+"""
 
-print(int(n))#28
 
-d=True
-print(type(d))#<class 'bool'>
+n = "10"
 
-print(int(d))#1
+f = int(n)
+
+print(type(f))  # <class 'int'>
+
+n = 28.99
+
+print(int(n))  # 28
+
+d = True
+print(type(d))  # <class 'bool'>
+
+print(int(d))  # 1
