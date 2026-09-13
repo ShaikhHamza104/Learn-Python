@@ -1,9 +1,9 @@
 # 🐍 Learn Python
 
 [![Python Version](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Chapters](https://img.shields.io/badge/Chapters-22%20(00--21)-0052CC?style=flat)](#-chapters-index)
+[![Chapters](https://img.shields.io/badge/Chapters-23%20(00--22)-0052CC?style=flat)](#-chapters-index)
 [![Lesson Scripts](https://img.shields.io/badge/Lesson%20Scripts-150%2B-2ea44f?style=flat)](#-chapter-summaries)
-[![Exercises](https://img.shields.io/badge/Exercise%20Problems-96-orange?style=flat)](#-exercises--practice-index)
+[![Exercises](https://img.shields.io/badge/Exercise%20Problems-108-orange?style=flat)](#-exercises--practice-index)
 [![Projects](https://img.shields.io/badge/Mini%20Projects-22-purple?style=flat)](#️-projects)
 [![Documentation](https://img.shields.io/badge/READMEs-Full%20Coverage-brightgreen?style=flat)](#-chapters-index)
 [![Code Style](https://img.shields.io/badge/Code%20Style-PEP%208%20%2F%20Flake8-blueviolet?style=flat)](#-code-quality--standards)
@@ -93,6 +93,9 @@ Learn-Python/
 │
 ├── chapter_21_capstone/              # Production-style capstone project template
 │
+├── chapter_22_pydantic/              # Data validation, type enforcement & schema modeling
+├── chapter_22_exercises/             # Pydantic models, custom validators & dataset cleaning
+│
 └── projects/                         # 22 Standalone mini-projects and CLI games
 ```
 
@@ -123,9 +126,10 @@ Every chapter and exercise folder includes a dedicated, beginner-friendly `READM
 | **16** | [chapter_16_collections/](./chapter_16_collections) — Collections Module | 5 Scripts | — | [README](./chapter_16_collections/README.md) |
 | **17** | [chapter_17_iterators_generators/](./chapter_17_iterators_generators) — Iterators & Generators | 3 Scripts | [chapter_17_exercises/](./chapter_17_exercises) (3 Problems) | [README](./chapter_17_iterators_generators/README.md) |
 | **18** | [chapter_18_itertools/](./chapter_18_itertools) — Itertools Module | 16 Scripts | — | [README](./chapter_18_itertools/README.md) |
-| **19** | [chapter_19_functional_tools/](./chapter_19_functional_tools) — Functional Tools & Decorators | 3 Scripts | [chapter_19_exercises/](./chapter_19_exercises) (3 Problems) | [README](./chapter_19_functional_tools/01_decorators_basics.py) |
-| **20** | [chapter_20_apis_and_data/](./chapter_20_apis_and_data) — APIs, Requests & JSON | 3 Scripts | [chapter_20_exercises/](./chapter_20_exercises) (2 Problems) | [README](./chapter_20_apis_and_data/01_requests_get.py) |
+| **19** | [chapter_19_functional_tools/](./chapter_19_functional_tools) — Functional Tools & Decorators | 3 Scripts | [chapter_19_exercises/](./chapter_19_exercises) (3 Problems) | [README](./chapter_19_functional_tools/README.md) |
+| **20** | [chapter_20_apis_and_data/](./chapter_20_apis_and_data) — APIs, Requests & JSON | 3 Scripts | [chapter_20_exercises/](./chapter_20_exercises) (2 Problems) | [README](./chapter_20_apis_and_data/README.md) |
 | **21** | [chapter_21_capstone/](./chapter_21_capstone) — Capstone Project | 1 App | — | [README](./chapter_21_capstone/README.md) |
+| **22** | [chapter_22_pydantic/](./chapter_22_pydantic) — Pydantic & Data Validation | 4 Scripts | [chapter_22_exercises/](./chapter_22_exercises) (3 Problems) | [README](./chapter_22_pydantic/README.md) |
 
 ---
 
@@ -335,11 +339,18 @@ A modular, production-structured project tying together everything learned from 
 - Complete starter template in `main.py`
 - Dependency management and extension project ideas (Expense Tracker, GitHub CLI, Weather Dashboard).
 
+### Chapter 22: Pydantic & Data Validation 🛡️
+Runtime data parsing, schema enforcement, and validation using Pydantic:
+- `01_basic_models.py` — Defining `BaseModel` schemas, type annotations, automatic type coercion, and `ValidationError` handling.
+- `02_field_validation.py` — Adding field constraints with `Field()` (`gt`, `ge`, `lt`, `le`, `min_length`, `max_length`), defaults, and `Annotated`.
+- `03_custom_validators.py` — Custom business logic validation using `@field_validator` and cross-field validation with `@model_validator(mode="after")`.
+- `04_pydantic_for_data_science .py` — Data science workflows: nested model composition, batch record validation, and filtering corrupted CSV/JSON rows before DataFrame loading.
+
 ---
 
 ## 🎯 Exercises & Practice Index
 
-Practice makes permanent! This repository provides **96 hands-on exercise problems** across 14 dedicated exercise suites:
+Practice makes permanent! This repository provides **108 hands-on exercise problems** across 18 dedicated exercise suites:
 
 | Exercise Suite | Problems | Core Topics Practiced |
 |----------------|:--------:|-----------------------|
@@ -360,6 +371,7 @@ Practice makes permanent! This repository provides **96 hands-on exercise proble
 | [chapter_17_exercises/](./chapter_17_exercises) | 3 | Custom countdown iterator, infinite Fibonacci generator, lazy text file log processing pipeline |
 | [chapter_19_exercises/](./chapter_19_exercises) | 3 | Execution timer decorator, input validation decorator, cache lookup utility |
 | [chapter_20_exercises/](./chapter_20_exercises) | 2 | REST API user fetcher, live currency converter with JSON cache |
+| [chapter_22_exercises/](./chapter_22_exercises) | 3 | MovieReview schema validation, Password strength field validator, and batch StudentScore dataset splitting |
 
 ---
 
