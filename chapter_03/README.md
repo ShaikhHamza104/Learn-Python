@@ -17,8 +17,8 @@ By the end of this chapter, you’ll be able to:
 | `01_intro_string.py`        | String creation & indexing    | `'Hello'`, `"Hello"`, `'''Hello'''`, `name[0]`      |
 | `02_slicing.py`             | Basic slicing                 | `text[1:4]`, `text[:3]`, `text[::2]`                  |
 | `03_negative_slicing.py`    | Slicing with negative indexes | `text[-4:-1]`, `text[-2:]`                            |
-| `04_string_methoud.py`      | String methods                | `len()`, `.upper()`, `.replace()`, `.split()`, etc.  |
-| `05_Formatting_strings.py`  | Formatting                     | `%s`, `.format()`, `f"..."`                        |
+| `04_string_method.py`       | String methods                | `len()`, `.upper()`, `.replace()`, `.split()`, etc.  |
+| `05_formatting_strings.py`   | Formatting                     | `%s`, `.format()`, `f"..."`                        |
 | `06_escape.py`              | Escape sequences              | `\n`, `\'`, `\"`                                  |
 
 ---
@@ -94,7 +94,6 @@ print(word[1:6:3])  # mi  (positions 1 and 4)
 ```python
 name = "Hamza"
 #     012345
-en
 print(name[-4:-1])  # amz  (from -4 up to but not including -1)
 print(name[-3:])    # mza  (last 3 characters)
 ```
@@ -109,7 +108,7 @@ print(name[-3:])    # mza  (last 3 characters)
 
 ---
 
-## 4. `04_string_methoud.py` – Python’s String Toolbox
+## 4. `04_string_method.py` – Python’s String Toolbox
 
 ```python
 name = "hamza"
@@ -144,7 +143,7 @@ print(s2.title())             # "Hello World"
 
 ---
 
-## 5. `05_Formatting_strings.py` – Making Messages Dynamic
+## 5. `05_formatting_strings.py` – Making Messages Dynamic
 
 ```python
 name = "Hamza"

@@ -173,4 +173,6 @@ Desktop.ini
 
 # Custom
 notes.txt
-scratch/
+scratch/.venv/
+__pycache__/
+*.pyc
