@@ -14,6 +14,8 @@ Python, and the LEGB rule Python uses to look up a variable's name.
     namespace and scope affects the result.
 """
 
+import builtins
+
 # ---------------------------------------------------
 # What is a namespace?
 # ---------------------------------------------------
@@ -123,8 +125,6 @@ print(a)
 # ---------------------------------------------------
 # 7. Built-in scope - things Python already knows without importing
 # ---------------------------------------------------
-import builtins
-
 print(len(dir(builtins)))  # a big list of built-in names Python provides
 
 

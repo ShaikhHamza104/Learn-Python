@@ -8,6 +8,6 @@ while True:
     engine.say(user_query)
 
     if user_query != 'q':
-        engine.runAndWait()  
+        engine.runAndWait()
     else:
         break

@@ -30,7 +30,8 @@ def max_calls(limit):
             try:
                 if call_count >= limit:
                     raise PermissionError(
-                        f"{func.__name__} can only be called {limit} " f"time(s)"
+                        f"{func.__name__} can only be called {limit} "
+                        f"time(s)"
                     )
                 call_count += 1
                 return func(*args, **kwargs)
@@ -51,5 +52,5 @@ greet("Hamza")  # 1st call - works
 greet("Ali")  # 2nd call - works
 greet("Sara")  # 3rd call - blocked
 
-print("Function name is still:", greet.__name__)  
+print("Function name is still:", greet.__name__)
 # thanks to @wraps

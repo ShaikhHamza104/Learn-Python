@@ -1,134 +1,70 @@
-# 🐍 Chapter 15 Exercises — Regular Expressions Practice 🔍
+# 📚 Topic: Regular Expressions Practice (Exercises)
 
-Welcome to the **Chapter 15 Practice Exercises**! 🚀  
-These 5 exercises focus on essential real-world pattern matching tasks: number extraction, phone number validation, sensitive data masking, vowel word identification, and password security auditing.
-
----
-
-## 📌 Exercises Overview
-
-| File | Topic | Core Concept | Difficulty |
-|---|---|---|---|
-| 🔢 [`problem1.py`](./problem1.py) | Extract All Numbers | `re.findall(r"\d+", text)` | 🟢 Beginner |
-| 📱 [`problem2.py`](./problem2.py) | Phone Number Validator | `re.fullmatch(r"^[6-9]\d{9}$", phone)` | 🟢 Beginner |
-| 🎭 [`problem3.py`](./problem3.py) | Mask Digits in Text | `re.sub(r"\d", "*", text)` | 🟢 Beginner |
-| 🔤 [`problem4.py`](./problem4.py) | Words Starting with Vowels | Word boundaries `\b` and character classes `[aeiouAEIOU]` | 🟡 Easy-Medium |
-| 🔐 [`problem5.py`](./problem5.py) | Password Strength Validator | Lookahead assertions or multi-pattern matching | 🔴 Medium |
+This folder contains 5 hands-on practice problems designed to strengthen your mastery of regular expressions (`re` module) in Python. Regular expressions provide a specialized pattern-matching language used to search, validate, and clean textual data. Working through these exercises will build your muscle memory for extracting data, sanitizing sensitive strings, and enforcing strict input validation rules.
 
 ---
 
-## 🔢 Problem 1: Extract Numbers from Text (`problem1.py`)
+## 📂 What's in this folder
 
-### ❓ Objective
-Write a program that takes a sentence as input and extracts all the numbers from it.
+| File | What it teaches |
+|------|------------------|
+| `problem1.py` | Prompts the user for a sentence and extracts all email addresses matching an email regex pattern using `re.findall()`. |
+| `problem2.py` | Validates whether a user-entered phone number is a valid 10-digit Indian phone number starting with digits 6–9 using `re.fullmatch()`. |
+| `problem3.py` | Masks every digit in a user-provided sentence by replacing each number with a `#` symbol using `re.sub()`. |
+| `problem4.py` | Finds and extracts all words starting with a capital letter in a user-provided sentence using word boundaries (`\b`) and `re.findall()`. |
+| `problem5.py` | Audits password security by verifying length (8+ characters) and the presence of uppercase letters, digits, and special characters using `re.search()`. |
 
-### 💻 Code
-```python
-import re
+---
 
-text = input("Enter sentence: ")
-numbers = re.findall(r"\d+", text)
+## 💡 Key points
 
-print("Extracted numbers:", numbers)
+1. **`problem1.py` practices structured extraction**: Uses character classes and repetition qualifiers (`[\w.+-]+@...`) with `re.findall()` to pull multiple structured patterns out of unstructured sentences.
+2. **`problem2.py` practices strict boundary validation**: Anchors with `^` and `$` combined with `re.fullmatch()` ensure the entire input string satisfies the format rather than matching a partial substring.
+3. **`problem3.py` practices text sanitization**: Uses `re.sub()` to substitute matched patterns, an essential technique for masking private or sensitive numbers.
+4. **`problem4.py` practices word boundaries**: Employs `\b` word boundary anchors with `[A-Z]` to identify capitalized tokens without matching punctuation or middle characters.
+5. **`problem5.py` practices composite rule checking**: Combines multiple independent `re.search()` evaluations to enforce password complexity without overly convoluted single-pattern regexes.
+
+---
+
+## 🧠 Beginner tip
+
+When validating patterns (such as phone numbers or passwords), always test your script with both valid and invalid inputs! Try numbers that are too short, numbers with letters, or passwords missing a special character to ensure your validation correctly flags every edge case.
+
+---
+
+## 📊 Where this is used in Data Science
+
+Text cleaning and regular expressions are indispensable for Natural Language Processing (NLP) and Exploratory Data Analysis (EDA). Before feeding text into sentiment models or language classifiers, data scientists use regex to strip HTML tags, remove URLs, standardize phone and email fields, and redact personally identifiable information (PII) from user-submitted survey feedback and customer logs.
+
+---
+
+## 🏃 How to Run Each Exercise
+
+All problem files are interactive and accept user input from the console:
+
+```bash
+# Problem 1: Email Extractor
+python problem1.py
+
+# Problem 2: Phone Number Validator
+python problem2.py
+
+# Problem 3: Hide Digits in Text
+python problem3.py
+
+# Problem 4: Find Capitalized Words
+python problem4.py
+
+# Problem 5: Password Strength Checker
+python problem5.py
 ```
 
-▶️ **Run:** `python problem1.py`
-
 ---
 
-## 📱 Problem 2: Phone Number Validator (`problem2.py`)
-
-### ❓ Objective
-Write a program that checks if a 10-digit phone number entered by the user is valid (starting with 6, 7, 8, or 9).
-
-### 💻 Code
-```python
-import re
-
-phone = input("Enter 10-digit phone number: ").strip()
-pattern = r"^[6-9]\d{9}$"
-
-if re.fullmatch(pattern, phone):
-    print("✅ Valid Phone Number!")
-else:
-    print("❌ Invalid Phone Number. Must be 10 digits starting with 6-9.")
-```
-
-▶️ **Run:** `python problem2.py`
-
----
-
-## 🎭 Problem 3: Mask Sensitive Digits (`problem3.py`)
-
-### ❓ Objective
-Write a program that hides every digit in a sentence by replacing it with `*`.
-
-### 💻 Code
-```python
-import re
-
-sentence = input("Enter text containing numbers: ")
-masked = re.sub(r"\d", "*", sentence)
-
-print("Masked output:", masked)
-```
-
-▶️ **Run:** `python problem3.py`
-
----
-
-## 🔤 Problem 4: Find Words Starting with Vowels (`problem4.py`)
-
-### ❓ Objective
-Write a program that finds all the words in a sentence that start with a vowel (`a, e, i, o, u`).
-
-### 💻 Code
-```python
-import re
-
-text = input("Enter text: ")
-vowel_words = re.findall(r"\b[aeiouAEIOU]\w*", text)
-
-print("Words starting with vowels:", vowel_words)
-```
-
-▶️ **Run:** `python problem4.py`
-
----
-
-## 🔐 Problem 5: Password Strength Validator (`problem5.py`)
-
-### ❓ Objective
-Write a program that checks if a password entered by the user is strong:
-- At least 8 characters long
-- Contains at least one uppercase letter
-- Contains at least one lowercase letter
-- Contains at least one digit
-- Contains at least one special character (`@$!%*?&#`)
-
-### 💻 Code
-```python
-import re
-
-password = input("Enter password to test: ")
-
-is_valid = (
-    len(password) >= 8
-    and re.search(r"[A-Z]", password)
-    and re.search(r"[a-z]", password)
-    and re.search(r"\d", password)
-    and re.search(r"[@$!%*?&#]", password)
-)
-
-if is_valid:
-    print("💪 Strong Password!")
-else:
-    print("⚠️ Weak Password. Ensure it has 8+ characters, uppercase, lowercase, digit, and special char.")
-```
-
-▶️ **Run:** `python problem5.py`
+## 📖 Related Lessons
+Need a refresher on regular expression syntax? Review the lesson materials in **[Chapter 15 — Regular Expressions](../chapter_15_regex/README.md)**.
 
 ---
 
 ## ⏭️ What's Next?
-Next, discover high-performance specialized data structures in **[Chapter 16 — Collections Module](../chapter_16_collections/README.md)**!
+Once you are confident with text processing, head to **[Chapter 16 — Collections Module](../chapter_16_collections/README.md)** to learn about specialized container types like `Counter`, `defaultdict`, and `deque`!

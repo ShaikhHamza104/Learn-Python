@@ -32,8 +32,10 @@ resources = {
 }
 # resources=CoffeeMachine.menu()
 
+
 def is_resource_sufficient(order_ingredients):
-    """Returns True when order can be made, False if ingredients are insufficient."""
+    """Returns True when order can be made, False if ingredients are
+    insufficient."""
     for item in order_ingredients:
         if order_ingredients[item] > resources[item]:
             print(f"​Sorry there is not enough {item}.")
@@ -52,7 +54,8 @@ def process_coins():
 
 
 def is_transaction_successful(money_received, drink_cost):
-    """Return True when the payment is accepted, or False if money is insufficient."""
+    """Return True when the payment is accepted, or False if money is
+    insufficient."""
     if money_received >= drink_cost:
         change = round(money_received - drink_cost, 2)
         print(f"Here is ${change} in change.")

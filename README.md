@@ -55,10 +55,10 @@ python -m venv .venv
 source .venv/bin/activate
 
 # 4. Run your first lesson script
-python chapter_01/01_hello_world.py
+python chapter_01_basics/01_hello_world.py
 
 # 5. Run your first exercise
-python chapter_01_exercises/problem1.py
+python chapter_01_basics_exercises/problem1.py
 ```
 
 > 💡 **First time setting up Python?** Check out [chapter_00_setup/](./chapter_00_setup) for deep dives into `venv`, the high-speed `uv` package manager, dependency freezing, and `.gitignore` setup.
@@ -72,8 +72,8 @@ Learn-Python/
 │
 ├── chapter_00_setup/                 # Environment setup, venv, uv, gitignore
 │
-├── chapter_01/ ... chapter_14/       # Core Python foundations (Basics to OS)
-├── chapter_01_exercises/ ...         # 14 Dedicated exercise suites with complete solutions
+├── chapter_01_basics/ ... chapter_14_os_pathlib/  # Core Python foundations (Basics to OS)
+├── chapter_01_basics_exercises/ ...              # 14 Dedicated exercise suites with complete solutions
 │
 ├── chapter_15_regex/                 # Regular Expressions & pattern matching
 ├── chapter_15_exercises/             # Practical regex extraction exercises
@@ -105,20 +105,20 @@ Every chapter and exercise folder includes a dedicated, beginner-friendly `READM
 | # | Chapter / Topic | Lessons | Exercises | Docs |
 |---|-----------------|:-------:|:---------:|:----:|
 | **00** | [chapter_00_setup/](./chapter_00_setup) — Environment Setup & Tooling | 4 Guides | — | [README](./chapter_00_setup/README.md) |
-| **01** | [chapter_01/](./chapter_01) — Basics & First Program | 3 Scripts | [chapter_01_exercises/](./chapter_01_exercises) (5 Problems) | [README](./chapter_01/README.md) |
-| **02** | [chapter_02/](./chapter_02) — Variables, Data Types & Operators | 7 Scripts | [chapter_02_exercises/](./chapter_02_exercises) (6 Problems) | [README](./chapter_02/README.md) |
-| **03** | [chapter_03/](./chapter_03) — Strings & Slicing | 6 Scripts | [chapter_03_exercises/](./chapter_03_exercises) (5 Problems) | [README](./chapter_03/README.md) |
-| **04** | [chapter_04/](./chapter_04) — Lists, Tuples & NamedTuples | 10 Scripts | [chapter_04_exercises/](./chapter_04_exercises) (5 Problems) | [README](./chapter_04/README.md) |
-| **05** | [chapter_05/](./chapter_05) — Dictionaries, Sets & TypedDict | 9 Scripts | [chapter_05_exercises/](./chapter_05_exercises) (9 Problems) | [README](./chapter_05/README.md) |
-| **06** | [chapter_06/](./chapter_06) — Control Flow (`if`, `elif`, `else`) | 7 Scripts | [chapter_06_exercises/](./chapter_06_exercises) (7 Problems) | [README](./chapter_06/README.md) |
-| **07** | [chapter_07/](./chapter_07) — Loops (`for`, `while`, `range`) | 8 Scripts | [chapter_07_exercises/](./chapter_07_exercises) (10 Problems) | [README](./chapter_07/README.md) |
-| **08** | [chapter_08/](./chapter_08) — Functions, Scope & Recursion | 10 Scripts | [chapter_08_exercises/](./chapter_08_exercises) (8 Problems) | [README](./chapter_08/README.md) |
-| **09** | [chapter_09/](./chapter_09) — File Handling, CSV, JSON & Enums | 10 Scripts | [chapter_09_exercises/](./chapter_09_exercises) (11 Problems) | [README](./chapter_09/README.md) |
-| **10** | [chapter_10/](./chapter_10) — Object-Oriented Programming (OOP) | 13 Scripts | [chapter_10_exercises/](./chapter_10_exercises) (4 Problems) | [README](./chapter_10/README.md) |
-| **11** | [chapter_11/](./chapter_11) — Inheritance & Polymorphism | 11 Scripts | [chapter_11_exercises/](./chapter_11_exercises) (7 Problems) | [README](./chapter_11/README.md) |
-| **12** | [chapter_12/](./chapter_12) — Exception Handling & Logging | 12 Scripts | [chapter_12_exercises/](./chapter_12_exercises) (10 Problems) | [README](./chapter_12/README.md) |
-| **13** | [chapter_13/](./chapter_13) — Modules, Packages & Imports | 6 Scripts | — | [README](./chapter_13/README.md) |
-| **14** | [chapter_14/](./chapter_14) — OS Module & Pathlib Filesystem | 18 Scripts | [chapter_14_exercises/](./chapter_14_exercises) (5 Problems) | [README](./chapter_14/README.md) |
+| **01** | [chapter_01_basics/](./chapter_01_basics) — Basics & First Program | 3 Scripts | [chapter_01_basics_exercises/](./chapter_01_basics_exercises) (5 Problems) | [README](./chapter_01_basics/README.md) |
+| **02** | [chapter_02_variables_datatypes/](./chapter_02_variables_datatypes) — Variables, Data Types & Operators | 7 Scripts | [chapter_02_variables_datatypes_exercises/](./chapter_02_variables_datatypes_exercises) (6 Problems) | [README](./chapter_02_variables_datatypes/README.md) |
+| **03** | [chapter_03_strings/](./chapter_03_strings) — Strings & Slicing | 6 Scripts | [chapter_03_strings_exercises/](./chapter_03_strings_exercises) (5 Problems) | [README](./chapter_03_strings/README.md) |
+| **04** | [chapter_04_lists_tuples/](./chapter_04_lists_tuples) — Lists, Tuples & NamedTuples | 10 Scripts | [chapter_04_lists_tuples_exercises/](./chapter_04_lists_tuples_exercises) (5 Problems) | [README](./chapter_04_lists_tuples/README.md) |
+| **05** | [chapter_05_dicts_sets/](./chapter_05_dicts_sets) — Dictionaries, Sets & TypedDict | 9 Scripts | [chapter_05_dicts_sets_exercises/](./chapter_05_dicts_sets_exercises) (9 Problems) | [README](./chapter_05_dicts_sets/README.md) |
+| **06** | [chapter_06_control_flow/](./chapter_06_control_flow) — Control Flow (`if`, `elif`, `else`) | 7 Scripts | [chapter_06_control_flow_exercises/](./chapter_06_control_flow_exercises) (7 Problems) | [README](./chapter_06_control_flow/README.md) |
+| **07** | [chapter_07_loops/](./chapter_07_loops) — Loops (`for`, `while`, `range`) | 8 Scripts | [chapter_07_loops_exercises/](./chapter_07_loops_exercises) (10 Problems) | [README](./chapter_07_loops/README.md) |
+| **08** | [chapter_08_functions/](./chapter_08_functions) — Functions, Scope & Recursion | 10 Scripts | [chapter_08_functions_exercises/](./chapter_08_functions_exercises) (8 Problems) | [README](./chapter_08_functions/README.md) |
+| **09** | [chapter_09_file_handling/](./chapter_09_file_handling) — File Handling, CSV, JSON & Enums | 10 Scripts | [chapter_09_file_handling_exercises/](./chapter_09_file_handling_exercises) (11 Problems) | [README](./chapter_09_file_handling/README.md) |
+| **10** | [chapter_10_oop/](./chapter_10_oop) — Object-Oriented Programming (OOP) | 13 Scripts | [chapter_10_oop_exercises/](./chapter_10_oop_exercises) (4 Problems) | [README](./chapter_10_oop/README.md) |
+| **11** | [chapter_11_inheritance_polymorphism/](./chapter_11_inheritance_polymorphism) — Inheritance & Polymorphism | 11 Scripts | [chapter_11_inheritance_polymorphism_exercises/](./chapter_11_inheritance_polymorphism_exercises) (7 Problems) | [README](./chapter_11_inheritance_polymorphism/README.md) |
+| **12** | [chapter_12_exception_handling/](./chapter_12_exception_handling) — Exception Handling & Logging | 12 Scripts | [chapter_12_exception_handling_exercises/](./chapter_12_exception_handling_exercises) (10 Problems) | [README](./chapter_12_exception_handling/README.md) |
+| **13** | [chapter_13_modules_packages/](./chapter_13_modules_packages) — Modules, Packages & Imports | 6 Scripts | — | [README](./chapter_13_modules_packages/README.md) |
+| **14** | [chapter_14_os_pathlib/](./chapter_14_os_pathlib) — OS Module & Pathlib Filesystem | 18 Scripts | [chapter_14_os_pathlib_exercises/](./chapter_14_os_pathlib_exercises) (5 Problems) | [README](./chapter_14_os_pathlib/README.md) |
 | **15** | [chapter_15_regex/](./chapter_15_regex) — Regular Expressions | 3 Scripts | [chapter_15_exercises/](./chapter_15_exercises) (5 Problems) | [README](./chapter_15_regex/README.md) |
 | **16** | [chapter_16_collections/](./chapter_16_collections) — Collections Module | 5 Scripts | — | [README](./chapter_16_collections/README.md) |
 | **17** | [chapter_17_iterators_generators/](./chapter_17_iterators_generators) — Iterators & Generators | 3 Scripts | [chapter_17_exercises/](./chapter_17_exercises) (3 Problems) | [README](./chapter_17_iterators_generators/README.md) |
@@ -343,19 +343,19 @@ Practice makes permanent! This repository provides **96 hands-on exercise proble
 
 | Exercise Suite | Problems | Core Topics Practiced |
 |----------------|:--------:|-----------------------|
-| [chapter_01_exercises/](./chapter_01_exercises) | 5 | Twinkle poem, Python version, circle area, string reverse, list/tuple parsing |
-| [chapter_02_exercises/](./chapter_02_exercises) | 6 | Arithmetic sums, remainder calculation, input type detection, comparisons, averages, squares |
-| [chapter_03_exercises/](./chapter_03_exercises) | 5 | Name greeting templates, letter template replacement, space detection, escape sequences |
-| [chapter_04_exercises/](./chapter_04_exercises) | 5 | Storing user fruits, sorting marks, tuple immutability verification, list sums, zero counting |
-| [chapter_05_exercises/](./chapter_05_exercises) | 9 | Hindi-English dictionary, unique number inputs, set type mixes, dictionary length, favorite language mappings |
-| [chapter_06_exercises/](./chapter_06_exercises) | 7 | Greatest of four numbers, student pass/fail logic, spam detection, username validation, post topic matching |
-| [chapter_07_exercises/](./chapter_07_exercises) | 10 | Multiplication tables, prefix greeting filters, prime number checks, sum of natural numbers, factorial, star patterns |
-| [chapter_08_exercises/](./chapter_08_exercises) | 8 | Greatest of 3 numbers, Celsius to Fahrenheit converter, recursion sums, pattern printing, inches to cms, strip & remove words |
-| [chapter_09_exercises/](./chapter_09_exercises) | 11 | Reading poems for keywords, updating high score records, generating tables 2–20, word censoring, log analysis, file copying |
-| [chapter_10_exercises/](./chapter_10_exercises) | 4 | Programmer database, math calculator class (square/cube/sqrt), train ticket booking system, attribute modification |
-| [chapter_11_exercises/](./chapter_11_exercises) | 7 | 2D/3D vectors, pet/dog inheritance, employee salary increments, complex numbers dunder methods, vector dot/cross products |
-| [chapter_12_exercises/](./chapter_12_exercises) | 10 | Opening missing files, printing 3rd/5th/7th elements, division by zero handling, custom exceptions, list comprehension exports |
-| [chapter_14_exercises/](./chapter_14_exercises) | 5 | Automated desktop file organizer, recursive file searcher, directory size profiler, bulk file renamer, backup manager |
+| [chapter_01_basics_exercises/](./chapter_01_basics_exercises) | 5 | Twinkle poem, Python version, circle area, string reverse, list/tuple parsing |
+| [chapter_02_variables_datatypes_exercises/](./chapter_02_variables_datatypes_exercises) | 6 | Arithmetic sums, remainder calculation, input type detection, comparisons, averages, squares |
+| [chapter_03_strings_exercises/](./chapter_03_strings_exercises) | 5 | Name greeting templates, letter template replacement, space detection, escape sequences |
+| [chapter_04_lists_tuples_exercises/](./chapter_04_lists_tuples_exercises) | 5 | Storing user fruits, sorting marks, tuple immutability verification, list sums, zero counting |
+| [chapter_05_dicts_sets_exercises/](./chapter_05_dicts_sets_exercises) | 9 | Hindi-English dictionary, unique number inputs, set type mixes, dictionary length, favorite language mappings |
+| [chapter_06_control_flow_exercises/](./chapter_06_control_flow_exercises) | 7 | Greatest of four numbers, student pass/fail logic, spam detection, username validation, post topic matching |
+| [chapter_07_loops_exercises/](./chapter_07_loops_exercises) | 10 | Multiplication tables, prefix greeting filters, prime number checks, sum of natural numbers, factorial, star patterns |
+| [chapter_08_functions_exercises/](./chapter_08_functions_exercises) | 8 | Greatest of 3 numbers, Celsius to Fahrenheit converter, recursion sums, pattern printing, inches to cms, strip & remove words |
+| [chapter_09_file_handling_exercises/](./chapter_09_file_handling_exercises) | 11 | Reading poems for keywords, updating high score records, generating tables 2–20, word censoring, log analysis, file copying |
+| [chapter_10_oop_exercises/](./chapter_10_oop_exercises) | 4 | Programmer database, math calculator class (square/cube/sqrt), train ticket booking system, attribute modification |
+| [chapter_11_inheritance_polymorphism_exercises/](./chapter_11_inheritance_polymorphism_exercises) | 7 | 2D/3D vectors, pet/dog inheritance, employee salary increments, complex numbers dunder methods, vector dot/cross products |
+| [chapter_12_exception_handling_exercises/](./chapter_12_exception_handling_exercises) | 10 | Opening missing files, printing 3rd/5th/7th elements, division by zero handling, custom exceptions, list comprehension exports |
+| [chapter_14_os_pathlib_exercises/](./chapter_14_os_pathlib_exercises) | 5 | Automated desktop file organizer, recursive file searcher, directory size profiler, bulk file renamer, backup manager |
 | [chapter_15_exercises/](./chapter_15_exercises) | 5 | Email extraction, phone number formatting, date format conversion, hashtag parsing, sensitive data masking |
 | [chapter_17_exercises/](./chapter_17_exercises) | 3 | Custom countdown iterator, infinite Fibonacci generator, lazy text file log processing pipeline |
 | [chapter_19_exercises/](./chapter_19_exercises) | 3 | Execution timer decorator, input validation decorator, cache lookup utility |
@@ -390,7 +390,7 @@ To verify code quality locally:
 pip install flake8
 
 # Run linter on any chapter or exercise
-flake8 chapter_14_exercises
+flake8 chapter_14_os_pathlib_exercises
 flake8 chapter_17_iterators_generators
 ```
 

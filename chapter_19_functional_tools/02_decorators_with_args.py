@@ -63,7 +63,7 @@ power(2, 3)
 def sanity_check(data_type):
     def outer_wrapper(func):
         def inner_wrapper(*args):
-            if type(*args) == data_type:
+            if type(*args) is data_type:
                 func(*args)
             else:
                 raise TypeError("This data type is not allowed here")

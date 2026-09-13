@@ -1,5 +1,4 @@
-import  qrcode
-from  PIL import Image
+import qrcode
 
 qr = qrcode.QRCode(
     version=1,

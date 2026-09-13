@@ -1,90 +1,64 @@
-# 🐍 Chapter 17 Exercises — Iterators & Generators Practice ⚙️
+# 📚 Topic: Iterators & Generators Practice (Exercises)
 
-Welcome to the **Chapter 17 Practice Exercises**! 🚀  
-These exercises test your ability to build custom iterable and iterator objects, implement memory-efficient generator functions using `yield`, and compare space complexities with generator expressions.
-
----
-
-## 📌 Exercises Overview
-
-| File | Challenge Topic | Core Concept | Difficulty |
-|---|---|---|---|
-| ⏳ [`problem1.py`](./problem1.py) | Custom Countdown Iterator | Implementing `__iter__()`, `__next__()`, & `StopIteration` | 🟡 Easy-Medium |
-| 🌀 [`problem2.py`](./problem2.py) | Fibonacci Generator Function | Infinite stream generation using `yield` | 🟡 Easy-Medium |
-| 📊 [`problem3.py`](./problem3.py) | Memory Benchmark | `sys.getsizeof()` comparison: generator vs list | 🟢 Beginner |
+This folder contains 3 hands-on practice problems designed to reinforce the mechanics of Python iterators and generators. The exercises focus on implementing custom iterable classes adhering to the iterator protocol, creating on-demand generator functions using `yield`, and measuring memory efficiency with generator expressions.
 
 ---
 
-## ⏳ Challenge 1: Custom Countdown Iterator (`problem1.py`)
+## 📂 What's in this folder
 
-### ❓ Objective
-Write a custom iterable class `Countdown` that takes a starting integer and counts down to 1, raising `StopIteration` when complete.
+| File | Description |
+| --- | --- |
+| `problem1.py` | Building a custom `Countdown` iterator class implementing `__iter__()`, `__next__()`, and `StopIteration` |
+| `problem2.py` | Implementing a memory-efficient `fibonacci_gen()` generator function yielding numbers up to a limit |
+| `problem3.py` | Profiling and comparing memory usage between generator expressions and list comprehensions using `sys.getsizeof()` |
 
-### 💡 Example Solution
-```python
-class Countdown:
-    def __init__(self, start):
-        self.current = start
+---
 
-    def __iter__(self):
-        return self
+## 💡 Key points
 
-    def __next__(self):
-        if self.current <= 0:
-            raise StopIteration
-        val = self.current
-        self.current -= 1
-        return val
+1. **Custom Iterator Implementation (`problem1.py`)**: Demonstrates the full iterator protocol by creating a class with `__iter__()` returning `self` and `__next__()` producing descending numbers until raising `StopIteration` when the counter reaches zero.
+2. **Generating Sequences with `yield` (`problem2.py`)**: Implements an on-demand Fibonacci generator function that produces each subsequent number using `yield` without storing the growing sequence in memory.
+3. **Memory Profiling of Lazy Evaluation (`problem3.py`)**: Compares memory consumption for 100,000 integers generated eagerly via a list comprehension against a lazy generator expression using `sys.getsizeof()`.
 
-# Test:
-for n in Countdown(5):
-    print(n)  # 5, 4, 3, 2, 1
+---
+
+## 🧠 Beginner tip
+
+When writing a generator function, never use `return <value>` to emit sequence items—always use `yield <value>`. In Python generator functions, calling `return <value>` halts the generator immediately and attaches the value to a `StopIteration` exception, which will terminate consumer loops prematurely.
+
+---
+
+## 📊 Where this is used in Data Science
+
+- **Custom Epoch Shufflers**: Deep learning frameworks wrap dataset indices inside custom iterator classes (`__iter__`, `__next__`) to cleanly iterate through batches and shuffle sample indices across training epochs.
+- **Generating Synthetic Training Series**: Time-series modeling and simulation scripts use generator functions to synthesize pseudo-random walk data or Fibonacci sequences on the fly without RAM consumption.
+- **Resource Monitoring & Profiling**: Memory-profiling scripts verify memory consumption of feature transformations using `sys.getsizeof()` before deploying data-loading pipelines into constrained container environments.
+
+---
+
+## 🏃 How to Run Each Exercise
+
+Execute each problem from the command line using Python:
+
+```bash
+# Problem 1: Custom Countdown iterator
+python problem1.py
+
+# Problem 2: Fibonacci generator function
+python problem2.py
+
+# Problem 3: Memory benchmark (list comprehension vs generator expression)
+python problem3.py
 ```
 
 ---
 
-## 🌀 Challenge 2: Fibonacci Generator Function (`problem2.py`)
+## 📖 Related Lessons
 
-### ❓ Objective
-Write a generator function `fibonacci_gen(limit)` that yields Fibonacci numbers up to `limit` without storing the whole sequence in a list.
-
-### 💡 Example Solution
-```python
-def fibonacci_gen(limit):
-    a, b = 0, 1
-    count = 0
-    while count < limit:
-        yield a
-        a, b = b, a + b
-        count += 1
-
-# Test:
-for num in fibonacci_gen(8):
-    print(num)  # 0, 1, 1, 2, 3, 5, 8, 13
-```
+Review the complete syntax and architectural details for iterators and generators in **[Chapter 17 — Iterators & Generators](../chapter_17_iterators_generators/README.md)**.
 
 ---
 
-## 📊 Challenge 3: Generator Expression Memory Profiler (`problem3.py`)
+## ⏭️ What's Next
 
-### ❓ Objective
-Create a script that generates the squares of numbers from 1 to 100,000 using both a list comprehension and a generator expression. Print and compare the memory consumed by both objects using `sys.getsizeof()`.
-
-### 💡 Example Solution
-```python
-import sys
-
-# List comprehension:
-list_comp = [x**2 for x in range(100000)]
-
-# Generator expression:
-gen_exp = (x**2 for x in range(100000))
-
-print("List memory:", sys.getsizeof(list_comp), "bytes")
-print("Generator memory:", sys.getsizeof(gen_exp), "bytes")
-```
-
----
-
-## ⏭️ What's Next?
-Next, discover high-performance standard library iterator tools in **[Chapter 18 — Itertools Module](../chapter_18_itertools/README.md)**!
+Explore iterator combinatorics and functional iteration tools in **[Chapter 18 — Itertools Module](../chapter_18_itertools/README.md)**!

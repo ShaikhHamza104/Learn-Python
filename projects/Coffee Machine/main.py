@@ -1,7 +1,7 @@
 class CoffeeMachine:
     def __init__(self):
         self.water = 0
-        self.list_of_tea = ["Black Tea", "Green Tea" , "Earl Grey"]
+        self.list_of_tea = ["Black Tea", "Green Tea", "Earl Grey"]
         self.sugar = 0
         self.milk = 0
         self.coffee_beans = 0
@@ -16,7 +16,7 @@ Welcome to Coffee Machine
 3. Add Milk (ml)
 4. Add Coffee Beans
 5. Clean Machine
-6. Add Tea Name 
+6. Add Tea Name
 7. Get Machine Status
 8. Remove tea name
 9. Exit
@@ -67,18 +67,17 @@ Welcome to Coffee Machine
         print(f"You added {new_amount} coffee beans.")
 
     def getStatus(self):
-        print(f"Current machine status:")
+        print("Current machine status:")
         print(f"\tWater: {self.water} ml")
         print(f"\tSugar: {self.sugar} ml")
         print(f"\tMilk: {self.milk} ml")
         print(f"\tCoffee Beans: {self.coffee_beans}")
         print("\nTea Types:")
-        if len(self.list_of_tea)==0:
+        if len(self.list_of_tea) == 0:
             print("List of tea is empty ")
         else:
             for tea in self.list_of_tea:
                 print(tea)
-
 
     def cleanMachine(self):
         self.water = 0
@@ -97,7 +96,7 @@ Welcome to Coffee Machine
             print(f"Tea {name} is already present in this machine")
 
     def deleteTea(self):
-        tea=input("Enter tea name : ")
+        tea = input("Enter tea name : ")
         if tea not in self.list_of_tea:
             print(f"{tea} is not present in this machine")
         else:
@@ -107,28 +106,41 @@ Welcome to Coffee Machine
 class Customer(CoffeeMachine):
     def __init__(self):
         super.__init__()
-        self.prize={
-
-            "water":5,
-            "suger":9,
-            "milk":8,
-            "cofee Bean":10
-        }                
+        self.prize = {
+            "water": 5,
+            "suger": 9,
+            "milk": 8,
+            "cofee Bean": 10
+        }
 
     def getOrder(self):
-        tea_type=input("Enter the name of the tea: ").title()
-        self.calculate_prize=0
-        water=float(input("How much water do you want to make a coffee: (measure as cup )"))
-        self.calculate_prize+=self.prize["water"]-(water*10)
-        milk=float(input("How much milk do you want to make a coffee: (measure as cup )"))
-        self.calculate_prize+=self.prize["milk"]-(milk*10)
-        suger=float(input("How much suger do you want to make a coffee: (measure as spoone )"))
-        self.calculate_prize+=self.prize["suger"]
-        coffee_beans=float(input("How much coffee_beans do you want to make a coffee: (measure as quantity )"))
-        self.calculate_prize+=self.prize["cofee Bean"]-(coffee_beans*100)
+        tea_type = input("Enter the name of the tea: ").title()  # noqa: F841
+        self.calculate_prize = 0
+        water = float(input(
+            "How much water do you want to make a coffee: (measure as cup )"
+        ))
+        self.calculate_prize += self.prize["water"] - (water * 10)
+        milk = float(input(
+            "How much milk do you want to make a coffee: (measure as cup )"
+        ))
+        self.calculate_prize += self.prize["milk"] - (milk * 10)
+        suger = float(input(  # noqa: F841
+            "How much suger do you want to make a coffee: (measure as spoone )"
+        ))
+        self.calculate_prize += self.prize["suger"]
+        coffee_beans = float(input(
+            "How much coffee_beans do you want to make a coffee: "
+            "(measure as quantity )"
+        ))
+        self.calculate_prize += (
+            self.prize["cofee Bean"] - (coffee_beans * 100)
+        )
+
     def getRecipt(self):
         print(f'''{self.calculate_prize}''')
-m=Customer()  
+
+
+m = Customer()
 m.getOrder()
 m.getRecipt()
 # write a function to add two number
