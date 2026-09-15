@@ -1,0 +1,4 @@
+capstone.duckdb
+capstone.log
+test_capstone.duckdb
+.flake8

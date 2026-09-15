@@ -1,0 +1,5 @@
+capstone.duckdb
+capstone.log
+test_capstone.duckdb
+.venv/
+__pycache__/
