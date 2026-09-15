@@ -1,19 +1,18 @@
 """
-📚 Topic: Loop
+📚 Topic: Introduction to Loops
 
-This script demonstrates loop using for loops.
+This script introduces iteration in Python, contrasting manual repetitive
+statements with programmatic loops.
 
 💡 Key points:
-    1️⃣ the basic syntax for loop
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ The DRY (Don't Repeat Yourself) principle
+    2️⃣ Automated repetition using looping constructs
+    3️⃣ Overview of `for` and `while` loop mechanics in Python
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    loop affects the result.
+    Whenever you find yourself writing copy-pasted lines with minor index
+    changes, replace them with a loop.
 """
-
-
 # 📝 Printing numbers one by one
 print(1)
 print(2)

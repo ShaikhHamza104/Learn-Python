@@ -1,16 +1,17 @@
 """
-📚 Topic: Class Methods
+📚 Topic: Class Methods (`@classmethod`)
 
-This script demonstrates class methods using functions and classes.
+This script demonstrates methods that receive the class object (`cls`) rather
+than an individual instance (`self`).
 
 💡 Key points:
-    1️⃣ the basic syntax for class methods
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Decorated with `@classmethod`
+    2️⃣ Receives the class as its first parameter (`cls`)
+    3️⃣ Capable of modifying class-level state across all instances
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    class methods affects the result.
+    Class methods are frequently used as factory methods (alternative
+    constructors) for creating objects from different data formats.
 """
 
 
@@ -18,11 +19,11 @@ class Employee:
     company = "Microsoft"
 
     @classmethod
-    def changeCompany(cls, company):
+    def change_company(cls, company):
         cls.company = company
 
 
 e = Employee()
 print(e.company)
-e.changeCompany("Gooogle")
+e.change_company("Google")
 print(e.company)

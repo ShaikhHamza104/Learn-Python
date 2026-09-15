@@ -1,18 +1,18 @@
 """
-📚 Topic: For With Else
+📚 Topic: The `for...else` Construct
 
-This script demonstrates for with else using for loops.
+This script demonstrates Python's unique `else` clause attached to loops,
+which executes only when the loop completes without being broken.
 
 💡 Key points:
-    1️⃣ the basic syntax for for with else
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ The `else` block runs after the loop finishes all iterations normally
+    2️⃣ If the loop terminates early via `break`, the `else` block is skipped
+    3️⃣ Ideal for search algorithms where an item is not found
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    for with else affects the result.
+    Think of `loop...else` as "no-break": it runs only if no `break` occurred
+    during loop execution.
 """
-
 # 📋 Create a list of numbers
 l = [1, 2, 3, 4, 5, 6]  # noqa: E741
 

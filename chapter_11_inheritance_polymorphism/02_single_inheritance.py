@@ -1,17 +1,17 @@
 """
 📚 Topic: Single Inheritance
 
-This script demonstrates single inheritance using for loops, functions,
-classes and imports.
+This script demonstrates single inheritance where a derived class inherits
+directly from one base class.
 
 💡 Key points:
-    1️⃣ the basic syntax for single inheritance
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Deriving from a single base class
+    2️⃣ Overriding base class attributes in the derived class
+    3️⃣ Calling inherited and derived methods on child instances
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    single inheritance affects the result.
+    When an attribute exists in both base and derived classes, the derived
+    class attribute takes precedence.
 """
 
 
@@ -19,7 +19,7 @@ classes and imports.
 class A:
     name = "Class A"
 
-    def methodA(self):
+    def method_a(self):
         print("This method belong to Class A")
         print(f"My class name is {self.name}")
 
@@ -29,7 +29,7 @@ class A:
 class B(A):
     name = "Class B"  # Overide class A attribute eg . name
 
-    def methodB(self):
+    def method_b(self):
         print("This method belong to Class B")
         print(f"My class name is {self.name}")
 
@@ -38,7 +38,7 @@ class B(A):
 obj = B()
 
 # Calling method for Class A
-obj.methodA()
+obj.method_a()
 
 # Calling method for Class b
-obj.methodB()
+obj.method_b()

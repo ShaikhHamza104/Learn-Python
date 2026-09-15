@@ -1,43 +1,43 @@
 """
-📚 Topic: Abstract Base Classes (ABC)
+📚 Topic: Abstract Base Classes (`abc.ABC`)
 
-This script demonstrates abstract base classes (abc) using for loops,
-functions, classes and imports.
+This script demonstrates defining formal interfaces using `abc.ABC` and the
+`@abstractmethod` decorator.
 
 💡 Key points:
-    1️⃣ the basic syntax for abstract base classes (abc)
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Inheriting from `abc.ABC` defines an abstract base class
+    2️⃣ Marking methods with `@abstractmethod` forces child implementation
+    3️⃣ Instantiating incomplete abstract classes raises `TypeError`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    abstract base classes (abc) affects the result.
+    Use abstract base classes to define strict API contracts across multiple
+    subclasses.
 """
 
 
 from abc import ABC, abstractmethod
 
 
-class Ploygon(ABC):
+class Polygon(ABC):
 
     @abstractmethod
     def side(self):
         pass
 
 
-class Triangle(Ploygon):
+class Triangle(Polygon):
 
     def side(self):
         print("I have 3 side ")
 
 
-class Square(Ploygon):
+class Square(Polygon):
 
     def side(self):
         print("I have 4 side ")
 
 
-class Hexagon(Ploygon):
+class Hexagon(Polygon):
 
     def side(self):
         print("I have 6 side ")
@@ -46,8 +46,8 @@ class Hexagon(Ploygon):
 ot = Triangle()
 ot.side()
 
-os = Square()
-os.side()
+sq = Square()
+sq.side()
 
 oh = Hexagon()
 oh.side()

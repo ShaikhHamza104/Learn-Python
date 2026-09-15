@@ -1,17 +1,19 @@
 """
-📚 Topic: 09 Remove
+📚 Topic: Deleting Files (`os.remove()`)
 
-This script demonstrates 09 remove using exception handling and imports.
+This script demonstrates deleting files permanently from disk using
+`os.remove()` (or `os.unlink()`).
 
 💡 Key points:
-    1️⃣ the basic syntax for 09 remove
-    2️⃣ how exception handling fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Permanently unlinking files from disk
+    2️⃣ Raises `FileNotFoundError` if the file does not exist
+    3️⃣ Raises `IsADirectoryError` if called on a directory
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    09 remove affects the result.
+    `os.remove()` bypasses the operating system recycle bin / trash; deletions
+    are permanent.
 """
+
 
 # importing os module : os module is a build in module
 import os

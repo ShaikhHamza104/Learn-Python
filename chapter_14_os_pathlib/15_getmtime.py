@@ -1,17 +1,19 @@
 """
-📚 Topic: 15 Getmtime
+📚 Topic: File Modification Timestamps (`os.path.getmtime()`)
 
-This script demonstrates 15 getmtime using imports.
+This script demonstrates reading file modification epoch timestamps and
+formatting them into human-readable datetime strings.
 
 💡 Key points:
-    1️⃣ the basic syntax for 15 getmtime
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Retrieving modification timestamp as seconds since Unix epoch
+    2️⃣ Converting epoch float to human date using `datetime.fromtimestamp()`
+    3️⃣ Comparing file ages and detecting changes
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    15 getmtime affects the result.
+    Use `time.ctime(os.path.getmtime(path))` for a quick formatted timestamp
+    string.
 """
+
 
 # importing os module : os module is a build in module
 import os

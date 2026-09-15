@@ -1,16 +1,18 @@
 """
-📚 Topic: Variable
+📚 Topic: Variables & Memory Assignment
 
-This script demonstrates variable using functions and conditions.
+This script demonstrates assigning various Python objects to named variables,
+inspecting them, and understanding how variables act as labeled references
+to values in computer memory.
 
 💡 Key points:
-    1️⃣ the basic syntax for variable
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Assigning primitive literals (integers, floats, strings) to variables
+    2️⃣ Reassigning variables dynamically without explicit type declarations
+    3️⃣ Printing variable contents using modern f-strings
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    variable affects the result.
+    In Python, you do not declare variable types beforehand; Python infers
+    the type at runtime based on the value assigned to the variable.
 """
 
 

@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 4
 
-This script demonstrates chapter 07 exercise - problem 4 using user input,
-for loops, conditions and imports.
+Determine whether a given number is prime using a `for-else` loop.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 4
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 4 affects the result.
+    1️⃣ Checking divisibility from 2 up to `n - 1`
+    2️⃣ Breaking early when a factor is found
+    3️⃣ Leveraging `else` block to confirm prime numbers
 """
-
-
 # 🔢 Take a number from the user
 n = int(input("Enter number: "))
 

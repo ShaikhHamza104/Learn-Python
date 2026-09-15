@@ -1,19 +1,17 @@
 """
-📚 Topic: Writing to Files
+📚 Topic: Writing Files with `'w'` Mode
 
-This script demonstrates writing to files using file or path operations.
+This script demonstrates writing text to files using write mode (`'w'`).
 
 💡 Key points:
-    1️⃣ the basic syntax for writing to files
-    2️⃣ how file or path operations fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `'w'` mode creates the file if it does not exist
+    2️⃣ Truncation warning: `'w'` completely overwrites existing content
+    3️⃣ Writing strings with `f.write(data)`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    writing to files affects the result.
+    `f.write()` does not automatically append a newline; add `\n` manually
+    when line breaks are desired.
 """
-
-
 # Opening a file
 f = open('random.txt', 'w')
 

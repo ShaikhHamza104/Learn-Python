@@ -1,18 +1,18 @@
 """
-📚 Topic: CSV File Processing
+📚 Topic: CSV File Processing with the `csv` Module
 
-This script demonstrates csv file processing using basic Python syntax.
+This script demonstrates reading and writing Comma Separated Values (CSV) files
+using Python's standard `csv` module.
 
 💡 Key points:
-    1️⃣ the basic syntax for csv file processing
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Writing tabular data with `csv.writer` and `writerow()`
+    2️⃣ Reading rows as lists of strings with `csv.reader`
+    3️⃣ Specifying `newline=''` when opening CSV files to prevent blank lines
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how csv
-    file processing affects the result.
+    Use `csv.DictReader` and `csv.DictWriter` to map CSV columns directly
+    to Python dictionaries.
 """
-
 # 📊 Working with CSV files
 # CSV = Comma Separated Values -> basically a simple spreadsheet saved as plain
 # text

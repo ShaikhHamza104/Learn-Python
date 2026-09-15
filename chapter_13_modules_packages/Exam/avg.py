@@ -1,16 +1,12 @@
 """
-📚 Topic: Avg
+📚 Topic: Exam Package - Average Calculation Submodule
 
-This script demonstrates avg using conditions, functions and imports.
+This module computes average marks across practical test submodules.
 
 💡 Key points:
-    1️⃣ the basic syntax for avg
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    avg affects the result.
+    1️⃣ Relative import of sibling modules (`from . import ptt1, ptt2`)
+    2️⃣ Calculating aggregate averages
+    3️⃣ Modular separation of mathematical logic
 """
 
 
@@ -18,7 +14,7 @@ from . import ptt1, ptt2
 
 
 def cal_avg():
-    return (ptt1.getPtt1() + ptt2.getPtt2()) / 2
+    return (ptt1.get_ptt1() + ptt2.get_ptt2()) / 2
 
 
 if __name__ == "__main__":

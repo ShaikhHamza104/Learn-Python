@@ -1,27 +1,18 @@
 """
-📚 Topic: Enum
+📚 Topic: Python Enums for Categorical States
 
-This script demonstrates Python Enums using the enum module.
+This script demonstrates defining symbolic enumeration names bound to unique,
+constant values using the `enum` module.
 
 💡 Key points:
-    1. Basic Enum creation
-    2. Enum names and values
-    3. str() vs repr()
-    4. Converting Enum members
-    5. Enum properties
-    6. Iteration and identity
-    7. Membership and comparisons
-    8. Getting members by value and key
-    9. auto() values
-    10. @unique decorator
-    11. Real-life logging example
+    1️⃣ Inheriting from `enum.Enum`
+    2️⃣ Accessing enum members by name and value
+    3️⃣ Ensuring type safety and preventing magic strings in business logic
 
 🧠 Beginner tip:
-    Run this file section by section.
-    Change one value and run it again to understand
-    how Enum members behave.
+    Use enums for fixed sets of choices like status codes, user roles, or
+    order states.
 """
-
 # ============================================================
 # 1. BASIC ENUM
 # ============================================================

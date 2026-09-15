@@ -1,32 +1,28 @@
 """
 📚 Topic: Chapter 05 Exercise - Problem 7
 
-This script demonstrates chapter 05 exercise - problem 7 using imports.
+Demonstrate what happens when duplicate keys (friends with same name) are
+inserted into a dictionary.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 05 exercise - problem 7
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 05 exercise - problem 7 affects the result.
+    1️⃣ Dictionary keys must remain unique
+    2️⃣ Inserting a duplicate key overwrites its existing value
+    3️⃣ Only the latest assigned value is preserved
 """
-
 # 📚 Create a dictionary containing friends and their
 # favorite programming languages.
-laguage = {
+languages = {
     "Rahul": "Php",
     "Harry": "Python",
     "Hamza": "Datascience",
 }
 
 # ⚠️ A repeated key replaces its earlier value.
-laguage["Harry"] = "Django"
+languages["Harry"] = "Django"
 
 
 # 📋 Display the final dictionary
-print(laguage)
+print(languages)
 
 # Output:
 # {'Rahul': 'Php', 'Harry': 'Django', 'Hamza': 'Datascience'}

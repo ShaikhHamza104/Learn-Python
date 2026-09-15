@@ -1,18 +1,15 @@
 """
-📚 Topic: Problem3
+📚 Topic: Chapter 12 Exercise - Problem 3
 
-This script demonstrates problem3 using user input, for loops, conditions
-and exception handling.
+Access list elements by index and handle `IndexError` for invalid
+requests.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem3
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem3 affects the result.
+    1️⃣ Indexing lists dynamically
+    2️⃣ Catching `IndexError` when requested index exceeds list length
+    3️⃣ Safeguarding sequence access
 """
+
 
 # Write a function that opens and reads a filename. Use try, except, and else
 # to handle the file operation and print successful reads.

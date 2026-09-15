@@ -1,17 +1,13 @@
 """
 📚 Topic: Chapter 11 Exercise - Problem 5
 
-This script demonstrates chapter 11 exercise - problem 5 using functions,
-classes and imports.
+Write a Vector class capable of calculating the sum and dot product of two
+vectors.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 11 exercise - problem 5
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 11 exercise - problem 5 affects the result.
+    1️⃣ Overloading `__add__` for vector addition
+    2️⃣ Overloading `__mul__` for vector dot product
+    3️⃣ Supporting multidimensional vector math
 """
 
 

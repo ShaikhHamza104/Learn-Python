@@ -1,19 +1,18 @@
 """
-📚 Topic: Dict Method
+📚 Topic: Dictionary Methods
 
-This script demonstrates dict method using basic Python syntax.
+This script explores commonly used dictionary methods for inspecting and
+manipulating key-value collections.
 
 💡 Key points:
-    1️⃣ the basic syntax for dict method
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Extracting views: `keys()`, `values()`, and `items()`
+    2️⃣ Safe lookups using `dict.get(key, default)`
+    3️⃣ Merging dictionaries using `dict.update()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    dict method affects the result.
+    Views returned by `.keys()` and `.items()` are dynamic and reflect future
+    changes made to the underlying dictionary.
 """
-
-
 # 📚 Dictionary of marks
 # Student names are the keys and their marks are the values.
 mark = {"Rohan": 70, "Harry": 100, "Sonali": 80, "Mari": 75, "Yusuf": 95}

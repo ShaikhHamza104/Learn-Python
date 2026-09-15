@@ -1,17 +1,17 @@
 """
-📚 Topic: Private Members and Name Mangling
+📚 Topic: Private Members & Name Mangling
 
-This script demonstrates private members and name mangling using for loops,
-functions and classes.
+This script demonstrates the double-underscore prefix (`__member`) for private
+members and how Python performs name mangling.
 
 💡 Key points:
-    1️⃣ the basic syntax for private members and name mangling
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Double-underscore prefix: `__attribute` triggers name mangling
+    2️⃣ Python renames `__attr` to `_ClassName__attr` behind the scenes
+    3️⃣ Prevents accidental attribute collisions in subclasses
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    private members and name mangling affects the result.
+    Private members are not truly private; they can still be reached via
+    their mangled name `_ClassName__attribute`.
 """
 
 

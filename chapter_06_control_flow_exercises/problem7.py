@@ -1,20 +1,14 @@
 """
 📚 Topic: Chapter 06 Exercise - Problem 7
 
-This script demonstrates chapter 06 exercise - problem 7 using user input,
-for loops, conditions and imports.
+Check whether a social media post mentions a specific target person,
+performing case-insensitive search.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 06 exercise - problem 7
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 06 exercise - problem 7 affects the result.
+    1️⃣ Normalizing text case with `.lower()`
+    2️⃣ Substring search using `in`
+    3️⃣ Reporting whether the subject is mentioned
 """
-
-
 # 👤 Store the name we want to search for
 name = "Harry"
 

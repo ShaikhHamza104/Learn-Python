@@ -1,17 +1,19 @@
 """
-📚 Topic: 10 Path Exists
+📚 Topic: Checking Path Existence (`os.path.exists()`)
 
-This script demonstrates 10 path exists using conditions and imports.
+This script demonstrates verifying whether a file or directory exists before
+performing operations.
 
 💡 Key points:
-    1️⃣ the basic syntax for 10 path exists
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Testing path existence returning boolean `True` or `False`
+    2️⃣ Works for both files and directory paths
+    3️⃣ Preventing `FileNotFoundError` in read/write workflows
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    10 path exists affects the result.
+    In modern code, `pathlib.Path("file.txt").exists()` is preferred for
+    readability.
 """
+
 
 # importing os module : os module is a build in module
 import os

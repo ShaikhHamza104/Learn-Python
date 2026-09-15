@@ -1,19 +1,18 @@
 """
-📚 Topic: For Loop
+📚 Topic: The `for` Loop
 
-This script demonstrates for loop using for loops.
+This script demonstrates idiomatic iteration across sequences (lists, tuples,
+strings) using Python's `for...in` syntax.
 
 💡 Key points:
-    1️⃣ the basic syntax for for loop
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Direct element iteration without manual indexing
+    2️⃣ Traversing lists, tuples, and individual string characters
+    3️⃣ Clean, readable, and safe against out-of-bounds index errors
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    for loop affects the result.
+    Python's `for` loop is actually a `for-each` loop, pulling items from an
+    iterable until exhausted.
 """
-
-
 # ═══════════════════════════════════════
 # 🔤 for Loop with String
 # ═══════════════════════════════════════

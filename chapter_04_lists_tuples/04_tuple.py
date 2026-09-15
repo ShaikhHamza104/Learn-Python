@@ -1,19 +1,18 @@
 """
-📚 Topic: Tuple
+📚 Topic: Python Tuples
 
-This script demonstrates tuple using exception handling.
+This script introduces tuples as ordered, immutable sequences used for fixed
+data collections.
 
 💡 Key points:
-    1️⃣ the basic syntax for tuple
-    2️⃣ how exception handling fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Creating tuples using parentheses `()`
+    2️⃣ Defining single-element tuples with a trailing comma `(item,)`
+    3️⃣ Immutability: attempting to reassign items raises a `TypeError`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    tuple affects the result.
+    Use tuples when data should never change throughout program execution,
+    such as coordinates or fixed configuration.
 """
-
-
 # ============================================================
 # 🎯 WHAT IS A TUPLE?
 # ============================================================

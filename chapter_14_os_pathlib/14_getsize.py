@@ -1,17 +1,18 @@
 """
-📚 Topic: 14 Getsize
+📚 Topic: Retrieving File Sizes (`os.path.getsize()`)
 
-This script demonstrates 14 getsize using imports.
+This script demonstrates inspecting file sizes in bytes using
+`os.path.getsize()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 14 getsize
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Measuring file size in bytes
+    2️⃣ Converting raw byte counts to kilobytes, megabytes, or gigabytes
+    3️⃣ Raising `FileNotFoundError` if the target path is missing
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    14 getsize affects the result.
+    Divide bytes by 1024 to convert to KB, or by `1024 ** 2` to convert to MB.
 """
+
 
 # importing os module : os module is a build in module
 import os

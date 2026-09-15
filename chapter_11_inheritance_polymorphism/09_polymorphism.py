@@ -1,17 +1,17 @@
 """
-📚 Topic: Polymorphism
+📚 Topic: Polymorphism & Duck Typing
 
-This script demonstrates polymorphism using for loops, conditions, functions
-and classes.
+This script demonstrates polymorphism: different classes implementing the same
+interface, allowing unified processing.
 
 💡 Key points:
-    1️⃣ the basic syntax for polymorphism
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Treating different objects uniformly through shared method names
+    2️⃣ Duck typing: "If it walks and quacks like a duck, it's a duck"
+    3️⃣ Decoupling client code from concrete implementations
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    polymorphism affects the result.
+    In Python, polymorphism does not require a common base class; matching
+    method names and signatures is sufficient.
 """
 
 

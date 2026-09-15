@@ -1,21 +1,22 @@
 """
 📚 Topic: Keyword Arguments
 
-This script demonstrates keyword arguments using functions.
+This script demonstrates passing arguments by parameter name rather than by
+their position.
 
 💡 Key points:
-    1️⃣ the basic syntax for keyword arguments
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Supplying arguments as `name=value` pairs
+    2️⃣ Calling arguments in any order when keyword names are provided
+    3️⃣ Combining clarity with readability in multi-parameter calls
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    keyword arguments affects the result.
+    Positional arguments must always come before keyword arguments in a
+    function call.
 """
 
 
-def sum(a, b, c, d):
+def print_sum(a, b, c, d):
     print(f"{a} + {b} + {c} + {d} = {a+b+c+d}")
 
 
-sum(a=10, b=20, c=30, d=40)
+print_sum(a=10, b=20, c=30, d=40)

@@ -1,19 +1,18 @@
 """
-📚 Topic: Chapter 03 Exercise - Problem 1
+📚 Topic: Exercise 1 - Collecting Strings in a List
 
-This script demonstrates chapter 03 exercise - problem 1 using user input
-and imports.
+This exercise prompts the user for multiple fruit names using `input()`,
+appends each entered string into a list, and displays the populated list.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 03 exercise - problem 1
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Initializing an empty list container (`fruits = []`)
+    2️⃣ Gathering terminal user inputs with `input()`
+    3️⃣ Storing strings sequentially using the `.append()` list method
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 03 exercise - problem 1 affects the result.
+    Lists maintain insertion order, making them ideal for collecting items
+    entered one-by-one by a user.
 """
-
 
 # 🍎 Create an empty list to store the fruits
 fruits = []

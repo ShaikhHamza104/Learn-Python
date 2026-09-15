@@ -1,18 +1,17 @@
 """
-📚 Topic: The with Statement
+📚 Topic: Context Managers & the `with` Statement
 
-This script demonstrates the with statement using file or path operations.
+This script demonstrates Python's `with` statement for automated and
+exception-safe file resource management.
 
 💡 Key points:
-    1️⃣ the basic syntax for the with statement
-    2️⃣ how file or path operations fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Syntax: `with open(...) as f:`
+    2️⃣ Automatic file closure even if exceptions occur inside the block
+    3️⃣ Eliminates manual `f.close()` calls
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    the with statement affects the result.
+    The `with` statement is the Pythonic standard for file handling. Always
+    prefer it over manual `open()` and `close()`.
 """
-
-
 with open('sample.txt') as f:
     print(f.read())

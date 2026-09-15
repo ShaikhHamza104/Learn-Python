@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 8
 
-This script demonstrates chapter 07 exercise - problem 8 using for loops and
-imports.
+Print a right-angled triangle star pattern using nested loops.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 8
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 8 affects the result.
+    1️⃣ Outer loop controlling rows
+    2️⃣ Inner loop controlling column star output
+    3️⃣ Using `end=""` to control newline output
 """
-
-
 # 🔢 Define the number of rows
 n = 3
 

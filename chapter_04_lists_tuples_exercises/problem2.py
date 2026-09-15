@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 04 Exercise - Problem 2
 
-This script demonstrates chapter 04 exercise - problem 2 using user input
-and imports.
+Accept marks of six students from user input and display them in sorted order.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 04 exercise - problem 2
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 04 exercise - problem 2 affects the result.
+    1️⃣ Converting string user inputs to integers
+    2️⃣ Storing numerical scores in a list
+    3️⃣ Sorting lists in ascending order using `list.sort()`
 """
-
-
 # 👨‍🎓 Take marks of the first student
 student1 = int(input("Enter mark of student 1 "))
 

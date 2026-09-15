@@ -1,19 +1,18 @@
 """
-📚 Topic: Short Hand If Else
+📚 Topic: Ternary Operator (Conditional Expressions)
 
-This script demonstrates short hand if else using user input.
+This script demonstrates Python's conditional expression syntax (ternary
+operator) for evaluating single-line inline decisions.
 
 💡 Key points:
-    1️⃣ the basic syntax for short hand if else
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Syntax: `value_if_true if condition else value_if_false`
+    2️⃣ Evaluating expressions inline for concise variable assignment
+    3️⃣ Maintaining readability: avoid deeply nesting ternary operators
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    short hand if else affects the result.
+    Use ternary expressions for simple assignments; for multi-step logic,
+    use standard multi-line `if-else` statements.
 """
-
-
 # 🔢 Take the first number from the user
 a = int(input("Enter number: "))
 

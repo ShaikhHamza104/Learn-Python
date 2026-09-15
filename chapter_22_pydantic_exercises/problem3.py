@@ -1,17 +1,15 @@
 """
-📚 Topic: Problem3
+📚 Topic: Dataset Validation & Record Splitting
 
-This script demonstrates problem3 using pydantic dataset validation.
+This script processes a batch of raw records, partitioning them into clean
+and rejected datasets using a Pydantic model.
 
 💡 Key points:
-1️⃣ the basic syntax for problem3
-2️⃣ how validating a list of dicts fits into the example
-3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-Run this file, change one small value, and run it again to see how
-problem3 affects the result.
+    1️⃣ Iterating through raw heterogeneous record collections
+    2️⃣ Validating individual items against schema definitions
+    3️⃣ Segregating valid model instances from rejected records with errors
 """
+
 
 from pydantic import BaseModel, Field, ValidationError
 

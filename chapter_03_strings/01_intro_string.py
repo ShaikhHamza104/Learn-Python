@@ -1,18 +1,19 @@
 """
-📚 Topic: Intro String
+📚 Topic: String Creation & Indexing
 
-This script demonstrates intro string using basic Python syntax.
+This script demonstrates string literal declarations (single, double, and
+triple quotes) and character indexing with both positive and negative
+offsets.
 
 💡 Key points:
-    1️⃣ the basic syntax for intro string
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Declaring strings with `'...'`, `"..."`, or triple quotes
+    2️⃣ Accessing characters via 0-based positive indexing (`s[0]`, `s[1]`)
+    3️⃣ Accessing characters from the end using negative indexing (`s[-1]`)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    intro string affects the result.
+    Python strings are immutable: once created in memory, individual
+    characters cannot be mutated (e.g., `s[0] = 'X'` raises a TypeError).
 """
-
 
 # string using single quotes:
 string = "This is string"

@@ -1,17 +1,12 @@
 """
-📚 Topic: Problem2
+📚 Topic: Chapter 12 Exercise - Problem 2
 
-This script demonstrates problem2 using user input, for loops, functions and
-exception handling.
+Perform arithmetic division handling `ZeroDivisionError` and `ValueError`.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem2
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem2 affects the result.
+    1️⃣ Validating numeric integer conversion
+    2️⃣ Catching division by zero attempts
+    3️⃣ Providing distinct error messages for each condition
 """
 
 
@@ -19,15 +14,15 @@ exception handling.
 # for ZeroDivisionError and ValueError.
 
 
-def divisionOfTwoNumber(a: int, b):
+def division_of_two_numbers(a: int, b):
     return a / b
 
 
 try:
     a = int(input("Enter a first number : "))
     b = int(input("Enter a second number : "))
-    divisionOfTwoNumber(a, b)
+    division_of_two_numbers(a, b)
 except ValueError:
     print("Check input")
 except ZeroDivisionError:
-    print("You cannot dived any number by zero ")
+    print("You cannot divide any number by zero ")

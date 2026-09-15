@@ -1,20 +1,19 @@
 """
-📚 Topic: Chapter 03 Exercise - Problem 3
+📚 Topic: Exercise 3 - Double Space Detection with `.find()`
 
-This script demonstrates chapter 03 exercise - problem 3 using conditions
-and imports.
+This exercise inspects a string for irregular double spacing using the
+`.find()` method, checking whether a substring occurs in the text.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 03 exercise - problem 3
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Searching for substrings using `str.find("  ")`
+    2️⃣ Checking the index return value against `-1` (not found)
+    3️⃣ Avoiding truthiness pitfalls with index `0`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 03 exercise - problem 3 affects the result.
+    `.find()` returns `-1` when a substring is missing. Never test
+    `if s.find("..."):` directly, because index `0` is falsy in Python!
 """
 
-
 string = "Python is programming language.Its easy to understand language  "
-if string.find("  "):
-    print("double space is detect")
+if string.find("  ") != -1:
+    print("Double space detected")

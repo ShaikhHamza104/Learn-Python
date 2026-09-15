@@ -1,18 +1,18 @@
 """
-📚 Topic: Chapter 03 Exercise - Problem 5
+📚 Topic: Exercise 5 - Formatting Text with Tab Escape Sequences
 
-This script demonstrates chapter 03 exercise - problem 5 using imports.
+This exercise demonstrates using the horizontal tab escape sequence `\t`
+to insert structured spacing within inline message strings.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 03 exercise - problem 5
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Using `\t` to insert tab indentation between words
+    2️⃣ Combining punctuation, greetings, and whitespace cleanly
+    3️⃣ Displaying formatted output across console terminals
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 03 exercise - problem 5 affects the result.
+    Tab stops depend on your terminal or editor settings (typically 4 or 8
+    character columns wide).
 """
-
 
 letter = "Dear Harry,\tthis python course is nice. Thanks!"
 print(letter)

@@ -1,17 +1,17 @@
 """
-📚 Topic: Python packages and __init__.py
+📚 Topic: Python Packages and `__init__.py`
 
-This script demonstrates python packages and __init__.py using for loops,
-conditions, functions and imports.
+This script explains how directories containing `__init__.py` files form
+hierarchical Python packages.
 
 💡 Key points:
-    1️⃣ the basic syntax for python packages and __init__.py
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ A package is a directory containing an `__init__.py` file
+    2️⃣ Organizing related modules into structured sub-namespaces
+    3️⃣ Exposing public package APIs via `__init__.py`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    python packages and __init__.py affects the result.
+    In Python 3.3+, namespace packages can exist without `__init__.py`, but
+    regular packages still use `__init__.py` for initialization and exports.
 """
 
 

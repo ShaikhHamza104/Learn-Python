@@ -1,16 +1,17 @@
 """
-📚 Topic: Chapter 01 Exercise - Problem 3
+📚 Topic: External Libraries & Audio Synthesis (pyttsx3)
 
-This script demonstrates chapter 01 exercise - problem 3 using imports.
+This exercise demonstrates initializing an external text-to-speech engine
+using the `pyttsx3` library, queueing spoken utterances, and processing audio.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 01 exercise - problem 3
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Initializing the TTS engine using `pyttsx3.init()`
+    2️⃣ Queuing speech commands with `engine.say()`
+    3️⃣ Flushing and executing the speech queue with `engine.runAndWait()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 01 exercise - problem 3 affects the result.
+    `pyttsx3` operates offline and works across Windows, macOS, and Linux
+    without requiring an internet connection or external API keys.
 """
 
 

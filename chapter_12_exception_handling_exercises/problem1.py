@@ -1,27 +1,22 @@
 """
-📚 Topic: Problem1
+📚 Topic: Chapter 12 Exercise - Problem 1
 
-This script demonstrates problem1 using user input, conditions, functions
-and exception handling.
+Prompt for user input and handle invalid integer inputs using `ValueError`.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem1
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem1 affects the result.
+    1️⃣ Converting user string input to `int` inside `try`
+    2️⃣ Catching `ValueError` when non-numeric strings are entered
+    3️⃣ Displaying helpful validation feedback
 """
 
 
 # 1. Write a program that takes integer input and raises ValueError
 # if the input is not an integer.
-def inputAsInteger():
+def input_as_integer():
     try:
         int(input("Enter any number "))
     except ValueError as e:
         print(e)
 
 
-inputAsInteger()
+input_as_integer()

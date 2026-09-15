@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 7
 
-This script demonstrates chapter 07 exercise - problem 7 using user input,
-for loops and imports.
+Print an centered pyramid star pattern of `n` rows.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 7
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 7 affects the result.
+    1️⃣ Calculating leading spaces for row centering: `n - i`
+    2️⃣ Calculating odd star counts per row: `2 * i - 1`
+    3️⃣ Combining string repetition and concatenation
 """
-
-
 # 🔢 Take the number of rows from the user
 n = int(input("Enter a number: "))
 

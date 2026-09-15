@@ -1,19 +1,18 @@
 """
-📚 Topic: Range
+📚 Topic: The `range()` Function
 
-This script demonstrates range using for loops.
+This script demonstrates generating arithmetic progressions with `range()`
+for numeric loop iteration.
 
 💡 Key points:
-    1️⃣ the basic syntax for range
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Single argument: `range(stop)` (0 up to stop, exclusive)
+    2️⃣ Two arguments: `range(start, stop)`
+    3️⃣ Three arguments: `range(start, stop, step)` for custom stride
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    range affects the result.
+    `range()` produces numbers lazily on demand, making it memory-efficient
+    even for millions of steps.
 """
-
-
 # 🔢 Create a range from 0 to 6
 a = range(7)
 

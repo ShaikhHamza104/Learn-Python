@@ -10,7 +10,7 @@ Variables are named storage containers in memory that allow your program to hold
 |------|------------------|
 | `01_variable.py` | Declaring variables and storing different types of data (integers, floats, strings, booleans, and `None`). |
 | `02_datatype.py` | Exploring fundamental Python data types (`int`, `float`, `str`, `bool`, `NoneType`) and inspecting them with `type()`. |
-| `03_ruleofvariable.py` | Python identifier naming rules (allowed characters, capitalization conventions, and reserved keyword restrictions). |
+| `03_rules_of_variables.py` | Python identifier naming rules (allowed characters, capitalization conventions, and reserved keyword restrictions). |
 | `04_operator.py` | Working with arithmetic (`+`, `-`, `*`, `/`, `//`, `%`, `**`), comparison, logical, and assignment operators. |
 | `05_type_function.py` | Using the built-in `type()` function to inspect the runtime class of variables. |
 | `06_type_casting.py` | Explicitly converting between data types using constructor functions like `int()`, `float()`, and `str()`. |

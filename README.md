@@ -75,28 +75,28 @@ Learn-Python/
 ├── chapter_01_basics/ ... chapter_14_os_pathlib/  # Core Python foundations (Basics to OS)
 ├── chapter_01_basics_exercises/ ...              # 14 Dedicated exercise suites with complete solutions
 │
-├── chapter_15_regex/                 # Regular Expressions & pattern matching
-├── chapter_15_exercises/             # Practical regex extraction exercises
+├── chapter_15_regex/                           # Regular Expressions & pattern matching
+├── chapter_15_regex_exercises/                 # Practical regex extraction exercises
 │
-├── chapter_16_collections/           # Specialized data structures (Counter, deque, etc.)
+├── chapter_16_collections/                     # Specialized data structures (Counter, deque, etc.)
 │
-├── chapter_17_iterators_generators/  # Iterator protocol, yield, generator expressions
-├── chapter_17_exercises/             # Custom iterators & lazy pipeline exercises
+├── chapter_17_iterators_generators/            # Iterator protocol, yield, generator expressions
+├── chapter_17_iterators_generators_exercises/  # Custom iterators & lazy pipeline exercises
 │
-├── chapter_18_itertools/             # High-performance iterator algebra (16 methods)
+├── chapter_18_itertools/                       # High-performance iterator algebra (16 methods)
 │
-├── chapter_19_functional_tools/      # Decorators, wraps, partial, lru_cache
-├── chapter_19_exercises/             # Timing & validation decorator exercises
+├── chapter_19_functional_tools/                # Decorators, wraps, partial, lru_cache
+├── chapter_19_functional_tools_exercises/       # Timing & validation decorator exercises
 │
-├── chapter_20_apis_and_data/         # HTTP requests, API consuming & JSON persistence
-├── chapter_20_exercises/             # API data fetching & parsing exercises
+├── chapter_20_apis_and_data/                   # HTTP requests, API consuming & JSON persistence
+├── chapter_20_apis_and_data_exercises/         # API data fetching & parsing exercises
 │
-├── chapter_21_capstone/              # Production-style capstone project template
+├── chapter_21_capstone/                        # Production-style capstone project template
 │
-├── chapter_22_pydantic/              # Data validation, type enforcement & schema modeling
-├── chapter_22_exercises/             # Pydantic models, custom validators & dataset cleaning
+├── chapter_22_pydantic/                        # Data validation, type enforcement & schema modeling
+├── chapter_22_pydantic_exercises/              # Pydantic models, custom validators & dataset cleaning
 │
-└── projects/                         # 22 Standalone mini-projects and CLI games
+└── projects/                                   # 22 Standalone mini-projects and CLI games
 ```
 
 ---
@@ -122,14 +122,14 @@ Every chapter and exercise folder includes a dedicated, beginner-friendly `READM
 | **12** | [chapter_12_exception_handling/](./chapter_12_exception_handling) — Exception Handling & Logging | 12 Scripts | [chapter_12_exception_handling_exercises/](./chapter_12_exception_handling_exercises) (10 Problems) | [README](./chapter_12_exception_handling/README.md) |
 | **13** | [chapter_13_modules_packages/](./chapter_13_modules_packages) — Modules, Packages & Imports | 6 Scripts | — | [README](./chapter_13_modules_packages/README.md) |
 | **14** | [chapter_14_os_pathlib/](./chapter_14_os_pathlib) — OS Module & Pathlib Filesystem | 18 Scripts | [chapter_14_os_pathlib_exercises/](./chapter_14_os_pathlib_exercises) (5 Problems) | [README](./chapter_14_os_pathlib/README.md) |
-| **15** | [chapter_15_regex/](./chapter_15_regex) — Regular Expressions | 3 Scripts | [chapter_15_exercises/](./chapter_15_exercises) (5 Problems) | [README](./chapter_15_regex/README.md) |
+| **15** | [chapter_15_regex/](./chapter_15_regex) — Regular Expressions | 3 Scripts | [chapter_15_regex_exercises/](./chapter_15_regex_exercises) (5 Problems) | [README](./chapter_15_regex/README.md) |
 | **16** | [chapter_16_collections/](./chapter_16_collections) — Collections Module | 5 Scripts | — | [README](./chapter_16_collections/README.md) |
-| **17** | [chapter_17_iterators_generators/](./chapter_17_iterators_generators) — Iterators & Generators | 3 Scripts | [chapter_17_exercises/](./chapter_17_exercises) (3 Problems) | [README](./chapter_17_iterators_generators/README.md) |
+| **17** | [chapter_17_iterators_generators/](./chapter_17_iterators_generators) — Iterators & Generators | 3 Scripts | [chapter_17_iterators_generators_exercises/](./chapter_17_iterators_generators_exercises) (3 Problems) | [README](./chapter_17_iterators_generators/README.md) |
 | **18** | [chapter_18_itertools/](./chapter_18_itertools) — Itertools Module | 16 Scripts | — | [README](./chapter_18_itertools/README.md) |
-| **19** | [chapter_19_functional_tools/](./chapter_19_functional_tools) — Functional Tools & Decorators | 3 Scripts | [chapter_19_exercises/](./chapter_19_exercises) (3 Problems) | [README](./chapter_19_functional_tools/README.md) |
-| **20** | [chapter_20_apis_and_data/](./chapter_20_apis_and_data) — APIs, Requests & JSON | 3 Scripts | [chapter_20_exercises/](./chapter_20_exercises) (2 Problems) | [README](./chapter_20_apis_and_data/README.md) |
+| **19** | [chapter_19_functional_tools/](./chapter_19_functional_tools) — Functional Tools & Decorators | 3 Scripts | [chapter_19_functional_tools_exercises/](./chapter_19_functional_tools_exercises) (3 Problems) | [README](./chapter_19_functional_tools/README.md) |
+| **20** | [chapter_20_apis_and_data/](./chapter_20_apis_and_data) — APIs, Requests & JSON | 3 Scripts | [chapter_20_apis_and_data_exercises/](./chapter_20_apis_and_data_exercises) (2 Problems) | [README](./chapter_20_apis_and_data/README.md) |
 | **21** | [chapter_21_capstone/](./chapter_21_capstone) — Capstone Project | 1 App | — | [README](./chapter_21_capstone/README.md) |
-| **22** | [chapter_22_pydantic/](./chapter_22_pydantic) — Pydantic & Data Validation | 4 Scripts | [chapter_22_exercises/](./chapter_22_exercises) (3 Problems) | [README](./chapter_22_pydantic/README.md) |
+| **22** | [chapter_22_pydantic/](./chapter_22_pydantic) — Pydantic & Data Validation | 4 Scripts | [chapter_22_pydantic_exercises/](./chapter_22_pydantic_exercises) (3 Problems) | [README](./chapter_22_pydantic/README.md) |
 
 ---
 
@@ -185,7 +185,7 @@ Comprehensive setup guides for professional development workflows:
 - `06_operation_set.py` — Mathematical set operations: union (`|`), intersection (`&`), difference (`-`), and symmetric difference (`^`).
 - `07_set_comprehension.py` — Comprehensions for creating distinct sets.
 - `08_typed_dict.py` — Static typing for structured dictionaries using `typing.TypedDict`.
-- `10_dict_comprehension.py` — Dynamic dictionary construction, filtering, `zip` transformations, and the walrus operator (`:=`).
+- `09_dict_comprehension.py` — Dynamic dictionary construction, filtering, `zip` transformations, and the walrus operator (`:=`).
 
 ### Chapter 06: Control Flow
 - `01_if.py` — Boolean conditions and conditional execution blocks.
@@ -367,11 +367,11 @@ Practice makes permanent! This repository provides **108 hands-on exercise probl
 | [chapter_11_inheritance_polymorphism_exercises/](./chapter_11_inheritance_polymorphism_exercises) | 7 | 2D/3D vectors, pet/dog inheritance, employee salary increments, complex numbers dunder methods, vector dot/cross products |
 | [chapter_12_exception_handling_exercises/](./chapter_12_exception_handling_exercises) | 10 | Opening missing files, printing 3rd/5th/7th elements, division by zero handling, custom exceptions, list comprehension exports |
 | [chapter_14_os_pathlib_exercises/](./chapter_14_os_pathlib_exercises) | 5 | Automated desktop file organizer, recursive file searcher, directory size profiler, bulk file renamer, backup manager |
-| [chapter_15_exercises/](./chapter_15_exercises) | 5 | Email extraction, phone number formatting, date format conversion, hashtag parsing, sensitive data masking |
-| [chapter_17_exercises/](./chapter_17_exercises) | 3 | Custom countdown iterator, infinite Fibonacci generator, lazy text file log processing pipeline |
-| [chapter_19_exercises/](./chapter_19_exercises) | 3 | Execution timer decorator, input validation decorator, cache lookup utility |
-| [chapter_20_exercises/](./chapter_20_exercises) | 2 | REST API user fetcher, live currency converter with JSON cache |
-| [chapter_22_exercises/](./chapter_22_exercises) | 3 | MovieReview schema validation, Password strength field validator, and batch StudentScore dataset splitting |
+| [chapter_15_regex_exercises/](./chapter_15_regex_exercises) | 5 | Email extraction, phone number formatting, date format conversion, hashtag parsing, sensitive data masking |
+| [chapter_17_iterators_generators_exercises/](./chapter_17_iterators_generators_exercises) | 3 | Custom countdown iterator, infinite Fibonacci generator, lazy text file log processing pipeline |
+| [chapter_19_functional_tools_exercises/](./chapter_19_functional_tools_exercises) | 3 | Execution timer decorator, input validation decorator, cache lookup utility |
+| [chapter_20_apis_and_data_exercises/](./chapter_20_apis_and_data_exercises) | 2 | REST API user fetcher, live currency converter with JSON cache |
+| [chapter_22_pydantic_exercises/](./chapter_22_pydantic_exercises) | 3 | MovieReview schema validation, Password strength field validator, and batch StudentScore dataset splitting |
 
 ---
 

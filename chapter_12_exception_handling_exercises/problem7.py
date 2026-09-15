@@ -1,17 +1,13 @@
 """
-📚 Topic: Problem7
+📚 Topic: Chapter 12 Exercise - Problem 7
 
-This script demonstrates problem7 using user input, conditions, functions
-and classes.
+Define and raise a custom `NegativeValueError` when negative numbers
+are passed.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem7
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem7 affects the result.
+    1️⃣ Subclassing `Exception` to create `NegativeValueError`
+    2️⃣ Raising the custom exception conditionally
+    3️⃣ Handling the domain error cleanly in client code
 """
 
 
@@ -21,13 +17,13 @@ class NegativeValueError(Exception):
     pass
 
 
-def acceptPositiveValue(n):
+def accept_positive_value(n):
     if n < 0:
         raise NegativeValueError
 
 
 try:
     n = int(input("Enter a number : "))
-    acceptPositiveValue(n)
+    accept_positive_value(n)
 except NegativeValueError:
     print("Please Enter positive Number")

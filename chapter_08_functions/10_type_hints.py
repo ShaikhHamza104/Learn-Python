@@ -1,17 +1,19 @@
 """
-📚 Topic: Type Hints in Python
+📚 Topic: Function Type Hints & Annotations
 
-This script demonstrates type hints in python using basic Python syntax.
+This script demonstrates modern Python type hinting for function parameters
+and return types.
 
 💡 Key points:
-    1️⃣ the basic syntax for type hints in python
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Annotating parameter types: `def func(name: str, age: int) -> str:`
+    2️⃣ Static type verification with tools like `mypy`
+    3️⃣ Improving code clarity and IDE autocompletion
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how type
-    hints in python affects the result.
+    Type hints are documentation aids for developers and static linters;
+    Python does not enforce them at runtime.
 """
+
 
 from __future__ import annotations
 

@@ -1,18 +1,15 @@
 """
-📚 Topic: Problem1
+📚 Topic: Pydantic Model Validation
 
-This script demonstrates problem1 using pydantic models and
-validation.
+This script demonstrates defining Pydantic models with constrained fields
+and handling validation outcomes.
 
 💡 Key points:
-1️⃣ the basic syntax for problem1
-2️⃣ how BaseModel fit into the example
-3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-Run this file, change one small value, and run it again to see how
-problem1 affects the result.
+    1️⃣ Defining models inheriting from `pydantic.BaseModel`
+    2️⃣ Applying numerical field boundaries with `Field(ge=..., le=...)`
+    3️⃣ Catching and inspecting `pydantic.ValidationError` on invalid data
 """
+
 
 from pydantic import BaseModel, Field, ValidationError
 

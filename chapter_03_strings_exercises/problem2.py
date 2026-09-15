@@ -1,24 +1,24 @@
 """
-📚 Topic: Chapter 03 Exercise - Problem 2
+📚 Topic: Exercise 2 - Template Letter Placeholder Replacement
 
-This script demonstrates chapter 03 exercise - problem 2 using imports.
+This exercise demonstrates filling placeholders in a multi-line string
+template by chaining multiple `.replace()` method calls sequentially.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 03 exercise - problem 2
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining multi-line template strings with delimiter tags
+    2️⃣ Chaining `.replace()` calls to substitute placeholders
+    3️⃣ Generating dynamic output without altering the original template
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 03 exercise - problem 2 affects the result.
+    Each `.replace()` call returns a new string, enabling fluent method
+    chaining: `template.replace("<A>", a).replace("<B>", b)`.
 """
 
-
-latter = """
+letter = """
 Dear <|Name|>,
 You are selected!
 <|Date|>
 """
 name = "Hamza"
 date = "09-05-2024"
-print(latter.replace("<|Name|>", name).replace("<|Date|>", date))
+print(letter.replace("<|Name|>", name).replace("<|Date|>", date))

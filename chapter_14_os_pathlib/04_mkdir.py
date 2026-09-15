@@ -1,17 +1,18 @@
 """
-📚 Topic: 04 Mkdir
+📚 Topic: Creating Directories (`os.mkdir()`)
 
-This script demonstrates 04 mkdir using exception handling and imports.
+This script demonstrates creating new single-level directories with
+`os.mkdir()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 04 mkdir
-    2️⃣ how exception handling fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Creating a single directory path
+    2️⃣ Raises `FileExistsError` if the directory already exists
+    3️⃣ Raises `FileNotFoundError` if intermediate parents do not exist
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    04 mkdir affects the result.
+    To create nested parent directories without error, use `os.makedirs()`.
 """
+
 
 # importing os module : os module is a build in module
 import os

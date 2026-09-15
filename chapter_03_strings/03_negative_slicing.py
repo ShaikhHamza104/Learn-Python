@@ -1,18 +1,18 @@
 """
-📚 Topic: Negative Slicing
+📚 Topic: Negative Index Slicing
 
-This script demonstrates negative slicing using basic Python syntax.
+This script demonstrates slicing strings using negative index boundaries,
+extracting substrings relative to the end of the text.
 
 💡 Key points:
-    1️⃣ the basic syntax for negative slicing
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Negative indices start at `-1` for the last character
+    2️⃣ Specifying slices with negative ranges: `str[-4:-1]`
+    3️⃣ Calculating equivalent positive index boundaries
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    negative slicing affects the result.
+    To translate a negative index `-k` to a positive index, simply add the
+    string length: `len(str) + (-k)`.
 """
-
 
 name = "Hamza"
 #     012345

@@ -41,13 +41,13 @@ Execute each problem directly from the terminal:
 
 ```bash
 # Problem 1: Movie review validation
-python chapter_22_exercises/problem1.py
+python chapter_22_pydantic_exercises/problem1.py
 
 # Problem 2: Password validator
-python chapter_22_exercises/problem2.py
+python chapter_22_pydantic_exercises/problem2.py
 
 # Problem 3: Student score dataset cleaner
-python "chapter_22_exercises/problem3 .py"
+python chapter_22_pydantic_exercises/problem3.py
 ```
 
 ---

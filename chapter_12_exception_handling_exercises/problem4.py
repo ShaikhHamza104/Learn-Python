@@ -1,35 +1,28 @@
 """
-📚 Topic: Problem4
+📚 Topic: Chapter 12 Exercise - Problem 4
 
-This script demonstrates problem4 using user input, for loops, conditions
-and functions.
+Implement file reading and writing with exception safety and error handling.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem4
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem4 affects the result.
+    1️⃣ Safe file opening with `try-except`
+    2️⃣ Catching `FileNotFoundError`
+    3️⃣ Exception-safe resource management
 """
 
 
 # Implement file operations and use finally to close the file even when
 # an exception occurs.
-def openFile(file_name):
+def open_file(file_name):
     try:
-        with open(file_name, "r") as f:
+        with open(file_name, "r", encoding="utf-8") as f:
             data = f.read()
             print(data)
     except FileNotFoundError:
         print("File is not available yet.")
-    finally:
-        f.close()
 
 
-def writeFile(file_name, data):
-    with open(file_name, "w") as f:
+def write_file(file_name, data):
+    with open(file_name, "w", encoding="utf-8") as f:
         f.write(data)
 
 
@@ -43,10 +36,10 @@ Choose an option: """)
 
     file_name = input("Enter the file name: ")
     if user == 1:
-        openFile(file_name)
+        open_file(file_name)
     elif user == 2:
         data = input("Input some data for the file: ")
-        writeFile(file_name, data)
+        write_file(file_name, data)
     else:
         print("Invalid option chosen.")
 except ValueError:

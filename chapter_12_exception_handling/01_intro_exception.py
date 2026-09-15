@@ -1,17 +1,17 @@
 """
-📚 Topic: 01 Intro Exception
+📚 Topic: Introduction to Exception Handling
 
-This script demonstrates 01 intro exception using user input, conditions and
-exception handling.
+This script introduces Python's `try-except` mechanism to catch runtime errors
+gracefully without crashing programs.
 
 💡 Key points:
-    1️⃣ the basic syntax for 01 intro exception
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Anticipating potential runtime failures with `try`
+    2️⃣ Handling specific error conditions inside `except`
+    3️⃣ Maintaining program execution continuity after errors
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    01 intro exception affects the result.
+    Exceptions are not bugs; they are unexpected runtime events (like missing
+    files or bad user input) that programs should handle smoothly.
 """
 
 

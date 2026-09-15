@@ -1,19 +1,17 @@
 """
-📚 Topic: Appending to Files
+📚 Topic: Appending to Files with `'a'` Mode
 
-This script demonstrates appending to files using file or path operations.
+This script demonstrates appending content to an existing file without
+overwriting its previous contents.
 
 💡 Key points:
-    1️⃣ the basic syntax for appending to files
-    2️⃣ how file or path operations fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `'a'` mode places the file pointer at the end of the file
+    2️⃣ Preserves existing data while adding new lines
+    3️⃣ Creates the file if it does not yet exist
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    appending to files affects the result.
+    Use `'a'` mode for audit logs, activity trackers, and incremental records.
 """
-
-
 f = open('random.txt', 'a')
 
 # writing to a file

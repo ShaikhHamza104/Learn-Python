@@ -1,18 +1,19 @@
 """
-📚 Topic: Type Casting
+📚 Topic: Explicit Type Casting & Conversion
 
-This script demonstrates type casting using basic Python syntax.
+This script demonstrates explicit type conversion using Python constructor
+functions (`int()`, `float()`, `str()`), transforming data between incompatible
+class representations safely.
 
 💡 Key points:
-    1️⃣ the basic syntax for type casting
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Converting numeric strings to integers with `int("10")`
+    2️⃣ Truncating floating-point numbers to integers (dropping decimals)
+    3️⃣ Casting boolean values to integers (`True` -> `1`, `False` -> `0`)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    type casting affects the result.
+    Calling `int()` on a float truncates toward zero—it does not round to
+    the nearest integer. Use `round()` if mathematical rounding is needed.
 """
-
 
 n = "10"
 

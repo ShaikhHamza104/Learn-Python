@@ -1,16 +1,17 @@
 """
-📚 Topic: Constructor Parameters
+📚 Topic: Parameterized Constructors
 
-This script demonstrates constructor parameters using functions and classes.
+This script demonstrates passing arguments through `__init__` to customize each
+object during instantiation.
 
 💡 Key points:
-    1️⃣ the basic syntax for constructor parameters
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining constructor parameters after `self`
+    2️⃣ Binding incoming arguments to instance attributes: `self.name = name`
+    3️⃣ Creating diverse, distinct object instances from one class
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    constructor parameters affects the result.
+    Default parameter values can be assigned in `__init__` to make constructor
+    arguments optional.
 """
 
 

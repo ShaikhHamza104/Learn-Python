@@ -1,18 +1,15 @@
 """
-📚 Topic: Problem2
+📚 Topic: Exporting API Responses to JSON and CSV
 
-This script demonstrates problem2 using requests, csv, json and
-exception handling.
+This script fetches data from a remote REST API and persists the records to
+both JSON and CSV files.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem2
-    2️⃣ how csv.DictWriter fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem2 affects the result.
+    1️⃣ Deserializing API responses with `response.json()`
+    2️⃣ Writing formatted JSON files with `json.dump(..., indent=4)`
+    3️⃣ Writing tabular data to CSV with `csv.DictWriter`
 """
+
 
 import csv
 import json

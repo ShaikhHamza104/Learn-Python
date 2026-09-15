@@ -1,17 +1,19 @@
 """
-📚 Topic: Mod2 Module Use
+📚 Topic: Importing and Using Module Members
 
-This script demonstrates mod2 module use using user input and imports.
+This script demonstrates different import styles, including importing entire
+modules and aliasing module names.
 
 💡 Key points:
-    1️⃣ the basic syntax for mod2 module use
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Standard import: `import module`
+    2️⃣ Aliasing with `as`: `import module as alias`
+    3️⃣ Accessing exported module attributes and functions
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    mod2 module use affects the result.
+    Use descriptive aliases to keep code concise without sacrificing
+    readability.
 """
+
 
 import mod1_intro_module
 

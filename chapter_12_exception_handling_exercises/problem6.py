@@ -1,41 +1,36 @@
 """
-📚 Topic: Problem6
+📚 Topic: Chapter 12 Exercise - Problem 6
 
-This script demonstrates problem6 using conditions, functions, classes and
-exception handling.
+Create a Rectangle class that raises `ValueError` for non-positive dimensions.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem6
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem6 affects the result.
+    1️⃣ Validating constructor arguments (`length > 0`, `width > 0`)
+    2️⃣ Raising `ValueError` on invalid dimensions
+    3️⃣ Calculating area and perimeter safely
 """
 
 
 # Create a Rectangle class that calculates area and perimeter. Use exception
 # handling to reject negative dimensions.
 class Rectangle:
-    def __init__(self, l, w):  # noqa: E741
-        self.length = l
-        self.width = w
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
         if self.length <= 0 or self.width <= 0:
-            raise ValueError
+            raise ValueError("Dimensions must be positive.")
 
-    def areaOfRectangle(self):
+    def area_of_rectangle(self):
         self.area = self.length * self.width
         print(f"Area of rectangle is {self.area}")
 
-    def perimeterOfRectangle(self):
+    def perimeter_of_rectangle(self):
         self.perimeter = 2 * (self.length + self.width)
-        print(f"perimeter of Rectangle is {self.perimeter}")
+        print(f"Perimeter of rectangle is {self.perimeter}")
 
 
 try:
     r = Rectangle(12, 2)
-    r.areaOfRectangle()
-    r.perimeterOfRectangle()
+    r.area_of_rectangle()
+    r.perimeter_of_rectangle()
 except ValueError:
-    print("Please check the paramiter of this constructor")
+    print("Please check the parameter of this constructor")

@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 5
 
-This script demonstrates chapter 07 exercise - problem 5 using user input,
-while loops and imports.
+Calculate the sum of the first `n` natural numbers using a `while` loop.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 5
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 5 affects the result.
+    1️⃣ Initializing accumulator total to 0
+    2️⃣ Iterating while counter is less than or equal to `n`
+    3️⃣ Adding counter to accumulator and printing final sum
 """
-
-
 # 🔢 Take the value of n from the user
 num = int(input("Enter number: "))
 

@@ -1,19 +1,18 @@
 """
-📚 Topic: Pass
+📚 Topic: The `pass` Statement
 
-This script demonstrates pass using for loops and while loops.
+This script demonstrates using `pass` as a syntactic placeholder in loops,
+functions, and condition blocks.
 
 💡 Key points:
-    1️⃣ the basic syntax for pass
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `pass` is a null statement (no-op)
+    2️⃣ Satisfies Python's requirement for non-empty indented code blocks
+    3️⃣ Commonly used as a temporary placeholder during development
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    pass affects the result.
+    Use `pass` when outlining code architecture before implementing
+    detailed logic.
 """
-
-
 # ═══════════════════════════════════════
 # 💤 Using pass
 # ═══════════════════════════════════════

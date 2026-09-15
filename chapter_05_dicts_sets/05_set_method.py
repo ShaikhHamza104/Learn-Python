@@ -1,19 +1,18 @@
 """
-📚 Topic: Set Method
+📚 Topic: Set Methods
 
-This script demonstrates set method using basic Python syntax.
+This script demonstrates mutating methods available on sets to add, remove,
+and clear elements.
 
 💡 Key points:
-    1️⃣ the basic syntax for set method
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Adding elements: `set.add(item)` and batch insertion `set.update()`
+    2️⃣ Removing elements: `set.remove(item)` vs safe deletion `set.discard()`
+    3️⃣ Popping arbitrary elements using `set.pop()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    set method affects the result.
+    `remove()` raises a `KeyError` if the element is not found, whereas
+    `discard()` quietly succeeds without error.
 """
-
-
 # 📦 Creating a set
 s = {1, 2, 10, 18, 17, 90}
 

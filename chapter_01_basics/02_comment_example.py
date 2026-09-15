@@ -1,16 +1,19 @@
 """
-📚 Topic: Comments in Python
+📚 Topic: Comments & Documentation in Python
 
-This script demonstrates comments in python using basic Python syntax.
+This script explains how to document code effectively using single-line
+comments (`#`), inline explanations, multi-line blocks, and docstrings. Clear
+comments explain *why* code exists, helping teammates and your future self
+understand the intent behind implementations.
 
 💡 Key points:
-    1️⃣ the basic syntax for comments in python
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Using `#` for single-line comments and inline notes
+    2️⃣ Documenting logic with multi-line commented explanations
+    3️⃣ Commenting out code temporarily during testing and debugging
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    comments in python affects the result.
+    Good comments explain the *why*, not the *what*. Write code that is
+    self-explanatory, and reserve comments for non-obvious reasoning.
 """
 
 

@@ -1,19 +1,18 @@
 """
-📚 Topic: Multiple If
+📚 Topic: Multiple Independent `if` Statements
 
-This script demonstrates multiple if using conditions and user input.
+This script demonstrates independent `if` statements where each condition
+is evaluated separately, unlike an `if-elif-else` ladder.
 
 💡 Key points:
-    1️⃣ the basic syntax for multiple if
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Independent evaluation: every `if` statement is evaluated
+    2️⃣ Multiple blocks can execute if multiple conditions are True
+    3️⃣ Comparing independent `if` vs exclusive `elif` ladders
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    multiple if affects the result.
+    Use `if-elif` when only one outcome should occur; use multiple `if`
+    statements when multiple conditions can independently apply.
 """
-
-
 # 📏 Ask the user for their height
 height = int(input("Enter your height in cm: "))
 

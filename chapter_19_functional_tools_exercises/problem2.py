@@ -1,17 +1,13 @@
 """
-📚 Topic: Problem2
+📚 Topic: Closure-Based Bank Account State
 
-This script demonstrates problem2 using closures, nonlocal and
-exception handling.
+This script implements encapsulated state management using closures to maintain
+a shared private balance.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem2
-    2️⃣ how nonlocal fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem2 affects the result.
+    1️⃣ Enclosing state within outer function scope
+    2️⃣ Mutating outer scope state using the `nonlocal` keyword
+    3️⃣ Returning multiple function interfaces accessing shared private state
 """
 
 

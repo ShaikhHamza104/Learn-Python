@@ -1,19 +1,18 @@
 """
-📚 Topic: List Method
+📚 Topic: List Methods
 
-This script demonstrates list method using basic Python syntax.
+This script demonstrates essential list methods for adding, removing, and
+reordering items in-place.
 
 💡 Key points:
-    1️⃣ the basic syntax for list method
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Appending and inserting: `append()`, `insert()`, and `extend()`
+    2️⃣ Removing elements: `pop()`, `remove()`, and `clear()`
+    3️⃣ In-place ordering: `sort()` and `reverse()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    list method affects the result.
+    Most mutating list methods return `None`, modifying the list in-place
+    rather than returning a copy.
 """
-
-
 # ============================================================
 # 1️⃣ CREATE & INITIALIZE
 # ============================================================
@@ -112,39 +111,24 @@ print("📌 LIST METHODS CHEAT SHEET")
 print("=" * 50)
 
 cheat_sheet = """
-┌─────────────────┬──────────────────────────────┬─────────────────────────────┐
-│ Method          │ What It Does                 │ Example
-│
-├─────────────────┼──────────────────────────────┼─────────────────────────────┤
-│ len(l)          │ Get total items              │ len([1,2,3]) → 3
-│
-│ l.append(x)     │ Add x at END                 │ [1,2].append(3) → [1,2,3]
-│
-│ l.insert(i,x)   │ Add x at index i             │ [1,3].insert(1,2) → [1,2,3]
-│
-│ l.extend([...]) │ Add multiple at END          │ [1,2].extend([3,4])
-│
-│ l.remove(x)     │ Remove FIRST x by value      │ [1,2,2].remove(2) → [1,2]
-│
-│ l.pop(i)        │ Remove at index i & return   │ [1,2,3].pop(1) → returns 2
-│
-│ del l[i]        │ Remove at index i            │ del [1,2,3][0] → [2,3]
-│
-│ l.sort()        │ Sort ascending               │ [3,1,2].sort() → [1,2,3]
-│
-│ l.sort(reverse) │ Sort descending              │ [1,2,3].sort(True) →
-[3,2,1]│
-│ l.reverse()     │ Flip the list                │ [1,2,3].reverse() → [3,2,1]
-│
-│ l.count(x)      │ Count occurrences of x       │ [1,2,2].count(2) → 2
-│
-│ l.index(x)      │ Find position of x           │ [1,2,3].index(2) → 1
-│
-│ l.copy()        │ Create a new copy            │ l2 = l.copy()
-│
-│ l.clear()       │ Empty the list               │ [1,2,3].clear() → []
-│
-└─────────────────┴──────────────────────────────┴─────────────────────────────┘
+┌────────────────┬─────────────────────────────┬───────────────────────────┐
+│ Method         │ What It Does                │ Example                   │
+├────────────────┼─────────────────────────────┼───────────────────────────┤
+│ len(l)         │ Get total items             │ len([1,2,3]) → 3          │
+│ l.append(x)    │ Add x at END                │ [1,2].append(3) → [1,2,3] │
+│ l.insert(i,x)  │ Add x at index i            │ [1,3].insert(1,2)         │
+│ l.extend([...])│ Add multiple at END         │ [1,2].extend([3,4])       │
+│ l.remove(x)    │ Remove FIRST x by value     │ [1,2,2].remove(2) → [1,2] │
+│ l.pop(i)       │ Remove at index i & return  │ [1,2,3].pop(1) → 2        │
+│ del l[i]       │ Remove at index i           │ del l[0]                  │
+│ l.sort()       │ Sort ascending              │ [3,1,2].sort() → [1,2,3]  │
+│ l.sort(reverse)│ Sort descending             │ l.sort(reverse=True)      │
+│ l.reverse()    │ Flip the list               │ [1,2,3].reverse()         │
+│ l.count(x)     │ Count occurrences of x      │ [1,2,2].count(2) → 2      │
+│ l.index(x)     │ Find position of x          │ [1,2,3].index(2) → 1      │
+│ l.copy()       │ Create a new copy           │ l2 = l.copy()             │
+│ l.clear()      │ Empty the list              │ l.clear() → []            │
+└────────────────┴─────────────────────────────┴───────────────────────────┘
 """
 print(cheat_sheet)
 

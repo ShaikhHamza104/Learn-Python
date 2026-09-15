@@ -19,7 +19,7 @@ import re
 
 # 3. Write a program that hides every digit in a sentence by replacing
 # it with a '#' symbol, using re.sub().
-def hideNumbers():
+def hide_numbers():
     try:
         text = input("Enter a sentence with some numbers in it: ")
         hidden_text = re.sub(r"\d", "#", text)
@@ -30,4 +30,4 @@ def hideNumbers():
         print("Input cancelled")
 
 
-hideNumbers()
+hide_numbers()

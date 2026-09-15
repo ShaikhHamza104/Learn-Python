@@ -1,28 +1,28 @@
 """
-📚 Topic: List Using While
+📚 Topic: Traversing Sequences with a `while` Loop
 
-This script demonstrates list using while using while loops.
+This script demonstrates iterating through lists using index-based `while`
+loops.
 
 💡 Key points:
-    1️⃣ the basic syntax for list using while
-    2️⃣ how while loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Using an integer index counter starting at 0
+    2️⃣ Guarding the loop with `index < len(list)`
+    3️⃣ Accessing elements by index and incrementing the counter
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    list using while affects the result.
+    While `while` loops work for sequence traversal, Python's
+    `for item in list` is preferred and idiomatic.
 """
-
 # 📋 Create a list of names
-l = ["Harry", "Rohan", "Ramesh", "Rahul", "Riya"]  # noqa: E741
+names = ["Harry", "Rohan", "Ramesh", "Rahul", "Riya"]
 
 # 🔢 Start the index from 0
 i = 0
 
 # 🔄 Run the loop while i is a valid list index
-while i < len(l):
+while i < len(names):
     # 🖨️ Print the element at the current index
-    print(l[i])
+    print(names[i])
 
     # ➡️ Move to the next index
     i += 1

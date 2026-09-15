@@ -1,17 +1,12 @@
 """
 📚 Topic: Chapter 11 Exercise - Problem 4
 
-This script demonstrates chapter 11 exercise - problem 4 using functions,
-classes and imports.
+Implement a Complex number class that overloads `+` and `*` operators.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 11 exercise - problem 4
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 11 exercise - problem 4 affects the result.
+    1️⃣ Storing real and imaginary components
+    2️⃣ Implementing `__add__` for complex number addition
+    3️⃣ Implementing `__mul__` for complex number multiplication
 """
 
 

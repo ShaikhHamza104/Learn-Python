@@ -1,19 +1,18 @@
 """
-📚 Topic: Opration List
+📚 Topic: List Operations
 
-This script demonstrates opration list using basic Python syntax.
+This script demonstrates common sequence operations performed on lists,
+including concatenation, repetition, and membership testing.
 
 💡 Key points:
-    1️⃣ the basic syntax for opration list
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Concatenating lists using the `+` operator
+    2️⃣ Repeating list sequences using the `*` operator
+    3️⃣ Testing element presence using `in` and `not in`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    opration list affects the result.
+    Concatenation creates a brand-new list and leaves the original lists
+    unmodified.
 """
-
-
 # ============================================================
 # 1️⃣ CREATE a List (C in CRUD)
 # ============================================================

@@ -1,27 +1,27 @@
 """
 📚 Topic: Method Overriding
 
-This script demonstrates method overriding using for loops, conditions,
-functions and classes.
+This script demonstrates method overriding where a subclass provides its own
+specialized implementation of a parent class method.
 
 💡 Key points:
-    1️⃣ the basic syntax for method overriding
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining a method in a child class with the same name as in parent
+    2️⃣ Child implementation replaces parent behavior for child instances
+    3️⃣ Core mechanism enabling runtime polymorphism
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    method overriding affects the result.
+    If you need to extend rather than replace parent logic, call
+    `super().method()` inside the child override.
 """
 
 
-class Enimal:
+class Animal:
     # say method is created
     def say(self):
-        print("Someting ")
+        print("Something")
 
 
-class Dog(Enimal):
+class Dog(Animal):
     # Override say method for base class
     def say(self):
         print("BOW BOW")

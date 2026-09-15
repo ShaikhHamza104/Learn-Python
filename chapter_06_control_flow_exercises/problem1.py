@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 06 Exercise - Problem 1
 
-This script demonstrates chapter 06 exercise - problem 1 using user input,
-conditions and imports.
+Find and print the greatest of four numbers entered by the user.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 06 exercise - problem 1
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 06 exercise - problem 1 affects the result.
+    1️⃣ Parsing four numerical user inputs
+    2️⃣ Comparing numbers using compound boolean `and` expressions
+    3️⃣ Displaying the largest identified number
 """
-
-
 # ═══════════════════════════════════════
 # 🥇 SOLUTION 1: Using if-elif
 # ═══════════════════════════════════════

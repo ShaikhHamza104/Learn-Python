@@ -1,18 +1,19 @@
 """
-📚 Topic: 11 Isfile
+📚 Topic: Checking If a Path Is a Regular File (`os.path.isfile()`)
 
-This script demonstrates 11 isfile using conditions, exception handling and
-imports.
+This script demonstrates distinguishing regular files from directories or
+special device nodes using `os.path.isfile()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 11 isfile
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Verifying target path exists and is a regular file
+    2️⃣ Returns `False` for directories, symlink targets, or missing paths
+    3️⃣ Filtering directory listings for files only
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    11 isfile affects the result.
+    Use `os.path.isfile()` when you need to confirm that a path can be opened
+    with `open()`.
 """
+
 
 # importing os module : os module is a build in module
 import os

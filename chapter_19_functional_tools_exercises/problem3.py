@@ -1,18 +1,15 @@
 """
-📚 Topic: Problem3
+📚 Topic: Call Limiter Decorator Factory
 
-This script demonstrates problem3 using decorator factories, functools
-and exception handling.
+This script implements a parameterized decorator factory that enforces a
+maximum call limit on functions.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem3
-    2️⃣ how functools.wraps fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem3 affects the result.
+    1️⃣ Three-level nested function structure for parameterized decorators
+    2️⃣ Tracking stateful call counts across invocations
+    3️⃣ Preserving function metadata using `@functools.wraps`
 """
+
 
 from functools import wraps
 

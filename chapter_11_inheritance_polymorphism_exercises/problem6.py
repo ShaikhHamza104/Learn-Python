@@ -1,17 +1,12 @@
 """
 📚 Topic: Chapter 11 Exercise - Problem 6
 
-This script demonstrates chapter 11 exercise - problem 6 using functions,
-classes and imports.
+Write `__str__()` method to print the vector in standard coordinate notation.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 11 exercise - problem 6
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 11 exercise - problem 6 affects the result.
+    1️⃣ Implementing `__str__` for human-readable output
+    2️⃣ Formatting 3D vectors as `xi + yj + zk`
+    3️⃣ Printing vector instances directly
 """
 
 

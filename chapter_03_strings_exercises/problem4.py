@@ -1,18 +1,18 @@
 """
-📚 Topic: Chapter 03 Exercise - Problem 4
+📚 Topic: Exercise 4 - Whitespace Sanitization with `.replace()`
 
-This script demonstrates chapter 03 exercise - problem 4 using imports.
+This exercise sanitizes irregular spacing in text by replacing double
+spaces (`"  "`) with single spaces (`" "`) using `str.replace()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 03 exercise - problem 4
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Identifying unwanted whitespace patterns in text
+    2️⃣ Cleaning text by substituting double spaces with single spaces
+    3️⃣ Producing normalized, sanitized string copies
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 03 exercise - problem 4 affects the result.
+    For complex whitespace with multiple irregular spaces or tabs,
+    `" ".join(text.split())` is a powerful idiom that normalizes all spaces.
 """
-
 
 string = "Python is programming language.Its easy  to understand language"
 print(string.replace("  ", " "))

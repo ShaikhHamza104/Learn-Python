@@ -1,18 +1,18 @@
 """
-📚 Topic: Pathlib Module
+📚 Topic: Modern Path Handling with `pathlib`
 
-This script demonstrates pathlib module using basic Python syntax.
+This script demonstrates object-oriented filesystem path manipulation using
+Python's standard `pathlib.Path`.
 
 💡 Key points:
-    1️⃣ the basic syntax for pathlib module
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Creating cross-platform paths with `Path()`
+    2️⃣ Composing paths cleanly using the `/` slash operator
+    3️⃣ Convenient methods: `.exists()`, `.is_file()`, `.read_text()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    pathlib module affects the result.
+    `pathlib` replaces legacy `os.path` functions with clean, object-oriented
+    methods that work seamlessly across Windows, macOS, and Linux.
 """
-
 # 🗂️ Working with pathlib
 # pathlib is the MODERN way to handle file paths in Python
 # It replaces a lot of the old os.path string-joining mess from

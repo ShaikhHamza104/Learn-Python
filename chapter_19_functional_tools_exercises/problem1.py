@@ -1,17 +1,13 @@
 """
-📚 Topic: Problem1
+📚 Topic: Function Execution Logger Decorator
 
-This script demonstrates problem1 using decorators, closures and
-exception handling.
+This script implements a decorator that logs invocation arguments and return
+values of wrapped functions.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem1
-    2️⃣ how decorators fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem1 affects the result.
+    1️⃣ Capturing `*args` and `**kwargs` inside decorator wrapper
+    2️⃣ Inspecting function execution results dynamically
+    3️⃣ Preserving return values and exception transparency
 """
 
 

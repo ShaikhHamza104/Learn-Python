@@ -1,19 +1,19 @@
 """
-📚 Topic: Calculator
+📚 Topic: Building a Basic Calculator with Conditionals
 
-This script demonstrates calculator using conditions and user input.
+This script applies `if-elif-else` control flow to construct a simple
+arithmetic calculator supporting addition, subtraction, multiplication,
+and division.
 
 💡 Key points:
-    1️⃣ the basic syntax for calculator
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Converting user input strings to numeric values (`float`)
+    2️⃣ Branching based on operator characters (`+`, `-`, `*`, `/`)
+    3️⃣ Guarding against invalid operators with an `else` branch
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    calculator affects the result.
+    Always validate user inputs, especially when performing division, to
+    prevent errors like `ZeroDivisionError`.
 """
-
-
 # 🧮 Display the calculator title
 print("""
 This is a calculator which performs +, -, * and /

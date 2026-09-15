@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 1
 
-This script demonstrates chapter 07 exercise - problem 1 using user input,
-for loops and imports.
+Print the multiplication table of a user-specified number using a `for` loop.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 1
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 1 affects the result.
+    1️⃣ Prompting user for an integer
+    2️⃣ Iterating from 1 to 10 with `range(1, 11)`
+    3️⃣ Formatting the multiplication table output with f-strings
 """
-
-
 # 🔢 Take a number from the user
 num = int(input("Enter a number: "))
 

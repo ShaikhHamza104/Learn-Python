@@ -1,17 +1,12 @@
 """
 📚 Topic: Chapter 08 Exercise - Problem 1
 
-This script demonstrates chapter 08 exercise - problem 1 using conditions,
-functions, classes and imports.
+Write a function to find and return the greatest of three numbers.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 08 exercise - problem 1
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 08 exercise - problem 1 affects the result.
+    1️⃣ Defining a function accepting three parameters
+    2️⃣ Comparing values using conditional logic
+    3️⃣ Returning the maximum value
 """
 
 

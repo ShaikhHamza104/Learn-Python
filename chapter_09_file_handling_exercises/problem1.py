@@ -1,20 +1,14 @@
 """
 📚 Topic: Chapter 09 Exercise - Problem 1
 
-This script demonstrates chapter 09 exercise - problem 1 using conditions,
-classes, file or path operations and imports.
+Read the text file 'poems.txt' and determine whether it contains the word
+'twinkle'.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 09 exercise - problem 1
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 09 exercise - problem 1 affects the result.
+    1️⃣ Opening and reading a text file with `open()`
+    2️⃣ Case-insensitive substring search using `in`
+    3️⃣ Reporting whether the target word is found
 """
-
-
 # Write a program to read the text from a given file ‘poems.txt’ and find out
 # whether it contains the word ‘twinkle’.
 with open("poems.txt") as f:

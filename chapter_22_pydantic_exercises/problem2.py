@@ -1,17 +1,15 @@
 """
-📚 Topic: Problem2
+📚 Topic: Pydantic Custom Field Validators
 
-This script demonstrates problem2 using pydantic custom validators.
+This script demonstrates custom field validation logic using Pydantic's
+`@field_validator` decorator.
 
 💡 Key points:
-1️⃣ the basic syntax for problem2
-2️⃣ how field_validator fit into the example
-3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-Run this file, change one small value, and run it again to see how
-problem2 affects the result.
+    1️⃣ Implementing custom validation methods with `@field_validator`
+    2️⃣ Validating complex constraints (minimum length and digit presence)
+    3️⃣ Raising informative `ValueError` exceptions upon validation failure
 """
+
 
 from pydantic import BaseModel, field_validator, ValidationError
 

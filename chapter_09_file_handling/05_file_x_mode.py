@@ -1,21 +1,19 @@
 """
-📚 Topic: Exclusive Creation Mode
+📚 Topic: Exclusive Creation Mode (`'x'`)
 
-This script demonstrates exclusive creation mode using user input and file
-or path operations.
+This script demonstrates exclusive file creation mode (`'x'`), which creates a
+file only if it does not already exist.
 
 💡 Key points:
-    1️⃣ the basic syntax for exclusive creation mode
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `'x'` mode opens a file for exclusive writing
+    2️⃣ If the file already exists, Python raises `FileExistsError`
+    3️⃣ Prevents accidental overwriting of existing critical data
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    exclusive creation mode affects the result.
+    Use `'x'` mode when generating unique output files to guarantee no
+    previous file is destroyed.
 """
-
-
-# 'x' mode give error if file is alrady exisist
+# 'x' mode raises an error if the file already exists
 # open a file in x mode
 f = open("random1.txt", 'x')
 

@@ -1,16 +1,17 @@
 """
-📚 Topic: Chapter 01 Exercise - Problem 2
+📚 Topic: Basic Arithmetic & Console Output
 
-This script demonstrates chapter 01 exercise - problem 2 using imports.
+This exercise demonstrates formatting arithmetic operations directly inside
+`print()` statements to generate a multiplication table without loops.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 01 exercise - problem 2
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Passing multiple arguments separated by commas to `print()`
+    2️⃣ Evaluating multiplication expressions (`5 * n`) inline
+    3️⃣ Combining static string labels with calculated integer results
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 01 exercise - problem 2 affects the result.
+    `print()` automatically inserts a space between arguments separated by
+    commas, making it simple to combine text and numbers.
 """
 
 

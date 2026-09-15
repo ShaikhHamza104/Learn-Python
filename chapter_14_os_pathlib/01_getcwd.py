@@ -1,17 +1,19 @@
 """
-📚 Topic: 01 Getcwd
+📚 Topic: Current Working Directory (`os.getcwd()`)
 
-This script demonstrates 01 getcwd using imports.
+This script demonstrates retrieving the current working directory path using
+Python's standard `os` module.
 
 💡 Key points:
-    1️⃣ the basic syntax for 01 getcwd
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Calling `os.getcwd()` returns the active working directory as a string
+    2️⃣ Difference between script location and working directory
+    3️⃣ Using absolute paths to prevent relative path ambiguity
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    01 getcwd affects the result.
+    The current working directory is where Python was launched from, which may
+    differ from the directory containing the running `.py` script.
 """
+
 
 # importing os module : os module is a build in module
 import os

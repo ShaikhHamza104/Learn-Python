@@ -19,7 +19,7 @@ import re
 
 # 4. Write a program that finds all the words that start with a
 # capital letter in a sentence entered by the user.
-def findCapitalWords():
+def find_capital_words():
     try:
         text = input("Enter a sentence: ")
         pattern = r"\b[A-Z][a-z]*\b"
@@ -35,4 +35,4 @@ def findCapitalWords():
         print("Input cancelled")
 
 
-findCapitalWords()
+find_capital_words()

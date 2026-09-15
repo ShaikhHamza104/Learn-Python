@@ -1,16 +1,17 @@
 """
-📚 Topic: Mod1 Intro Module
+📚 Topic: Introduction to Modules
 
-This script demonstrates mod1 intro module using functions and classes.
+This script demonstrates creating and importing custom modules to organize
+functions and reusable code across files.
 
 💡 Key points:
-    1️⃣ the basic syntax for mod1 intro module
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Any Python file (`.py`) can serve as an importable module
+    2️⃣ Importing modules using the `import` statement
+    3️⃣ Calling module functions using dot notation: `module.function()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    mod1 intro module affects the result.
+    Module names should follow snake_case and be short, descriptive, and
+    all-lowercase.
 """
 
 

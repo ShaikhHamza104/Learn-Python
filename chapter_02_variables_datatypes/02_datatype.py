@@ -1,16 +1,18 @@
 """
-📚 Topic: Datatype
+📚 Topic: Fundamental Python Data Types
 
-This script demonstrates datatype using functions and conditions.
+This script explores Python's primary built-in data types (integers, floats,
+strings, booleans, and NoneType), verifying their types at runtime using the
+built-in `type()` function.
 
 💡 Key points:
-    1️⃣ the basic syntax for datatype
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Numeric types: integers (`int`) and floating-point floats (`float`)
+    2️⃣ Text representations: strings (`str`) enclosed in quotes
+    3️⃣ Logic and absence: truth flags (`bool`) and empty markers (`NoneType`)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    datatype affects the result.
+    `None` is not zero or an empty string; it is a unique singleton in Python
+    representing the intentional absence of any value.
 """
 
 

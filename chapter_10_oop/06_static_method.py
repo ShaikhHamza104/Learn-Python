@@ -1,31 +1,31 @@
 """
-📚 Topic: Static Methods
+📚 Topic: Static Methods (`@staticmethod`)
 
-This script demonstrates static methods using user input, for loops,
-functions and classes.
+This script demonstrates static methods that belong to a class namespace but
+do not require access to `self` or `cls`.
 
 💡 Key points:
-    1️⃣ the basic syntax for static methods
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Decorated with `@staticmethod`
+    2️⃣ No automatic `self` or `cls` first argument
+    3️⃣ Useful for self-contained helper functions tied to the class domain
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    static methods affects the result.
+    Use `@staticmethod` when a function logically belongs inside a class but
+    never touches instance or class state.
 """
 
 
 class Employee:
     @staticmethod
-    def greete():
+    def greet():
         print("Welcome")
 
-    def getName(self, name):
+    def get_name(self, name):
         self.name = name
         print(f"Your name is {self.name}")
 
 
 e1 = Employee()
-e1.greete()
+e1.greet()
 name = input("Enter your name : ")
-e1.getName(name)
+e1.get_name(name)

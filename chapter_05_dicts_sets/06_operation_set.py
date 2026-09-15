@@ -1,19 +1,19 @@
 """
-📚 Topic: Opration Set
+📚 Topic: Set Mathematical Operations
 
-This script demonstrates opration set using basic Python syntax.
+This script demonstrates mathematical set theory operations including union,
+intersection, difference, and symmetric difference.
 
 💡 Key points:
-    1️⃣ the basic syntax for opration set
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Union (`|` or `.union()`): elements in either set
+    2️⃣ Intersection (`&` or `.intersection()`): elements common to both
+    3️⃣ Difference (`-` or `.difference()`): elements in set A but not in set B
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    opration set affects the result.
+    Set operations can be written using operators (`|`, `&`, `-`) or named
+    methods. Operators require both operands to be sets, while methods accept
+    any iterable.
 """
-
-
 # 📦 Creating the first set
 # Notice that 1 appears twice, but a set keeps only one copy.
 s1 = {1, 2, 3, 4, 90}

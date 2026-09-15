@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 06 Exercise - Problem 6
 
-This script demonstrates chapter 06 exercise - problem 6 using user input,
-conditions and imports.
+Calculate student letter grades based on percentage ranges (Ex, A, B, C, D, F).
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 06 exercise - problem 6
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 06 exercise - problem 6 affects the result.
+    1️⃣ Validating input bounds (0 to 100)
+    2️⃣ Categorizing numerical scores into discrete grade buckets
+    3️⃣ Using an ordered `if-elif-else` ladder
 """
-
-
 # 📝 Take marks from the user
 marks = int(input("Enter your marks: "))
 

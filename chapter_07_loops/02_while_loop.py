@@ -1,19 +1,17 @@
 """
-📚 Topic: While Loop
+📚 Topic: The `while` Loop
 
-This script demonstrates while loop using while loops.
+This script demonstrates condition-controlled iteration using `while` loops.
 
 💡 Key points:
-    1️⃣ the basic syntax for while loop
-    2️⃣ how while loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Iterating as long as a condition evaluates to True
+    2️⃣ Initializing loop control variables before the loop begins
+    3️⃣ Incrementing or updating control variables to avoid infinite loops
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    while loop affects the result.
+    Ensure your loop has a clear exit condition that is eventually reached;
+    otherwise, the program will hang in an infinite loop.
 """
-
-
 # 🔢 Start the counter at 1
 i = 1
 

@@ -1,19 +1,18 @@
 """
-📚 Topic: Reading Files
+📚 Topic: Reading Files Line by Line
 
-This script demonstrates reading files using file or path operations.
+This script demonstrates reading files using explicit `'r'` mode and methods
+like `readline()` and `readlines()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for reading files
-    2️⃣ how file or path operations fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Explicit `'r'` mode flag
+    2️⃣ `readline()`: reads a single line at a time
+    3️⃣ `readlines()`: loads all lines into a list of strings
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    reading files affects the result.
+    For large files, iterating directly over the file object (`for line in f:`)
+    is memory-efficient because it streams lines one at a time.
 """
-
-
 # Opening a file
 f = open('sample.txt', 'r')
 

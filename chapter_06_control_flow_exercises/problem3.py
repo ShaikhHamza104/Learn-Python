@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 06 Exercise - Problem 3
 
-This script demonstrates chapter 06 exercise - problem 3 using user input,
-conditions and imports.
+Detect spam comments by checking for known promotional keywords and phrases.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 06 exercise - problem 3
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 06 exercise - problem 3 affects the result.
+    1️⃣ Defining a list of spam indicator keywords
+    2️⃣ Using the `in` membership operator against user input text
+    3️⃣ Flagging suspicious comments
 """
-
-
 # 🚨 Store the spam phrases
 p1 = "Make a lot of money"
 p2 = "buy now"

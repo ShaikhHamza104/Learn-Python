@@ -1,19 +1,18 @@
 """
-📚 Topic: Opration Tuple
+📚 Topic: Tuple Operations
 
-This script demonstrates opration tuple using basic Python syntax.
+This script demonstrates operations available on tuples, such as indexing,
+slicing, concatenation, and membership tests.
 
 💡 Key points:
-    1️⃣ the basic syntax for opration tuple
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Accessing elements by positive and negative indices
+    2️⃣ Joining tuples with `+` and repeating with `*`
+    3️⃣ Tuple unpacking into individual variables
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    opration tuple affects the result.
+    Because tuples are immutable, operations like `+` produce a new tuple
+    rather than modifying an existing one.
 """
-
-
 # 📦 Creating a tuple
 # A tuple allows us to store multiple values inside a single variable.
 # Tuples keep the values in the same order in which we add them.

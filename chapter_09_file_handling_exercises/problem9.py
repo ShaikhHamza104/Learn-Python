@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 09 Exercise - Problem 9
 
-This script demonstrates chapter 09 exercise - problem 9 using conditions,
-classes, file or path operations and imports.
+Determine whether two files are completely identical in content.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 09 exercise - problem 9
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 09 exercise - problem 9 affects the result.
+    1️⃣ Reading contents from both files
+    2️⃣ Comparing string contents for exact equality
+    3️⃣ Reporting match status
 """
-
-
 # Write a program to find out whether a file is identical & matches the content
 # of
 # another file.

@@ -1,17 +1,19 @@
 """
-📚 Topic: 07 Removedirs
+📚 Topic: Recursive Directory Removal (`os.removedirs()`)
 
-This script demonstrates 07 removedirs using exception handling and imports.
+This script demonstrates removing empty leaf and parent directories recursively
+using `os.removedirs()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 07 removedirs
-    2️⃣ how exception handling fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Deleting leaf directory and parent directories if they become empty
+    2️⃣ Stops when a non-empty directory is encountered
+    3️⃣ Tidying up empty folder branches after file deletions
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    07 removedirs affects the result.
+    `os.removedirs()` only deletes empty folders; files inside any parent
+    halt removal safely.
 """
+
 
 # importing os module : os module is a build in module
 import os

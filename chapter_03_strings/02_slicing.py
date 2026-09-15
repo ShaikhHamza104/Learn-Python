@@ -1,18 +1,18 @@
 """
-📚 Topic: Slicing
+📚 Topic: String Slicing & Stride Syntax
 
-This script demonstrates slicing using basic Python syntax.
+This script demonstrates slicing sequences using `str[start:end]` and step
+strides `str[start:end:step]` to extract specific substrings.
 
 💡 Key points:
-    1️⃣ the basic syntax for slicing
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Basic slicing syntax: `str[start:end]` (exclusive of end index)
+    2️⃣ Omitting boundaries: `str[:end]` or `str[start:]`
+    3️⃣ Using step intervals: `str[start:end:step]` to skip characters
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    slicing affects the result.
+    The stop index in Python slicing is always *exclusive*. For example,
+    `"Python"[0:2]` extracts characters at index 0 and 1, returning `"Py"`.
 """
-
 
 name = "Hamza"
 # str[start:end]

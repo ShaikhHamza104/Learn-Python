@@ -1,17 +1,13 @@
 """
 📚 Topic: Chapter 08 Exercise - Problem 3
 
-This script demonstrates chapter 08 exercise - problem 3 using classes and
-imports.
+Prevent Python's `print()` function from printing a new line at the end.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 08 exercise - problem 3
-    2️⃣ how classes fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 08 exercise - problem 3 affects the result.
+    1️⃣ Default `print()` behavior includes a trailing `
+`
+    2️⃣ Overriding line endings using `end=""`
+    3️⃣ Concatenating successive outputs on the same terminal line
 """
 
 

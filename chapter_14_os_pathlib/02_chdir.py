@@ -1,17 +1,19 @@
 """
-📚 Topic: 02 Chdir
+📚 Topic: Changing Working Directories (`os.chdir()`)
 
-This script demonstrates 02 chdir using imports.
+This script demonstrates changing the process's active working directory using
+`os.chdir()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 02 chdir
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Modifying current working directory with `os.chdir(path)`
+    2️⃣ Relative vs absolute destination paths
+    3️⃣ Catching `FileNotFoundError` if the destination path does not exist
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    02 chdir affects the result.
+    Changing the working directory affects all subsequent relative file
+    operations within the same Python process.
 """
+
 
 # importing os module : os module is a build in module
 import os

@@ -1,17 +1,17 @@
 """
-📚 Topic: Protected Members
+📚 Topic: Protected Members in Python
 
-This script demonstrates protected members using for loops, functions,
-classes and imports.
+This script demonstrates the single-underscore convention (`_member`) used to
+indicate protected class members intended for internal/subclass use.
 
 💡 Key points:
-    1️⃣ the basic syntax for protected members
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Naming convention: prefixing with a single underscore `_attribute`
+    2️⃣ Python does not enforce access restrictions; it relies on conventions
+    3️⃣ Signals to callers that the attribute is an implementation detail
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    protected members affects the result.
+    "We are all consenting adults here" — Python trusts developers to respect
+    conventions rather than locking down variables with compiler errors.
 """
 
 

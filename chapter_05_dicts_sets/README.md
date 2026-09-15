@@ -16,7 +16,7 @@ Python dictionaries and sets are high-performance data structures engineered for
 | `06_operation_set.py` | Performing mathematical set operations: union (`|`), intersection (`&`), and difference (`-`). |
 | `07_set_comprehension.py` | Generating and transforming sets concisely using set comprehension syntax. |
 | `08_typed_dict.py` | Defining rigid dictionary schemas and type contracts using Python's `TypedDict`. |
-| `10_dict_comprehension.py` | Constructing and filtering new dictionaries dynamically with dictionary comprehensions. |
+| `09_dict_comprehension.py` | Constructing and filtering new dictionaries dynamically with dictionary comprehensions. |
 
 ---
 
@@ -70,7 +70,7 @@ print(s1.intersection(s2))  # {3}
 print(s1.difference(s2))    # {1, 2}
 ```
 
-### Comprehensions & TypedDict (`07_set_comprehension.py`, `08_typed_dict.py`, `10_dict_comprehension.py`)
+### Comprehensions & TypedDict (`07_set_comprehension.py`, `08_typed_dict.py`, `09_dict_comprehension.py`)
 ```python
 from typing import TypedDict
 

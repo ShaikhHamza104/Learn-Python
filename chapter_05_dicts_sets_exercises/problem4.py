@@ -1,19 +1,13 @@
 """
 📚 Topic: Chapter 05 Exercise - Problem 4
 
-This script demonstrates chapter 05 exercise - problem 4 using imports.
+Determine the length of a set after adding `20`, `20.0`, and `'20'`.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 05 exercise - problem 4
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 05 exercise - problem 4 affects the result.
+    1️⃣ Value equality between `20 == 20.0` evaluates to True
+    2️⃣ Identical hash values mean float `20.0` collides with int `20`
+    3️⃣ Final set length is 2: containing `20` (or `20.0`) and string `'20'`
 """
-
-
 # 🧺 Create an empty set
 s = set()
 

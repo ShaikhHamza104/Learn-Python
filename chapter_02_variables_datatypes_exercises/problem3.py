@@ -1,19 +1,18 @@
 """
-📚 Topic: Chapter 02 Exercise - Problem 3
+📚 Topic: Exercise 3 - Input Type Verification
 
-This script demonstrates chapter 02 exercise - problem 3 using user input,
-classes and imports.
+This exercise prompts the user for terminal input, displays the value, and
+uses `type()` to verify that raw user input always defaults to `<class 'str'>`.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 02 exercise - problem 3
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Prompting user input with `input()`
+    2️⃣ Inspecting the resulting runtime data type with `type()`
+    3️⃣ Confirming that all captured console input is initially a string
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 02 exercise - problem 3 affects the result.
+    Even if the user types digits like `42`, `type(input())` will report
+    `<class 'str'>` until explicitly cast with `int()` or `float()`.
 """
-
 
 name = input("Enter your name ")
 print("Your name is ", name)

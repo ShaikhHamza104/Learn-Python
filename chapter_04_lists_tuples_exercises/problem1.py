@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 04 Exercise - Problem 1
 
-This script demonstrates chapter 04 exercise - problem 1 using user input
-and imports.
+Store seven fruit names entered by the user into a list and display them.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 04 exercise - problem 1
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 04 exercise - problem 1 affects the result.
+    1️⃣ Taking user input sequentially
+    2️⃣ Appending items dynamically using `list.append()`
+    3️⃣ Displaying the populated list
 """
-
-
 # 🍎 Create an empty list to store the fruit names
 fruits = []
 

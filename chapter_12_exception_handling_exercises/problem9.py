@@ -1,17 +1,12 @@
 """
-📚 Topic: Problem9
+📚 Topic: Chapter 12 Exercise - Problem 9
 
-This script demonstrates problem9 using user input, conditions, functions
-and classes.
+Define a custom `TemperatureError` for values below absolute zero (-273.15 C).
 
 💡 Key points:
-    1️⃣ the basic syntax for problem9
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem9 affects the result.
+    1️⃣ Custom exception storing error message and temperature value
+    2️⃣ Raising on inputs below absolute zero
+    3️⃣ Formatting descriptive error messages
 """
 
 
@@ -20,19 +15,25 @@ and classes.
 
 
 class TemperatureError(Exception):
-    def __init__(self, m, temp):
-        self.massage = m
+    def __init__(self, message, temp):
+        super().__init__(message)
+        self.message = message
         self.temperature = temp
 
+    def __str__(self):
+        return f"{self.message} (received: {self.temperature})"
 
-def takeTemperature(temp):
-    if temp <= -273.14:
-        raise TemperatureError("Temprature must be grater then -273.15", temp)
+
+def take_temperature(temp):
+    if temp < -273.15:
+        raise TemperatureError(
+            "Temperature must be greater than or equal to -273.15", temp
+        )
 
 
 try:
     temp = float(input("Enter temperature: "))
-    takeTemperature(temp)
+    take_temperature(temp)
 
 except TemperatureError as e:
     print(e)

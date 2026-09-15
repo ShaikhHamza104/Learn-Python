@@ -1,17 +1,17 @@
 """
-📚 Topic: Object Introspection
+📚 Topic: Object Introspection with `__dict__` and `help()`
 
-This script demonstrates object introspection using for loops, functions and
-classes.
+This script demonstrates inspecting instance attributes dynamically using
+the `__dict__` attribute and exploring documentation with `help()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for object introspection
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `obj.__dict__` stores an object's writable attributes as a dictionary
+    2️⃣ Viewing class metadata and docstrings with built-in `help()`
+    3️⃣ Dynamic attribute inspection during debugging and serialization
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    object introspection affects the result.
+    `__dict__` is useful for converting class instances into plain JSON or
+    debugging state in unit tests.
 """
 
 

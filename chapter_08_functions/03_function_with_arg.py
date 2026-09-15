@@ -1,21 +1,22 @@
 """
 📚 Topic: Functions with Arguments
 
-This script demonstrates functions with arguments using functions.
+This script demonstrates passing parameters to functions to make them flexible
+and dynamic.
 
 💡 Key points:
-    1️⃣ the basic syntax for functions with arguments
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining parameters inside parentheses: `def func(parameter):`
+    2️⃣ Supplying concrete arguments when calling: `func(argument)`
+    3️⃣ Formatting argument values using f-strings
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    functions with arguments affects the result.
+    Parameters are the variables defined in the function signature; arguments
+    are the actual values supplied during the call.
 """
 
 
-def goodDay(name):
+def good_day(name):
     print(f"Good Day {name}")
 
 
-goodDay("Hamza")
+good_day("Hamza")

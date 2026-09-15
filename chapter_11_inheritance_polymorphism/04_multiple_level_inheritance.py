@@ -1,24 +1,24 @@
 """
 📚 Topic: Multilevel Inheritance
 
-This script demonstrates multilevel inheritance using user input, functions,
-classes and imports.
+This script demonstrates multilevel inheritance where a class inherits from a
+derived class, forming a vertical hierarchy chain.
 
 💡 Key points:
-    1️⃣ the basic syntax for multilevel inheritance
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Linear class hierarchy: `GrandChild -> Child -> Parent`
+    2️⃣ Inheriting cumulative capabilities down the chain
+    3️⃣ Accessing grand-parent attributes from the grand-child class
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    multilevel inheritance affects the result.
+    Keep inheritance chains shallow (2-3 levels maximum) to maintain
+    readability and ease of debugging.
 """
 
 
 class A:
     first = 0
 
-    def getValueA(self):
+    def get_value_a(self):
         # global first
         self.first = int(input("Enter first number "))
 
@@ -28,7 +28,7 @@ class A:
 class B(A):
     second = 0
 
-    def getValueB(self):
+    def get_value_b(self):
         # global second
         self.second = int(input("Enter second number "))
 
@@ -50,9 +50,9 @@ class C(B):
 
 
 o = C()
-o.getValueA()
-o.getValueB()
+o.get_value_a()
+o.get_value_b()
 print("Sum is ", o.sum())
 print("Minus is ", o.minus())
 print("Multiply is ", o.mul())
-print("Devision is ", o.div())
+print("Division is ", o.div())

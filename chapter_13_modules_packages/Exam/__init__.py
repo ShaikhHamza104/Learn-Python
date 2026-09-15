@@ -1,14 +1,10 @@
 """
-📚 Topic: Exam package initializer
+📚 Topic: Exam Package Initializer
 
-This module provides the small package entry point used by the examples.
+This module serves as the package entry point for the Exam package.
 
 💡 Key points:
-    1️⃣ the basic syntax for exam package initializer
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    exam package initializer affects the result.
+    1️⃣ Marks the `Exam` directory as a regular Python package
+    2️⃣ Executes automatically when the package is imported
+    3️⃣ Can define `__all__` or expose unified convenience imports
 """

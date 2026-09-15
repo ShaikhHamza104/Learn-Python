@@ -1,20 +1,18 @@
 """
-📚 Topic: JSON Data Handling
+📚 Topic: JSON Serialization & Deserialization
 
-This script demonstrates json data handling using imports and file or path
-operations.
+This script demonstrates serializing Python data structures to JSON files and
+deserializing JSON data back into Python objects.
 
 💡 Key points:
-    1️⃣ the basic syntax for json data handling
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `json.dump(obj, f)`: serializes Python data to a file
+    2️⃣ `json.load(f)`: deserializes JSON file content into Python dicts/lists
+    3️⃣ `json.dumps()` / `json.loads()`: operate on in-memory strings
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    json data handling affects the result.
+    JSON natively maps to Python primitives: JSON objects become dicts, arrays
+    become lists, and booleans become True/False.
 """
-
-
 # 🧩 Working with JSON files
 # JSON = JavaScript Object Notation -> looks exactly like a Python dictionary
 # It's the most common format for APIs, config files, and web data

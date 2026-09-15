@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 09 Exercise - Problem 7
 
-This script demonstrates chapter 09 exercise - problem 7 using for loops,
-conditions, classes and file or path operations.
+Find and report the exact line number where 'python' appears in a log file.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 09 exercise - problem 7
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 09 exercise - problem 7 affects the result.
+    1️⃣ Reading lines sequentially with `f.readline()` or iteration
+    2️⃣ Tracking 1-based line numbers
+    3️⃣ Identifying matching lines
 """
-
-
 # Write a program to find out the line number where python is present from ques
 # 6.
 with open("log.txt") as f:

@@ -1,27 +1,29 @@
 """
-📚 Topic: 05 File Handing
+📚 Topic: Safe File Handling with Exceptions
 
-This script demonstrates 05 file handing using user input, conditions,
-exception handling and file or path operations.
+This script demonstrates safely opening and reading files with exception
+guards against missing files.
 
 💡 Key points:
-    1️⃣ the basic syntax for 05 file handing
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Catching `FileNotFoundError` when accessing filesystem resources
+    2️⃣ Preventing unbound variable errors in cleanup blocks
+    3️⃣ Releasing file handles cleanly
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    05 file handing affects the result.
+    Prefer `with open(...)` which automatically and safely closes files even
+    when exceptions are raised.
 """
 
 
+f = None
+filename = input("Enter file name you want to open: ")
 try:
-    file = input("Enter file name you want to open ")
-    f = open(file)
+    f = open(filename, "r", encoding="utf-8")
 except FileNotFoundError:
-    print(f"{file} not found Error")
+    print(f"'{filename}' not found error")
 else:
     data = f.read()
     print(data)
 finally:
-    f.close()
+    if f is not None:
+        f.close()

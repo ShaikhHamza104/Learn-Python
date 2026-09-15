@@ -1,19 +1,18 @@
 """
-📚 Topic: If
+📚 Topic: The `if` Statement
 
-This script demonstrates if using conditions and user input.
+This script introduces conditional execution in Python using the `if` keyword
+to run code blocks only when a condition evaluates to True.
 
 💡 Key points:
-    1️⃣ the basic syntax for if
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Boolean condition evaluation (True or False)
+    2️⃣ Python indentation defines the block of code inside the `if`
+    3️⃣ If the condition is False, the indented block is skipped entirely
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    if affects the result.
+    In Python, indentation (typically 4 spaces) is syntactically mandatory,
+    replacing curly braces `{}` used in other languages.
 """
-
-
 # 👤 Ask the user to enter their age
 age = int(input("Enter your age: "))
 

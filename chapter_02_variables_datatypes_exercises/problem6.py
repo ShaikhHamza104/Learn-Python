@@ -1,19 +1,18 @@
 """
-📚 Topic: Chapter 02 Exercise - Problem 6
+📚 Topic: Exercise 6 - Number Squaring & Exponentiation
 
-This script demonstrates chapter 02 exercise - problem 6 using user input
-and imports.
+This exercise prompts for a number and calculates its square using Python's
+exponentiation operator `**`, contrasting it with the bitwise XOR operator `^`.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 02 exercise - problem 6
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Calculating powers using the exponentiation operator `**`
+    2️⃣ Alternative squaring via self-multiplication (`n * n`)
+    3️⃣ Understanding why `^` is bitwise XOR, not exponentiation in Python
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 02 exercise - problem 6 affects the result.
+    In Python and many other languages, `^` performs bitwise XOR. To raise
+    a number to a power, always use `base ** exponent` or `pow(base, exp)`.
 """
-
 
 num = int(input("Enter a number : "))
 

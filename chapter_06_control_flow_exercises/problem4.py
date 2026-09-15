@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 06 Exercise - Problem 4
 
-This script demonstrates chapter 06 exercise - problem 4 using user input,
-conditions and imports.
+Check whether a given username contains fewer than 10 characters.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 06 exercise - problem 4
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 06 exercise - problem 4 affects the result.
+    1️⃣ Measuring string length using `len()`
+    2️⃣ Comparing character count against threshold with `<`
+    3️⃣ Providing validation feedback
 """
-
-
 # 👤 Ask the user to enter their username
 username = input("Enter your username: ")
 

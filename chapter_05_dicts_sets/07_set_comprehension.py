@@ -1,20 +1,18 @@
 """
-📚 Topic: Set Comprehension
+📚 Topic: Set Comprehensions
 
-This script demonstrates set comprehension using set comprehensions and
-generator expressions.
+This script demonstrates declarative set comprehensions to build deduplicated
+sets with transformed or filtered values.
 
 💡 Key points:
-    1️⃣ the basic syntax for set comprehension
-    2️⃣ how set comprehensions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Syntax: `{expression for item in iterable}`
+    2️⃣ Automatic deduplication during comprehension construction
+    3️⃣ Conditional inclusion using trailing `if` clauses
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    set comprehension affects the result.
+    Set comprehensions look like dictionary comprehensions but lack the
+    `key: value` colon syntax.
 """
-
-
 # 🔢 Generate 10 elements in a set using set comprehension
 # range(1, 11) generates numbers from 1 to 10.
 #

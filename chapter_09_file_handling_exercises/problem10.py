@@ -1,19 +1,12 @@
 """
 📚 Topic: Chapter 09 Exercise - Problem 10
 
-This script demonstrates chapter 09 exercise - problem 10 using classes,
-file or path operations and imports.
+Wipe out and clear the entire content of a file using write mode.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 09 exercise - problem 10
-    2️⃣ how classes fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 09 exercise - problem 10 affects the result.
+    1️⃣ Opening a file in `'w'` write mode
+    2️⃣ Writing an empty string `""` to truncate the file to 0 bytes
+    3️⃣ Confirming empty file state
 """
-
-
 with open("file1.txt", 'w') as f:
     f.write("")

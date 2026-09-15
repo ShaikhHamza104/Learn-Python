@@ -1,18 +1,18 @@
 """
-📚 Topic: String Methoud
+📚 Topic: Common String Methods
 
-This script demonstrates string methoud using basic Python syntax.
+This script demonstrates essential built-in string methods for measuring
+length, case transformation, substring searching, and character verification.
 
 💡 Key points:
-    1️⃣ the basic syntax for string methoud
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Querying properties: `len()`, `.startswith()`, `.endswith()`
+    2️⃣ Case modification: `.upper()`, `.lower()`, `.capitalize()`
+    3️⃣ Substring search & inspection: `.find()`, `.count()`, `.isalnum()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    string methoud affects the result.
+    Because strings are immutable, methods like `.upper()` or `.replace()`
+    do not change the original string; they return a brand-new string copy.
 """
-
 
 name = "hamza"
 # string are immutable
@@ -34,22 +34,22 @@ print(name.lower())
 # to convert first character in upper case latter
 print(name.capitalize())
 
-# to find the first occurance latter
+# to find the first occurrence letter
 print(name.find("a", 0))
 
 # Check if all characters in the string are alphanumeric (letters and numbers)
 print(name.isalnum())
 
-# to find the number of occurance
+# to find the number of occurrences
 print(name.count("a"))
 
-# to find the index of character in fist occurance
+# to find the index of character at first occurrence
 print(name.index("z"))
 
-# check that the string has contain character
+# check that the string contains alphabetic characters
 print(name.isalpha())
 
-# check that the string has contain number
+# check that the string contains digits
 print(name.isdigit())
 
 # to replace character

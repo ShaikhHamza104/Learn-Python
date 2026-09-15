@@ -1,17 +1,12 @@
 """
-📚 Topic: Problem8
+📚 Topic: Chapter 12 Exercise - Problem 8
 
-This script demonstrates problem8 using user input, conditions, classes and
-exception handling.
+Validate user passwords against length constraints using custom exceptions.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem8
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem8 affects the result.
+    1️⃣ Defining custom validation exceptions
+    2️⃣ Checking string length conditions
+    3️⃣ Enforcing minimum security criteria
 """
 
 

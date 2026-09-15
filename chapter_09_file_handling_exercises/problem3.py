@@ -1,30 +1,27 @@
 """
 📚 Topic: Chapter 09 Exercise - Problem 3
 
-This script demonstrates chapter 09 exercise - problem 3 using for loops,
-functions, classes and file or path operations.
+Generate multiplication tables from 2 to 20 and write each table to a
+dedicated text file.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 09 exercise - problem 3
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 09 exercise - problem 3 affects the result.
+    1️⃣ Generating arithmetic multiplication tables
+    2️⃣ Writing files dynamically using formatted filenames
+    3️⃣ Organizing generated output files in a subfolder
 """
-
-
 import os
-dr = os.chdir('chapter 9 pr/table')
 
 
-def function():
-    n = 21
-    for i in range(2, n):
-        with open(f"table{i}.txt", 'a') as f:
+def generate_tables():
+    script_dir = os.path.dirname(__file__)
+    table_dir = os.path.join(script_dir, "table")
+    os.makedirs(table_dir, exist_ok=True)
+
+    for i in range(2, 21):
+        table_path = os.path.join(table_dir, f"table_{i}.txt")
+        with open(table_path, "w", encoding="utf-8") as f:
             for j in range(1, 11):
-                f.write(f"{i} × {j} = {i * j}\n")
+                f.write(f"{i} x {j} = {i * j}\n")
 
 
-function()
+generate_tables()

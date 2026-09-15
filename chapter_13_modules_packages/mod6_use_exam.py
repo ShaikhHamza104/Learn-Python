@@ -1,20 +1,22 @@
 """
-📚 Topic: Mod6 Use Exam
+📚 Topic: Using Submodules within a Package
 
-This script demonstrates mod6 use exam using imports.
+This script demonstrates importing and combining functionality from package
+submodules.
 
 💡 Key points:
-    1️⃣ the basic syntax for mod6 use exam
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Importing submodules from a local package hierarchy
+    2️⃣ Calling package functions to aggregate results
+    3️⃣ Package directory layout and relative imports
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    mod6 use exam affects the result.
+    Ensure the parent directory is on `sys.path` when running scripts that
+    import sibling packages.
 """
+
 
 import Exam
 import Exam.avg
-import Exam.theroy
+import Exam.theory
 
-print(Exam.avg.cal_avg() + Exam.theroy.theroy_get())
+print(Exam.avg.cal_avg() + Exam.theory.get_theory())

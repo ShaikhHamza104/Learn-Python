@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 05 Exercise - Problem 5
 
-This script demonstrates chapter 05 exercise - problem 5 using classes and
-imports.
+Identify the type of an empty set representation `s = {}`.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 05 exercise - problem 5
-    2️⃣ how classes fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 05 exercise - problem 5 affects the result.
+    1️⃣ `{}` is reserved for initializing empty dictionaries
+    2️⃣ `type({})` evaluates to `<class 'dict'>`
+    3️⃣ Initializing an empty set requires `set()`
 """
-
-
 # 📚 Create an empty dictionary
 # Empty curly braces `{}` represent a dictionary in Python.
 s = {}

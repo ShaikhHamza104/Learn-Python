@@ -1,18 +1,18 @@
 """
-📚 Topic: Type Function
+📚 Topic: Runtime Type Inspection with `type()`
 
-This script demonstrates type function using basic Python syntax.
+This script demonstrates using Python's built-in `type()` function to inspect
+the underlying class of any variable or object during execution.
 
 💡 Key points:
-    1️⃣ the basic syntax for type function
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Passing variables or literal values to `type()`
+    2️⃣ Inspecting the resulting `<class '...'>` representation
+    3️⃣ Verifying dynamic type classifications across diverse literals
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    type function affects the result.
+    For production validation, prefer `isinstance(var, int)` over
+    `type(var) == int` because `isinstance` respects class inheritance.
 """
-
 
 a = 10
 print(type(a))  # <class 'int'>

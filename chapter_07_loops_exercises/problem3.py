@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 3
 
-This script demonstrates chapter 07 exercise - problem 3 using user input,
-while loops and imports.
+Print the multiplication table of a user-specified number using a `while` loop.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 3
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 3 affects the result.
+    1️⃣ Initializing loop counter at 1
+    2️⃣ Running `while` loop until multiplier reaches 10
+    3️⃣ Incrementing counter explicitly in each iteration
 """
-
-
 # 🔢 Take a number from the user
 num = int(input("Enter a number: "))
 

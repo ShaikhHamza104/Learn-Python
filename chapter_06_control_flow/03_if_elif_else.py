@@ -1,19 +1,18 @@
 """
-📚 Topic: If Elif Else
+📚 Topic: Multi-Way Branching with `if-elif-else`
 
-This script demonstrates if elif else using conditions and user input.
+This script demonstrates chaining multiple conditions using `elif` (else-if)
+ladders to test sequential possibilities.
 
 💡 Key points:
-    1️⃣ the basic syntax for if elif else
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Testing sequential conditions from top to bottom
+    2️⃣ Short-circuit execution: once a condition is True, remaining tests skip
+    3️⃣ Providing an optional final `else` fallback for unmatched cases
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    if elif else affects the result.
+    Order your conditions carefully. The first condition that evaluates to
+    True wins, even if later conditions would also be True.
 """
-
-
 # 👤 Ask the user to enter their age
 age = int(input("Enter your age: "))
 

@@ -1,23 +1,23 @@
 """
-📚 Topic: Quick Function Example
+📚 Topic: Functions with User Input
 
-This script demonstrates quick function example using functions and user
-input.
+This script demonstrates interactive functions that accept user input and
+produce personalized outputs.
 
 💡 Key points:
-    1️⃣ the basic syntax for quick function example
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Prompting input from within a function body
+    2️⃣ String formatting and concatenation in output
+    3️⃣ Reusability across multiple invocations
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    quick function example affects the result.
+    Whenever possible, pass values into functions as arguments rather than
+    reading directly with `input()` inside the function.
 """
 
 
-def goodDay():
+def good_day():
     name = input("Enter your name ")
     print("Good Day " + name)
 
 
-goodDay()
+good_day()

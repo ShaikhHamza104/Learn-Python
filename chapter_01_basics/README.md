@@ -10,7 +10,7 @@ Python is known for its clean, readable syntax that reads almost like plain Engl
 |------|------------------|
 | `01_hello_world.py` | Printing messages to the console with `print()` and using the standard `main()` execution pattern. |
 | `02_comment_example.py` | Writing single-line comments (`#`), multi-line docstrings (`"""`), and commenting out code for debugging. |
-| `02_module_example.py` | Importing third-party modules (like `pyjokes`) to bring pre-written features into your script. |
+| `03_module_example.py` | Importing third-party modules (like `pyjokes`) to bring pre-written features into your script. |
 
 ---
 
@@ -60,7 +60,7 @@ They are commonly placed at the top of files or functions.
 """
 ```
 
-### 3. Using Modules (`02_module_example.py`)
+### 3. Using Modules (`03_module_example.py`)
 ```python
 import pyjokes
 

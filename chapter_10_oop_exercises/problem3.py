@@ -1,17 +1,12 @@
 """
 📚 Topic: Chapter 10 Exercise - Problem 3
 
-This script demonstrates chapter 10 exercise - problem 3 using classes and
-imports.
+Demonstrate whether setting an instance attribute alters a class attribute.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 10 exercise - problem 3
-    2️⃣ how classes fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 10 exercise - problem 3 affects the result.
+    1️⃣ Defining a class attribute `a = 10`
+    2️⃣ Setting instance attribute `o.a = 0` creates an instance attribute
+    3️⃣ Verifying that class attribute `A.a` remains unchanged
 """
 
 

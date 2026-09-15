@@ -1,17 +1,19 @@
 """
-📚 Topic: 03 Listdir
+📚 Topic: Listing Directory Contents (`os.listdir()`)
 
-This script demonstrates 03 listdir using imports.
+This script demonstrates inspecting files and directories present inside a
+target directory using `os.listdir()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 03 listdir
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Retrieving directory entries as a list of filename strings
+    2️⃣ Passing `.` to inspect the current working directory
+    3️⃣ Combining with loops to process files in bulk
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    03 listdir affects the result.
+    `os.listdir()` returns only entry names, not full paths; use
+    `os.path.join()` or `pathlib.Path` to build complete paths.
 """
+
 
 # importing os module : os module is a build in module
 import os

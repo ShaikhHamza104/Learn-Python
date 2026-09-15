@@ -1,19 +1,13 @@
 """
 📚 Topic: Chapter 04 Exercise - Problem 3
 
-This script demonstrates chapter 04 exercise - problem 3 using imports.
+Demonstrate that tuple elements cannot be changed once defined (immutability).
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 04 exercise - problem 3
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 04 exercise - problem 3 affects the result.
+    1️⃣ Creating a heterogeneous tuple
+    2️⃣ Verifying immutability when attempting item reassignment
+    3️⃣ Understanding Python's `TypeError` on tuple modification
 """
-
-
 # 📦 Create a tuple with different types of values
 t = (1, 2, 3, True, None)
 

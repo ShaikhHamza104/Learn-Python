@@ -1,16 +1,18 @@
 """
-📚 Topic: Ruleofvariable
+📚 Topic: Variable Naming Rules & Conventions
 
-This script demonstrates ruleofvariable using functions and conditions.
+This script covers Python's lexical identifier rules, explaining which
+characters are valid in variable names, forbidden patterns (like leading digits
+or embedded whitespace), and PEP 8 snake_case recommendations.
 
 💡 Key points:
-    1️⃣ the basic syntax for ruleofvariable
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Allowed characters: letters, digits, and underscores (`_`)
+    2️⃣ Identifiers must begin with a letter or an underscore, never a digit
+    3️⃣ Spaces and special characters are illegal and trigger SyntaxError
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    ruleofvariable affects the result.
+    Follow PEP 8: use all-lowercase words separated by underscores
+    (`snake_case`) for variable and function names.
 """
 
 

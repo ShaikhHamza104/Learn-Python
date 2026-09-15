@@ -1,19 +1,18 @@
 """
-📚 Topic: File I/O Basics
+📚 Topic: Opening & Reading Files
 
-This script demonstrates file i/o basics using file or path operations.
+This script demonstrates opening, reading, and closing a plain text file using
+Python's built-in `open()` function.
 
 💡 Key points:
-    1️⃣ the basic syntax for file i/o basics
-    2️⃣ how file or path operations fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `open('filename')` defaults to read mode (`'r'`)
+    2️⃣ Reading entire contents with `f.read()`
+    3️⃣ Explicitly closing file handles with `f.close()`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    file i/o basics affects the result.
+    Always close opened files to release operating system resources, or use
+    the `with` statement for automatic cleanup.
 """
-
-
 # Opening a file
 f = open('sample.txt')  # default mode is r
 

@@ -1,27 +1,24 @@
 """
-📚 Topic: Chapter 01 Exercise - Problem 5
+📚 Topic: Labeled Directory Traversal with Comments
 
-This script demonstrates chapter 01 exercise - problem 5 using for loops and
-imports.
+This exercise reinforces reading local directory trees using `os.listdir()`
+with descriptive explanatory comments following clean coding practices.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 01 exercise - problem 5
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Reading filesystem directory contents via `os.listdir()`
+    2️⃣ Documenting script steps clearly with informative comments
+    3️⃣ Iterating and printing individual directory entries
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 01 exercise - problem 5 affects the result.
+    `os.listdir()` returns filenames and subdirectory names as plain strings;
+    it does not recurse into nested subfolders automatically.
 """
 
 
-# Q5. Write a python program to print the contents of a directory using the os
-# module.
-# Search online for the function which does that
 import os
 
-# Replace 'path_to_directory' with the path to the directory you want to print
-directory_path = "/"
+# Inspect the current directory portably
+directory_path = "."
 
 # List the contents of the directory
 contents = os.listdir(directory_path)

@@ -1,18 +1,18 @@
-"""
-📚 Topic: Escape
+r"""
+📚 Topic: Escape Sequences in Python Strings
 
-This script demonstrates escape using basic Python syntax.
+This script demonstrates using escape characters (`\`, `\n`, `\t`) and
+quote mixing to include reserved characters inside string literals.
 
 💡 Key points:
-    1️⃣ the basic syntax for escape
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Nesting different quote styles (single inside double and vice versa)
+    2️⃣ Using `\n` to insert newline line-breaks into strings
+    3️⃣ Escaping matching quotes using the backslash escape character `\`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    escape affects the result.
+    If your string contains many backslashes (such as regexes or file paths),
+    prefix it with `r` to make it a raw string: `r"C:\Users\name"`.
 """
-
 
 string = "He said,'I am good'"
 print(string)  # He said,'I am good'

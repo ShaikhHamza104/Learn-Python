@@ -1,18 +1,19 @@
 """
-📚 Topic: 12 Isdir
+📚 Topic: Checking If a Path Is a Directory (`os.path.isdir()`)
 
-This script demonstrates 12 isdir using conditions, exception handling and
-imports.
+This script demonstrates testing whether a given filesystem path is a
+directory.
 
 💡 Key points:
-    1️⃣ the basic syntax for 12 isdir
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Verifying whether a path points to an existing directory
+    2️⃣ Returns `False` for files or non-existent paths
+    3️⃣ Navigating directory trees conditionally
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    12 isdir affects the result.
+    Use `os.path.isdir()` to separate folders from files when processing
+    `os.listdir()` entries.
 """
+
 
 # importing os module : os module is a build in module
 import os

@@ -1,18 +1,18 @@
 """
-📚 Topic: Chapter 02 Exercise - Problem 4
+📚 Topic: Exercise 4 - Value Comparison
 
-This script demonstrates chapter 02 exercise - problem 4 using imports.
+This exercise compares two numeric variables using relational comparison
+operators (`>`), displaying the resulting boolean truth value.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 02 exercise - problem 4
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining numeric comparison operands
+    2️⃣ Evaluating inequality using the greater-than operator `>`
+    3️⃣ Printing boolean results (`True` or `False`)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 02 exercise - problem 4 affects the result.
+    Comparison expressions evaluate directly to booleans, making them ideal
+    for conditions inside `if` statements and loops.
 """
-
 
 a = 34
 b = 80

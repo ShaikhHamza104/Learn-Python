@@ -1,20 +1,14 @@
 """
 📚 Topic: Chapter 06 Exercise - Problem 2
 
-This script demonstrates chapter 06 exercise - problem 2 using user input,
-for loops, conditions and imports.
+Determine whether a student passes or fails based on individual subject
+cutoffs (>= 33%) and overall aggregate percentage (>= 40%).
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 06 exercise - problem 2
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 06 exercise - problem 2 affects the result.
+    1️⃣ Calculating overall percentage from three subject scores
+    2️⃣ Enforcing compound conditions across total and individual subjects
+    3️⃣ Outputting pass or fail status
 """
-
-
 # 📝 Take marks for the three subjects
 mark1 = int(input("Enter your mark for Subject 1: "))
 mark2 = int(input("Enter your mark for Subject 2: "))

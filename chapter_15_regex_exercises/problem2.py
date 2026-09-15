@@ -19,7 +19,7 @@ import re
 
 # 2. Write a program that checks if a phone number entered by the user
 # is a valid 10-digit Indian phone number (starts with 6-9).
-def validatePhoneNumber():
+def validate_phone_number():
     try:
         phone = input("Enter your phone number: ")
         pattern = r"^[6-9]\d{9}$"
@@ -34,4 +34,4 @@ def validatePhoneNumber():
         print("Input cancelled")
 
 
-validatePhoneNumber()
+validate_phone_number()

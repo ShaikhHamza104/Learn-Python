@@ -21,7 +21,7 @@ import re
 # and one special character.
 
 
-def checkPasswordStrength():
+def check_password_strength():
     try:
         password = input("Enter a password: ")
 
@@ -44,4 +44,4 @@ def checkPasswordStrength():
         print("Input cancelled")
 
 
-checkPasswordStrength()
+check_password_strength()

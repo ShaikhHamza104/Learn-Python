@@ -13,8 +13,8 @@ As software projects grow, keeping all code in a single file becomes unmaintaina
 | `mod3_if_name_main.py` | Protecting execution blocks using the `if __name__ == "__main__":` boilerplate |
 | `mod4_module_imports.py` | Importing specific classes with `from ... import`, using aliases with `as`, and namespace pollution |
 | `mod5_package_init.py` | Converting directories into packages using `__init__.py`, relative imports, and comparison with libraries like NumPy |
-| `mod6_use_exam.py` | Importing and consuming multiple submodules (`avg.py`, `theroy.py`) from the `Exam/` package |
-| `Exam/` | A multi-module package containing `__init__.py`, `avg.py`, `ptt1.py`, `ptt2.py`, and `theroy.py` |
+| `mod6_use_exam.py` | Importing and consuming multiple submodules (`avg.py`, `theory.py`) from the `Exam/` package |
+| `Exam/` | A multi-module package containing `__init__.py`, `avg.py`, `ptt1.py`, `ptt2.py`, and `theory.py` |
 
 ---
 
@@ -26,7 +26,7 @@ As software projects grow, keeping all code in a single file becomes unmaintaina
 4. **Selective Imports and Aliasing (`mod4_module_imports.py`)**: Use `from module import Symbol` to bring specific identifiers directly into scope, and `as alias` (such as `import Employee as emp`) for cleaner naming or avoiding identifier collisions. Avoid `from module import *` because it pollutes namespaces and hides source origins.
 5. **Packages and `__init__.py` (`mod5_package_init.py`)**: A directory with an `__init__.py` file is recognized as a package. The `__init__.py` file initializes the package and can expose key functions via relative imports (e.g., `from .operations import add`) so callers can import directly from the top package.
 6. **Relative Imports Inside Packages (`Exam/avg.py`)**: Submodules within the same package use explicit relative imports (such as `from . import ptt1, ptt2`) to reference sibling modules safely regardless of where the root script is executed.
-7. **Multi-Module Orchestration (`mod6_use_exam.py`)**: Applications can import submodules hierarchically (such as `import Exam.avg` and `import Exam.theroy`) and combine calculations across modular components.
+7. **Multi-Module Orchestration (`mod6_use_exam.py`)**: Applications can import submodules hierarchically (such as `import Exam.avg` and `import Exam.theory`) and combine calculations across modular components.
 
 ---
 

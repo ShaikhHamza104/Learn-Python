@@ -1,17 +1,19 @@
 """
-📚 Topic: 16 Environ
+📚 Topic: Environment Variables (`os.environ`)
 
-This script demonstrates 16 environ using imports.
+This script demonstrates reading and inspecting system environment variables
+via `os.environ`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 16 environ
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `os.environ` acts as a dictionary of system environment variables
+    2️⃣ Safe lookup using `os.environ.get("KEY", default)`
+    3️⃣ Storing configuration and API keys outside source code
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    16 environ affects the result.
+    Never hardcode secrets or passwords in source code; retrieve them from
+    environment variables instead.
 """
+
 
 # importing os module : os module is a build in module
 import os

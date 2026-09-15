@@ -1,19 +1,18 @@
 """
-📚 Topic: List Comprehension
+📚 Topic: List Comprehensions
 
-This script demonstrates list comprehension using list comprehensions.
+This script demonstrates concise, declarative syntax for building lists
+through transformations and filtering.
 
 💡 Key points:
-    1️⃣ the basic syntax for list comprehension
-    2️⃣ how list comprehensions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Basic syntax: `[expression for item in iterable]`
+    2️⃣ Conditional filtering: `[expr for item in iterable if condition]`
+    3️⃣ Improved readability and performance over manual accumulator loops
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    list comprehension affects the result.
+    Keep list comprehensions simple and readable; use traditional `for`
+    loops if logic becomes multi-line or complex.
 """
-
-
 # 🔢 Generate 10 elements in a list using list comprehension
 # range(1, 11) generates numbers from 1 up to 10.
 #

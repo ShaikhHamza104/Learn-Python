@@ -1,17 +1,17 @@
 """
-📚 Topic: Constructors (__init__)
+📚 Topic: Constructors (`__init__`)
 
-This script demonstrates constructors (__init__) using functions and
-classes.
+This script demonstrates Python's `__init__` constructor method for
+initializing object state automatically upon creation.
 
 💡 Key points:
-    1️⃣ the basic syntax for constructors (__init__)
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ The `__init__` method runs automatically whenever an object is created
+    2️⃣ Initializes instance state before any other methods are invoked
+    3️⃣ Avoids manual setup calls after object creation
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    constructors (__init__) affects the result.
+    `__init__` cannot return a value; its sole responsibility is initializing
+    the newly created instance.
 """
 
 

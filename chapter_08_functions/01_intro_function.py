@@ -1,27 +1,27 @@
 """
 📚 Topic: Introduction to Functions
 
-This script demonstrates introduction to functions using functions and user
-input.
+This script demonstrates defining and invoking reusable functions to
+encapsulate logic and eliminate repetitive code.
 
 💡 Key points:
-    1️⃣ the basic syntax for introduction to functions
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Function definition syntax with the `def` keyword
+    2️⃣ Calling functions by name followed by parentheses `()`
+    3️⃣ Modularizing code into clean, testable blocks
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    introduction to functions affects the result.
+    Defining a function only stores its logic; code inside runs only when the
+    function is explicitly called.
 """
 
 
-# Function defination
+# Function definition
 def avg():
     a = int(input("Enter number : "))
     b = int(input("Enter number : "))
     c = int(input("Enter number : "))
 
-    average = (a + b + c) / 2
+    average = (a + b + c) / 3
     print(average)
 
 

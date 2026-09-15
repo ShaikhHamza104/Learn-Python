@@ -1,18 +1,19 @@
 """
-📚 Topic: 05 Makedirs
+📚 Topic: Recursive Directory Creation (`os.makedirs()`)
 
-This script demonstrates 05 makedirs using conditions, exception handling
-and imports.
+This script demonstrates creating nested directory hierarchies recursively
+using `os.makedirs()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 05 makedirs
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Creating deep directory paths in one call (e.g. `a/b/c`)
+    2️⃣ Setting `exist_ok=True` to prevent crashes when directories exist
+    3️⃣ Safely preparing output folders for data export
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    05 makedirs affects the result.
+    Always pass `exist_ok=True` to `os.makedirs()` for idempotent directory
+    creation in production code.
 """
+
 
 # importing os module : os module is a build in module
 import os

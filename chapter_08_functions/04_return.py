@@ -1,17 +1,17 @@
 """
-📚 Topic: Return Statement in Functions
+📚 Topic: The `return` Statement
 
-This script demonstrates return statement in functions using functions and
-user input.
+This script demonstrates returning computed values from functions back to the
+caller.
 
 💡 Key points:
-    1️⃣ the basic syntax for return statement in functions
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Using `return` to pass calculation results to the calling context
+    2️⃣ Assigning returned values to variables or nesting inside expressions
+    3️⃣ Functions without an explicit `return` implicitly return `None`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    return statement in functions affects the result.
+    `print()` merely shows output on screen; `return` gives the result back
+    to the program for further calculation.
 """
 
 

@@ -1,17 +1,17 @@
 """
-📚 Topic: Mod3 If Name Main
+📚 Topic: The `if __name__ == '__main__'` Idiom
 
-This script demonstrates mod3 if name main using conditions, functions and
-classes.
+This script demonstrates separating standalone executable code from reusable
+imported module code using Python's `__name__` variable.
 
 💡 Key points:
-    1️⃣ the basic syntax for mod3 if name main
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ When run directly, Python sets `__name__` to `'__main__'`
+    2️⃣ When imported as a module, `__name__` is set to the module's name
+    3️⃣ Prevents test runs and script side effects from running on import
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    mod3 if name main affects the result.
+    Always guard top-level execution code with `if __name__ == '__main__':`
+    in library modules.
 """
 
 
@@ -22,14 +22,14 @@ class Employee:
 
     @staticmethod
     def hello():
-        print("Hello Empolyee")
+        print("Hello Employee")
 
     @property
-    def printCompany(self):
+    def company_info(self):
         return f"Your company name is {self.company}"
 
 
 if __name__ == "__main__":
     e1 = Employee("Hamza", "Google")
     e1.hello()
-    print(e1.printCompany)
+    print(e1.company_info)

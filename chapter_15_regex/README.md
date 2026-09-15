@@ -85,7 +85,7 @@ print("Formatted date:", formatted)  # 13/09/2026
 
 ## 🏋️ Practice Exercises
 
-Test your pattern matching and data validation skills across 5 targeted challenges in **[chapter_15_exercises/](../chapter_15_exercises/README.md)**!
+Test your pattern matching and data validation skills across 5 targeted challenges in **[chapter_15_regex_exercises/](../chapter_15_regex_exercises/README.md)**!
 
 ---
 

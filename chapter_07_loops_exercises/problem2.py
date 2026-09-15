@@ -1,24 +1,18 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 2
 
-This script demonstrates chapter 07 exercise - problem 2 using for loops,
-conditions and imports.
+Greet individuals in a name list whose names start with the letter 'S'.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 2
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 2 affects the result.
+    1️⃣ Iterating through a list of names
+    2️⃣ Checking prefix matching with `.startswith()`
+    3️⃣ Printing personalized greetings conditionally
 """
-
 # 📋 Store names in a list
-l = ["Harry", "Soham", "Sachin", "Rahul"]  # noqa: E741
+names = ["Harry", "Soham", "Sachin", "Rahul"]
 
 # 🔄 Check each name in the list
-for name in l:
+for name in names:
     # 🔍 Check if the name starts with the letter "S"
     if name.startswith("S"):
         # 👋 Greet the person

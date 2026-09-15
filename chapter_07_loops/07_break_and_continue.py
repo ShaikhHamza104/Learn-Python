@@ -1,19 +1,18 @@
 """
-📚 Topic: Break And Continue
+📚 Topic: Loop Control: `break` and `continue`
 
-This script demonstrates break and continue using for loops and conditions.
+This script demonstrates altering loop flow using `break` to exit early and
+`continue` to skip the remainder of the current iteration.
 
 💡 Key points:
-    1️⃣ the basic syntax for break and continue
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `break`: immediately halts and exits the enclosing loop
+    2️⃣ `continue`: skips remaining statements in current turn and advances
+    3️⃣ Controlling loop lifecycle conditionally
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    break and continue affects the result.
+    Use `break` to exit once a search target is found; use `continue` to
+    bypass invalid or irrelevant data items.
 """
-
-
 # ═══════════════════════════════════════
 # 🛑 Using break
 # ═══════════════════════════════════════

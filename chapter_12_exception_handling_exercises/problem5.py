@@ -1,27 +1,24 @@
 """
-📚 Topic: Problem5
+📚 Topic: Chapter 12 Exercise - Problem 5
 
-This script demonstrates problem5 using user input, exception handling, file
-or path operations and imports.
+Copy content from one file to another, catching `FileNotFoundError` and
+`PermissionError`.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem5
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem5 affects the result.
+    1️⃣ Reading source file and writing to destination file
+    2️⃣ Catching missing source files
+    3️⃣ Handling permission denied errors gracefully
 """
+
 
 # Read one file and write its content to another. Handle errors such as
 # a missing file or denied permission.
 try:
-    file = input("Enter a file name ")
-    with open(file, "r") as f:
+    source_file = input("Enter a file name: ")
+    with open(source_file, "r", encoding="utf-8") as f:
         data = f.read()
     copy_file = input("Choose your copy file name : ")
-    with open(copy_file, "w") as f:
+    with open(copy_file, "w", encoding="utf-8") as f:
         f.write(data)
 except FileNotFoundError:
     print("File is not available yet.")

@@ -1,19 +1,18 @@
 """
-📚 Topic: Dict
+📚 Topic: Python Dictionaries
 
-This script demonstrates dict using basic Python syntax.
+This script introduces dictionaries as mutable, key-value mapping structures
+providing constant-time O(1) average lookup performance.
 
 💡 Key points:
-    1️⃣ the basic syntax for dict
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining dictionaries using curly braces `{}` and `key: value` pairs
+    2️⃣ Accessing values using their unique keys
+    3️⃣ Key immutability requirement: keys must be hashable types
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    dict affects the result.
+    Dictionary keys must be unique. If a duplicate key is assigned, the new
+    value overwrites the previous one.
 """
-
-
 # 📚 Creating a dictionary
 # Here, we store the names of students as keys
 # and their marks as values.

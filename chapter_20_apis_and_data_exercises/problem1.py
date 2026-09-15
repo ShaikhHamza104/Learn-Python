@@ -1,18 +1,15 @@
 """
-📚 Topic: Problem1
+📚 Topic: Fetching Filtered API Data
 
-This script demonstrates problem1 using requests, functions and
-exception handling.
+This script demonstrates fetching data from a REST API with query parameters
+and filtering responses.
 
 💡 Key points:
-    1️⃣ the basic syntax for problem1
-    2️⃣ how requests fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    problem1 affects the result.
+    1️⃣ Using `requests.get()` with query parameter dictionaries
+    2️⃣ Checking HTTP status codes with `response.raise_for_status()`
+    3️⃣ Filtering parsed JSON records conditionally
 """
+
 
 import requests
 

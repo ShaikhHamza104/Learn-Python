@@ -83,7 +83,7 @@ print("Sum of squares:", total)
 
 ## 🏋️ Practice Exercises
 
-Hone your skills building custom iterators and memory-efficient streaming generators in **[chapter_17_exercises/](../chapter_17_exercises/README.md)**!
+Hone your skills building custom iterators and memory-efficient streaming generators in **[chapter_17_iterators_generators_exercises/](../chapter_17_iterators_generators_exercises/README.md)**!
 
 ---
 

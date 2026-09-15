@@ -1,17 +1,19 @@
 """
-📚 Topic: 08 Rename
+📚 Topic: Renaming and Moving Files (`os.rename()`)
 
-This script demonstrates 08 rename using exception handling and imports.
+This script demonstrates renaming or moving files across filesystem paths
+using `os.rename()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 08 rename
-    2️⃣ how exception handling fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Changing filename or moving across directories
+    2️⃣ Atomic file replacement on POSIX systems
+    3️⃣ Handling `FileNotFoundError` and `FileExistsError`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    08 rename affects the result.
+    For moving files across different drives or filesystems, prefer
+    `shutil.move()`.
 """
+
 
 # importing os module : os module is a build in module
 import os

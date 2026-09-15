@@ -1,60 +1,62 @@
 """
-📚 Topic: 04 Finally Block
+📚 Topic: The `finally` Block & Guaranteed Cleanup
 
-This script demonstrates 04 finally block using user input, for loops,
-conditions and exception handling.
+This script demonstrates the `finally` clause, which executes unconditionally
+whether an exception was raised, caught, or not.
 
 💡 Key points:
-    1️⃣ the basic syntax for 04 finally block
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `finally` runs regardless of whether exceptions were encountered
+    2️⃣ Guaranteed execution even if blocks contain `return` or `break`
+    3️⃣ Standard tool for releasing locks, database handles, and sockets
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    04 finally block affects the result.
+    Use `finally` for mandatory cleanup actions that must always occur.
 """
 
 
-def add(a, b): return a + b
-def sub(a, b): return a - b
-def mul(a, b): return a * b
-def div(a, b): return a / b
+def add(a, b):
+    return a + b
 
 
-opration = {
+def sub(a, b):
+    return a - b
+
+
+def mul(a, b):
+    return a * b
+
+
+def div(a, b):
+    return a / b
+
+
+operations = {
     "+": add,
     "-": sub,
-    "x": mul,
-    "/": div
+    "*": mul,
+    "/": div,
 }
 
 try:
     a = int(input("Enter first number: "))
 
-    for oprator in opration:
-        print(oprator)
-    o = input("Enter oprator ")
+    for operator in operations:
+        print(operator)
+    o = input("Enter operator: ")
     b = int(input("Enter second number: "))
 
+    if o not in operations:
+        raise KeyError(f"Invalid operator: {o}")
 
 except ValueError:
-    print("Please check your inputs ")
+    print("Please check your inputs.")
 
 except KeyError:
-    print("Please enter a valid oprator ")
+    print("Please enter a valid operator.")
 
 else:
-    if o == "+":
-        print(f"Addition of {a} and {b}", add(a, b))
-
-    elif o == "-":
-        print(f"Subtraction of {a} and {b}", sub(a, b))
-
-    elif o == "*":
-        print(f"Multiplication of {a} and {b}", mul(a, b))
-
-    elif o == "/":
-        print(f"Division of {a} and {b}", div(a, b))
+    calc_func = operations[o]
+    print(f"Result of {a} {o} {b} =", calc_func(a, b))
 
 finally:
     print("Thanks for using calculator")

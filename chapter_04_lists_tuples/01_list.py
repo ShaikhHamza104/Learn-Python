@@ -1,19 +1,18 @@
 """
-📚 Topic: List
+📚 Topic: Python Lists
 
-This script demonstrates list using basic Python syntax.
+This script introduces lists as ordered, mutable sequences capable of storing
+heterogeneous elements.
 
 💡 Key points:
-    1️⃣ the basic syntax for list
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Creating lists using square brackets `[]`
+    2️⃣ Accessing elements via zero-based indexing and slicing
+    3️⃣ Mutability: modifying list elements directly in-place
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    list affects the result.
+    Unlike strings, lists can be altered after creation without creating a
+    new object in memory.
 """
-
-
 # ============================================================
 # 🎯 WHAT IS A LIST?
 # ============================================================

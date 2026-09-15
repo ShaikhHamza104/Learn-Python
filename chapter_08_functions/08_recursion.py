@@ -1,17 +1,17 @@
 """
 📚 Topic: Recursion in Python
 
-This script demonstrates recursion in python using functions, conditions and
-user input.
+This script demonstrates recursive functions that solve problems by calling
+themselves with simplified inputs.
 
 💡 Key points:
-    1️⃣ the basic syntax for recursion in python
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining a base case to terminate recursion
+    2️⃣ Defining a recursive step that moves closer to the base case
+    3️⃣ Classic application: computing factorials
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    recursion in python affects the result.
+    Always verify your base case; missing or unreachable base cases cause
+    a `RecursionError` (stack overflow).
 """
 
 

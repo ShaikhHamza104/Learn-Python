@@ -1,37 +1,37 @@
 """
-📚 Topic: Getters and Setters
+📚 Topic: Property Getters and Setters
 
-This script demonstrates getters and setters using while loops, functions
-and classes.
+This script demonstrates defining full getter and setter property pairs to
+validate and control attribute modifications.
 
 💡 Key points:
-    1️⃣ the basic syntax for getters and setters
-    2️⃣ how while loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Defining getter with `@property`
+    2️⃣ Defining setter with `@<property_name>.setter`
+    3️⃣ Updating underlying state and enforcing business invariants
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    getters and setters affects the result.
+    Always match the setter function name to the property getter function
+    name.
 """
 
 
 class Employee:
     def __init__(self, firstname, lastname):
-        self.firstName = firstname
-        self.lastName = lastname
+        self.first_name = firstname
+        self.last_name = lastname
 
     @property
-    def fullName(self):
-        return f"{self.firstName} {self.lastName}"
+    def full_name(self):
+        return f"{self.first_name} {self.last_name}"
 
-    @fullName.setter
-    def Name(self, name):
+    @full_name.setter
+    def full_name(self, name):
         first, last = name.split()
-        self.firstName = first
-        self.lastName = last
+        self.first_name = first
+        self.last_name = last
 
 
 e = Employee("Shaikh", "Hamza")
-print(e.fullName)
-e.Name = "Khan Rehan"
-print(e.fullName)
+print(e.full_name)
+e.full_name = "Khan Rehan"
+print(e.full_name)

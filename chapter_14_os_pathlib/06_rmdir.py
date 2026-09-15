@@ -1,17 +1,17 @@
 """
-📚 Topic: 06 Rmdir
+📚 Topic: Removing Empty Directories (`os.rmdir()`)
 
-This script demonstrates 06 rmdir using exception handling and imports.
+This script demonstrates deleting empty directories using `os.rmdir()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 06 rmdir
-    2️⃣ how exception handling fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Deleting a single empty directory
+    2️⃣ Raises `OSError` if the directory contains any files or subfolders
+    3️⃣ Safe cleanup that protects against accidental data destruction
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    06 rmdir affects the result.
+    To delete non-empty directories recursively, use `shutil.rmtree()`.
 """
+
 
 # importing os module : os module is a build in module
 import os

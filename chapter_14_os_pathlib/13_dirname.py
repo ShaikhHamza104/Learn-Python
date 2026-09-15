@@ -1,17 +1,18 @@
 """
-📚 Topic: 13 Dirname
+📚 Topic: Extracting Directory Names (`os.path.dirname()`)
 
-This script demonstrates 13 dirname using imports.
+This script demonstrates extracting parent directory paths from file paths
+using `os.path.dirname()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 13 dirname
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Extracting directory components from path strings
+    2️⃣ Pairing with `os.path.basename()` to parse paths
+    3️⃣ Determining script locations using `os.path.dirname(__file__)`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    13 dirname affects the result.
+    `os.path.split(path)` returns a `(dirname, basename)` tuple in one call.
 """
+
 
 # importing os module : os module is a build in module
 import os

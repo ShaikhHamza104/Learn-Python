@@ -1,16 +1,17 @@
 """
-📚 Topic: Operator
+📚 Topic: Python Operators (Arithmetic, Assignment & Comparison)
 
-This script demonstrates operator using functions and conditions.
+This script demonstrates fundamental operators in Python, including arithmetic
+math, in-place assignment updates, and relational comparison expressions.
 
 💡 Key points:
-    1️⃣ the basic syntax for operator
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Arithmetic operators: `+`, `-`, `*`, `/`, `//`, `%`, and `**`
+    2️⃣ Augmented assignments: `+=`, `-=`, `*=`, and `/=` for updating values
+    3️⃣ Comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=` (booleans)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    operator affects the result.
+    `/` always performs float division (e.g., `4 / 2` is `2.0`), whereas
+    `//` discards the fractional part and returns integer floor division.
 """
 
 

@@ -1,31 +1,33 @@
 """
-📚 Topic: Lambda Functions
+📚 Topic: Lambda (Anonymous) Functions
 
-This script demonstrates lambda functions using user input.
+This script demonstrates short, anonymous functions defined inline using the
+`lambda` keyword.
 
 💡 Key points:
-    1️⃣ the basic syntax for lambda functions
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Syntax: `lambda arguments: expression`
+    2️⃣ Single-expression restriction without multi-line statements
+    3️⃣ Passing lightweight inline functions to higher-order helpers
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    lambda functions affects the result.
+    Use `def` for complex or named functions; use `lambda` for quick one-off
+    operations like sorting keys.
 """
 
 
-# Square of number
-def x(x): return x * x
-
+# 1️⃣ Define a lambda function to compute the square of a number
+square = lambda x: x * x  # noqa: E731
 
 n = int(input("Enter number do you want to find square : "))
-print(x(n))
+print(f"Square of {n}: {square(n)}")
 
-# Cube of number
-
-
-def x(x): return x * x * x
-
+# 2️⃣ Define a lambda function to compute the cube of a number
+cube = lambda x: x * x * x  # noqa: E731
 
 n = int(input("Enter number do you want to find cube : "))
-print(x(n))
+print(f"Cube of {n}: {cube(n)}")
+
+# 3️⃣ Using lambda inline without binding to a name
+numbers = [1, 2, 3, 4, 5]
+squared_list = list(map(lambda val: val ** 2, numbers))
+print(f"Squared list using inline lambda: {squared_list}")

@@ -1,16 +1,17 @@
 """
-📚 Topic: Variable-Length Arguments
+📚 Topic: Variable-Length Arguments (*args and **kwargs)
 
-This script demonstrates variable-length arguments using basic Python syntax.
+This script demonstrates accepting arbitrary numbers of positional and
+keyword arguments.
 
 💡 Key points:
-    1️⃣ the basic syntax for variable-length arguments
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `*args`: packs extra positional arguments into a tuple
+    2️⃣ `**kwargs`: packs extra keyword arguments into a dictionary
+    3️⃣ Writing flexible functions that adapt to variable inputs
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    variable-length arguments affects the result.
+    The asterisks `*` and `**` perform the packing/unpacking; `args` and
+    `kwargs` are standard conventional names.
 """
 
 

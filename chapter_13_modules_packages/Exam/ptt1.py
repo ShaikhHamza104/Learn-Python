@@ -1,23 +1,19 @@
 """
-📚 Topic: Ptt1
+📚 Topic: Exam Package - Practical Test 1 Submodule
 
-This script demonstrates ptt1 using user input, conditions and functions.
+This module handles recording and retrieving Practical Test 1 marks.
 
 💡 Key points:
-    1️⃣ the basic syntax for ptt1
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    ptt1 affects the result.
+    1️⃣ Encapsulating test score retrieval
+    2️⃣ Converting input to numeric marks
+    3️⃣ Exposing test data to aggregator modules
 """
 
 
 ptt1 = 0
 
 
-def getPtt1():
+def get_ptt1():
     global ptt1
     ptt1 = int(input("Enter ppt1 mark "))
     return ptt1

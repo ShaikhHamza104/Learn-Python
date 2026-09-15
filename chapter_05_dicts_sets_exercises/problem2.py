@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 05 Exercise - Problem 2
 
-This script demonstrates chapter 05 exercise - problem 2 using user input
-and imports.
+Input eight numbers from the user and display all unique numbers using a set.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 05 exercise - problem 2
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 05 exercise - problem 2 affects the result.
+    1️⃣ Repeated user inputs converted to integers
+    2️⃣ Leveraging set automatic deduplication
+    3️⃣ Printing the unique collection of numbers
 """
-
-
 # 🧺 Create an empty set
 # We will store all the numbers entered by the user in this set.
 s = set()

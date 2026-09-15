@@ -1,17 +1,13 @@
 """
 📚 Topic: Chapter 11 Exercise - Problem 2
 
-This script demonstrates chapter 11 exercise - problem 2 using functions,
-classes and imports.
+Create a multi-level class hierarchy: Animal -> Pets -> Dog, and add a bark
+method.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 11 exercise - problem 2
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 11 exercise - problem 2 affects the result.
+    1️⃣ Multi-level inheritance structure
+    2️⃣ Subclassing intermediate categories
+    3️⃣ Adding specialized behavior at the leaf class
 """
 
 

@@ -1,26 +1,24 @@
 """
-📚 Topic: Chapter 01 Exercise - Problem 4
+📚 Topic: Directory Listing with the OS Module
 
-This script demonstrates chapter 01 exercise - problem 4 using for loops and
-imports.
+This exercise demonstrates querying the filesystem using Python's built-in `os`
+module, retrieving entries inside a directory, and iterating over them.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 01 exercise - problem 4
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Importing the standard library `os` module
+    2️⃣ Calling `os.listdir()` to retrieve directory contents as a list
+    3️⃣ Iterating over directory entries using a `for` loop
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 01 exercise - problem 4 affects the result.
+    Using `"."` targets the current working directory portably across Windows,
+    macOS, and Linux without hardcoding platform-specific paths.
 """
 
 
-# Q4. Write a python program to print the contents of a directory using the os
-# module.
-# Search online for the function which does that
 import os
 
-directory_path = "/"
+# Inspect the current working directory
+directory_path = "."
 
 contents = os.listdir(directory_path)
 

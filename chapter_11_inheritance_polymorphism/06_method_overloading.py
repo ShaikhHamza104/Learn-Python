@@ -1,17 +1,17 @@
 """
-📚 Topic: Method Overloading Concepts
+📚 Topic: Method Overloading Patterns in Python
 
-This script demonstrates method overloading concepts using conditions,
-functions and classes.
+This script explores method overloading patterns in Python using default
+arguments and variable-length arguments.
 
 💡 Key points:
-    1️⃣ the basic syntax for method overloading concepts
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Python does not support duplicate method definitions with varied types
+    2️⃣ Later method definitions silently overwrite earlier ones
+    3️⃣ Handling variable parameters with default `None` arguments or `*args`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    method overloading concepts affects the result.
+    For true static type-based overloading, use the `@typing.overload`
+    decorator from the standard library.
 """
 
 

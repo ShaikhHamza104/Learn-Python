@@ -1,19 +1,18 @@
 """
-📚 Topic: Tuple Method
+📚 Topic: Tuple Methods
 
-This script demonstrates tuple method using basic Python syntax.
+This script explores the two built-in methods supported by immutable tuples:
+`count()` and `index()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for tuple method
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Counting occurrences with `tuple.count(value)`
+    2️⃣ Finding the first matching index with `tuple.index(value)`
+    3️⃣ Determining tuple length using `len(tuple)`
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    tuple method affects the result.
+    Because tuples cannot be mutated, they have far fewer methods than lists,
+    making them lightweight and memory-efficient.
 """
-
-
 # 📦 Creating a tuple
 # This tuple contains 10 elements.
 # Notice that the value 6 appears three times.

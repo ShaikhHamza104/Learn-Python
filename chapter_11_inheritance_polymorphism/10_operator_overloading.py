@@ -1,16 +1,17 @@
 """
 📚 Topic: Operator Overloading
 
-This script demonstrates operator overloading using functions and classes.
+This script demonstrates overloading mathematical operators like `+` by
+implementing special dunder methods like `__add__`.
 
 💡 Key points:
-    1️⃣ the basic syntax for operator overloading
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Overloading `+` by defining `__add__(self, other)`
+    2️⃣ Making custom domain objects interact with standard Python operators
+    3️⃣ Returning new instances representing calculation results
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    operator overloading affects the result.
+    Implement matching reflected methods (like `__radd__`) to support
+    operations when your object appears on the right-hand side.
 """
 
 

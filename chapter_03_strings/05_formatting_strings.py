@@ -1,5 +1,17 @@
 """
-This script demonstrates different ways to format strings in Python.
+📚 Topic: String Interpolation & Formatting Styles
+
+This script demonstrates the three primary string formatting approaches:
+printf-style `%` formatting, `str.format()`, and modern f-strings.
+
+💡 Key points:
+    1️⃣ Legacy `%` formatting: `%s` for strings, `%d` for integers
+    2️⃣ Positional and keyword substitution via `str.format()`
+    3️⃣ Modern formatted string literals (f-strings) introduced in Python 3.6
+
+🧠 Beginner tip:
+    Always prefer f-strings (`f"{name} is {age}"`) in modern Python: they
+    are faster, more readable, and evaluated at runtime.
 """
 
 # Assigning string value "Hamza" to the variable 'name'
@@ -19,7 +31,11 @@ print("The name of student is %s and age is %d " % (name, age))
 # Curly braces {} are placeholders for the variables to be formatted.
 # The format() method takes arguments, 'name' and 'age', and places them in the
 # respective placeholders.
-print(f"The name of student is {name} and age is {age} ")
+print(
+    "The name of student is {} and age is {}".format(
+        name, age
+    )  # noqa: FS002
+)
 
 # Method 3: Using f-string (formatted string literals) introduced in Python 3.6
 # It's an even more readable and concise way to include expressions inside

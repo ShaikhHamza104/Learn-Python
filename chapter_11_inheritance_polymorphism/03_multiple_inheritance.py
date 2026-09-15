@@ -1,17 +1,17 @@
 """
 📚 Topic: Multiple Inheritance
 
-This script demonstrates multiple inheritance using user input, for loops,
-functions and classes.
+This script demonstrates multiple inheritance where a derived class inherits
+simultaneously from multiple parent classes.
 
 💡 Key points:
-    1️⃣ the basic syntax for multiple inheritance
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Syntax: `class Child(Parent1, Parent2):`
+    2️⃣ Combining features from disparate parent hierarchies
+    3️⃣ Resolving attribute and method order via MRO (Method Resolution Order)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    multiple inheritance affects the result.
+    Use multiple inheritance sparingly; prefer composition or mixins to avoid
+    complex inheritance graphs.
 """
 
 

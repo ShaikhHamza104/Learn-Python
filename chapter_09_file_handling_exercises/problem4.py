@@ -1,20 +1,14 @@
 """
 📚 Topic: Chapter 09 Exercise - Problem 4
 
-This script demonstrates chapter 09 exercise - problem 4 using classes, file
-or path operations and imports.
+Censor occurrences of a forbidden word ('Donkey') in a text file by replacing
+them with '######'.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 09 exercise - problem 4
-    2️⃣ how classes fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 09 exercise - problem 4 affects the result.
+    1️⃣ Reading file content into memory
+    2️⃣ Replacing target words with `str.replace()`
+    3️⃣ Writing updated text back to the file
 """
-
-
 # A file contains a word “Donkey” multiple times. You need to write a program
 # which replace this word with ##### by updating the same file.
 with open('problem4.txt', 'r')as f:

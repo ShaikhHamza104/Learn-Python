@@ -1,20 +1,13 @@
 """
 📚 Topic: Chapter 07 Exercise - Problem 9
 
-This script demonstrates chapter 07 exercise - problem 9 using user input,
-for loops, conditions and imports.
+Print a hollow square star pattern of size `n`.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 07 exercise - problem 9
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 07 exercise - problem 9 affects the result.
+    1️⃣ Printing solid border stars for first and last rows
+    2️⃣ Printing edge stars with hollow middle spaces for interior rows
+    3️⃣ Conditional row formatting
 """
-
-
 # 🔢 Take the number of rows from the user
 n = int(input("Enter a number: "))
 

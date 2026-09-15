@@ -1,30 +1,30 @@
 """
 📚 Topic: Introduction to Inheritance
 
-This script demonstrates introduction to inheritance using for loops,
-functions, classes and imports.
+This script introduces inheritance, enabling child classes to inherit
+attributes and methods from parent classes.
 
 💡 Key points:
-    1️⃣ the basic syntax for introduction to inheritance
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Parent (base) class vs child (derived) class
+    2️⃣ Syntax: `class DerivedClass(BaseClass):`
+    3️⃣ Reusing code and extending existing functionality
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    introduction to inheritance affects the result.
+    Inheritance establishes an "is-a" relationship (e.g. a `Dog` is an
+    `Animal`).
 """
 
 
 # Creating class A
 class A:
-    def methodA(self):
+    def method_a(self):
         print("This method belong to Class A")
 
 # Creating class B
 
 
 class B(A):
-    def methodB(self):
+    def method_b(self):
         print("This method belong to Class B")
 
 
@@ -32,7 +32,7 @@ class B(A):
 obj = B()
 
 # Calling method for Class A
-obj.methodA()
+obj.method_a()
 
 # Calling method for Class b
-obj.methodB()
+obj.method_b()

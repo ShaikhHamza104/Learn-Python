@@ -19,7 +19,7 @@ import re
 
 # 1. Write a program that takes a sentence as input and extracts all
 # email addresses found inside it using regex.
-def extractEmails():
+def extract_emails():
     try:
         text = input("Enter some text with emails in it: ")
         pattern = r"[\w.+-]+@[\w-]+\.[a-zA-Z]{2,}"
@@ -35,4 +35,4 @@ def extractEmails():
         print("Input cancelled")
 
 
-extractEmails()
+extract_emails()

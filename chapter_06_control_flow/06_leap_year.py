@@ -1,19 +1,18 @@
 """
-📚 Topic: Leap Year
+📚 Topic: Leap Year Logic with Compound Conditions
 
-This script demonstrates leap year using conditions and user input.
+This script implements leap year determination rules using boolean operators
+(`and`, `or`) and nested conditional logic.
 
 💡 Key points:
-    1️⃣ the basic syntax for leap year
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ A year is a leap year if divisible by 4 and not by 100
+    2️⃣ Century years must also be divisible by 400 to qualify
+    3️⃣ Combining multiple boolean checks into a single expression
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    leap year affects the result.
+    Use parentheses when mixing `and` and `or` operators to ensure logical
+    grouping is clear and unambiguous.
 """
-
-
 # 📅 Take the year from the user
 year = int(input("Enter year: "))
 

@@ -1,18 +1,18 @@
 """
-📚 Topic: Input
+📚 Topic: Capturing User Input with `input()`
 
-This script demonstrates input using user input.
+This script demonstrates reading terminal user input using `input()`,
+inspecting the captured strings, and understanding default string typing.
 
 💡 Key points:
-    1️⃣ the basic syntax for input
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Prompting the user for console input using `input("...")`
+    2️⃣ Storing user responses in variables for display and processing
+    3️⃣ Understanding why `input()` always returns a string (`str`)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    input affects the result.
+    Because `input()` always returns text, any numbers entered must be
+    explicitly converted using `int()` or `float()` before doing arithmetic.
 """
-
 
 # 🔤 Take the first value from the user
 a = input("Enter the first number: ")

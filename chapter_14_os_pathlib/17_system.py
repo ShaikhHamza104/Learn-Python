@@ -1,17 +1,19 @@
 """
-📚 Topic: 17 System
+📚 Topic: Running Shell Commands (`os.system()`)
 
-This script demonstrates 17 system using imports.
+This script demonstrates executing operating system shell commands from Python
+using `os.system()`.
 
 💡 Key points:
-    1️⃣ the basic syntax for 17 system
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Passing shell command strings to the underlying OS
+    2️⃣ Returns process exit status code (0 usually indicates success)
+    3️⃣ Awareness: modern code prefers the `subprocess` standard module
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    17 system affects the result.
+    `os.system()` is legacy; use `subprocess.run()` for robust input/output
+    handling and security.
 """
+
 
 # importing os module : os module is a build in module
 import os

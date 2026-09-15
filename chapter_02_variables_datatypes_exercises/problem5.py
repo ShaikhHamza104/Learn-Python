@@ -1,19 +1,18 @@
 """
-📚 Topic: Chapter 02 Exercise - Problem 5
+📚 Topic: Exercise 5 - Calculating Average with Precedence
 
-This script demonstrates chapter 02 exercise - problem 5 using user input
-and imports.
+This exercise prompts the user for two numbers and calculates their arithmetic
+mean, demonstrating correct operator precedence using parentheses.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 02 exercise - problem 5
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Converting terminal inputs to floating-point numbers
+    2️⃣ Grouping the sum inside parentheses `(a + b)` before dividing
+    3️⃣ Displaying the resulting calculated average
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 02 exercise - problem 5 affects the result.
+    Without parentheses, `a + b / 2` divides `b` first due to standard
+    order of operations (PEMDAS). Always group numerators in formulas!
 """
-
 
 num1 = int(input("Enter first number"))
 num2 = int(input("Enter second  number"))

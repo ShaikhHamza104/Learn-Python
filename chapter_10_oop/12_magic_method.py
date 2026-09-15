@@ -1,17 +1,17 @@
 """
-📚 Topic: Magic Methods (Dunder Methods)
+📚 Topic: Special (Dunder / Magic) Methods
 
-This script demonstrates magic methods (dunder methods) using for loops,
-functions and classes.
+This script demonstrates implementing dunder methods (`__str__`, `__len__`,
+`__repr__`) to integrate custom objects with Python built-ins.
 
 💡 Key points:
-    1️⃣ the basic syntax for magic methods (dunder methods)
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ `__str__`: human-readable string for `print()` and `str()`
+    2️⃣ `__len__`: enables Python's built-in `len()` function
+    3️⃣ Customizing built-in behaviors on user-defined classes
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    magic methods (dunder methods) affects the result.
+    Never invent arbitrary dunder names; only implement standard dunders
+    defined in Python's data model documentation.
 """
 
 

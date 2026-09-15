@@ -11,7 +11,7 @@ In production Python systems and data pipelines, untrusted external input (from 
 | `01_basic_models.py` | Defining `BaseModel` classes, type annotations, automatic type coercion, optional fields with defaults, and catching `ValidationError` |
 | `02_field_validation.py` | Adding numeric and length boundaries via `Field()` (`gt`, `ge`, `lt`, `le`, `min_length`, `max_length`), default values, and `Annotated` syntax |
 | `03_custom_validators.py` | Writing custom business validation using `@field_validator` (single field) and `@model_validator(mode="after")` (cross-field logic) |
-| `04_pydantic_for_data_science .py` | Real-world data engineering: nested models, batch row validation, and segregating clean records from rejected records before downstream analytics |
+| `04_pydantic_for_data_science.py` | Real-world data engineering: nested models, batch row validation, and segregating clean records from rejected records before downstream analytics |
 
 ---
 
@@ -22,7 +22,7 @@ In production Python systems and data pipelines, untrusted external input (from 
 3. **Field Constraints (`02_field_validation.py`)**: `Field()` allows setting numerical bounds (`gt=0`, `le=100`), string constraints (`min_length=1`), and default values directly alongside type annotations.
 4. **Field Validators (`03_custom_validators.py`)**: The `@field_validator` decorator defines custom checks on individual attributes (e.g. verifying email formats or lowercasing usernames).
 5. **Model-Level Cross-Field Validation (`03_custom_validators.py`)**: The `@model_validator(mode="after")` decorator allows inspecting multiple fields together (e.g. verifying `password == confirm_password`).
-6. **Defensive Data Loading for Data Science (`04_pydantic_for_data_science .py`)**: Validating batches of raw dictionary rows catches corrupt records at the boundary, preventing silent data pollution in pandas DataFrames and machine learning pipelines.
+6. **Defensive Data Loading for Data Science (`04_pydantic_for_data_science.py`)**: Validating batches of raw dictionary rows catches corrupt records at the boundary, preventing silent data pollution in pandas DataFrames and machine learning pipelines.
 
 ---
 
@@ -102,11 +102,11 @@ Run any lesson script from your terminal:
 python chapter_22_pydantic/01_basic_models.py
 python chapter_22_pydantic/02_field_validation.py
 python chapter_22_pydantic/03_custom_validators.py
-python "chapter_22_pydantic/04_pydantic_for_data_science .py"
+python chapter_22_pydantic/04_pydantic_for_data_science.py
 ```
 
 ---
 
 ## ⏭️ Next Step
 
-Test your understanding with hands-on practice in **[Chapter 22 Exercises](../chapter_22_exercises/README.md)**!
+Test your understanding with hands-on practice in **[Chapter 22 Exercises](../chapter_22_pydantic_exercises/README.md)**!

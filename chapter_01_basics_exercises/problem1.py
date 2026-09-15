@@ -1,17 +1,17 @@
 """
-📚 Topic: Chapter 01 Exercise - Problem 1
+📚 Topic: Multi-Line String Formatting & Triple Quotes
 
-This script demonstrates chapter 01 exercise - problem 1 using for loops and
-imports.
+This exercise demonstrates printing structured multi-line text (such as poetry
+or ASCII art) verbatim using Python's triple-quoted string literals (`\"\"\"`).
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 01 exercise - problem 1
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Preserving exact line breaks and indentation with triple quotes
+    2️⃣ Printing large text blocks without multiple sequential print calls
+    3️⃣ Avoiding manual newline (`\\n`) escapes when formatting blocks
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 01 exercise - problem 1 affects the result.
+    Triple quotes can use either three double quotes (`\"\"\"`) or three
+    single quotes (`\'\'\'`). They are also the standard syntax for docstrings.
 """
 
 

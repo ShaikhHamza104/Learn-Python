@@ -1,17 +1,13 @@
 """
 📚 Topic: Chapter 11 Exercise - Problem 3
 
-This script demonstrates chapter 11 exercise - problem 3 using functions,
-classes and imports.
+Create an Employee class with salary and increment properties, and implement
+getter and setter for salary after increment.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 11 exercise - problem 3
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 11 exercise - problem 3 affects the result.
+    1️⃣ `@property` getter for computed `salary_after_increment`
+    2️⃣ `@salary_after_increment.setter` to update the increment percentage
+    3️⃣ Clean attribute-like mathematical interface
 """
 
 
@@ -20,11 +16,11 @@ class Employee:
     increment = 22
 
     @property
-    def salaryAfterIncrement(self):
+    def salary_after_increment(self):
         return (self.salary + self.salary * (self.increment / 100))
 
-    @salaryAfterIncrement.setter
-    def salaryAfterIncrement(self, salary):
+    @salary_after_increment.setter
+    def salary_after_increment(self, salary):
         self.increment = ((salary / self.salary) - 1) * 100
 
 

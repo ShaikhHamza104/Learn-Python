@@ -1,19 +1,18 @@
 """
-📚 Topic: Dir Method
+📚 Topic: Object Introspection with dir()
 
-This script demonstrates dir method using basic Python syntax.
+This script demonstrates using `dir()` to inspect attributes and callable
+methods exposed by built-in Python types.
 
 💡 Key points:
-    1️⃣ the basic syntax for dir method
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Introspecting built-in data types like `list`, `tuple`, and `str`
+    2️⃣ Distinguishing dunder (`__...__`) methods from public API methods
+    3️⃣ Exploring available functionality during debugging
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    dir method affects the result.
+    Combine `dir(obj)` with `help(obj.method)` in the interactive REPL to
+    discover how methods work without leaving the terminal.
 """
-
-
 # 📦 Creating a list
 # This list contains six numbers.
 li = [1, 2, 3, 4, 5, 0]

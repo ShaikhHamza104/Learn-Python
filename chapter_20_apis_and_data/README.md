@@ -90,7 +90,7 @@ def save_payload(data, destination_path):
 
 ## 🏋️ Practice Exercises
 
-Build API scrapers, robust error handlers, and file persistence pipelines in **[chapter_20_exercises/](../chapter_20_exercises/README.md)**!
+Build API scrapers, robust error handlers, and file persistence pipelines in **[chapter_20_apis_and_data_exercises/](../chapter_20_apis_and_data_exercises/README.md)**!
 
 ---
 

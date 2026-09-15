@@ -1,16 +1,17 @@
 """
 📚 Topic: Positional Arguments
 
-This script demonstrates positional arguments using basic Python syntax.
+This script demonstrates passing arguments based on their ordered position in
+the function call.
 
 💡 Key points:
-    1️⃣ the basic syntax for positional arguments
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Mapping caller arguments to parameters by ordinal position
+    2️⃣ Order dependency: changing argument order alters assignment
+    3️⃣ Enforcing positional-only parameters with `/` (Python 3.8+)
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    positional arguments affects the result.
+    Keep parameter order intuitive (e.g. `(source, destination)` or
+    `(width, height)`).
 """
 
 

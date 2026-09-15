@@ -1,20 +1,14 @@
 """
 📚 Topic: Chapter 05 Exercise - Problem 6
 
-This script demonstrates chapter 05 exercise - problem 6 using user input
-and imports.
+Collect favorite programming languages from friends and store them in a
+dictionary.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 05 exercise - problem 6
-    2️⃣ how user input fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 05 exercise - problem 6 affects the result.
+    1️⃣ Using friend names as dictionary keys
+    2️⃣ Storing language choices as values
+    3️⃣ Iterating over user input to populate dictionary entries
 """
-
-
 # 📚 Create an empty dictionary
 # We will store the friend's name as the key
 # and their favorite language as the value.

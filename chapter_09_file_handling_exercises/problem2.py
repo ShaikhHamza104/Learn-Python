@@ -1,20 +1,14 @@
 """
 📚 Topic: Chapter 09 Exercise - Problem 2
 
-This script demonstrates chapter 09 exercise - problem 2 using conditions,
-functions, classes and file or path operations.
+Implement high score persistence for a game by reading and updating
+'highscore.txt'.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 09 exercise - problem 2
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 09 exercise - problem 2 affects the result.
+    1️⃣ Reading current high score from a file
+    2️⃣ Comparing current game score against high score
+    3️⃣ Overwriting file when a new high score is achieved
 """
-
-
 # The game() function in a program lets a user play a game and returns the
 # score
 # as an integer. You need to read a file 'Hi-score.txt’

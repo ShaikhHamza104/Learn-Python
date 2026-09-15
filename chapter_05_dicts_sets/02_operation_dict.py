@@ -1,19 +1,18 @@
 """
-📚 Topic: Opration Dict
+📚 Topic: Dictionary Operations
 
-This script demonstrates opration dict using basic Python syntax.
+This script demonstrates core operations on dictionaries, including updating
+values, adding new entries, and deleting keys.
 
 💡 Key points:
-    1️⃣ the basic syntax for opration dict
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Accessing values via `dict[key]`
+    2️⃣ Adding and updating entries using direct assignment `dict[key] = val`
+    3️⃣ Checking key existence using the `in` operator
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    opration dict affects the result.
+    Accessing a non-existent key with `dict[key]` raises `KeyError`. Use
+    `dict.get(key)` to provide a safe default value instead.
 """
-
-
 # 📚 Creating a dictionary
 # Here, student names are used as keys
 # and their marks are stored as values.

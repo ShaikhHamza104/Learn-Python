@@ -1,16 +1,17 @@
 """
-📚 Topic: The super() Function
+📚 Topic: The `super()` Function
 
-This script demonstrates the super() function using functions and classes.
+This script demonstrates calling parent class methods and constructors using
+Python's built-in `super()` function.
 
 💡 Key points:
-    1️⃣ the basic syntax for the super() function
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Delegating init to the parent class: `super().__init__()`
+    2️⃣ Eliminating hardcoded references to parent class names
+    3️⃣ Correctly traversing cooperative MRO hierarchies
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    the super() function affects the result.
+    Always call `super().__init__()` in derived class constructors to ensure
+    base class state is initialized properly.
 """
 
 

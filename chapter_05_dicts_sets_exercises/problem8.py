@@ -1,21 +1,17 @@
 """
 📚 Topic: Chapter 05 Exercise - Problem 8
 
-This script demonstrates chapter 05 exercise - problem 8 using imports.
+Demonstrate what happens when multiple friends share the same favorite
+language (duplicate values).
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 05 exercise - problem 8
-    2️⃣ how imports fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 05 exercise - problem 8 affects the result.
+    1️⃣ Values in dictionaries do not need to be unique
+    2️⃣ Multiple distinct keys can map to identical values
+    3️⃣ Both entries persist without interference
 """
-
 # 📚 Create a dictionary containing friends and their
 # favorite programming languages.
-laguage = {
+languages = {
     "Rahul": "Php",
     "Harry": "Python",
     # ✅ "Python" is already used as a value by Harry,
@@ -24,11 +20,11 @@ laguage = {
 }
 
 # ⚠️ A repeated key replaces its earlier value.
-laguage["Rahul"] = "Django"
+languages["Rahul"] = "Django"
 
 
 # 📋 Display the final dictionary
-print(laguage)
+print(languages)
 
 # Output:
 # {'Rahul': 'Django', 'Harry': 'Python', 'Hamza': 'Python'}

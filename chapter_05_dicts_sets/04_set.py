@@ -1,19 +1,18 @@
 """
-📚 Topic: Set
+📚 Topic: Python Sets
 
-This script demonstrates set using basic Python syntax.
+This script introduces sets as unordered collections of unique, hashable
+elements.
 
 💡 Key points:
-    1️⃣ the basic syntax for set
-    2️⃣ how basic Python syntax fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Creating an empty set using `set()` (not `{}`)
+    2️⃣ Automatic deduplication of duplicate elements
+    3️⃣ Unordered nature: sets do not preserve insertion order or indexing
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    set affects the result.
+    Writing `{}` creates an empty dictionary, not an empty set. Always use
+    `set()` to initialize an empty set.
 """
-
-
 # 📦 Creating an empty set
 # `set()` creates an empty set.
 e = set()

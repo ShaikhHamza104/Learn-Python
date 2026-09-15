@@ -1,28 +1,29 @@
 """
-📚 Topic: Property Decorator
+📚 Topic: The `@property` Decorator
 
-This script demonstrates property decorator using functions and classes.
+This script demonstrates Python's `@property` decorator to expose getter
+methods with clean, attribute-like access syntax.
 
 💡 Key points:
-    1️⃣ the basic syntax for property decorator
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Transforming method calls into attribute access: `obj.value`
+    2️⃣ Encapsulating private or protected storage attributes (`self._value`)
+    3️⃣ Providing read-only attributes or computed properties
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    property decorator affects the result.
+    Use `@property` to add validation or computed behavior to existing
+    attributes without breaking existing client code.
 """
 
 
 class MyClass:
     def __init__(self, value):
-        self.value = value
+        self._value = value
 
-    # To access to Function as Value
+    # Access method as a property attribute
     @property
-    def getValue(self):
-        return self.value
+    def value(self):
+        return self._value
 
 
 o = MyClass(10)
-print(o.getValue)
+print(o.value)

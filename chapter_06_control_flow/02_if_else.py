@@ -1,19 +1,18 @@
 """
-📚 Topic: If Else
+📚 Topic: Two-Way Branching with `if-else`
 
-This script demonstrates if else using conditions and user input.
+This script demonstrates two-way branching using `if-else` blocks to handle
+both True and False condition outcomes.
 
 💡 Key points:
-    1️⃣ the basic syntax for if else
-    2️⃣ how conditions fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Executing the `if` branch when condition is True
+    2️⃣ Falling back to the `else` block when condition is False
+    3️⃣ Exactly one branch is guaranteed to execute
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    if else affects the result.
+    An `else` block cannot stand alone; it must always be paired with a
+    preceding `if` statement.
 """
-
-
 # 👤 Ask the user to enter their age
 age = int(input("Enter your age: "))
 

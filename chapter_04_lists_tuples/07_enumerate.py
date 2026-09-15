@@ -1,19 +1,18 @@
 """
-📚 Topic: Enumerate
+📚 Topic: Iterating with enumerate()
 
-This script demonstrates enumerate using for loops and conditions.
+This script demonstrates using Python's built-in `enumerate()` function to
+track loop indices and elements cleanly.
 
 💡 Key points:
-    1️⃣ the basic syntax for enumerate
-    2️⃣ how for loops fit into the example
-    3️⃣ what to look for when you run the file
+    1️⃣ Unpacking index and value pairs inside `for` loops
+    2️⃣ Setting custom start index offsets using `start=1`
+    3️⃣ Eliminating manual index counter variables
 
 🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    enumerate affects the result.
+    Prefer `enumerate(iterable)` over `range(len(iterable))` for cleaner,
+    more Pythonic iteration.
 """
-
-
 # 📦 Creating a list of numbers
 # This list contains six numbers.
 li = [1, 2, 3, 4, 5, 6]

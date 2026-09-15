@@ -1,17 +1,12 @@
 """
 📚 Topic: Chapter 11 Exercise - Problem 1
 
-This script demonstrates chapter 11 exercise - problem 1 using functions,
-classes and imports.
+Create a 2D vector class and inherit from it to create a 3D vector class.
 
 💡 Key points:
-    1️⃣ the basic syntax for chapter 11 exercise - problem 1
-    2️⃣ how functions fit into the example
-    3️⃣ what to look for when you run the file
-
-🧠 Beginner tip:
-    Run this file, change one small value, and run it again to see how
-    chapter 11 exercise - problem 1 affects the result.
+    1️⃣ Defining 2D vector with `i` and `j` components
+    2️⃣ Extending via inheritance to 3D vector with `k` component
+    3️⃣ Overriding display method to represent 3D vectors
 """
 
 
@@ -30,7 +25,7 @@ class ThreeDVector(TwoDVector):
         self.k = k
 
     def show(self):
-        print(f"Two D Vector is {self.i}i + {self.j}j + {self.k}k")
+        print(f"Three D Vector is {self.i}i + {self.j}j + {self.k}k")
 
 
 t = TwoDVector(12, 14)

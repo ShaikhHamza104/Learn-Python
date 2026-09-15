@@ -104,7 +104,7 @@ print("Triple 10:", triple(10))  # 30
 
 ## 🏋️ Practice Exercises
 
-Apply decorators, closures, and functional utilities across hands-on practice problems in **[chapter_19_exercises/](../chapter_19_exercises/README.md)**!
+Apply decorators, closures, and functional utilities across hands-on practice problems in **[chapter_19_functional_tools_exercises/](../chapter_19_functional_tools_exercises/README.md)**!
 
 ---
 
