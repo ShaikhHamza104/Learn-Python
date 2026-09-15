@@ -91,7 +91,7 @@ Learn-Python/
 ├── chapter_20_apis_and_data/                   # HTTP requests, API consuming & JSON persistence
 ├── chapter_20_apis_and_data_exercises/         # API data fetching & parsing exercises
 │
-├── chapter_21_capstone/                        # Production-style capstone project template
+├── chapter_21_capstone/                        # Currency Exchange Rate Toolkit (API -> Pydantic -> DuckDB -> Pandas CLI)
 │
 ├── chapter_22_pydantic/                        # Data validation, type enforcement & schema modeling
 ├── chapter_22_pydantic_exercises/              # Pydantic models, custom validators & dataset cleaning
@@ -128,7 +128,7 @@ Every chapter and exercise folder includes a dedicated, beginner-friendly `READM
 | **18** | [chapter_18_itertools/](./chapter_18_itertools) — Itertools Module | 16 Scripts | — | [README](./chapter_18_itertools/README.md) |
 | **19** | [chapter_19_functional_tools/](./chapter_19_functional_tools) — Functional Tools & Decorators | 3 Scripts | [chapter_19_functional_tools_exercises/](./chapter_19_functional_tools_exercises) (3 Problems) | [README](./chapter_19_functional_tools/README.md) |
 | **20** | [chapter_20_apis_and_data/](./chapter_20_apis_and_data) — APIs, Requests & JSON | 3 Scripts | [chapter_20_apis_and_data_exercises/](./chapter_20_apis_and_data_exercises) (2 Problems) | [README](./chapter_20_apis_and_data/README.md) |
-| **21** | [chapter_21_capstone/](./chapter_21_capstone) — Capstone Project | 1 App | — | [README](./chapter_21_capstone/README.md) |
+| **21** | [chapter_21_capstone/](./chapter_21_capstone) — Capstone Project (Exchange Rate Toolkit) | 5 Modules / 1 App | — | [README](./chapter_21_capstone/README.md) |
 | **22** | [chapter_22_pydantic/](./chapter_22_pydantic) — Pydantic & Data Validation | 4 Scripts | [chapter_22_pydantic_exercises/](./chapter_22_pydantic_exercises) (3 Problems) | [README](./chapter_22_pydantic/README.md) |
 
 ---
@@ -334,10 +334,13 @@ Comprehensive guide to standard library iterator algebra:
 - `03_save_api_response_to_json.py` — Consuming public API data and persisting sanitized JSON output to disk.
 
 ### Chapter 21: Capstone Project 🎓
-A modular, production-structured project tying together everything learned from Chapters 01 through 20:
-- Architecture guide in [chapter_21_capstone/README.md](./chapter_21_capstone/README.md)
-- Complete starter template in `main.py`
-- Dependency management and extension project ideas (Expense Tracker, GitHub CLI, Weather Dashboard).
+A modular, production-structured Currency Exchange Rate Toolkit CLI tying together API integration, data validation, persistence, and Pandas analysis:
+- `fetcher.py` — Calling the Frankfurter API and handling network timeouts, connection errors, and status codes.
+- `validator.py` — Validating raw API records against a strict Pydantic schema before storage.
+- `storage.py` — Persisting validated records to DuckDB (`capstone.duckdb`) and loading directly into Pandas DataFrames.
+- `analyzer.py` — Computing summary stats, day-over-day rate changes, and rolling averages with Pandas.
+- `main.py` — Menu-driven interactive CLI application orchestrating the full pipeline with robust local input validation.
+- Architecture guide and milestones in [chapter_21_capstone/README.md](./chapter_21_capstone/README.md).
 
 ### Chapter 22: Pydantic & Data Validation 🛡️
 Runtime data parsing, schema enforcement, and validation using Pydantic:
@@ -393,17 +396,17 @@ Explore **22 practical, interactive mini-projects** in [projects/](./projects):
 This repository adheres strictly to **PEP 8** style guidelines:
 
 - **Style & Consistency**: Clean snake_case naming conventions, explicit imports, and proper whitespace formatting.
-- **Linting**: Verified against `flake8` to maintain clean, readable code.
+- **Linting**: Verified against `flake8` to maintain clean, readable code. Configured via repository `.flake8` settings to automatically exclude virtual environments (`.venv`).
 - **Type Annotations**: Utilizing modern Python type hints (`int`, `str`, `list[str]`, `TypedDict`).
 
 To verify code quality locally:
 ```bash
-# Install flake8
-pip install flake8
-
-# Run linter on any chapter or exercise
+# Run linter across repository or specific chapter (automatically excludes .venv via .flake8)
+flake8 chapter_21_capstone
 flake8 chapter_14_os_pathlib_exercises
-flake8 chapter_17_iterators_generators
+
+# Or run with uv without needing global installation:
+uv run --with flake8 flake8 chapter_21_capstone
 ```
 
 ---
